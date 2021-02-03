@@ -3,8 +3,8 @@
         "id": 1,
         "name": "goldfish",
         "sizeMin": 0.2,
-        "sizeMax": 2,
-        "screenLen": 10,
+        "sizeMax": 1,
+        "screenLen": 4,
         "value": 2,
         "images": 2
     },

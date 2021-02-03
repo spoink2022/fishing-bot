@@ -4,8 +4,8 @@
         "name": "Pond",
         "trashChance": 20,
         "fish": [
-            {"id": 1, "chance": 70},
-            {"id": 2, "chance": 30}
+            {"id": 1, "chance": 40},
+            {"id": 2, "chance": 60}
         ]
     }
 ]
