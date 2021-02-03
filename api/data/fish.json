@@ -5,7 +5,8 @@
         "sizeMin": 0.2,
         "sizeMax": 2,
         "screenLen": 10,
-        "baseValue": 4
+        "value": 2,
+        "images": 2
     },
     {
         "id": 2,
@@ -13,6 +14,7 @@
         "sizeMin": 0.3,
         "sizeMax": 0.9,
         "screenLen": 8,
-        "baseValue": 5
+        "value": 4,
+        "images": 1
     }
 ]
