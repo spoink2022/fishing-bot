@@ -13,3 +13,8 @@ module.exports.fetchRodImgUrl = function(rodID, lineID) {
 module.exports.fetchHookImgUrl = function(hookID) {
     return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/equipment/hook_${hookID}.png`;
 }
+
+module.exports.fetchAssetUrl = function(asset) {
+    let baseUrl = `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/assets/`;
+    if(asset === 'tape') { return baseUrl + 'tape.png'; }
+}
