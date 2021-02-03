@@ -1,0 +1,11 @@
+[
+    {
+        "id": 0,
+        "name": "Pond",
+        "trashChance": 20,
+        "fish": [
+            {"id": 1, "chance": 70},
+            {"id": 2, "chance": 30}
+        ]
+    }
+]
