@@ -16,5 +16,5 @@ module.exports.fetchHookImgUrl = function(hookID) {
 
 module.exports.fetchAssetUrl = function(asset) {
     let baseUrl = `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/assets/`;
-    if(asset === 'tape') { return baseUrl + 'tape.png'; }
+    return baseUrl + asset + '.png';
 }
