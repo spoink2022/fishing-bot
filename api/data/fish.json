@@ -1,5 +1,10 @@
 [
     {
+        "id": 0,
+        "name": "trash", 
+        "images": 4
+    },
+    {
         "id": 1,
         "name": "goldfish",
         "sizeMin": 0.2,
@@ -15,6 +20,6 @@
         "sizeMax": 0.9,
         "screenLen": 8,
         "value": 4,
-        "images": 1
+        "images": 2
     }
 ]

@@ -1,15 +1,20 @@
 {
-    "rod": [
+    "rods": [
         {
             "id": 0,
             "name": "Toy Fishing Rod"
         }
     ],
-    "line": [
+    "lines": [
         {
             "id": 0,
             "px": 1,
             "rgb": "#888888"
+        }
+    ],
+    "hooks": [
+        {
+            "id": 0
         }
     ]
 }
