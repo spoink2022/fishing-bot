@@ -15,6 +15,10 @@ module.exports.getRodData = function(id) {
     return EquipmentData.rod[id];
 }
 
+module.exports.getAllRodData = function() {
+    return EquipmentData.rod;
+}
+
 module.exports.getLineData = function(id) {
     return EquipmentData.line[id];
 }
