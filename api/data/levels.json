@@ -22,5 +22,9 @@
     {
         "level": 6,
         "expRequired": 150
+    },
+    {
+        "level": 7,
+        "expRequired": 1000
     }
 ]

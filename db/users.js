@@ -7,6 +7,7 @@ const config = require('./config.js');
 module.exports.fetchUser = async function(userid) {
     let query = 'SELECT * FROM users WHERE userid=$1';
     let user = (await config.pquery(query, [userid]))[0];
+    user.cooldown = parseInt(user.cooldown);
     return user;
 }
 
@@ -31,4 +32,10 @@ module.exports.creditCoinsAndExp = async function(userid, coinsToAdd, expToAdd) 
 module.exports.incrementLevel = async function(userid, expToSubtract) {
     let query = 'UPDATE users SET level=level+1, exp=exp-$1 WHERE userid=$2';
     await config.pquery(query, [expToSubtract, userid]);
+}
+
+module.exports.resetFishingCooldown = async function(userid) {
+    let query = 'UPDATE users SET cooldown=$1 WHERE userid=$2';
+    await config.pquery(query, [Date.now(), userid]);
+    return;
 }

@@ -1,15 +1,23 @@
 {
-    "rod": [
+    "rods": [
         {
             "id": 0,
-            "name": "Toy Fishing Rod"
+            "name": "Toy Fishing Rod",
+            "cooldown": 10000
         }
     ],
-    "line": [
+    "lines": [
         {
             "id": 0,
             "px": 1,
-            "rgb": "#888888"
+            "rgb": "#888888",
+            "maxWeight": 1
+        }
+    ],
+    "hooks": [
+        {
+            "id": 0,
+            "multiplier": 1
         }
     ]
 }
