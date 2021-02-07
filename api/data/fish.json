@@ -1,25 +1,38 @@
 [
     {
         "id": 0,
-        "name": "trash", 
-        "images": 4
+        "name": "trash"
     },
     {
         "id": 1,
-        "name": "goldfish",
-        "sizeMin": 0.2,
-        "sizeMax": 1,
+        "name": "blacktail shiner",
+        "sizeMin": 0.05,
+        "sizeMax": 0.2,
         "screenLen": 4,
-        "value": 4,
-        "images": 2
+        "value": 28
     },
     {
         "id": 2,
-        "name": "green sunfish",
-        "sizeMin": 0.3,
-        "sizeMax": 0.9,
+        "name": "bluegill",
+        "sizeMin": 0.1,
+        "sizeMax": 0.3,
+        "screenLen": 4,
+        "value": 14
+    },
+    {
+        "id": 3,
+        "name": "channel catfish",
+        "sizeMin": 2,
+        "sizeMax": 3.5,
         "screenLen": 8,
-        "value": 4,
-        "images": 2
+        "value": 12
+    },
+    {
+        "id": 4,
+        "name": "golden shiner",
+        "sizeMin": 0.2,
+        "sizeMax": 0.35,
+        "screenLen": 6,
+        "value": 20
     }
 ]

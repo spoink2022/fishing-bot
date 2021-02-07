@@ -11,9 +11,9 @@ module.exports.getLocationData = function(id) {
 module.exports.getFishData = function(id) {
     return FishData[id];
 }
-module.exports.getFishImageCounts = function() {
-    return FishData.map(obj => obj.images);
-}
+module.exports.getFishNames = function() {
+    return FishData.map(obj => obj.name);
+} 
 
 // equipment.json
 module.exports.getRodData = function(id) {
