@@ -1,16 +1,16 @@
 // interact with the aquarium database
 const config = require('./config.js');
 
-module.exports.getLargestSize = async function(userid, speciesName) {
+module.exports.getLargestSize = async function(userid, locationID, speciesName) {
     let columnName = speciesName.replace(' ', '_');
-    let query = `SELECT ${columnName} FROM aquarium_1 WHERE userid=$1`;
+    let query = `SELECT ${columnName} FROM aquarium${locationID} WHERE userid=$1`;
     let largestSize = (await config.pquery(query, [userid]))[0][columnName];
     return largestSize;
 }
 
-module.exports.setLargestSize = async function(userid, speciesName, size, imgNum) {
+module.exports.setLargestSize = async function(userid, locationID, speciesName, size) {
     let columnName = speciesName.replace(' ', '_');
-    let query = `UPDATE aquarium_1 SET ${columnName}=$1, ${columnName}_type=$2 WHERE userid=$3`;
-    await config.pquery(query, [size, imgNum, userid]);
+    let query = `UPDATE aquarium${locationID} SET ${columnName}=$1 WHERE userid=$2`;
+    await config.pquery(query, [size, userid]);
     console.log('Updated Aquarium!');
 }

@@ -7,7 +7,7 @@ const config = require('./config.js');
 module.exports.fetchUser = async function(userid) {
     let query = 'SELECT * FROM users WHERE userid=$1';
     let user = (await config.pquery(query, [userid]))[0];
-    user.cooldown = parseInt(user.cooldown);
+    if(user) { user.cooldown = parseInt(user.cooldown); }
     return user;
 }
 
@@ -15,9 +15,7 @@ module.exports.initializeAccount = async function(userid, cb) {
     let dateStr = Datetime.getDateAsString();
     let query = 'INSERT INTO users (userid, date_joined) VALUES ($1, $2)';
     await config.pquery(query, [userid, dateStr]);
-    query = 'INSERT INTO fishing (userid) VALUES ($1)';
-    await config.pquery(query, [userid]);
-    query = 'INSERT INTO aquarium (userid) VALUES ($1)';
+    query = 'INSERT INTO aquarium0 (userid) VALUES ($1)';
     await config.pquery(query, [userid]);
     cb();
 }

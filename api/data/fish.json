@@ -8,7 +8,7 @@
         "name": "blacktail shiner",
         "sizeMin": 0.05,
         "sizeMax": 0.2,
-        "screenLen": 4,
+        "screenLen": 3,
         "value": 28
     },
     {
@@ -16,7 +16,7 @@
         "name": "bluegill",
         "sizeMin": 0.1,
         "sizeMax": 0.3,
-        "screenLen": 4,
+        "screenLen": 3,
         "value": 14
     },
     {
@@ -24,7 +24,7 @@
         "name": "channel catfish",
         "sizeMin": 2,
         "sizeMax": 3.5,
-        "screenLen": 8,
+        "screenLen": 7,
         "value": 12
     },
     {
@@ -32,7 +32,31 @@
         "name": "golden shiner",
         "sizeMin": 0.2,
         "sizeMax": 0.35,
-        "screenLen": 6,
+        "screenLen": 4,
+        "value": 20
+    },
+    {
+        "id": 5,
+        "name": "grass pickerel",
+        "sizeMin": 0.25,
+        "sizeMax": 0.5,
+        "screenLen": 4,
+        "value": 20
+    },
+    {
+        "id": 4,
+        "name": "golden shiner",
+        "sizeMin": 0.2,
+        "sizeMax": 0.35,
+        "screenLen": 4,
+        "value": 20
+    },
+    {
+        "id": 4,
+        "name": "golden shiner",
+        "sizeMin": 0.2,
+        "sizeMax": 0.35,
+        "screenLen": 4,
         "value": 20
     }
 ]

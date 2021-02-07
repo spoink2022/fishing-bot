@@ -2,8 +2,9 @@ module.exports.fetchLocationImgUrl = function(locationID) {
     return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/unused/${locationID}_bg.jpg`;
 }
 
-module.exports.fetchFishImgUrl = function(fishID, imgNum) {
-    return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/fish/${fishID}_${imgNum}.png`;
+module.exports.fetchFishImgUrl = function(fishName) {
+    fishName = fishName.replace(' ', '_');
+    return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/fish/${fishName}.png`;
 }
 
 module.exports.fetchRodImgUrl = function(rodID) {
