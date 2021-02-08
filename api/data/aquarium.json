@@ -1,0 +1,16 @@
+{
+    "1": {
+        "cost": null,
+        "label": "shabby",
+        "layer": "shabby_aquarium",
+        "multipler": 1,
+        "max": 20
+    },
+    "2": {
+        "cost": 300,
+        "label": "standard",
+        "layer": "standard_aquarium",
+        "multiplier": 1.2,
+        "max": 50
+    }
+}

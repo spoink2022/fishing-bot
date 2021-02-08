@@ -3,7 +3,7 @@
         {
             "id": 0,
             "name": "Toy Fishing Rod",
-            "cooldown": 10000
+            "cooldown": 1000
         }
     ],
     "lines": [

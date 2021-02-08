@@ -7,15 +7,18 @@ const config = require('./config.js');
 module.exports.fetchUser = async function(userid) {
     let query = 'SELECT * FROM users WHERE userid=$1';
     let user = (await config.pquery(query, [userid]))[0];
-    if(user) { user.cooldown = parseInt(user.cooldown); }
+    if(user) {
+        user.cooldown = parseInt(user.cooldown);
+        if(user.last_collected) { user.last_collected = parseInt(user.last_collected); }
+    }
     return user;
 }
 
 module.exports.initializeAccount = async function(userid, cb) {
     let dateStr = Datetime.getDateAsString();
-    let query = 'INSERT INTO users (userid, date_joined) VALUES ($1, $2)';
-    await config.pquery(query, [userid, dateStr]);
-    query = 'INSERT INTO aquarium0 (userid) VALUES ($1)';
+    let query = 'INSERT INTO users (userid, date_joined, last_collected) VALUES ($1, $2, $3)';
+    await config.pquery(query, [userid, dateStr, Date.now()]);
+    query = 'INSERT INTO aquarium (userid) VALUES ($1)';
     await config.pquery(query, [userid]);
     cb();
 }
@@ -35,5 +38,11 @@ module.exports.incrementLevel = async function(userid, expToSubtract) {
 module.exports.resetFishingCooldown = async function(userid) {
     let query = 'UPDATE users SET cooldown=$1 WHERE userid=$2';
     await config.pquery(query, [Date.now(), userid]);
+    return;
+}
+
+module.exports.integrateAquariumEarnings = async function(userid, tmpValue) {
+    let query = 'UPDATE users SET aquarium_tmp=$1, last_collected=$2 WHERE userid=$3';
+    await config.pquery(query, [tmpValue, Date.now(), userid]);
     return;
 }
