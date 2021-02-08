@@ -11,7 +11,7 @@
             "id": 0,
             "px": 1,
             "rgb": "#888888",
-            "maxWeight": 5
+            "maxWeight": 0.1
         }
     ],
     "hooks": [
