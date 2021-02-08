@@ -3,7 +3,9 @@
         {
             "id": 0,
             "name": "Toy Fishing Rod",
-            "cooldown": 1000
+            "cooldown": 1000,
+            "maxWeight": 2,
+            "level": null
         }
     ],
     "lines": [
@@ -11,13 +13,31 @@
             "id": 0,
             "px": 1,
             "rgb": "#888888",
-            "maxWeight": 5
+            "maxWeight": 1,
+            "level": null
         }
     ],
     "hooks": [
         {
             "id": 0,
-            "multiplier": 1
+            "multiplier": 1,
+            "maxWeight": 2,
+            "name": "Wooden",
+            "level": null
+        },
+        {
+            "id": 1,
+            "multiplier": 1.05,
+            "maxWeight": 2.5,
+            "name": "Rusty",
+            "level": 3
+        },
+        {
+            "id": 2,
+            "multiplier": 1.1,
+            "maxWeight": 3,
+            "name": "Tin",
+            "level": 4
         }
     ]
 }
