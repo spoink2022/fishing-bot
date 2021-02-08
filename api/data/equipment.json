@@ -2,17 +2,32 @@
     "rods": [
         {
             "id": 0,
-            "name": "Toy Fishing Rod",
+            "name": "Toy",
             "cooldown": 1000,
             "maxWeight": 2,
             "level": null
+        },
+        {
+            "id": 1,
+            "name": "Wooden",
+            "cooldown": 3300000,
+            "maxWeight": 5,
+            "level": 5
+        },
+        {
+            "id": 2,
+            "name": "Standard",
+            "cooldown": 3000000,
+            "maxWeight": 10,
+            "level": 10
         }
     ],
     "lines": [
         {
             "id": 0,
+            "name": "Grass",
             "px": 1,
-            "rgb": "#888888",
+            "rgb": "#bdb76b",
             "maxWeight": 1,
             "level": null
         }
@@ -27,17 +42,24 @@
         },
         {
             "id": 1,
-            "multiplier": 1.05,
+            "multiplier": 1.02,
             "maxWeight": 2.5,
             "name": "Rusty",
             "level": 3
         },
         {
             "id": 2,
-            "multiplier": 1.1,
+            "multiplier": 1.05,
             "maxWeight": 3,
             "name": "Tin",
             "level": 4
+        },
+        {
+            "id": 3,
+            "multiplier": 1.08,
+            "maxWeight": 4,
+            "name": "Aluminum",
+            "level": 8
         }
     ]
 }
