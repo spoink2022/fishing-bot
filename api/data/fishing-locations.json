@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "The Small Pond",
-        "trashChance": 5,
+        "trashChance": 50,
         "fish": [
             {"id": 1, "chance": 10},
             {"id": 2, "chance": 15},
