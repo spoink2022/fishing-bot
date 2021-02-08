@@ -41,22 +41,46 @@
         "sizeMin": 0.25,
         "sizeMax": 0.5,
         "screenLen": 4,
-        "value": 20
+        "value": 30
     },
     {
-        "id": 4,
-        "name": "golden shiner",
-        "sizeMin": 0.2,
-        "sizeMax": 0.35,
-        "screenLen": 4,
-        "value": 20
+        "id": 6,
+        "name": "green sunfish",
+        "sizeMin": 0.05,
+        "sizeMax": 0.2,
+        "screenLen": 3,
+        "value": 14
     },
     {
-        "id": 4,
-        "name": "golden shiner",
+        "id": 7,
+        "name": "redear sunfish",
         "sizeMin": 0.2,
-        "sizeMax": 0.35,
+        "sizeMax": 0.4,
         "screenLen": 4,
+        "value": 24
+    },
+    {
+        "id": 8,
+        "name": "smallmouth buffalo",
+        "sizeMin": 1.5,
+        "sizeMax": 2.7,
+        "screenLen": 7,
+        "value": 10
+    },
+    {
+        "id": 9,
+        "name": "spotted bass",
+        "sizeMin": 0.3,
+        "sizeMax": 1,
+        "screenLen": 5,
+        "value": 34
+    },
+    {
+        "id": 10,
+        "name": "white crappie",
+        "sizeMin": 0.1,
+        "sizeMax": 0.3,
+        "screenLen": 3,
         "value": 20
     }
 ]
