@@ -46,3 +46,9 @@ module.exports.integrateAquariumEarnings = async function(userid, tmpValue) {
     await config.pquery(query, [tmpValue, Date.now(), userid]);
     return;
 }
+
+module.exports.collectAquariumEarnings = async function(userid, amountCollected) {
+    let query = 'UPDATE users SET aquarium_tmp=0, coins=coins+$1, last_collected=$2 WHERE userid=$3';
+    await config.pquery(query, [amountCollected, Date.now(), userid]);
+    return;
+}
