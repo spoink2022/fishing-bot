@@ -15,6 +15,9 @@ module.exports.mapFishNameToID = function(fishName) {
 module.exports.getLocationData = function(id) {
     return FishingLocationsData[id];
 }
+module.exports.getLocationDatasetLength = function() {
+    return FishingLocationsData.length;
+}
 
 // fish.json
 module.exports.getFishData = function(id) {
