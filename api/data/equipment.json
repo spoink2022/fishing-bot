@@ -4,7 +4,7 @@
             "id": 0,
             "name": "Toy",
             "cooldown": 1000,
-            "maxWeight": 2,
+            "maxWeight": 1,
             "level": null,
             "price": null
         },
@@ -12,17 +12,17 @@
             "id": 1,
             "name": "Wooden",
             "cooldown": 3300000,
-            "maxWeight": 5,
+            "maxWeight": 3,
             "level": 5,
-            "price": 300
+            "price": 100
         },
         {
             "id": 2,
             "name": "Standard",
             "cooldown": 3000000,
-            "maxWeight": 10,
+            "maxWeight": 5,
             "level": 10,
-            "price": 1000
+            "price": 600
         }
     ],
     "lines": [
@@ -31,7 +31,7 @@
             "name": "Grass",
             "px": 1,
             "rgb": "#bdb76b",
-            "maxWeight": 0.5,
+            "maxWeight": 0.75,
             "level": null,
             "price": null
         },
@@ -40,34 +40,52 @@
             "name": "Thin",
             "px": 1,
             "rgb": "#080808",
-            "maxWeight": 1.5,
-            "level": 2,
-            "price": 30
+            "maxWeight": 1.25,
+            "level": 4,
+            "price": 60
         },
         {
             "id": 2,
             "name": "Standard",
             "px": 2,
-            "rgb": "#080808",
-            "maxWeight": 2.5,
+            "rgb": "#999999",
+            "maxWeight": 1.5,
             "level": 6,
-            "price": 100
+            "price": 90
         },
         {
             "id": 3,
+            "name": "Tough",
+            "px": 2,
+            "rgb": "#777777",
+            "maxWeight": 3,
+            "level": 7,
+            "price": 150
+        },
+        {
+            "id": 4,
             "name": "Reinforced",
             "px": 2,
-            "rgb": "#050505",
-            "maxWeight": 3.5,
-            "level": 9,
+            "rgb": "#555555",
+            "maxWeight": 4,
+            "level": 11,
             "price": 250
+        },
+        {
+            "id": 5,
+            "name": "Double Reinforced",
+            "px": 2,
+            "rgb": "#333333",
+            "maxWeight": 4.5,
+            "level": 13,
+            "price": 350
         }
     ],
     "hooks": [
         {
             "id": 0,
             "multiplier": 1,
-            "maxWeight": 1,
+            "maxWeight": 0.5,
             "name": "Wooden",
             "level": null,
             "price": null
@@ -75,26 +93,82 @@
         {
             "id": 1,
             "multiplier": 1.02,
-            "maxWeight": 1.5,
+            "maxWeight": 0.6,
             "name": "Rusty",
-            "level": 3,
-            "price": 50
+            "level": 2,
+            "price": 15
         },
         {
             "id": 2,
             "multiplier": 1.05,
-            "maxWeight": 2,
+            "maxWeight": 0.75,
             "name": "Tin",
-            "level": 4,
-            "price": 150
+            "level": 3,
+            "price": 20
         },
         {
             "id": 3,
             "multiplier": 1.08,
-            "maxWeight": 3,
+            "maxWeight": 0.85,
             "name": "Aluminum",
+            "level": 4,
+            "price": 30
+        },
+        {
+            "id": 4,
+            "multiplier": 1.08,
+            "maxWeight": 1,
+            "name": "Copper",
+            "level": 5,
+            "price": 50
+        },
+        {
+            "id": 5,
+            "multiplier": 1.08,
+            "maxWeight": 2,
+            "name": "Bronze",
+            "level": 6,
+            "price": 70
+        },
+        {
+            "id": 6,
+            "multiplier": 1.08,
+            "maxWeight": 2.5,
+            "name": "Iron",
             "level": 8,
-            "price": 400
+            "price": 80
+        },
+        {
+            "id": 7,
+            "multiplier": 1.08,
+            "maxWeight": 3,
+            "name": "Steel",
+            "level": 9,
+            "price": 90
+        },
+        {
+            "id": 8,
+            "multiplier": 1.08,
+            "maxWeight": 3.25,
+            "name": "Titanium",
+            "level": 10,
+            "price": 100
+        },
+        {
+            "id": 9,
+            "multiplier": 1.08,
+            "maxWeight": 3.5,
+            "name": "Tungsten",
+            "level": 11,
+            "price": 140
+        },
+        {
+            "id": 10,
+            "multiplier": 1.08,
+            "maxWeight": 4,
+            "name": "Double Bronze",
+            "level": 14,
+            "price": 240
         }
     ]
 }
