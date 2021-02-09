@@ -25,6 +25,42 @@
     },
     {
         "level": 7,
-        "expRequired": 1000
+        "expRequired": 200
+    },
+    {
+        "level": 8,
+        "expRequired": 250
+    },
+    {
+        "level": 9,
+        "expRequired": 300
+    },
+    {
+        "level": 10,
+        "expRequired": 500
+    },
+    {
+        "level": 11,
+        "expRequired": 500
+    },
+    {
+        "level": 12,
+        "expRequired": 500
+    },
+    {
+        "level": 13,
+        "expRequired": 500
+    },
+    {
+        "level": 14,
+        "expRequired": 500
+    },
+    {
+        "level": 15,
+        "expRequired": 500
+    },
+    {
+        "level": 16,
+        "expRequired": 10000
     }
 ]

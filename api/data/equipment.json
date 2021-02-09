@@ -3,7 +3,7 @@
         {
             "id": 0,
             "name": "Toy",
-            "cooldown": 1000,
+            "cooldown": 360,
             "maxWeight": 1,
             "level": null,
             "price": null
@@ -100,7 +100,7 @@
         },
         {
             "id": 2,
-            "multiplier": 1.05,
+            "multiplier": 1.04,
             "maxWeight": 0.75,
             "name": "Tin",
             "level": 3,
@@ -108,7 +108,7 @@
         },
         {
             "id": 3,
-            "multiplier": 1.08,
+            "multiplier": 1.05,
             "maxWeight": 0.85,
             "name": "Aluminum",
             "level": 4,
@@ -124,7 +124,7 @@
         },
         {
             "id": 5,
-            "multiplier": 1.08,
+            "multiplier": 1.1,
             "maxWeight": 2,
             "name": "Bronze",
             "level": 6,
@@ -132,7 +132,7 @@
         },
         {
             "id": 6,
-            "multiplier": 1.08,
+            "multiplier": 1.12,
             "maxWeight": 2.5,
             "name": "Iron",
             "level": 8,
@@ -140,7 +140,7 @@
         },
         {
             "id": 7,
-            "multiplier": 1.08,
+            "multiplier": 1.15,
             "maxWeight": 3,
             "name": "Steel",
             "level": 9,
@@ -148,7 +148,7 @@
         },
         {
             "id": 8,
-            "multiplier": 1.08,
+            "multiplier": 1.16,
             "maxWeight": 3.25,
             "name": "Titanium",
             "level": 10,
@@ -156,7 +156,7 @@
         },
         {
             "id": 9,
-            "multiplier": 1.08,
+            "multiplier": 1.17,
             "maxWeight": 3.5,
             "name": "Tungsten",
             "level": 11,
@@ -164,7 +164,7 @@
         },
         {
             "id": 10,
-            "multiplier": 1.08,
+            "multiplier": 1.2,
             "maxWeight": 4,
             "name": "Double Bronze",
             "level": 14,
