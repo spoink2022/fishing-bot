@@ -32,6 +32,9 @@ module.exports.getRodIDs = function() {
     return EquipmentData.rods.map(obj => obj.id);
 }
 
+module.exports.getHookData = function(id) {
+    return EquipmentData.hooks[id];
+}
 module.exports.getHookIDs = function() {
     return EquipmentData.hooks.map(obj => obj.id);
 }

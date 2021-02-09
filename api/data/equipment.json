@@ -5,21 +5,24 @@
             "name": "Toy",
             "cooldown": 1000,
             "maxWeight": 2,
-            "level": null
+            "level": null,
+            "price": null
         },
         {
             "id": 1,
             "name": "Wooden",
             "cooldown": 3300000,
             "maxWeight": 5,
-            "level": 5
+            "level": 5,
+            "price": 300
         },
         {
             "id": 2,
             "name": "Standard",
             "cooldown": 3000000,
             "maxWeight": 10,
-            "level": 10
+            "level": 10,
+            "price": 1000
         }
     ],
     "lines": [
@@ -28,38 +31,70 @@
             "name": "Grass",
             "px": 1,
             "rgb": "#bdb76b",
-            "maxWeight": 1,
-            "level": null
+            "maxWeight": 0.5,
+            "level": null,
+            "price": null
+        },
+        {
+            "id": 1,
+            "name": "Thin",
+            "px": 1,
+            "rgb": "#080808",
+            "maxWeight": 1.5,
+            "level": 2,
+            "price": 30
+        },
+        {
+            "id": 2,
+            "name": "Standard",
+            "px": 2,
+            "rgb": "#080808",
+            "maxWeight": 2.5,
+            "level": 6,
+            "price": 100
+        },
+        {
+            "id": 3,
+            "name": "Reinforced",
+            "px": 2,
+            "rgb": "#050505",
+            "maxWeight": 3.5,
+            "level": 9,
+            "price": 250
         }
     ],
     "hooks": [
         {
             "id": 0,
             "multiplier": 1,
-            "maxWeight": 2,
+            "maxWeight": 1,
             "name": "Wooden",
-            "level": null
+            "level": null,
+            "price": null
         },
         {
             "id": 1,
             "multiplier": 1.02,
-            "maxWeight": 2.5,
+            "maxWeight": 1.5,
             "name": "Rusty",
-            "level": 3
+            "level": 3,
+            "price": 50
         },
         {
             "id": 2,
             "multiplier": 1.05,
-            "maxWeight": 3,
+            "maxWeight": 2,
             "name": "Tin",
-            "level": 4
+            "level": 4,
+            "price": 150
         },
         {
             "id": 3,
             "multiplier": 1.08,
-            "maxWeight": 4,
+            "maxWeight": 3,
             "name": "Aluminum",
-            "level": 8
+            "level": 8,
+            "price": 400
         }
     ]
 }

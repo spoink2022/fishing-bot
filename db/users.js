@@ -52,3 +52,9 @@ module.exports.collectAquariumEarnings = async function(userid, amountCollected)
     await config.pquery(query, [amountCollected, Date.now(), userid]);
     return;
 }
+
+module.exports.buyUpgrade = async function(userid, selection, price) {
+    let query = `UPDATE users SET ${selection}=${selection}+1, coins=coins-$1 WHERE userid=$2`;
+    await config.pquery(query, [price, userid]);
+    return;
+}
