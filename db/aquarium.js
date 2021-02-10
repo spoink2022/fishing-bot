@@ -12,7 +12,6 @@ module.exports.setLargestSize = async function(userid, speciesName, size) {
     let columnName = speciesName.replace(' ', '_');
     let query = `UPDATE aquarium SET ${columnName}=$1 WHERE userid=$2`;
     await config.pquery(query, [size, userid]);
-    console.log('Updated Aquarium!');
 }
 
 module.exports.getMultiplierValues = async function(userid, fishColumns) {

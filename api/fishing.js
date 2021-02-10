@@ -28,20 +28,32 @@ module.exports.getFishNames = function() {
 } 
 
 // equipment.json
+// rods
 module.exports.getRodData = function(id) {
     return EquipmentData.rods[id];
 }
 module.exports.getRodIDs = function() {
     return EquipmentData.rods.map(obj => obj.id);
 }
+module.exports.getRodNames = function() {
+    return EquipmentData.rods.map(obj => obj.name.toLowerCase()+' rod');
+}
 
+// lines
+module.exports.getLineData = function(id) {
+    return EquipmentData.lines[id];
+}
+module.exports.getLineNames = function() {
+    return EquipmentData.lines.map(obj => obj.name.toLowerCase()+' line');
+}
+
+// hooks
 module.exports.getHookData = function(id) {
     return EquipmentData.hooks[id];
 }
 module.exports.getHookIDs = function() {
     return EquipmentData.hooks.map(obj => obj.id);
 }
-
-module.exports.getLineData = function(id) {
-    return EquipmentData.lines[id];
+module.exports.getHookNames = function() {
+    return EquipmentData.hooks.map(obj => obj.name.toLowerCase()+' hook');
 }
