@@ -5,7 +5,7 @@
             "name": "Toy",
             "cooldown": 360,
             "maxWeight": 1,
-            "level": null,
+            "level": 1,
             "price": null
         },
         {
@@ -32,14 +32,14 @@
             "px": 1,
             "rgb": "#bdb76b",
             "maxWeight": 0.75,
-            "level": null,
+            "level": 1,
             "price": null
         },
         {
             "id": 1,
             "name": "Thin",
             "px": 1,
-            "rgb": "#080808",
+            "rgb": "#999999",
             "maxWeight": 1.25,
             "level": 4,
             "price": 60
@@ -66,7 +66,7 @@
             "id": 4,
             "name": "Reinforced",
             "px": 2,
-            "rgb": "#555555",
+            "rgb": "#666666",
             "maxWeight": 4,
             "level": 11,
             "price": 250
@@ -75,7 +75,7 @@
             "id": 5,
             "name": "Double Reinforced",
             "px": 2,
-            "rgb": "#333333",
+            "rgb": "#555555",
             "maxWeight": 4.5,
             "level": 13,
             "price": 350
