@@ -9,7 +9,8 @@
         "sizeMin": 0.05,
         "sizeMax": 0.2,
         "screenLen": 3,
-        "value": 28
+        "value": 28,
+        "location": 0
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "sizeMin": 0.1,
         "sizeMax": 0.3,
         "screenLen": 3,
-        "value": 14
+        "value": 14,
+        "location": 0
     },
     {
         "id": 3,
@@ -25,7 +27,8 @@
         "sizeMin": 2,
         "sizeMax": 3.5,
         "screenLen": 7,
-        "value": 12
+        "value": 12,
+        "location": 0
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "sizeMin": 0.2,
         "sizeMax": 0.35,
         "screenLen": 4,
-        "value": 20
+        "value": 20,
+        "location": 0
     },
     {
         "id": 5,
@@ -41,7 +45,8 @@
         "sizeMin": 0.25,
         "sizeMax": 0.5,
         "screenLen": 4,
-        "value": 30
+        "value": 30,
+        "location": 0
     },
     {
         "id": 6,
@@ -49,7 +54,8 @@
         "sizeMin": 0.05,
         "sizeMax": 0.2,
         "screenLen": 3,
-        "value": 14
+        "value": 14,
+        "location": 0
     },
     {
         "id": 7,
@@ -57,7 +63,8 @@
         "sizeMin": 0.2,
         "sizeMax": 0.4,
         "screenLen": 4,
-        "value": 24
+        "value": 24,
+        "location": 0
     },
     {
         "id": 8,
@@ -65,7 +72,8 @@
         "sizeMin": 1.5,
         "sizeMax": 2.7,
         "screenLen": 7,
-        "value": 10
+        "value": 10,
+        "location": 0
     },
     {
         "id": 9,
@@ -73,7 +81,8 @@
         "sizeMin": 0.3,
         "sizeMax": 1,
         "screenLen": 5,
-        "value": 34
+        "value": 34,
+        "location": 0
     },
     {
         "id": 10,
@@ -81,6 +90,7 @@
         "sizeMin": 0.1,
         "sizeMax": 0.3,
         "screenLen": 3,
-        "value": 20
+        "value": 20,
+        "location": 0
     }
 ]
