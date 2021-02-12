@@ -1,5 +1,6 @@
 module.exports.fetchFishImgUrl = function(fishName) {
-    fishName = fishName.replace(' ', '_');
+    fishName = fishName.replace(/ /g, '_');
+    console.log(fishName);
     return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/fish/${fishName}.png`;
 }
 
