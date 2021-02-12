@@ -35,7 +35,7 @@
         "name": "golden shiner",
         "sizeMin": 0.2,
         "sizeMax": 0.35,
-        "screenLen": 4,
+        "screenLen": 3.5,
         "value": 20,
         "location": 0
     },
@@ -44,7 +44,7 @@
         "name": "grass pickerel",
         "sizeMin": 0.25,
         "sizeMax": 0.5,
-        "screenLen": 4,
+        "screenLen": 3.5,
         "value": 30,
         "location": 0
     },
@@ -62,7 +62,7 @@
         "name": "redear sunfish",
         "sizeMin": 0.2,
         "sizeMax": 0.4,
-        "screenLen": 4,
+        "screenLen": 3,
         "value": 24,
         "location": 0
     },
@@ -71,7 +71,7 @@
         "name": "smallmouth buffalo",
         "sizeMin": 1.5,
         "sizeMax": 2.7,
-        "screenLen": 7,
+        "screenLen": 6.5,
         "value": 10,
         "location": 0
     },
@@ -80,17 +80,89 @@
         "name": "spotted bass",
         "sizeMin": 0.3,
         "sizeMax": 1,
-        "screenLen": 5,
+        "screenLen": 4,
         "value": 34,
         "location": 0
     },
     {
-        "id": 10,
-        "name": "white crappie",
+        "id": 11,
+        "name": "black bullhead catfish",
+        "sizeMin": 0.4,
+        "sizeMax": 2,
+        "screenLen": 5,
+        "value": 7,
+        "location": 1
+    },
+    {
+        "id": 12,
+        "name": "bluntnose minnow",
+        "sizeMin": 0.04,
+        "sizeMax": 0.11,
+        "screenLen": 2,
+        "value": 26,
+        "location": 1
+    },
+    {
+        "id": 13,
+        "name": "bowfin",
+        "sizeMin": 2,
+        "sizeMax": 6,
+        "screenLen": 8,
+        "value": 8,
+        "location": 1
+    },
+    {
+        "id": 14,
+        "name": "chain pickerel",
+        "sizeMin": 1.2,
+        "sizeMax": 2,
+        "screenLen": 5,
+        "value": 30,
+        "location": 1
+    },
+    {
+        "id": 15,
+        "name": "common shiner",
         "sizeMin": 0.1,
-        "sizeMax": 0.3,
+        "sizeMax": 0.25,
         "screenLen": 3,
-        "value": 20,
-        "location": 0
+        "value": 28,
+        "location": 1
+    },
+    {
+        "id": 16,
+        "name": "freshwater drum",
+        "sizeMin": 1,
+        "sizeMax": 5,
+        "screenLen": 7,
+        "value": 10,
+        "location": 1
+    },
+    {
+        "id": 17,
+        "name": "largemouth bass",
+        "sizeMin": 0.6,
+        "sizeMax": 1.8,
+        "screenLen": 4.5,
+        "value": 30,
+        "location": 1
+    },
+    {
+        "id": 18,
+        "name": "pumpkinseed",
+        "sizeMin": 0.1,
+        "sizeMax": 0.2,
+        "screenLen": 3,
+        "value": 14,
+        "location": 1
+    },
+    {
+        "id": 19,
+        "name": "spotted gar",
+        "sizeMin": 0.9,
+        "sizeMax": 1.8,
+        "screenLen": 4.5,
+        "value": 12,
+        "location": 1
     }
 ]

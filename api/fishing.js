@@ -13,7 +13,7 @@ module.exports.mapFishNameToID = function(fishName) {
 
 
 module.exports.getLocationData = function(id) {
-    return FishingLocationsData[id];
+    return FishingLocationsData[id-1];
 }
 module.exports.getLocationDatasetLength = function() {
     return FishingLocationsData.length;
