@@ -10,7 +10,7 @@
         "sizeMax": 0.2,
         "screenLen": 3,
         "value": 28,
-        "location": 0
+        "location": 2
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@
         "sizeMax": 0.3,
         "screenLen": 3,
         "value": 14,
-        "location": 0
+        "location": 2
     },
     {
         "id": 3,
@@ -28,7 +28,7 @@
         "sizeMax": 3.5,
         "screenLen": 7,
         "value": 12,
-        "location": 0
+        "location": 1
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "sizeMax": 0.35,
         "screenLen": 3.5,
         "value": 20,
-        "location": 0
+        "location": 1
     },
     {
         "id": 5,
@@ -46,7 +46,7 @@
         "sizeMax": 0.5,
         "screenLen": 3.5,
         "value": 30,
-        "location": 0
+        "location": 1
     },
     {
         "id": 6,
@@ -55,7 +55,7 @@
         "sizeMax": 0.2,
         "screenLen": 3,
         "value": 14,
-        "location": 0
+        "location": 1
     },
     {
         "id": 7,
@@ -64,7 +64,7 @@
         "sizeMax": 0.4,
         "screenLen": 3,
         "value": 24,
-        "location": 0
+        "location": 1
     },
     {
         "id": 8,
@@ -73,7 +73,7 @@
         "sizeMax": 2.7,
         "screenLen": 6.5,
         "value": 10,
-        "location": 0
+        "location": 1
     },
     {
         "id": 9,
@@ -82,7 +82,16 @@
         "sizeMax": 1,
         "screenLen": 4,
         "value": 34,
-        "location": 0
+        "location": 1
+    },
+    {
+        "id": 10,
+        "name": "white crappie",
+        "sizeMin": 0.1,
+        "sizeMax": 0.3,
+        "screenLen": 3,
+        "value": 20,
+        "location": 1
     },
     {
         "id": 11,
@@ -91,7 +100,7 @@
         "sizeMax": 2,
         "screenLen": 5,
         "value": 7,
-        "location": 1
+        "location": 2
     },
     {
         "id": 12,
@@ -100,7 +109,7 @@
         "sizeMax": 0.11,
         "screenLen": 2,
         "value": 26,
-        "location": 1
+        "location": 2
     },
     {
         "id": 13,
@@ -109,7 +118,7 @@
         "sizeMax": 6,
         "screenLen": 8,
         "value": 8,
-        "location": 1
+        "location": 2
     },
     {
         "id": 14,
@@ -118,7 +127,7 @@
         "sizeMax": 2,
         "screenLen": 5,
         "value": 30,
-        "location": 1
+        "location": 2
     },
     {
         "id": 15,
@@ -127,7 +136,7 @@
         "sizeMax": 0.25,
         "screenLen": 3,
         "value": 28,
-        "location": 1
+        "location": 2
     },
     {
         "id": 16,
@@ -136,7 +145,7 @@
         "sizeMax": 5,
         "screenLen": 7,
         "value": 10,
-        "location": 1
+        "location": 2
     },
     {
         "id": 17,
@@ -145,7 +154,7 @@
         "sizeMax": 1.8,
         "screenLen": 4.5,
         "value": 30,
-        "location": 1
+        "location": 2
     },
     {
         "id": 18,
@@ -154,7 +163,7 @@
         "sizeMax": 0.2,
         "screenLen": 3,
         "value": 14,
-        "location": 1
+        "location": 2
     },
     {
         "id": 19,
@@ -163,6 +172,6 @@
         "sizeMax": 1.8,
         "screenLen": 4.5,
         "value": 12,
-        "location": 1
+        "location": 2
     }
 ]
