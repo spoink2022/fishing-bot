@@ -4,7 +4,7 @@ const EquipmentData = require('./data/equipment.json');
 
 const FishNameMap = {};
 for(const[key, val] of FishData.entries()) {
-    FishNameMap[val.name.replace(' ', '_')] = key;
+    FishNameMap[val.name.replace(/ /g, '_')] = key;
 }
 
 module.exports.mapFishNameToID = function(fishName) {

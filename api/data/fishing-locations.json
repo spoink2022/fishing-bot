@@ -20,7 +20,7 @@
     {
         "id": 2,
         "name": "Muddy River",
-        "trashChance": 5,
+        "trashChance": 0,
         "level": 10,
         "fish": [
             {"id": 11, "chance": 10},

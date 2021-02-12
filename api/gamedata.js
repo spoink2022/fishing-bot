@@ -5,7 +5,7 @@ module.exports.getAquariumInfo = function(id) {
 }
 
 module.exports.getAquariumLabels = function() { // ['aquarium_shabby', 'aquarium_standard', etc.]
-    return AquariumData.map(obj => `aquarium_${obj.name.replace(' ', '_')}`);
+    return AquariumData.map(obj => `aquarium_${obj.name.replace(/ /g, '_')}`);
 }
 
 module.exports.getAquariumNames = function() { // ['shabby', 'standard', etc.]
