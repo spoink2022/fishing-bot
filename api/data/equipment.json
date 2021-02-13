@@ -19,7 +19,7 @@
         {
             "id": 2,
             "name": "Standard",
-            "cooldown": 3000000,
+            "cooldown": 300,
             "maxWeight": 5,
             "level": 10,
             "price": 600

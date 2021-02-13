@@ -41,14 +41,14 @@ module.exports.resetFishingCooldown = async function(userid) {
     return;
 }
 
-module.exports.integrateAquariumEarnings = async function(userid, tmpValue) {
-    let query = 'UPDATE users SET aquarium_tmp=$1, last_collected=$2 WHERE userid=$3';
+module.exports.integrateAquariumEarnings = async function(userid, tmpValue, locationID) {
+    let query = `UPDATE users SET aquarium_tmp=$1, last_collected_${locationID}=$2 WHERE userid=$3`;
     await config.pquery(query, [tmpValue, Date.now(), userid]);
     return;
 }
 
-module.exports.collectAquariumEarnings = async function(userid, amountCollected) {
-    let query = 'UPDATE users SET aquarium_tmp=0, coins=coins+$1, last_collected=$2 WHERE userid=$3';
+module.exports.collectAquariumEarnings = async function(userid, amountCollected, locationID) {
+    let query = `UPDATE users SET aquarium_tmp=0, coins=coins+$1, last_collected_${locationID}=$2 WHERE userid=$3`;
     await config.pquery(query, [amountCollected, Date.now(), userid]);
     return;
 }
