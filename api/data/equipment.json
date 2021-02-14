@@ -95,6 +95,33 @@
             "maxWeight": 4.5,
             "level": 13,
             "price": 350
+        },
+        {
+            "id": 6,
+            "name": "Tripe Reinforced",
+            "px": 2,
+            "rgb": "#444444",
+            "maxWeight": 6,
+            "level": 17,
+            "price": 500
+        },
+        {
+            "id": 7,
+            "name": "Professional",
+            "px": 3,
+            "rgb": "#999999",
+            "maxWeight": 8,
+            "level": 19,
+            "price": 800
+        },
+        {
+            "id": 8,
+            "name": "Angler's",
+            "px": 3,
+            "rgb": "#000000",
+            "maxWeight": 10,
+            "level": 20,
+            "price": 1500
         }
     ],
     "hooks": [
