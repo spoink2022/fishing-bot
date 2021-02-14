@@ -1,5 +1,5 @@
 const ColorData = require('./data/colors.json');
 
-module.exports.getColor = function(colorName) {
-    return ColorData[colorName];
+module.exports.getColor = function(category, colorName) {
+    return ColorData[category][colorName];
 }

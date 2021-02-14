@@ -16,9 +16,11 @@ module.exports.fetchUser = async function(userid) {
 
 module.exports.initializeAccount = async function(userid, cb) {
     let dateStr = Datetime.getDateAsString();
-    let query = 'INSERT INTO users (userid, date_joined, last_collected) VALUES ($1, $2, $3)';
+    let query = 'INSERT INTO users (userid, date_joined, last_collected_1, last_collected_2) VALUES ($1, $2, $3, $3)';
     await config.pquery(query, [userid, dateStr, Date.now()]);
     query = 'INSERT INTO aquarium (userid) VALUES ($1)';
+    await config.pquery(query, [userid]);
+    query = 'INSERT INTO stats (userid) VALUES ($1)';
     await config.pquery(query, [userid]);
     cb();
 }
@@ -41,14 +43,14 @@ module.exports.resetFishingCooldown = async function(userid) {
     return;
 }
 
-module.exports.integrateAquariumEarnings = async function(userid, tmpValue) {
-    let query = 'UPDATE users SET aquarium_tmp=$1, last_collected=$2 WHERE userid=$3';
-    await config.pquery(query, [tmpValue, Date.now(), userid]);
+module.exports.integrateAquariumEarnings = async function(userid, locationID) {
+    let query = `UPDATE users SET last_collected_${locationID}=$1 WHERE userid=$2`;
+    await config.pquery(query, [Date.now(), userid]);
     return;
 }
 
-module.exports.collectAquariumEarnings = async function(userid, amountCollected) {
-    let query = 'UPDATE users SET aquarium_tmp=0, coins=coins+$1, last_collected=$2 WHERE userid=$3';
+module.exports.collectAquariumEarnings = async function(userid, amountCollected, locationID) {
+    let query = `UPDATE users SET coins=coins+$1, last_collected_${locationID}=$2 WHERE userid=$3`;
     await config.pquery(query, [amountCollected, Date.now(), userid]);
     return;
 }
@@ -56,5 +58,11 @@ module.exports.collectAquariumEarnings = async function(userid, amountCollected)
 module.exports.buyUpgrade = async function(userid, selection, price) {
     let query = `UPDATE users SET ${selection}=${selection}+1, coins=coins-$1 WHERE userid=$2`;
     await config.pquery(query, [price, userid]);
+    return;
+}
+
+module.exports.setLocation = async function(userid, locationID) {
+    let query = 'UPDATE users SET location=$1 WHERE userid=$2';
+    await config.pquery(query, [locationID, userid]);
     return;
 }

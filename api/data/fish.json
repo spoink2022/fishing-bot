@@ -10,7 +10,7 @@
         "sizeMax": 0.2,
         "screenLen": 3,
         "value": 28,
-        "location": 2
+        "location": 1
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@
         "sizeMax": 0.3,
         "screenLen": 3,
         "value": 14,
-        "location": 2
+        "location": 1
     },
     {
         "id": 3,
@@ -143,7 +143,7 @@
         "name": "freshwater drum",
         "sizeMin": 1,
         "sizeMax": 5,
-        "screenLen": 7,
+        "screenLen": 6,
         "value": 10,
         "location": 2
     },

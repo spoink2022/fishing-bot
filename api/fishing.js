@@ -4,7 +4,7 @@ const EquipmentData = require('./data/equipment.json');
 
 const FishNameMap = {};
 for(const[key, val] of FishData.entries()) {
-    FishNameMap[val.name.replace(' ', '_')] = key;
+    FishNameMap[val.name.replace(/ /g, '_')] = key;
 }
 
 module.exports.mapFishNameToID = function(fishName) {
@@ -17,6 +17,13 @@ module.exports.getLocationData = function(id) {
 }
 module.exports.getLocationDatasetLength = function() {
     return FishingLocationsData.length;
+}
+module.exports.getUnlockedLocations = function(level) {
+    let unlockedLocations = [];
+    for(const obj of FishingLocationsData) {
+        if(level >= obj.level) { unlockedLocations.push(obj.id); }
+    }
+    return unlockedLocations;
 }
 
 // fish.json
