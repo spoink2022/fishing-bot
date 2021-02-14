@@ -167,8 +167,40 @@
             "multiplier": 1.2,
             "maxWeight": 4,
             "name": "Double Bronze",
-            "level": 14,
+            "level": 15,
             "price": 240
+        },
+        {
+            "id": 11,
+            "multiplier": 1.25,
+            "maxWeight": 5,
+            "name": "Double Iron",
+            "level": 16,
+            "price": 350
+        },
+        {
+            "id": 12,
+            "multiplier": 1.29,
+            "maxWeight": 6,
+            "name": "Double Steel",
+            "level": 18,
+            "price": 450
+        },
+        {
+            "id": 13,
+            "multiplier": 1.33,
+            "maxWeight": 7,
+            "name": "Double Titanium",
+            "level": 19,
+            "price": 500
+        },
+        {
+            "id": 14,
+            "multiplier": 1.35,
+            "maxWeight": 8,
+            "name": "Double Tungsten",
+            "level": 20,
+            "price": 550
         }
     ]
 }
