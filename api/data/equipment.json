@@ -11,7 +11,7 @@
         {
             "id": 1,
             "name": "Wooden",
-            "cooldown": 3300000,
+            "cooldown": 3360000,
             "maxWeight": 3,
             "level": 5,
             "price": 100
@@ -19,10 +19,26 @@
         {
             "id": 2,
             "name": "Standard",
-            "cooldown": 300,
+            "cooldown": 3120000,
             "maxWeight": 5,
             "level": 10,
             "price": 600
+        },
+        {
+            "id": 3,
+            "name": "Professional",
+            "cooldown": 2940000,
+            "maxWeight": 7,
+            "level": 15,
+            "price": 1200
+        },
+        {
+            "id": 4,
+            "name": "Angler's",
+            "cooldown": 276,
+            "maxWeight": 10,
+            "level": 20,
+            "price": 2400
         }
     ],
     "lines": [
