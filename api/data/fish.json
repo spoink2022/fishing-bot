@@ -173,5 +173,104 @@
         "screenLen": 4.5,
         "value": 12,
         "location": 2
+    },
+    {
+        "id": 20,
+        "name": "black crappie",
+        "sizeMin": 0.1,
+        "sizeMax": 0.3,
+        "screenLen": 3,
+        "value": 24,
+        "location": 3
+    },
+    {
+        "id": 21,
+        "name": "colorado golden trout",
+        "sizeMin": 0.3,
+        "sizeMax": 1.5,
+        "screenLen": 5,
+        "value": 40,
+        "location": 3
+    },
+    {
+        "id": 22,
+        "name": "cutthroat trout",
+        "sizeMin": 0.2,
+        "sizeMax": 1.5,
+        "screenLen": 5,
+        "value": 33,
+        "location": 3
+    },
+    {
+        "id": 23,
+        "name": "rainbow trout",
+        "sizeMin": 0.5,
+        "sizeMax": 3,
+        "screenLen": 7,
+        "value": 34,
+        "location": 3
+    },
+    {
+        "id": 24,
+        "name": "white bass",
+        "sizeMin": 0.5,
+        "sizeMax": 2,
+        "screenLen": 5.5,
+        "value": 14,
+        "location": 3
+    },
+    {
+        "id": 25,
+        "name": "white sucker",
+        "sizeMin": 1,
+        "sizeMax": 2.5,
+        "screenLen": 6.5,
+        "value": 10,
+        "location": 3
+    },
+    {
+        "id": 26,
+        "name": "northern pike",
+        "sizeMin": 4,
+        "sizeMax": 10,
+        "screenLen": 10,
+        "value": 34,
+        "location": 3
+    },
+    {
+        "id": 27,
+        "name": "redfin pickerel",
+        "sizeMin": 0.4,
+        "sizeMax": 1,
+        "screenLen": 4.5,
+        "value": 30,
+        "location": 3
+    },
+    {
+        "id": 28,
+        "name": "sauger",
+        "sizeMin": 1,
+        "sizeMax": 2.5,
+        "screenLen": 6.5,
+        "value": 36,
+        "location": 3
+    },
+    {
+        "id": 29,
+        "name": "walleye",
+        "sizeMin": 2,
+        "sizeMax": 5,
+        "screenLen": 8,
+        "value": 38,
+        "location": 3
+    },
+    {
+        "id": 30,
+        "name": "yellow perch",
+        "sizeMin": 0.5,
+        "sizeMax": 1,
+        "screenLen": 4,
+        "value": 15,
+        "location": 3
     }
 ]
