@@ -1,11 +1,87 @@
 {
     "info": {
-        "general": [
-            "**Welcome! Below is a full list of available commands**\nDetailed information can be found using ${PREFIX}info <command>",
-            "(For new players, please use the `${PREFIX}info start` command)",
-            "\n**Gameplay**\nfish, aquarium, shop, setlocation",
-            "**Profile**\nstats",
-            "**Info**\ninfo, iteminfo, fishinfo, locationinfo"
+        "General": [
+            "**Below is a full list of available commands**\nDetailed information can be found using ${PREFIX}info <command>",
+            "(For new players, please type `${PREFIX}info start`)",
+            "\n**Gameplay** :fish:\nfish, aquarium, shop, setlocation",
+            "**Profile** :trophy:\nstats, equipment",
+            "**Info** :question:\ninfo, iteminfo, fishinfo, locationinfo"
+        ],
+        "Start": [
+            "**Welcome!**",
+            "We know you're eager to start, so let's get straight to the fun commands:\n",
+            "**${PREFIX}fish** - You fish! Cooldown is determined by your rod.",
+            "**${PREFIX}aquarium** - View your largest catch of each species. And collect your revenue. :moneybag:",
+            "**${PREFIX}shop** - Upgrade your equipment with coins. Tax included.",
+            "**${PREFIX}stats** - View your personal stats.",
+            "\n**Tips**",
+            "- Be sure to upgrade your equipment to increase the maximum weight you can catch (a weak hook, line, or rod will cause your line to snap with bigger fish)",
+            "- Better hooks don't damage the fish as much, and so grant a coin multiplier",
+            "- Better rods can tolerate more frequent fishing, and so lower your cooldown",
+            "\nSo what are you waiting for? Go fish!"
+        ],
+        "fish": [
+            "Usage: `${PREFIX}fish`",
+            "\n- Fishes at the current location of the player.",
+            "- Don't forget to click the hook that appears! :hook:",
+            "- Also accepts `${PREFIX}f`"
+        ],
+        "aquarium": [
+            "Usage: `${PREFIX}aquarium <location number>`",
+            "Example: `${PREFIX}aquarium 2`",
+            "<location number> defaults to 1 when no value is provided",
+            "\n- Views your aquarium, consisting of your largest catch of each species from the given location.",
+            "- Revenue is based off of the fish caught, and is collected by clicking the :coin: icon.",
+            "- Upgrades can be bought in the shop, and increase both revenue *and* coin capacity",
+            "- Also accepts `${PREFIX}a`"
+        ],
+        "shop": [
+            "Usage: `${PREFIX}shop`",
+            "\n- Presents the shop page",
+            "- :lock: = not unlocked yet. :credit_card: = not enough money",
+            "- React with the corresponding icon to purchase an item"
+        ],
+        "setlocation": [
+            "Usage: `${PREFIX}setlocation <location number>`",
+            "Example: `${PREFIX}setlocation 2`",
+            "\n- Sets your fishing location to somewhere else (given that you have unlocked that location)"
+        ],
+        "stats": [
+            "Usage: `${PREFIX}stats`",
+            "\n- Shows you your stats.",
+            "- Also accepts `${PREFIX}s`"
+        ],
+        "equipment": [
+            "Usage: `${PREFIX}equipment`",
+            "\n- Shows you your pieces of equipment and their stats",
+            "- Useful for deciding what to upgrade",
+            "- Also accepts `${PREFIX}e`"
+        ],
+        "info": [
+            "Usage: `${PREFIX}info <command>`",
+            "Example: `${PREFIX}info aquarium`",
+            "<command> defaults to general when no value (or an invalid value) is provided"
+        ],
+        "iteminfo": [
+            "Usage: `${PREFIX}iteminfo <item name>`",
+            "Example: `${PREFIX}iteminfo copper hook`",
+            "<item name> can also be one of `rods`, `hooks`, `lines`, or `aquariums`",
+            "\n- Gives you all information about a given item",
+            "- Also accepts `${PREFIX}ii`"
+        ],
+        "fishinfo": [
+            "Usage: `${PREFIX}fishinfo <fish name>`",
+            "Example: `${PREFIX}fishinfo northern pike`",
+            "\n- Gives you all information about a given fish",
+            "- Also accepts `${PREFIX}fi`"
+        ],
+        "locationinfo": [
+            "Usage: `${PREFIX}locationinfo <location number>`",
+            "Example: `${PREFIX}locationinfo 1`",
+            "<location number> defaults to all when no value (or an invalid value) is provided",
+            "\n- Gives you all information about a given location",
+            "- Includes unlock level, all fish, fish rarity",
+            "- Also accepts `${PREFIX}li`"
         ]
     }
 }
