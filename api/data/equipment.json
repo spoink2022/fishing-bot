@@ -11,7 +11,7 @@
         {
             "id": 1,
             "name": "Wooden",
-            "cooldown": 3300000,
+            "cooldown": 3360000,
             "maxWeight": 3,
             "level": 5,
             "price": 100
@@ -19,10 +19,26 @@
         {
             "id": 2,
             "name": "Standard",
-            "cooldown": 300,
+            "cooldown": 3120000,
             "maxWeight": 5,
             "level": 10,
             "price": 600
+        },
+        {
+            "id": 3,
+            "name": "Professional",
+            "cooldown": 2940000,
+            "maxWeight": 7,
+            "level": 15,
+            "price": 1200
+        },
+        {
+            "id": 4,
+            "name": "Angler's",
+            "cooldown": 276,
+            "maxWeight": 10,
+            "level": 20,
+            "price": 2400
         }
     ],
     "lines": [
@@ -79,6 +95,33 @@
             "maxWeight": 4.5,
             "level": 13,
             "price": 350
+        },
+        {
+            "id": 6,
+            "name": "Tripe Reinforced",
+            "px": 2,
+            "rgb": "#444444",
+            "maxWeight": 6,
+            "level": 17,
+            "price": 500
+        },
+        {
+            "id": 7,
+            "name": "Professional",
+            "px": 3,
+            "rgb": "#999999",
+            "maxWeight": 8,
+            "level": 19,
+            "price": 800
+        },
+        {
+            "id": 8,
+            "name": "Angler's",
+            "px": 3,
+            "rgb": "#000000",
+            "maxWeight": 10,
+            "level": 20,
+            "price": 1500
         }
     ],
     "hooks": [
@@ -167,8 +210,40 @@
             "multiplier": 1.2,
             "maxWeight": 4,
             "name": "Double Bronze",
-            "level": 14,
+            "level": 15,
             "price": 240
+        },
+        {
+            "id": 11,
+            "multiplier": 1.25,
+            "maxWeight": 5,
+            "name": "Double Iron",
+            "level": 16,
+            "price": 350
+        },
+        {
+            "id": 12,
+            "multiplier": 1.29,
+            "maxWeight": 6,
+            "name": "Double Steel",
+            "level": 18,
+            "price": 450
+        },
+        {
+            "id": 13,
+            "multiplier": 1.33,
+            "maxWeight": 7,
+            "name": "Double Titanium",
+            "level": 19,
+            "price": 500
+        },
+        {
+            "id": 14,
+            "multiplier": 1.35,
+            "maxWeight": 8,
+            "name": "Double Tungsten",
+            "level": 20,
+            "price": 550
         }
     ]
 }

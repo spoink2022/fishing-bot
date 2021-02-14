@@ -20,7 +20,7 @@
     {
         "id": 2,
         "name": "Muddy River",
-        "trashChance": 0,
+        "trashChance": 5,
         "level": 10,
         "fish": [
             {"id": 11, "chance": 10},
@@ -32,6 +32,25 @@
             {"id": 17, "chance": 9},
             {"id": 18, "chance": 20},
             {"id": 19, "chance": 10}
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Clearwater Lake",
+        "trashChance": 0,
+        "level": 15,
+        "fish": [
+            {"id": 20, "chance": 25},
+            {"id": 21, "chance": 4},
+            {"id": 22, "chance": 7},
+            {"id": 23, "chance": 6},
+            {"id": 24, "chance": 12},
+            {"id": 25, "chance": 12},
+            {"id": 26, "chance": 1},
+            {"id": 27, "chance": 7},
+            {"id": 28, "chance": 4},
+            {"id": 29, "chance": 2},
+            {"id": 30, "chance": 20}
         ]
     }
 ]
