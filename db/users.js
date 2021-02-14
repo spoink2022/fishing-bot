@@ -20,6 +20,8 @@ module.exports.initializeAccount = async function(userid, cb) {
     await config.pquery(query, [userid, dateStr, Date.now()]);
     query = 'INSERT INTO aquarium (userid) VALUES ($1)';
     await config.pquery(query, [userid]);
+    query = 'INSERT INTO stats (userid) VALUES ($1)';
+    await config.pquery(query, [userid]);
     cb();
 }
 
