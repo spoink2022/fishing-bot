@@ -1,0 +1,11 @@
+{
+    "info": {
+        "general": [
+            "**Welcome! Below is a full list of available commands**\nDetailed information can be found using ${PREFIX}info <command>",
+            "(For new players, please use the `${PREFIX}info start` command)",
+            "\n**Gameplay**\nfish, aquarium, shop, setlocation",
+            "**Profile**\nstats",
+            "**Info**\ninfo, iteminfo, fishinfo, locationinfo"
+        ]
+    }
+}

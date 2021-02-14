@@ -18,6 +18,13 @@ module.exports.getLocationData = function(id) {
 module.exports.getLocationDatasetLength = function() {
     return FishingLocationsData.length;
 }
+module.exports.getUnlockedLocations = function(level) {
+    let unlockedLocations = [];
+    for(const obj of FishingLocationsData) {
+        if(level >= obj.level) { unlockedLocations.push(obj.id); }
+    }
+    return unlockedLocations;
+}
 
 // fish.json
 module.exports.getFishData = function(id) {
