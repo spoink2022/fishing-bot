@@ -275,7 +275,7 @@
     },
     {
         "id": 31,
-        "name": "American Shad",
+        "name": "american shad",
         "sizeMin": 1.5,
         "sizeMax": 4,
         "screenLen": 5,
@@ -284,7 +284,7 @@
     },
     {
         "id": 32,
-        "name": "Common Carp",
+        "name": "common carp",
         "sizeMin": 2,
         "sizeMax": 14,
         "screenLen": 7,
@@ -293,7 +293,7 @@
     },
     {
         "id": 33,
-        "name": "Flathead Catfish",
+        "name": "flathead catfish",
         "sizeMin": 5,
         "sizeMax": 20,
         "screenLen": 8.5,
@@ -302,7 +302,7 @@
     },
     {
         "id": 34,
-        "name": "Longnose Gar",
+        "name": "longnose gar",
         "sizeMin": 3,
         "sizeMax": 10,
         "screenLen": 9,
@@ -311,7 +311,7 @@
     },
     {
         "id": 35,
-        "name": "Smallmouth Bass",
+        "name": "smallmouth bass",
         "sizeMin": 0.5,
         "sizeMax": 1.6,
         "screenLen": 3,
@@ -320,7 +320,7 @@
     },
     {
         "id": 36,
-        "name": "Brown Trout",
+        "name": "brown trout",
         "sizeMin": 1,
         "sizeMax": 5,
         "screenLen": 6,
@@ -329,7 +329,7 @@
     },
     {
         "id": 37,
-        "name": "Redband Trout",
+        "name": "redband trout",
         "sizeMin": 0.5,
         "sizeMax": 1.8,
         "screenLen": 3,
@@ -338,7 +338,7 @@
     },
     {
         "id": 38,
-        "name": "Redbreast Sunfish",
+        "name": "redbreast sunfish",
         "sizeMin": 0.1,
         "sizeMax": 0.25,
         "screenLen": 2,
@@ -347,7 +347,7 @@
     },
     {
         "id": 39,
-        "name": "Rock Bass",
+        "name": "rock bass",
         "sizeMin": 0.2,
         "sizeMax": 0.5,
         "screenLen": 2.5,
@@ -356,7 +356,7 @@
     },
     {
         "id": 40,
-        "name": "Brown Bullhead Catfish",
+        "name": "brown bullhead catfish",
         "sizeMin": 0.5,
         "sizeMax": 1.2,
         "screenLen": 4,
@@ -365,7 +365,7 @@
     },
     {
         "id": 41,
-        "name": "Common Snook",
+        "name": "common snook",
         "sizeMin": 1.5,
         "sizeMax": 10.5,
         "screenLen": 7,
@@ -374,7 +374,7 @@
     },
     {
         "id": 42,
-        "name": "Florida Gar",
+        "name": "florida gar",
         "sizeMin": 4.3,
         "sizeMax": 8,
         "screenLen": 8,
@@ -383,7 +383,7 @@
     },
     {
         "id": 43,
-        "name": "Warmouth",
+        "name": "warmouth",
         "sizeMin": 0.1,
         "sizeMax": 0.4,
         "screenLen": 2,
@@ -392,7 +392,7 @@
     },
     {
         "id": 44,
-        "name": "Gafftopsail Catfish",
+        "name": "gafftopsail catfish",
         "sizeMin": 0.5,
         "sizeMax": 3,
         "screenLen": 4.5,
@@ -401,7 +401,7 @@
     },
     {
         "id": 45,
-        "name": "Butterfly Peacock Bass",
+        "name": "butterfly peacock bass",
         "sizeMin": 1,
         "sizeMax": 3.5,
         "screenLen": 4.5,

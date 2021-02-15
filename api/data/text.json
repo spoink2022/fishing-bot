@@ -32,7 +32,8 @@
             "<location number> defaults to 1 when no value is provided",
             "\n- Views your aquarium, consisting of your largest catch of each species from the given location.",
             "- Revenue is based off of the fish caught, and is collected by clicking the :coin: icon.",
-            "- Upgrades can be bought in the shop, and increase both revenue *and* coin capacity",
+            "- Upgrades can be bought in the shop, and increase both revenue *and* coin capacity.",
+            "- After catching a new fish, you'll have a spike in revenue, so be sure to check the aquarium.",
             "- Also accepts `${PREFIX}a`"
         ],
         "shop": [
