@@ -9,7 +9,6 @@ module.exports.fetchUser = async function(userid) {
     let user = (await config.pquery(query, [userid]))[0];
     if(user) {
         user.cooldown = parseInt(user.cooldown);
-        if(user.last_collected) { user.last_collected = parseInt(user.last_collected); }
     }
     return user;
 }
