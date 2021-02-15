@@ -272,5 +272,140 @@
         "screenLen": 4,
         "value": 15,
         "location": 3
+    },
+    {
+        "id": 31,
+        "name": "American Shad",
+        "sizeMin": 1.5,
+        "sizeMax": 4,
+        "screenLen": 5,
+        "value": 16,
+        "location": 4
+    },
+    {
+        "id": 32,
+        "name": "Common Carp",
+        "sizeMin": 2,
+        "sizeMax": 14,
+        "screenLen": 7,
+        "value": 18,
+        "location": 4
+    },
+    {
+        "id": 33,
+        "name": "Flathead Catfish",
+        "sizeMin": 5,
+        "sizeMax": 20,
+        "screenLen": 8.5,
+        "value": 8,
+        "location": 4
+    },
+    {
+        "id": 34,
+        "name": "Longnose Gar",
+        "sizeMin": 3,
+        "sizeMax": 10,
+        "screenLen": 9,
+        "value": 10,
+        "location": 4
+    },
+    {
+        "id": 35,
+        "name": "Smallmouth Bass",
+        "sizeMin": 0.5,
+        "sizeMax": 1.6,
+        "screenLen": 3,
+        "value": 32,
+        "location": 4
+    },
+    {
+        "id": 36,
+        "name": "Brown Trout",
+        "sizeMin": 1,
+        "sizeMax": 5,
+        "screenLen": 6,
+        "value": 30,
+        "location": 4
+    },
+    {
+        "id": 37,
+        "name": "Redband Trout",
+        "sizeMin": 0.5,
+        "sizeMax": 1.8,
+        "screenLen": 3,
+        "value": 40,
+        "location": 4
+    },
+    {
+        "id": 38,
+        "name": "Redbreast Sunfish",
+        "sizeMin": 0.1,
+        "sizeMax": 0.25,
+        "screenLen": 2,
+        "value": 34,
+        "location": 4
+    },
+    {
+        "id": 39,
+        "name": "Rock Bass",
+        "sizeMin": 0.2,
+        "sizeMax": 0.5,
+        "screenLen": 2.5,
+        "value": 24,
+        "location": 4
+    },
+    {
+        "id": 40,
+        "name": "Brown Bullhead Catfish",
+        "sizeMin": 0.5,
+        "sizeMax": 1.2,
+        "screenLen": 4,
+        "value": 12,
+        "location": 4
+    },
+    {
+        "id": 41,
+        "name": "Common Snook",
+        "sizeMin": 1.5,
+        "sizeMax": 10.5,
+        "screenLen": 7,
+        "value": 11,
+        "location": 4
+    },
+    {
+        "id": 42,
+        "name": "Florida Gar",
+        "sizeMin": 4.3,
+        "sizeMax": 8,
+        "screenLen": 8,
+        "value": 15,
+        "location": 4
+    },
+    {
+        "id": 43,
+        "name": "Warmouth",
+        "sizeMin": 0.1,
+        "sizeMax": 0.4,
+        "screenLen": 2,
+        "value": 34,
+        "location": 4
+    },
+    {
+        "id": 44,
+        "name": "Gafftopsail Catfish",
+        "sizeMin": 0.5,
+        "sizeMax": 3,
+        "screenLen": 4.5,
+        "value": 16,
+        "location": 4
+    },
+    {
+        "id": 45,
+        "name": "Butterfly Peacock Bass",
+        "sizeMin": 1,
+        "sizeMax": 3.5,
+        "screenLen": 4.5,
+        "value": 44,
+        "location": 4
     }
 ]

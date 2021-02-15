@@ -4,6 +4,7 @@
         "name": "The Small Pond",
         "trashChance": 5,
         "level": 1,
+        "zoom": 1,
         "fish": [
             {"id": 1, "chance": 10},
             {"id": 2, "chance": 15},
@@ -22,6 +23,7 @@
         "name": "Muddy River",
         "trashChance": 5,
         "level": 10,
+        "zoom": 1,
         "fish": [
             {"id": 11, "chance": 10},
             {"id": 12, "chance": 20},
@@ -39,6 +41,7 @@
         "name": "Clearwater Lake",
         "trashChance": 0,
         "level": 15,
+        "zoom": 1,
         "fish": [
             {"id": 20, "chance": 25},
             {"id": 21, "chance": 4},

@@ -3,7 +3,7 @@
         {
             "id": 0,
             "name": "Toy",
-            "cooldown": 360,
+            "cooldown": 3600000,
             "maxWeight": 1,
             "level": 1,
             "price": null
@@ -26,7 +26,7 @@
         },
         {
             "id": 3,
-            "name": "Professional",
+            "name": "Tough",
             "cooldown": 2940000,
             "maxWeight": 7,
             "level": 15,
@@ -34,7 +34,7 @@
         },
         {
             "id": 4,
-            "name": "Angler's",
+            "name": "Professional",
             "cooldown": 276,
             "maxWeight": 10,
             "level": 20,
@@ -98,7 +98,7 @@
         },
         {
             "id": 6,
-            "name": "Tripe Reinforced",
+            "name": "Triple Reinforced",
             "px": 2,
             "rgb": "#444444",
             "maxWeight": 6,
@@ -107,7 +107,7 @@
         },
         {
             "id": 7,
-            "name": "Professional",
+            "name": "Thick",
             "px": 3,
             "rgb": "#999999",
             "maxWeight": 8,
@@ -116,7 +116,7 @@
         },
         {
             "id": 8,
-            "name": "Angler's",
+            "name": "Professional",
             "px": 3,
             "rgb": "#000000",
             "maxWeight": 10,
