@@ -11,7 +11,7 @@
         {
             "id": 1,
             "name": "Wooden",
-            "cooldown": 3360000,
+            "cooldown": 3480000,
             "maxWeight": 3,
             "level": 5,
             "price": 100
@@ -19,7 +19,7 @@
         {
             "id": 2,
             "name": "Standard",
-            "cooldown": 3120000,
+            "cooldown": 3360000,
             "maxWeight": 5,
             "level": 10,
             "price": 600
@@ -27,7 +27,7 @@
         {
             "id": 3,
             "name": "Tough",
-            "cooldown": 2940000,
+            "cooldown": 3240000,
             "maxWeight": 7,
             "level": 15,
             "price": 1200
@@ -35,9 +35,41 @@
         {
             "id": 4,
             "name": "Professional",
-            "cooldown": 276,
+            "cooldown": 312,
             "maxWeight": 10,
             "level": 20,
+            "price": 282
+        },
+        {
+            "id": 5,
+            "name": "Old Deepwater",
+            "cooldown": 3000000,
+            "maxWeight": 15,
+            "level": 30,
+            "price": 2400
+        },
+        {
+            "id": 6,
+            "name": "Deepwater",
+            "cooldown": 300000,
+            "maxWeight": 21,
+            "level": 33,
+            "price": 2400
+        },
+        {
+            "id": 7,
+            "name": "New Deepwater",
+            "cooldown": 3000000,
+            "maxWeight": 26,
+            "level": 36,
+            "price": 2400
+        },
+        {
+            "id": 8,
+            "name": "Ocean",
+            "cooldown": 2880000,
+            "maxWeight": 30,
+            "level": 40,
             "price": 2400
         }
     ],
@@ -118,7 +150,7 @@
             "id": 8,
             "name": "Professional",
             "px": 3,
-            "rgb": "#000000",
+            "rgb": "#555555",
             "maxWeight": 10,
             "level": 20,
             "price": 1500
