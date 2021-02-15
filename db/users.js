@@ -16,7 +16,7 @@ module.exports.fetchUser = async function(userid) {
 
 module.exports.initializeAccount = async function(userid, cb) {
     let dateStr = Datetime.getDateAsString();
-    let query = 'INSERT INTO users (userid, date_joined, last_collected_1, last_collected_2) VALUES ($1, $2, $3, $3)';
+    let query = 'INSERT INTO users (userid, date_joined, last_collected_1) VALUES ($1, $2, $3)';
     await config.pquery(query, [userid, dateStr, Date.now()]);
     query = 'INSERT INTO aquarium (userid) VALUES ($1)';
     await config.pquery(query, [userid]);

@@ -25,6 +25,9 @@ module.exports.getUnlockedLocations = function(level) {
     }
     return unlockedLocations;
 }
+module.exports.getAllLocationData = function() {
+    return FishingLocationsData;
+}
 
 // fish.json
 module.exports.getFishData = function(id) {
