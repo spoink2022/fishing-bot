@@ -2,36 +2,78 @@
     {
         "name": "shabby",
         "multiplier": 1,
-        "max": 20,
+        "max": 10,
         "level": 1,
         "price": null
     },
     {
         "name": "standard",
-        "multiplier": 1.2,
-        "max": 30,
-        "level": 5,
-        "price": 100
+        "multiplier": 1.05,
+        "max": 15,
+        "level": 3,
+        "price": 50
     },
     {
         "name": "bronze",
-        "multiplier": 1.4,
-        "max": 50,
+        "multiplier": 1.1,
+        "max": 25,
         "level": 8,
-        "price": 200
+        "price": 80
     },
     {
         "name": "premium bronze",
-        "multiplier": 1.7,
-        "max": 90,
-        "level": 11,
-        "price": 300
+        "multiplier": 1.15,
+        "max": 30,
+        "level": 12,
+        "price": 90
     },
     {
         "name": "superior bronze",
-        "multiplier": 2,
-        "max": 120,
-        "level": 15,
+        "multiplier": 1.2,
+        "max": 35,
+        "level": 16,
+        "price": 100
+    },
+    {
+        "name": "silver",
+        "multiplier": 1.25,
+        "max": 50,
+        "level": 19,
+        "price": 200
+    },
+    {
+        "name": "premium silver",
+        "multiplier": 1.3,
+        "max": 60,
+        "level": 24,
         "price": 350
+    },
+    {
+        "name": "superior silver",
+        "multiplier": 1.35,
+        "max": 70,
+        "level": 30,
+        "price": 450
+    },
+    {
+        "name": "gold",
+        "multiplier": 1.4,
+        "max": 100,
+        "level": 38,
+        "price": 600
+    },
+    {
+        "name": "premium gold",
+        "multiplier": 1.5,
+        "max": 115,
+        "level": 42,
+        "price": 900
+    },
+    {
+        "name": "superior gold",
+        "multiplier": 1.6,
+        "max": 130,
+        "level": 47,
+        "price": 1200
     }
 ]
