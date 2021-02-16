@@ -23,13 +23,14 @@
         "fish": [
             "Usage: `${PREFIX}fish`",
             "\n- Fishes at the current location of the player.",
+            "- The fish you catch will *always* be close to your hook",
             "- Don't forget to click the hook that appears! :hook:",
             "- Also accepts `${PREFIX}f`"
         ],
         "aquarium": [
             "Usage: `${PREFIX}aquarium <location number>`",
             "Example: `${PREFIX}aquarium 2`",
-            "<location number> defaults to 1 when no value is provided",
+            "<location number> defaults to your location when no number is provided",
             "\n- Views your aquarium, consisting of your largest catch of each species from the given location.",
             "- Revenue is based off of the fish caught, and is collected by clicking the :coin: icon.",
             "- Upgrades can be bought in the shop, and increase both revenue *and* coin capacity.",
