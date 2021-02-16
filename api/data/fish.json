@@ -413,7 +413,7 @@
         "name": "tarpon",
         "sizeMin": 15,
         "sizeMax": 70,
-        "screenLen": 8,
+        "screenLen": 10,
         "value": 16,
         "location": 5
     },
@@ -422,7 +422,7 @@
         "name": "alligator gar",
         "sizeMin": 6,
         "sizeMax": 40,
-        "screenLen": 6.5,
+        "screenLen": 7.5,
         "value": 8,
         "location": 5
     },
@@ -431,7 +431,7 @@
         "name": "blue catfish",
         "sizeMin": 10,
         "sizeMax": 25,
-        "screenLen": 5,
+        "screenLen": 6.5,
         "value": 14,
         "location": 5
     },
@@ -440,7 +440,7 @@
         "name": "atlantic salmon",
         "sizeMin": 5,
         "sizeMax": 15,
-        "screenLen": 4.5,
+        "screenLen": 5.5,
         "value": 20,
         "location": 5
     },
@@ -449,7 +449,7 @@
         "name": "brook trout",
         "sizeMin": 0.3,
         "sizeMax": 3,
-        "screenLen": 3.5,
+        "screenLen": 3,
         "value": 30,
         "location": 5
     },
@@ -458,7 +458,7 @@
         "name": "clear muskie",
         "sizeMin": 5,
         "sizeMax": 30,
-        "screenLen": 5.5,
+        "screenLen": 7,
         "value": 20,
         "location": 5
     },
@@ -467,7 +467,7 @@
         "name": "tiger muskie",
         "sizeMin": 1.5,
         "sizeMax": 15,
-        "screenLen": 4.5,
+        "screenLen": 5.5,
         "value": 24,
         "location": 5
     },
@@ -476,7 +476,7 @@
         "name": "sturgeon",
         "sizeMin": 10,
         "sizeMax": 60,
-        "screenLen": 8,
+        "screenLen": 10,
         "value": 21,
         "location": 5
     },
@@ -485,7 +485,7 @@
         "name": "muskellunge",
         "sizeMin": 4,
         "sizeMax": 20,
-        "screenLen": 5,
+        "screenLen": 6.5,
         "value": 22,
         "location": 5
     },
@@ -512,7 +512,7 @@
         "name": "white catfish",
         "sizeMin": 0.4,
         "sizeMax": 1,
-        "screenLen": 3,
+        "screenLen": 2.5,
         "value": 12,
         "location": 5
     }
