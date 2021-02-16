@@ -280,6 +280,51 @@
             "maxWeight": 30,
             "level": 40,
             "price": 1500
+        },
+        {
+            "id": 19,
+            "name": "Ocean B",
+            "px": 3,
+            "rgb": "#002d5a",
+            "maxWeight": 34,
+            "level": 42,
+            "price": 1500
+        },
+        {
+            "id": 20,
+            "name": "Ocean A",
+            "px": 3,
+            "rgb": "#002850",
+            "maxWeight": 38,
+            "level": 44,
+            "price": 1500
+        },
+        {
+            "id": 21,
+            "name": "Ocean AA",
+            "px": 3,
+            "rgb": "#002346",
+            "maxWeight": 44,
+            "level": 45,
+            "price": 1500
+        },
+        {
+            "id": 22,
+            "name": "Ocean AAA",
+            "px": 3,
+            "rgb": "#001e3c",
+            "maxWeight": 50,
+            "level": 47,
+            "price": 1500
+        },
+        {
+            "id": 23,
+            "name": "Super Thick",
+            "px": 4,
+            "rgb": "#999999",
+            "maxWeight": 60,
+            "level": 49,
+            "price": 1500
         }
     ],
     "hooks": [

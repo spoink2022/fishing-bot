@@ -35,7 +35,7 @@ module.exports.getFishData = function(id) {
 }
 module.exports.getFishNames = function() {
     return FishData.map(obj => obj.name);
-} 
+}
 
 // equipment.json
 // rods
@@ -48,6 +48,9 @@ module.exports.getRodIDs = function() {
 module.exports.getRodNames = function() {
     return EquipmentData.rods.map(obj => obj.name.toLowerCase()+' rod');
 }
+module.exports.getAllRodData = function() {
+    return EquipmentData.rods;
+}
 
 // lines
 module.exports.getLineData = function(id) {
@@ -55,6 +58,9 @@ module.exports.getLineData = function(id) {
 }
 module.exports.getLineNames = function() {
     return EquipmentData.lines.map(obj => obj.name.toLowerCase()+' line');
+}
+module.exports.getAllLineData = function() {
+    return EquipmentData.lines;
 }
 
 // hooks
@@ -66,4 +72,19 @@ module.exports.getHookIDs = function() {
 }
 module.exports.getHookNames = function() {
     return EquipmentData.hooks.map(obj => obj.name.toLowerCase()+' hook');
+}
+module.exports.getAllHookData = function() {
+    return EquipmentData.hooks;
+}
+
+// general
+// gets highest item ID user can view info about
+module.exports.getHighestItemID = function(category, level) {
+    const categoryLen = EquipmentData[category].length;
+    for(let i=0; i<categoryLen; i++) {
+        if(EquipmentData[category][i].level > level) {
+            return i;
+        }
+    }
+    return categoryLen-1;
 }
