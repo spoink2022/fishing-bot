@@ -102,5 +102,73 @@
     {
         "level": 26,
         "expRequired": 10000
+    },
+    {
+        "level": 27,
+        "expRequired": 10000
+    },
+    {
+        "level": 28,
+        "expRequired": 10000
+    },
+    {
+        "level": 29,
+        "expRequired": 10000
+    },
+    {
+        "level": 30,
+        "expRequired": 10000
+    },
+    {
+        "level": 31,
+        "expRequired": 10000
+    },
+    {
+        "level": 32,
+        "expRequired": 10000
+    },
+    {
+        "level": 33,
+        "expRequired": 10000
+    },
+    {
+        "level": 34,
+        "expRequired": 10000
+    },
+    {
+        "level": 35,
+        "expRequired": 10000
+    },
+    {
+        "level": 36,
+        "expRequired": 10000
+    },
+    {
+        "level": 37,
+        "expRequired": 10000
+    },
+    {
+        "level": 38,
+        "expRequired": 10000
+    },
+    {
+        "level": 39,
+        "expRequired": 10000
+    },
+    {
+        "level": 40,
+        "expRequired": 10000
+    },
+    {
+        "level": 41,
+        "expRequired": 10000
+    },
+    {
+        "level": 42,
+        "expRequired": 10000
+    },
+    {
+        "level": 43,
+        "expRequired": 10000
     }
 ]

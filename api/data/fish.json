@@ -407,5 +407,113 @@
         "screenLen": 4.5,
         "value": 44,
         "location": 4
+    },
+    {
+        "id": 46,
+        "name": "tarpon",
+        "sizeMin": 15,
+        "sizeMax": 70,
+        "screenLen": 8,
+        "value": 16,
+        "location": 5
+    },
+    {
+        "id": 47,
+        "name": "alligator gar",
+        "sizeMin": 6,
+        "sizeMax": 40,
+        "screenLen": 6.5,
+        "value": 8,
+        "location": 5
+    },
+    {
+        "id": 48,
+        "name": "blue catfish",
+        "sizeMin": 10,
+        "sizeMax": 25,
+        "screenLen": 5,
+        "value": 14,
+        "location": 5
+    },
+    {
+        "id": 49,
+        "name": "atlantic salmon",
+        "sizeMin": 5,
+        "sizeMax": 15,
+        "screenLen": 4.5,
+        "value": 20,
+        "location": 5
+    },
+    {
+        "id": 50,
+        "name": "brook trout",
+        "sizeMin": 0.3,
+        "sizeMax": 3,
+        "screenLen": 3.5,
+        "value": 30,
+        "location": 5
+    },
+    {
+        "id": 51,
+        "name": "clear muskie",
+        "sizeMin": 5,
+        "sizeMax": 30,
+        "screenLen": 5.5,
+        "value": 20,
+        "location": 5
+    },
+    {
+        "id": 52,
+        "name": "tiger muskie",
+        "sizeMin": 1.5,
+        "sizeMax": 15,
+        "screenLen": 4.5,
+        "value": 24,
+        "location": 5
+    },
+    {
+        "id": 53,
+        "name": "sturgeon",
+        "sizeMin": 10,
+        "sizeMax": 60,
+        "screenLen": 8,
+        "value": 21,
+        "location": 5
+    },
+    {
+        "id": 54,
+        "name": "muskellunge",
+        "sizeMin": 4,
+        "sizeMax": 20,
+        "screenLen": 5,
+        "value": 22,
+        "location": 5
+    },
+    {
+        "id": 55,
+        "name": "longnose sucker",
+        "sizeMin": 0.7,
+        "sizeMax": 1.5,
+        "screenLen": 3,
+        "value": 10,
+        "location": 5
+    },
+    {
+        "id": 56,
+        "name": "california roach",
+        "sizeMin": 0.05,
+        "sizeMax": 0.1,
+        "screenLen": 2,
+        "value": 26,
+        "location": 5
+    },
+    {
+        "id": 57,
+        "name": "white catfish",
+        "sizeMin": 0.4,
+        "sizeMax": 1,
+        "screenLen": 3,
+        "value": 12,
+        "location": 5
     }
 ]

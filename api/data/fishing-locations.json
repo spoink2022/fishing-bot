@@ -79,5 +79,26 @@
             {"id": 44, "chance": 0.5},
             {"id": 45, "chance": 1}
         ]
+    },
+    {
+        "id": 5,
+        "name": "The Inlet",
+        "trashChance": 8,
+        "level": 30,
+        "zoom": 2,
+        "fish": [
+            {"id": 46, "chance": 1},
+            {"id": 47, "chance": 6},
+            {"id": 48, "chance": 2},
+            {"id": 49, "chance": 4},
+            {"id": 50, "chance": 15},
+            {"id": 51, "chance": 1.5},
+            {"id": 52, "chance": 6},
+            {"id": 53, "chance": 1},
+            {"id": 54, "chance": 3.5},
+            {"id": 55, "chance": 20},
+            {"id": 56, "chance": 20},
+            {"id": 57, "chance": 20}
+        ]
     }
 ]
