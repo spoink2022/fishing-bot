@@ -1,202 +1,202 @@
 [
     {
         "level": 1,
-        "expRequired": 20
+        "expRequired": 15
     },
     {
         "level": 2,
-        "expRequired": 40
+        "expRequired": 20
     },
     {
         "level": 3,
-        "expRequired": 50
+        "expRequired": 30
     },
     {
         "level": 4,
-        "expRequired": 80
+        "expRequired": 35
     },
     {
         "level": 5,
-        "expRequired": 120
+        "expRequired": 50
     },
     {
         "level": 6,
-        "expRequired": 150
+        "expRequired": 40
     },
     {
         "level": 7,
-        "expRequired": 200
+        "expRequired": 40
     },
     {
         "level": 8,
-        "expRequired": 250
+        "expRequired": 50
     },
     {
         "level": 9,
-        "expRequired": 300
+        "expRequired": 60
     },
     {
         "level": 10,
-        "expRequired": 500
+        "expRequired": 80
     },
     {
         "level": 11,
-        "expRequired": 500
+        "expRequired": 45
     },
     {
         "level": 12,
-        "expRequired": 500
+        "expRequired": 50
     },
     {
         "level": 13,
-        "expRequired": 500
+        "expRequired": 55
     },
     {
         "level": 14,
-        "expRequired": 500
+        "expRequired": 60
     },
     {
         "level": 15,
-        "expRequired": 500
+        "expRequired": 85
     },
     {
         "level": 16,
-        "expRequired": 1000
+        "expRequired": 70
     },
     {
         "level": 17,
-        "expRequired": 1000
+        "expRequired": 75
     },
     {
         "level": 18,
-        "expRequired": 1000
+        "expRequired": 75
     },
     {
         "level": 19,
-        "expRequired": 1000
+        "expRequired": 80
     },
     {
         "level": 20,
-        "expRequired": 1000
+        "expRequired": 120
     },
     {
         "level": 21,
-        "expRequired": 1000
+        "expRequired": 100
     },
     {
         "level": 22,
-        "expRequired": 1000
+        "expRequired": 105
     },
     {
         "level": 23,
-        "expRequired": 1000
+        "expRequired": 110
     },
     {
         "level": 24,
-        "expRequired": 1000
+        "expRequired": 115
     },
     {
         "level": 25,
-        "expRequired": 1000
+        "expRequired": 150
     },
     {
         "level": 26,
-        "expRequired": 10000
+        "expRequired": 125
     },
     {
         "level": 27,
-        "expRequired": 10000
+        "expRequired": 140
     },
     {
         "level": 28,
-        "expRequired": 10000
+        "expRequired": 160
     },
     {
         "level": 29,
-        "expRequired": 10000
+        "expRequired": 180
     },
     {
         "level": 30,
-        "expRequired": 10000
+        "expRequired": 200
     },
     {
         "level": 31,
-        "expRequired": 10000
+        "expRequired": 205
     },
     {
         "level": 32,
-        "expRequired": 10000
+        "expRequired": 210
     },
     {
         "level": 33,
-        "expRequired": 10000
+        "expRequired": 220
     },
     {
         "level": 34,
-        "expRequired": 10000
+        "expRequired": 230
     },
     {
         "level": 35,
-        "expRequired": 10000
+        "expRequired": 250
     },
     {
         "level": 36,
-        "expRequired": 10000
+        "expRequired": 230
     },
     {
         "level": 37,
-        "expRequired": 10000
+        "expRequired": 240
     },
     {
         "level": 38,
-        "expRequired": 10000
+        "expRequired": 255
     },
     {
         "level": 39,
-        "expRequired": 10000
+        "expRequired": 270
     },
     {
         "level": 40,
-        "expRequired": 10000
+        "expRequired": 400
     },
     {
         "level": 41,
-        "expRequired": 10000
+        "expRequired": 450
     },
     {
         "level": 42,
-        "expRequired": 10000
+        "expRequired": 460
     },
     {
         "level": 43,
-        "expRequired": 10000
+        "expRequired": 475
     },
     {
         "level": 44,
-        "expRequired": 10000
+        "expRequired": 480
     },
     {
         "level": 45,
-        "expRequired": 10000
+        "expRequired": 500
     },
     {
         "level": 46,
-        "expRequired": 10000
+        "expRequired": 495
     },
     {
         "level": 47,
-        "expRequired": 10000
+        "expRequired": 520
     },
     {
         "level": 48,
-        "expRequired": 10000
+        "expRequired": 530
     },
     {
         "level": 49,
-        "expRequired": 10000
+        "expRequired": 550
     },
     {
         "level": 50,
-        "expRequired": 10000
+        "expRequired": 1000
     }
 ]

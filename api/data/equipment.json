@@ -117,7 +117,8 @@
             "rgb": "#bdb76b",
             "maxWeight": 0.75,
             "level": 1,
-            "price": null
+            "price": null,
+            "bonus": 0
         },
         {
             "id": 1,
@@ -126,7 +127,8 @@
             "rgb": "#999999",
             "maxWeight": 1.25,
             "level": 3,
-            "price": 60
+            "price": 60,
+            "bonus": 0
         },
         {
             "id": 2,
@@ -135,7 +137,8 @@
             "rgb": "#999999",
             "maxWeight": 1.75,
             "level": 5,
-            "price": 90
+            "price": 90,
+            "bonus": 1
         },
         {
             "id": 3,
@@ -144,7 +147,8 @@
             "rgb": "#777777",
             "maxWeight": 2.5,
             "level": 7,
-            "price": 150
+            "price": 150,
+            "bonus": 1
         },
         {
             "id": 4,
@@ -153,7 +157,8 @@
             "rgb": "#666666",
             "maxWeight": 3,
             "level": 9,
-            "price": 250
+            "price": 250,
+            "bonus": 2
         },
         {
             "id": 5,
@@ -162,7 +167,8 @@
             "rgb": "#555555",
             "maxWeight": 3.75,
             "level": 11,
-            "price": 350
+            "price": 350,
+            "bonus": 2
         },
         {
             "id": 6,
@@ -171,7 +177,8 @@
             "rgb": "#444444",
             "maxWeight": 4.25,
             "level": 14,
-            "price": 500
+            "price": 500,
+            "bonus": 2
         },
         {
             "id": 7,
@@ -180,7 +187,8 @@
             "rgb": "#999999",
             "maxWeight": 5,
             "level": 17,
-            "price": 800
+            "price": 800,
+            "bonus": 2
         },
         {
             "id": 8,
@@ -189,7 +197,8 @@
             "rgb": "#000028",
             "maxWeight": 7,
             "level": 20,
-            "price": 1500
+            "price": 1500,
+            "bonus": 3
         },
         {
             "id": 9,
@@ -198,7 +207,8 @@
             "rgb": "#00001e",
             "maxWeight": 7.5,
             "level": 22,
-            "price": 1500
+            "price": 1500,
+            "bonus": 3
         },
         {
             "id": 10,
@@ -207,7 +217,8 @@
             "rgb": "#000014",
             "maxWeight": 8,
             "level": 24,
-            "price": 1500
+            "price": 1500,
+            "bonus": 3
         },
         {
             "id": 11,
@@ -216,7 +227,8 @@
             "rgb": "#00000a",
             "maxWeight": 8.5,
             "level": 26,
-            "price": 1500
+            "price": 1500,
+            "bonus": 3
         },
         {
             "id": 12,
@@ -225,7 +237,8 @@
             "rgb": "#000028",
             "maxWeight": 9,
             "level": 28,
-            "price": 1500
+            "price": 1500,
+            "bonus": 3
         },
         {
             "id": 13,
@@ -234,7 +247,8 @@
             "rgb": "#009600",
             "maxWeight": 15,
             "level": 29,
-            "price": 1500
+            "price": 1500,
+            "bonus": 4
         },
         {
             "id": 14,
@@ -243,7 +257,8 @@
             "rgb": "#008200",
             "maxWeight": 17,
             "level": 32,
-            "price": 1500
+            "price": 1500,
+            "bonus": 4
         },
         {
             "id": 15,
@@ -252,7 +267,8 @@
             "rgb": "#006e00",
             "maxWeight": 19,
             "level": 34,
-            "price": 1500
+            "price": 1500,
+            "bonus": 4
         },
         {
             "id": 16,
@@ -261,7 +277,8 @@
             "rgb": "#005a00",
             "maxWeight": 21,
             "level": 37,
-            "price": 1500
+            "price": 1500,
+            "bonus": 4
         },
         {
             "id": 17,
@@ -270,7 +287,8 @@
             "rgb": "#004600",
             "maxWeight": 24,
             "level": 39,
-            "price": 1500
+            "price": 1500,
+            "bonus": 4
         },
         {
             "id": 18,
@@ -279,7 +297,8 @@
             "rgb": "#003264",
             "maxWeight": 30,
             "level": 40,
-            "price": 1500
+            "price": 1500,
+            "bonus": 5
         },
         {
             "id": 19,
@@ -288,7 +307,8 @@
             "rgb": "#002d5a",
             "maxWeight": 34,
             "level": 42,
-            "price": 1500
+            "price": 1500,
+            "bonus": 5
         },
         {
             "id": 20,
@@ -297,7 +317,8 @@
             "rgb": "#002850",
             "maxWeight": 38,
             "level": 44,
-            "price": 1500
+            "price": 1500,
+            "bonus": 5
         },
         {
             "id": 21,
@@ -306,7 +327,8 @@
             "rgb": "#002346",
             "maxWeight": 44,
             "level": 45,
-            "price": 1500
+            "price": 1500,
+            "bonus": 5
         },
         {
             "id": 22,
@@ -315,7 +337,8 @@
             "rgb": "#001e3c",
             "maxWeight": 50,
             "level": 47,
-            "price": 1500
+            "price": 1500,
+            "bonus": 5
         },
         {
             "id": 23,
@@ -324,7 +347,8 @@
             "rgb": "#999999",
             "maxWeight": 60,
             "level": 49,
-            "price": 1500
+            "price": 1500,
+            "bonus": 6
         }
     ],
     "hooks": [
