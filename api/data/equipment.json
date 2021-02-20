@@ -24,7 +24,7 @@
             "cooldown": 4320000,
             "maxWeight": 5,
             "level": 10,
-            "price": 600,
+            "price": 400,
             "size": 1
         },
         {
@@ -33,7 +33,7 @@
             "cooldown": 4260000,
             "maxWeight": 7,
             "level": 15,
-            "price": 1200,
+            "price": 700,
             "size": 1
         },
         {
@@ -42,7 +42,7 @@
             "cooldown": 4200000,
             "maxWeight": 10,
             "level": 20,
-            "price": 282,
+            "price": 1000,
             "size": 1
         },
         {
@@ -51,7 +51,7 @@
             "cooldown": 4080000,
             "maxWeight": 15,
             "level": 30,
-            "price": 2400,
+            "price": 1500,
             "size": 1
         },
         {
@@ -60,7 +60,7 @@
             "cooldown": 4080000,
             "maxWeight": 21,
             "level": 33,
-            "price": 2400,
+            "price": 1800,
             "size": 1
         },
         {
@@ -69,7 +69,7 @@
             "cooldown": 4080000,
             "maxWeight": 26,
             "level": 36,
-            "price": 2400,
+            "price": 2000,
             "size": 1
         },
         {
@@ -78,7 +78,7 @@
             "cooldown": 3900000,
             "maxWeight": 30,
             "level": 40,
-            "price": 2400,
+            "price": 3000,
             "size": 1.5
         },
         {
@@ -87,7 +87,7 @@
             "cooldown": 3900000,
             "maxWeight": 40,
             "level": 43,
-            "price": 2400,
+            "price": 3300,
             "size": 1.5
         },
         {
@@ -96,7 +96,7 @@
             "cooldown": 3900000,
             "maxWeight": 55,
             "level": 46,
-            "price": 2400,
+            "price": 3500,
             "size": 1.5
         },
         {
@@ -105,7 +105,7 @@
             "cooldown": 3840000,
             "maxWeight": 70,
             "level": 49,
-            "price": 2400,
+            "price": 5000,
             "size": 1.5
         }
     ],
@@ -167,7 +167,7 @@
             "rgb": "#555555",
             "maxWeight": 3.75,
             "level": 11,
-            "price": 350,
+            "price": 300,
             "bonus": 2
         },
         {
@@ -177,7 +177,7 @@
             "rgb": "#444444",
             "maxWeight": 4.25,
             "level": 14,
-            "price": 500,
+            "price": 350,
             "bonus": 2
         },
         {
@@ -187,7 +187,7 @@
             "rgb": "#999999",
             "maxWeight": 5,
             "level": 17,
-            "price": 800,
+            "price": 500,
             "bonus": 2
         },
         {
@@ -197,7 +197,7 @@
             "rgb": "#000028",
             "maxWeight": 7,
             "level": 20,
-            "price": 1500,
+            "price": 800,
             "bonus": 3
         },
         {
@@ -207,7 +207,7 @@
             "rgb": "#00001e",
             "maxWeight": 7.5,
             "level": 22,
-            "price": 1500,
+            "price": 850,
             "bonus": 3
         },
         {
@@ -217,7 +217,7 @@
             "rgb": "#000014",
             "maxWeight": 8,
             "level": 24,
-            "price": 1500,
+            "price": 900,
             "bonus": 3
         },
         {
@@ -227,7 +227,7 @@
             "rgb": "#00000a",
             "maxWeight": 8.5,
             "level": 26,
-            "price": 1500,
+            "price": 950,
             "bonus": 3
         },
         {
@@ -237,7 +237,7 @@
             "rgb": "#000028",
             "maxWeight": 9,
             "level": 28,
-            "price": 1500,
+            "price": 1000,
             "bonus": 3
         },
         {
@@ -257,7 +257,7 @@
             "rgb": "#008200",
             "maxWeight": 17,
             "level": 32,
-            "price": 1500,
+            "price": 1600,
             "bonus": 4
         },
         {
@@ -267,7 +267,7 @@
             "rgb": "#006e00",
             "maxWeight": 19,
             "level": 34,
-            "price": 1500,
+            "price": 1700,
             "bonus": 4
         },
         {
@@ -277,7 +277,7 @@
             "rgb": "#005a00",
             "maxWeight": 21,
             "level": 37,
-            "price": 1500,
+            "price": 1800,
             "bonus": 4
         },
         {
@@ -287,7 +287,7 @@
             "rgb": "#004600",
             "maxWeight": 24,
             "level": 39,
-            "price": 1500,
+            "price": 1900,
             "bonus": 4
         },
         {
@@ -297,7 +297,7 @@
             "rgb": "#003264",
             "maxWeight": 30,
             "level": 40,
-            "price": 1500,
+            "price": 2000,
             "bonus": 5
         },
         {
@@ -307,7 +307,7 @@
             "rgb": "#002d5a",
             "maxWeight": 34,
             "level": 42,
-            "price": 1500,
+            "price": 2100,
             "bonus": 5
         },
         {
@@ -317,7 +317,7 @@
             "rgb": "#002850",
             "maxWeight": 38,
             "level": 44,
-            "price": 1500,
+            "price": 2200,
             "bonus": 5
         },
         {
@@ -327,7 +327,7 @@
             "rgb": "#002346",
             "maxWeight": 44,
             "level": 45,
-            "price": 1500,
+            "price": 2300,
             "bonus": 5
         },
         {
@@ -337,7 +337,7 @@
             "rgb": "#001e3c",
             "maxWeight": 50,
             "level": 47,
-            "price": 1500,
+            "price": 2400,
             "bonus": 5
         },
         {
@@ -347,7 +347,7 @@
             "rgb": "#999999",
             "maxWeight": 60,
             "level": 49,
-            "price": 1500,
+            "price": 3000,
             "bonus": 6
         }
     ],
@@ -478,7 +478,7 @@
             "maxWeight": 12,
             "name": "Double Bronze",
             "level": 31,
-            "price": 550
+            "price": 600
         },
         {
             "id": 16,
@@ -486,7 +486,7 @@
             "maxWeight": 13,
             "name": "Double Iron",
             "level": 32,
-            "price": 550
+            "price": 610
         },
         {
             "id": 17,
@@ -494,7 +494,7 @@
             "maxWeight": 14,
             "name": "Double Steel",
             "level": 34,
-            "price": 550
+            "price": 630
         },
         {
             "id": 18,
@@ -502,7 +502,7 @@
             "maxWeight": 15,
             "name": "Double Titanium",
             "level": 35,
-            "price": 550
+            "price": 650
         },
         {
             "id": 19,
@@ -510,7 +510,7 @@
             "maxWeight": 17,
             "name": "Double Tungsten",
             "level": 37,
-            "price": 550
+            "price": 680
         },
         {
             "id": 20,
@@ -518,7 +518,7 @@
             "maxWeight": 25,
             "name": "Full Wooden",
             "level": 38,
-            "price": 550
+            "price": 800
         },
         {
             "id": 21,
@@ -526,7 +526,7 @@
             "maxWeight": 30,
             "name": "Full Rusty",
             "level": 40,
-            "price": 550
+            "price": 850
         },
         {
             "id": 22,
@@ -534,7 +534,7 @@
             "maxWeight": 35,
             "name": "Full Tin",
             "level": 42,
-            "price": 550
+            "price": 900
         },
         {
             "id": 23,
@@ -542,7 +542,7 @@
             "maxWeight": 40,
             "name": "Full Aluminum",
             "level": 44,
-            "price": 550
+            "price": 950
         },
         {
             "id": 24,
@@ -550,7 +550,7 @@
             "maxWeight": 50,
             "name": "Full Copper",
             "level": 46,
-            "price": 550
+            "price": 975
         },
         {
             "id": 25,
@@ -558,7 +558,7 @@
             "maxWeight": 60,
             "name": "Full Bronze",
             "level": 49,
-            "price": 550
+            "price": 1000
         }
     ]
 }

@@ -9,7 +9,8 @@
     "cmd": {
         "shop": "#215732",
         "iteminfo": "#215732",
-        "info": "#dddddd"
+        "info": "#dddddd",
+        "leaderboards": "#dddddd"
     },
     "rank": [
         "#888888"

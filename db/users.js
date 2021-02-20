@@ -8,7 +8,10 @@ module.exports.fetchUser = async function(userid) {
     let query = 'SELECT * FROM users WHERE userid=$1';
     let user = (await config.pquery(query, [userid]))[0];
     if(user) {
-        user.cooldown = parseInt(user.cooldown);
+        user.cooldown = parseInt(user.cooldown)
+        for(let i=1; i<=5; i++) {
+            user[`last_collected_${i}`] = parseInt(user[`last_collected_${i}`]) || 0;
+        }
     }
     return user;
 }
