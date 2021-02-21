@@ -4,7 +4,7 @@
             "**Below is a full list of available commands**\nDetailed information can be found using ${PREFIX}info <command>",
             "(For new players, please type `${PREFIX}info start`)",
             "\n**Gameplay** :fish:\nfish, aquarium, shop, setlocation",
-            "**Profile** :trophy:\nstats, equipment",
+            "**Profile** :trophy:\nstats, equipment, leaderboards",
             "**Info** :question:\ninfo, iteminfo, fishinfo, locationinfo"
         ],
         "Start": [
@@ -21,6 +21,7 @@
             "- Better lines grant bonus exp per catch",
             "- Take advantage of the `${PREFIX}info <command name>`",
             "- Detailed game mechanics are available at `${PREFIX}info mechanics`",
+            "- You will unlock the next location every 10 player levels",
             "\nSo what are you waiting for? Go fish!"
         ],
         "Mechanics": [
@@ -77,6 +78,10 @@
             "\n- Shows you your pieces of equipment and their stats",
             "- Useful for deciding what to upgrade",
             "- Also accepts `${PREFIX}e`"
+        ],
+        "leaderboards": [
+            "Usage: `${PREFIX}leaderboards`",
+            "\n- Shows the top 20 players in the server by weight caught"
         ],
         "info": [
             "Usage: `${PREFIX}info <command>`",
