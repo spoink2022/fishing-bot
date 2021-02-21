@@ -40,7 +40,7 @@
         "id": 3,
         "name": "Clearwater Lake",
         "trashChance": 0,
-        "level": 15,
+        "level": 20,
         "zoom": 1,
         "fish": [
             {"id": 20, "chance": 25},
@@ -60,7 +60,7 @@
         "id": 4,
         "name": "Deepwater Lake",
         "trashChance": 2,
-        "level": 25,
+        "level": 30,
         "zoom": 1.5,
         "fish": [
             {"id": 31, "chance": 8.5},
@@ -84,7 +84,7 @@
         "id": 5,
         "name": "The Inlet",
         "trashChance": 8,
-        "level": 30,
+        "level": 40,
         "zoom": 2,
         "fish": [
             {"id": 46, "chance": 1},

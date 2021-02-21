@@ -4,7 +4,7 @@
             "**Below is a full list of available commands**\nDetailed information can be found using ${PREFIX}info <command>",
             "(For new players, please type `${PREFIX}info start`)",
             "\n**Gameplay** :fish:\nfish, aquarium, shop, setlocation",
-            "**Profile** :trophy:\nstats, equipment",
+            "**Profile** :trophy:\nstats, equipment, leaderboards",
             "**Info** :question:\ninfo, iteminfo, fishinfo, locationinfo"
         ],
         "Start": [
@@ -16,9 +16,29 @@
             "**${PREFIX}stats** - View your personal stats.",
             "\n**Tips**",
             "- Be sure to upgrade your equipment to increase the maximum weight you can catch (a weak hook, line, or rod will cause your line to snap with bigger fish)",
-            "- Better hooks don't damage the fish as much, and so grant a coin multiplier",
-            "- Better rods can tolerate more frequent fishing, and so lower your cooldown",
+            "- Better hooks grant a coin multiplier",
+            "- Better rods lower your cooldown",
+            "- Better lines grant bonus exp per catch",
+            "- Take advantage of the `${PREFIX}info <command name>`",
+            "- Detailed game mechanics are available at `${PREFIX}info mechanics`",
+            "- You will unlock the next location every 10 player levels",
             "\nSo what are you waiting for? Go fish!"
+        ],
+        "Mechanics": [
+            "**Fishing** :fishing_pole_and_fish:",
+            "- A new location is unlocked every 10 levels",
+            "- When `${PREFIX}fish` is called, the fish that is chosen is always near the hook",
+            "- Fish size on the image is directly proportional to the actual size of the fish",
+            "- If your catch is the largest you've caught of a certain species, it will go into your aquarium, replacing your previous best catch of that species",
+            "- Regardless of whether it goes to the aquarium or not, you get coins and exp for catching a fish (determined by its weight, coins per kg, etc.)",
+            "\n**Fish** :fish:",
+            "- Fish are generated with a weight in between their minimum and maximum weight",
+            "- Tiers are based off of the weight of the fish in relation to their minimum and maximum weight",
+            "- There is a small chance that a fish spawns above its maximum weight (SS tier)",
+            "\n**Aquarium** :truck:",
+            "- Aquariums share shop-bought upgrades, but each separately earn revenue",
+            "- The first fish in an aquarium instantly maxes out its coin capacity when first caught",
+            "- Hourly revenue is determined both by fish quantity and the tiers of those fish"
         ],
         "fish": [
             "Usage: `${PREFIX}fish`",
@@ -58,6 +78,10 @@
             "\n- Shows you your pieces of equipment and their stats",
             "- Useful for deciding what to upgrade",
             "- Also accepts `${PREFIX}e`"
+        ],
+        "leaderboards": [
+            "Usage: `${PREFIX}leaderboards`",
+            "\n- Shows the top 20 players in the server by weight caught"
         ],
         "info": [
             "Usage: `${PREFIX}info <command>`",

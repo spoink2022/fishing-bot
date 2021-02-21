@@ -5,5 +5,14 @@
         "3": "#3899cd",
         "4": "#2b3f49",
         "5": "#1da2d8"
-    }
+    },
+    "cmd": {
+        "shop": "#215732",
+        "iteminfo": "#215732",
+        "info": "#dddddd",
+        "leaderboards": "#dddddd"
+    },
+    "rank": [
+        "#888888"
+    ]
 }

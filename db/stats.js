@@ -13,3 +13,9 @@ module.exports.integrateCatch = async function(userid, fishWeight) {
     await config.pquery(query, [grams, userid]);
     return;
 }
+
+module.exports.fetchWeightCaughtForLeaderboards = async function(useridArray) {
+    let query = 'SELECT userid, weight_caught FROM stats WHERE userid=ANY($1)';
+    let res = await config.pquery(query, [useridArray]);
+    return res;
+}
