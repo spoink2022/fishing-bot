@@ -45,12 +45,6 @@ module.exports.resetFishingCooldown = async function(userid) {
     return;
 }
 
-module.exports.integrateAquariumEarnings = async function(userid, locationID) {
-    let query = `UPDATE users SET last_collected_${locationID}=$1 WHERE userid=$2`;
-    await config.pquery(query, [Date.now(), userid]);
-    return;
-}
-
 module.exports.collectAquariumEarnings = async function(userid, amountCollected, locationID) {
     let query = `UPDATE users SET coins=coins+$1, last_collected_${locationID}=$2 WHERE userid=$3`;
     await config.pquery(query, [amountCollected, Date.now(), userid]);
