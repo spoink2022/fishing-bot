@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon bot.js",
-    "prod": "npm run bot.js"
+    "prod": "node bot.js"
   },
   "repository": {
     "type": "git",
