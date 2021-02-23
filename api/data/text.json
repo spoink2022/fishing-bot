@@ -9,7 +9,7 @@
         ],
         "Start": [
             "**Welcome!**",
-            "We know you're eager to start, so let's get straight to the fun commands:\n",
+            "We know you're eager to start, so let's get straight to the important commands:\n",
             "**${PREFIX}fish** - You fish! Cooldown is determined by your rod.",
             "**${PREFIX}aquarium** - View your largest catch of each species. And collect your revenue. :moneybag:",
             "**${PREFIX}shop** - Upgrade your equipment with coins. Tax included.",
@@ -20,8 +20,14 @@
             "- Better rods lower your cooldown",
             "- Better lines grant bonus exp per catch",
             "- Take advantage of the `${PREFIX}info <command name>`",
-            "- Fpr the nerds, detailed game mechanics are available at `${PREFIX}info mechanics`",
-            "- You will unlock the next location every 10 player levels",
+            "- For the nerds, detailed game mechanics are available at `${PREFIX}info mechanics`",
+            "- You will unlock the next location every 10 player levels. Don't lose hope!",
+            "\n**Other Commands to Try Out**",
+            "`${PREFIX}locationinfo 1`",
+            "`${PREFIX}fishinfo green sunfish`",
+            "`${PREFIX}iteminfo hooks`",
+            "`${PREFIX}iteminfo rusty hook`",
+            "`${PREFIX}leaderboards`",
             "\nSo what are you waiting for? Go fish!"
         ],
         "Mechanics": [
