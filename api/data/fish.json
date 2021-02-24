@@ -44,7 +44,7 @@
         "name": "grass pickerel",
         "sizeMin": 0.25,
         "sizeMax": 0.5,
-        "screenLen": 3.5,
+        "screenLen": 4,
         "value": 30,
         "location": 1
     },
@@ -62,7 +62,7 @@
         "name": "redear sunfish",
         "sizeMin": 0.2,
         "sizeMax": 0.4,
-        "screenLen": 3,
+        "screenLen": 3.5,
         "value": 24,
         "location": 1
     },
