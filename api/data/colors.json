@@ -9,6 +9,7 @@
     "cmd": {
         "shop": "#215732",
         "iteminfo": "#215732",
+        "collect": "#ffd700",
         "info": "#dddddd",
         "leaderboards": "#dddddd"
     },
