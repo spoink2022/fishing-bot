@@ -1,7 +1,5 @@
 const config = require('./config.js');
-console.log(Date.now());
-console.log(Date.now() + 1*24*60*60*1000);
-console.log(Date.now() + 3*24*60*60*1000);
+
 module.exports.setEvent = async function(eventInput) {
     let query = `INSERT INTO events (type, params, start_time, end_time, description, create_time) VALUES ($1, $2, $3, $4, $5, $6)`;
     await config.pquery(query, Object.values(eventInput));
