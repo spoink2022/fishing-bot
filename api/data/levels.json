@@ -61,19 +61,19 @@
     },
     {
         "level": 16,
-        "expRequired": 70
+        "expRequired": 80
     },
     {
         "level": 17,
-        "expRequired": 75
+        "expRequired": 85
     },
     {
         "level": 18,
-        "expRequired": 75
+        "expRequired": 85
     },
     {
         "level": 19,
-        "expRequired": 80
+        "expRequired": 100
     },
     {
         "level": 20,

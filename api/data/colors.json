@@ -11,7 +11,8 @@
         "iteminfo": "#215732",
         "collect": "#ffd700",
         "info": "#dddddd",
-        "leaderboards": "#dddddd"
+        "leaderboards": "#dddddd",
+        "locationinfo": "#dddddd"
     },
     "rank": [
         "#888888"
