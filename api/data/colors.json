@@ -1,4 +1,7 @@
 {
+    "admin": {
+        "1": "#00ff00"
+    },
     "locations": {
         "1": "#327fa2",
         "2": "#587e7e",
@@ -12,7 +15,8 @@
         "collect": "#ffd700",
         "info": "#dddddd",
         "leaderboards": "#dddddd",
-        "locationinfo": "#dddddd"
+        "locationinfo": "#dddddd",
+        "event": "#9933cc"
     },
     "rank": [
         "#888888"
