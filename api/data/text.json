@@ -3,9 +3,9 @@
         "General": [
             "**Below is a full list of available commands**\nDetailed information can be found using ${PREFIX}info <command>",
             "(For new players, please type `${PREFIX}info start`)",
-            "\n**Gameplay** :fish:\nfish, aquarium, shop, setlocation",
-            "**Profile** :trophy:\nstats, equipment, leaderboards",
-            "**Info** :question:\ninfo, iteminfo, fishinfo, locationinfo"
+            "\n**Gameplay Commands** :fish:\nfish, aquarium, collect, shop, setlocation",
+            "**Profile Commands** :trophy:\nstats, equipment, leaderboards",
+            "**Info Commands** :question:\ninfo, iteminfo, fishinfo, locationinfo"
         ],
         "Start": [
             "**Welcome!**",
@@ -62,6 +62,13 @@
             "- Upgrades can be bought in the shop, and increase both revenue *and* coin capacity.",
             "- After catching a new fish, you'll have a spike in revenue, so be sure to check the aquarium.",
             "- Also accepts `${PREFIX}a`"
+        ],
+        "collect": [
+            "Usage: `${PREFIX}collect <location number>`",
+            "Example: `${PREFIX}collect 1`",
+            "<location number> defaults to `all` when no number is provided",
+            "\n- A convenient way to collect money from your aquariums",
+            "- Also accepts `${PREFIX}c`"
         ],
         "shop": [
             "Usage: `${PREFIX}shop`",
