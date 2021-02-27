@@ -51,6 +51,13 @@ module.exports.collectAquariumEarnings = async function(userid, amountCollected,
     return;
 }
 
+module.exports.collectAllAquariumEarnings = async function(userid, amountCollected, locationIDs) {
+    let queryMiddle = locationIDs.map(num => `last_collected_${num}=$2`).join(',');
+    let query = `UPDATE users SET coins=coins+$1,${queryMiddle} WHERE userid=$3`;
+    await config.pquery(query, [amountCollected, Date.now(), userid]);
+    return;
+}
+
 module.exports.buyUpgrade = async function(userid, selection, price) {
     let query = `UPDATE users SET ${selection}=${selection}+1, coins=coins-$1 WHERE userid=$2`;
     await config.pquery(query, [price, userid]);

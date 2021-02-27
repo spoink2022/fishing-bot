@@ -1,4 +1,7 @@
 {
+    "admin": {
+        "1": "#00ff00"
+    },
     "locations": {
         "1": "#327fa2",
         "2": "#587e7e",
@@ -9,8 +12,11 @@
     "cmd": {
         "shop": "#215732",
         "iteminfo": "#215732",
+        "collect": "#ffd700",
         "info": "#dddddd",
-        "leaderboards": "#dddddd"
+        "leaderboards": "#dddddd",
+        "locationinfo": "#dddddd",
+        "event": "#9933cc"
     },
     "rank": [
         "#888888"

@@ -32,48 +32,48 @@
         "multiplier": 1.2,
         "max": 35,
         "level": 16,
-        "price": 100
+        "price": 150
     },
     {
         "name": "silver",
         "multiplier": 1.25,
-        "max": 50,
+        "max": 45,
         "level": 19,
-        "price": 200
+        "price": 250
     },
     {
         "name": "premium silver",
-        "multiplier": 1.3,
-        "max": 60,
+        "multiplier": 1.27,
+        "max": 50,
         "level": 24,
-        "price": 350
+        "price": 400
     },
     {
         "name": "superior silver",
-        "multiplier": 1.35,
-        "max": 70,
+        "multiplier": 1.3,
+        "max": 55,
         "level": 30,
-        "price": 450
+        "price": 500
     },
     {
         "name": "gold",
         "multiplier": 1.4,
-        "max": 100,
+        "max": 70,
         "level": 38,
-        "price": 600
+        "price": 650
     },
     {
         "name": "premium gold",
-        "multiplier": 1.5,
-        "max": 115,
+        "multiplier": 1.43,
+        "max": 75,
         "level": 42,
-        "price": 900
+        "price": 1000
     },
     {
         "name": "superior gold",
-        "multiplier": 1.6,
-        "max": 130,
+        "multiplier": 1.45,
+        "max": 80,
         "level": 47,
-        "price": 1200
+        "price": 1400
     }
 ]
