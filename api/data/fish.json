@@ -161,7 +161,7 @@
         "name": "pumpkinseed",
         "sizeMin": 0.1,
         "sizeMax": 0.2,
-        "screenLen": 3,
+        "screenLen": 2.5,
         "value": 14,
         "location": 2
     },
@@ -170,7 +170,7 @@
         "name": "spotted gar",
         "sizeMin": 0.9,
         "sizeMax": 1.8,
-        "screenLen": 4.5,
+        "screenLen": 5.5,
         "value": 12,
         "location": 2
     },
