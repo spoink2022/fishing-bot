@@ -53,21 +53,21 @@
         "multiplier": 1.3,
         "max": 50,
         "level": 30,
-        "price": 500
+        "price": 600
     },
     {
         "name": "gold",
         "multiplier": 1.4,
         "max": 60,
         "level": 38,
-        "price": 650
+        "price": 1000
     },
     {
         "name": "premium gold",
         "multiplier": 1.43,
         "max": 65,
         "level": 42,
-        "price": 1000
+        "price": 1200
     },
     {
         "name": "superior gold",

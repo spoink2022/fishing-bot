@@ -1,0 +1,32 @@
+[
+    {
+        "type": "catch_tier",
+        "chance": 100,
+        "data": {
+            "C": {
+                "chance": 30,
+                "min": 7,
+                "max": 14,
+                "reward": 0.5
+            },
+            "B": {
+                "chance": 30,
+                "min": 5,
+                "max": 10,
+                "reward": 0.9
+            },
+            "A": {
+                "chance": 25,
+                "min": 3,
+                "max": 7,
+                "reward": 1.4
+            },
+            "S": {
+                "chance": 15,
+                "min": 2,
+                "max": 4,
+                "reward": 3.5
+            }
+        }
+    }
+]

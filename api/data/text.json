@@ -44,7 +44,7 @@
             "\n**Aquarium** :truck:",
             "- Aquariums share shop-bought upgrades, but each separately earn revenue",
             "- The first fish in an aquarium instantly maxes out its coin capacity when first caught",
-            "- Hourly revenue is determined both by fish quantity and the tiers of those fish"
+            "- Hourly revenue is determined by fish quantity, rarity, and tier"
         ],
         "fish": [
             "Usage: `${PREFIX}fish`",

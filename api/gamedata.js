@@ -1,4 +1,5 @@
 const AquariumData = require('./data/aquarium.json');
+const QuestData = require('./data/quest.json');
 
 module.exports.getAquariumInfo = function(id) {
     return AquariumData[id];
@@ -25,4 +26,16 @@ module.exports.getHighestAquariumID = function(level) {
         }
     }
     return categoryLen-1;
+}
+
+module.exports.getRandomQuestData = function() {
+    let chanceNum = Math.floor(Math.random()*100)+1
+    for(const questTypeData of QuestData) {
+        chanceNum -= questTypeData.chance
+        if(chanceNum <= 0) {
+            return questTypeData;
+        }
+    }
+    console.log('ALERT - QUEST DATA');
+    return QuestData[0]; // just in case some sketchy stuff happens
 }

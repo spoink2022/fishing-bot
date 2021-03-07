@@ -1,5 +1,6 @@
 // General Dependencies
 const Datetime = require('../lib/misc/datetime.js');
+const { parseQuestString } = require('../lib/misc/str_functions.js');
 // Program
 
 const config = require('./config.js');
@@ -12,6 +13,7 @@ module.exports.fetchUser = async function(userid) {
         for(let i=1; i<=5; i++) {
             user[`last_collected_${i}`] = parseInt(user[`last_collected_${i}`]) || 0;
         }
+        if(user.quest) { user.quest = parseQuestString(user.quest); }
     }
     return user;
 }
@@ -67,5 +69,17 @@ module.exports.buyUpgrade = async function(userid, selection, price) {
 module.exports.setLocation = async function(userid, locationID) {
     let query = 'UPDATE users SET location=$1 WHERE userid=$2';
     await config.pquery(query, [locationID, userid]);
+    return;
+}
+
+module.exports.updateQuest = async function(userid, questString) {
+    let query = 'UPDATE users SET quest=$1 WHERE userid=$2';
+    await config.pquery(query, [questString, userid]);
+    return;
+}
+
+module.exports.handleQuestCollect = async function(userid, reward) {
+    let query = 'UPDATE users SET quest=NULL, lollipops=lollipops+$1 WHERE userid=$2 ';
+    await config.pquery(query, [reward, userid]);
     return;
 }
