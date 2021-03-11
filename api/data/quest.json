@@ -1,7 +1,7 @@
 [
     {
         "type": "catch_tier",
-        "chance": 100,
+        "chance": 10,
         "data": {
             "C": {
                 "chance": 30,
@@ -28,5 +28,35 @@
                 "reward": 3.5
             }
         }
+    },
+    {
+        "type": "catch_weight",
+        "chance": 90,
+        "data": [
+            {
+                "levelUnder": 20,
+                "min": 8,
+                "max": 20,
+                "reward": 0.4
+            },
+            {
+                "levelUnder": 30,
+                "min": 10,
+                "max": 22,
+                "reward": 0.38
+            },
+            {
+                "levelUnder": 40,
+                "min": 20,
+                "max": 30,
+                "reward": 0.16
+            },
+            {
+                "levelUnder": 50,
+                "min": 40,
+                "max": 60,
+                "reward": 0.085
+            }
+        ]
     }
 ]
