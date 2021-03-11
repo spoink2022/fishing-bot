@@ -97,63 +97,63 @@
     },
     {
         "level": 25,
-        "expRequired": 155
-    },
-    {
-        "level": 26,
-        "expRequired": 160
-    },
-    {
-        "level": 27,
-        "expRequired": 165
-    },
-    {
-        "level": 28,
-        "expRequired": 170
-    },
-    {
-        "level": 29,
         "expRequired": 180
     },
     {
-        "level": 30,
+        "level": 26,
+        "expRequired": 190
+    },
+    {
+        "level": 27,
+        "expRequired": 195
+    },
+    {
+        "level": 28,
         "expRequired": 200
     },
     {
-        "level": 31,
-        "expRequired": 205
-    },
-    {
-        "level": 32,
+        "level": 29,
         "expRequired": 210
     },
     {
-        "level": 33,
-        "expRequired": 220
-    },
-    {
-        "level": 34,
-        "expRequired": 230
-    },
-    {
-        "level": 35,
+        "level": 30,
         "expRequired": 250
     },
     {
+        "level": 31,
+        "expRequired": 300
+    },
+    {
+        "level": 32,
+        "expRequired": 330
+    },
+    {
+        "level": 33,
+        "expRequired": 360
+    },
+    {
+        "level": 34,
+        "expRequired": 390
+    },
+    {
+        "level": 35,
+        "expRequired": 400
+    },
+    {
         "level": 36,
-        "expRequired": 230
+        "expRequired": 420
     },
     {
         "level": 37,
-        "expRequired": 240
+        "expRequired": 440
     },
     {
         "level": 38,
-        "expRequired": 255
+        "expRequired": 450
     },
     {
         "level": 39,
-        "expRequired": 270
+        "expRequired": 490
     },
     {
         "level": 40,
