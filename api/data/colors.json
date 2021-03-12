@@ -17,7 +17,8 @@
         "leaderboards": "#dddddd",
         "locationinfo": "#dddddd",
         "event": "#9933cc",
-        "quest": "#ffac33"
+        "quest": "#ffac33",
+        "vote": "#32cd32"
     },
     "rank": [
         "#888888"
