@@ -5,7 +5,8 @@
             "(For new players, please type `${PREFIX}info start`)",
             "\n**Gameplay Commands** :fish:\nfish, aquarium, collect, shop, setlocation",
             "**Profile Commands** :trophy:\nstats, equipment, leaderboards",
-            "**Info Commands** :question:\ninfo, iteminfo, fishinfo, locationinfo"
+            "**Info Commands** :question:\ninfo, iteminfo, fishinfo, locationinfo",
+            "**Extra Commands** :eyes:\nvote"
         ],
         "Start": [
             "**Welcome!**",
@@ -121,6 +122,12 @@
             "\n- Gives you all information about a given location",
             "- Includes unlock level, all fish, fish rarity",
             "- Also accepts `${PREFIX}li`"
+        ],
+        "vote": [
+            "Usage: `${PREFIX}vote`",
+            "\n- Returns a link to the voting page",
+            "- Vote to reset your fishing cooldown",
+            "- Also accepts `${PREFIX}v`"
         ]
     }
 }

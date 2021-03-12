@@ -18,7 +18,8 @@
         "locationinfo": "#dddddd",
         "event": "#9933cc",
         "quest": "#ffac33",
-        "vote": "#32cd32"
+        "voteReady": "#32cd32",
+        "voteNotReady": "#ffff00"
     },
     "rank": [
         "#888888"

@@ -10,6 +10,7 @@ module.exports.fetchUser = async function(userid) {
     let user = (await config.pquery(query, [userid]))[0];
     if(user) {
         user.cooldown = parseInt(user.cooldown)
+        if(user.next_vote) { user.next_vote = parseInt(user.next_vote); }
         for(let i=1; i<=5; i++) {
             user[`last_collected_${i}`] = parseInt(user[`last_collected_${i}`]) || 0;
         }
@@ -47,9 +48,9 @@ module.exports.resetFishingCooldown = async function(userid) {
     return;
 }
 
-module.exports.removeFishingCooldown = async function(userid) {
-    let query = 'UPDATE users SET cooldown=0 WHERE userid=$1';
-    await config.pquery(query, [userid]);
+module.exports.removeFishingCooldown = async function(userid) { // also logs vote timestamp
+    let query = 'UPDATE users SET cooldown=0, next_vote=$1 WHERE userid=$2';
+    await config.pquery(query, [Date.now()+1000*60*60*12, userid]);
     return;
 }
 
