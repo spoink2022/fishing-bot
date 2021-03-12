@@ -25,6 +25,7 @@
     "@top-gg/sdk": "3.0.9",
     "canvas": "2.6.1",
     "discord.js": "12.5.1",
+    "express": "4.17.1",
     "pg": "8.5.1",
     "topgg-autoposter": "1.1.7"
   }
