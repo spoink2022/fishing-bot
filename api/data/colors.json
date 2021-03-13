@@ -19,7 +19,8 @@
         "event": "#9933cc",
         "quest": "#ffac33",
         "voteReady": "#32cd32",
-        "voteNotReady": "#ffff00"
+        "voteNotReady": "#ffff00",
+        "server": "#79b9b4"
     },
     "rank": [
         "#888888"
