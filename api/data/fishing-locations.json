@@ -63,7 +63,7 @@
         "level": 30,
         "zoom": 1.5,
         "fish": [
-            {"id": 31, "chance": 8.5},
+            {"id": 31, "chance": 8},
             {"id": 32, "chance": 3},
             {"id": 33, "chance": 4},
             {"id": 34, "chance": 3},
@@ -76,7 +76,7 @@
             {"id": 41, "chance": 10},
             {"id": 42, "chance": 2},
             {"id": 43, "chance": 12},
-            {"id": 44, "chance": 0.5},
+            {"id": 44, "chance": 1},
             {"id": 45, "chance": 1}
         ]
     },

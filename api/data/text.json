@@ -3,7 +3,7 @@
         "General": [
             "**Below is a full list of available commands**\nDetailed information can be found using ${PREFIX}info <command>",
             "(For new players, please type `${PREFIX}info start`)",
-            "\n**Gameplay Commands** :fish:\nfish, aquarium, collect, shop, setlocation",
+            "\n**Gameplay Commands** :fish:\nfish, aquarium, collect, shop, setlocation, quest",
             "**Profile Commands** :trophy:\nstats, equipment, leaderboards",
             "**Info Commands** :question:\ninfo, iteminfo, fishinfo, locationinfo",
             "**Extra Commands** :eyes:\nvote, server"
@@ -81,6 +81,12 @@
             "Usage: `${PREFIX}setlocation <location number>`",
             "Example: `${PREFIX}setlocation 2`",
             "\n- Sets your fishing location to somewhere else (given that you have unlocked that location)"
+        ],
+        "quest": [
+            "Usage: `${PREFIX}quest`",
+            "\n- Opens up your quest page",
+            "- Claim quest rewards from here too",
+            "- Also accepts `${PREFIX}q`"
         ],
         "stats": [
             "Usage: `${PREFIX}stats`",
