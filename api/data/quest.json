@@ -1,7 +1,7 @@
 [
     {
         "type": "catch_tier",
-        "chance": 10,
+        "chance": 35,
         "data": {
             "C": {
                 "chance": 30,
@@ -31,7 +31,7 @@
     },
     {
         "type": "catch_weight",
-        "chance": 90,
+        "chance": 25,
         "data": [
             {
                 "levelUnder": 20,
@@ -56,7 +56,36 @@
                 "min": 40,
                 "max": 60,
                 "reward": 0.085
+            },
+            {
+                "levelUnder": 60,
+                "min": 40,
+                "max": 60,
+                "reward": 0.085
             }
         ]
+    },
+    {
+        "type": "catch_fish",
+        "chance": 40,
+        "data": {
+            "reward": 0.45,
+            "Common": {
+                "min": 3,
+                "max": 5
+            },
+            "Uncommon": {
+                "min": 2,
+                "max": 4
+            },
+            "Rare": {
+                "min": 1,
+                "max": 3
+            },
+            "Super Rare": {
+                "min": 1,
+                "max": 1
+            }
+        }
     }
 ]
