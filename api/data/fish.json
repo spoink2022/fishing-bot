@@ -6,6 +6,7 @@
     {
         "id": 1,
         "name": "blacktail shiner",
+        "sizeClass": 1,
         "sizeMin": 0.05,
         "sizeMax": 0.2,
         "screenLen": 3,
@@ -15,6 +16,7 @@
     {
         "id": 2,
         "name": "bluegill",
+        "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.3,
         "screenLen": 3,
@@ -24,6 +26,7 @@
     {
         "id": 3,
         "name": "channel catfish",
+        "sizeClass": 4,
         "sizeMin": 2,
         "sizeMax": 3.5,
         "screenLen": 7,
@@ -33,6 +36,7 @@
     {
         "id": 4,
         "name": "golden shiner",
+        "sizeClass": 1,
         "sizeMin": 0.2,
         "sizeMax": 0.35,
         "screenLen": 3.5,
@@ -42,6 +46,7 @@
     {
         "id": 5,
         "name": "grass pickerel",
+        "sizeClass": 2,
         "sizeMin": 0.25,
         "sizeMax": 0.5,
         "screenLen": 4.5,
@@ -51,6 +56,7 @@
     {
         "id": 6,
         "name": "green sunfish",
+        "sizeClass": 1,
         "sizeMin": 0.05,
         "sizeMax": 0.2,
         "screenLen": 3,
@@ -60,6 +66,7 @@
     {
         "id": 7,
         "name": "redear sunfish",
+        "sizeClass": 2,
         "sizeMin": 0.2,
         "sizeMax": 0.4,
         "screenLen": 3,
@@ -69,6 +76,7 @@
     {
         "id": 8,
         "name": "smallmouth buffalo",
+        "sizeClass": 4,
         "sizeMin": 1.5,
         "sizeMax": 2.7,
         "screenLen": 6.5,
@@ -78,6 +86,7 @@
     {
         "id": 9,
         "name": "spotted bass",
+        "sizeClass": 3,
         "sizeMin": 0.3,
         "sizeMax": 1,
         "screenLen": 4,
@@ -87,6 +96,7 @@
     {
         "id": 10,
         "name": "white crappie",
+        "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.3,
         "screenLen": 3,
@@ -96,6 +106,7 @@
     {
         "id": 11,
         "name": "black bullhead catfish",
+        "sizeClass": 2,
         "sizeMin": 0.4,
         "sizeMax": 2,
         "screenLen": 5,
@@ -105,6 +116,7 @@
     {
         "id": 12,
         "name": "bluntnose minnow",
+        "sizeClass": 1,
         "sizeMin": 0.04,
         "sizeMax": 0.11,
         "screenLen": 2,
@@ -114,6 +126,7 @@
     {
         "id": 13,
         "name": "bowfin",
+        "sizeClass": 4,
         "sizeMin": 2,
         "sizeMax": 6,
         "screenLen": 8,
@@ -123,6 +136,7 @@
     {
         "id": 14,
         "name": "chain pickerel",
+        "sizeClass": 3,
         "sizeMin": 1.2,
         "sizeMax": 2,
         "screenLen": 5,
@@ -132,6 +146,7 @@
     {
         "id": 15,
         "name": "common shiner",
+        "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.25,
         "screenLen": 3,
@@ -141,6 +156,7 @@
     {
         "id": 16,
         "name": "freshwater drum",
+        "sizeClass": 4,
         "sizeMin": 1,
         "sizeMax": 5,
         "screenLen": 6,
@@ -150,6 +166,7 @@
     {
         "id": 17,
         "name": "largemouth bass",
+        "sizeClass": 2,
         "sizeMin": 0.6,
         "sizeMax": 1.8,
         "screenLen": 4.5,
@@ -159,6 +176,7 @@
     {
         "id": 18,
         "name": "pumpkinseed",
+        "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.2,
         "screenLen": 2.5,
@@ -168,6 +186,7 @@
     {
         "id": 19,
         "name": "spotted gar",
+        "sizeClass": 3,
         "sizeMin": 0.9,
         "sizeMax": 1.8,
         "screenLen": 5.5,
@@ -177,6 +196,7 @@
     {
         "id": 20,
         "name": "black crappie",
+        "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.3,
         "screenLen": 3,
@@ -186,6 +206,7 @@
     {
         "id": 21,
         "name": "colorado golden trout",
+        "sizeClass": 2,
         "sizeMin": 0.3,
         "sizeMax": 1.5,
         "screenLen": 5,
@@ -195,6 +216,7 @@
     {
         "id": 22,
         "name": "cutthroat trout",
+        "sizeClass": 2,
         "sizeMin": 0.2,
         "sizeMax": 1.5,
         "screenLen": 5,
@@ -204,6 +226,7 @@
     {
         "id": 23,
         "name": "rainbow trout",
+        "sizeClass": 3,
         "sizeMin": 0.5,
         "sizeMax": 3,
         "screenLen": 7,
@@ -213,15 +236,17 @@
     {
         "id": 24,
         "name": "white bass",
+        "sizeClass": 2,
         "sizeMin": 0.5,
         "sizeMax": 2,
-        "screenLen": 5.5,
+        "screenLen": 5,
         "value": 14,
         "location": 3
     },
     {
         "id": 25,
         "name": "white sucker",
+        "sizeClass": 3,
         "sizeMin": 1,
         "sizeMax": 2.5,
         "screenLen": 6.5,
@@ -231,6 +256,7 @@
     {
         "id": 26,
         "name": "northern pike",
+        "sizeClass": 4,
         "sizeMin": 4,
         "sizeMax": 10,
         "screenLen": 10,
@@ -240,6 +266,7 @@
     {
         "id": 27,
         "name": "redfin pickerel",
+        "sizeClass": 2,
         "sizeMin": 0.4,
         "sizeMax": 1,
         "screenLen": 4.5,
@@ -249,6 +276,7 @@
     {
         "id": 28,
         "name": "sauger",
+        "sizeClass": 3,
         "sizeMin": 1,
         "sizeMax": 2.5,
         "screenLen": 6.5,
@@ -258,6 +286,7 @@
     {
         "id": 29,
         "name": "walleye",
+        "sizeClass": 4,
         "sizeMin": 2,
         "sizeMax": 5,
         "screenLen": 8,
@@ -267,6 +296,7 @@
     {
         "id": 30,
         "name": "yellow perch",
+        "sizeClass": 1,
         "sizeMin": 0.5,
         "sizeMax": 1,
         "screenLen": 4,
@@ -276,6 +306,7 @@
     {
         "id": 31,
         "name": "american shad",
+        "sizeClass": 2,
         "sizeMin": 1.5,
         "sizeMax": 4,
         "screenLen": 5,
@@ -285,6 +316,7 @@
     {
         "id": 32,
         "name": "common carp",
+        "sizeClass": 4,
         "sizeMin": 2,
         "sizeMax": 14,
         "screenLen": 7,
@@ -294,6 +326,7 @@
     {
         "id": 33,
         "name": "flathead catfish",
+        "sizeClass": 4,
         "sizeMin": 5,
         "sizeMax": 20,
         "screenLen": 8.5,
@@ -303,6 +336,7 @@
     {
         "id": 34,
         "name": "longnose gar",
+        "sizeClass": 3,
         "sizeMin": 3,
         "sizeMax": 10,
         "screenLen": 9,
@@ -312,6 +346,7 @@
     {
         "id": 35,
         "name": "smallmouth bass",
+        "sizeClass": 2,
         "sizeMin": 0.5,
         "sizeMax": 1.6,
         "screenLen": 3,
@@ -321,6 +356,7 @@
     {
         "id": 36,
         "name": "brown trout",
+        "sizeClass": 3,
         "sizeMin": 1,
         "sizeMax": 5,
         "screenLen": 6,
@@ -330,6 +366,7 @@
     {
         "id": 37,
         "name": "redband trout",
+        "sizeClass": 2,
         "sizeMin": 0.5,
         "sizeMax": 1.8,
         "screenLen": 3,
@@ -339,6 +376,7 @@
     {
         "id": 38,
         "name": "redbreast sunfish",
+        "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.25,
         "screenLen": 2,
@@ -348,6 +386,7 @@
     {
         "id": 39,
         "name": "rock bass",
+        "sizeClass": 1,
         "sizeMin": 0.2,
         "sizeMax": 0.5,
         "screenLen": 2.5,
@@ -357,6 +396,7 @@
     {
         "id": 40,
         "name": "brown bullhead catfish",
+        "sizeClass": 2,
         "sizeMin": 0.5,
         "sizeMax": 1.2,
         "screenLen": 4,
@@ -366,6 +406,7 @@
     {
         "id": 41,
         "name": "common snook",
+        "sizeClass": 3,
         "sizeMin": 1.5,
         "sizeMax": 10.5,
         "screenLen": 7,
@@ -375,6 +416,7 @@
     {
         "id": 42,
         "name": "florida gar",
+        "sizeClass": 3,
         "sizeMin": 4.3,
         "sizeMax": 8,
         "screenLen": 8,
@@ -384,6 +426,7 @@
     {
         "id": 43,
         "name": "warmouth",
+        "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.4,
         "screenLen": 2,
@@ -393,6 +436,7 @@
     {
         "id": 44,
         "name": "gafftopsail catfish",
+        "sizeClass": 2,
         "sizeMin": 0.5,
         "sizeMax": 3,
         "screenLen": 4.5,
@@ -402,6 +446,7 @@
     {
         "id": 45,
         "name": "butterfly peacock bass",
+        "sizeClass": 2,
         "sizeMin": 1,
         "sizeMax": 3.5,
         "screenLen": 4.5,
@@ -411,6 +456,7 @@
     {
         "id": 46,
         "name": "tarpon",
+        "sizeClass": 4,
         "sizeMin": 15,
         "sizeMax": 70,
         "screenLen": 10,
@@ -420,6 +466,7 @@
     {
         "id": 47,
         "name": "alligator gar",
+        "sizeClass": 4,
         "sizeMin": 6,
         "sizeMax": 40,
         "screenLen": 7.5,
@@ -429,6 +476,7 @@
     {
         "id": 48,
         "name": "blue catfish",
+        "sizeClass": 3,
         "sizeMin": 10,
         "sizeMax": 25,
         "screenLen": 6.5,
@@ -438,6 +486,7 @@
     {
         "id": 49,
         "name": "atlantic salmon",
+        "sizeClass": 2,
         "sizeMin": 5,
         "sizeMax": 15,
         "screenLen": 5.5,
@@ -447,6 +496,7 @@
     {
         "id": 50,
         "name": "brook trout",
+        "sizeClass": 2,
         "sizeMin": 0.3,
         "sizeMax": 3,
         "screenLen": 3,
@@ -456,6 +506,7 @@
     {
         "id": 51,
         "name": "clear muskie",
+        "sizeClass": 3,
         "sizeMin": 5,
         "sizeMax": 30,
         "screenLen": 7,
@@ -465,6 +516,7 @@
     {
         "id": 52,
         "name": "tiger muskie",
+        "sizeClass": 2,
         "sizeMin": 1.5,
         "sizeMax": 15,
         "screenLen": 5.5,
@@ -474,6 +526,7 @@
     {
         "id": 53,
         "name": "sturgeon",
+        "sizeClass": 4,
         "sizeMin": 10,
         "sizeMax": 60,
         "screenLen": 10,
@@ -483,6 +536,7 @@
     {
         "id": 54,
         "name": "muskellunge",
+        "sizeClass": 3,
         "sizeMin": 4,
         "sizeMax": 20,
         "screenLen": 6.5,
@@ -492,6 +546,7 @@
     {
         "id": 55,
         "name": "longnose sucker",
+        "sizeClass": 1,
         "sizeMin": 0.7,
         "sizeMax": 1.5,
         "screenLen": 3,
@@ -501,6 +556,7 @@
     {
         "id": 56,
         "name": "california roach",
+        "sizeClass": 1,
         "sizeMin": 0.05,
         "sizeMax": 0.1,
         "screenLen": 2,
@@ -510,6 +566,7 @@
     {
         "id": 57,
         "name": "white catfish",
+        "sizeClass": 1,
         "sizeMin": 0.4,
         "sizeMax": 1,
         "screenLen": 2.5,
