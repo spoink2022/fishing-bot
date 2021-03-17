@@ -518,7 +518,7 @@
             "maxWeight": 25,
             "name": "Full Wooden",
             "level": 38,
-            "price": 800
+            "price": 3000
         },
         {
             "id": 21,
@@ -526,7 +526,7 @@
             "maxWeight": 30,
             "name": "Full Rusty",
             "level": 40,
-            "price": 850
+            "price": 3200
         },
         {
             "id": 22,
@@ -534,7 +534,7 @@
             "maxWeight": 35,
             "name": "Full Tin",
             "level": 42,
-            "price": 900
+            "price": 3400
         },
         {
             "id": 23,
@@ -542,7 +542,7 @@
             "maxWeight": 40,
             "name": "Full Aluminum",
             "level": 44,
-            "price": 950
+            "price": 3600
         },
         {
             "id": 24,
@@ -550,7 +550,7 @@
             "maxWeight": 50,
             "name": "Full Copper",
             "level": 46,
-            "price": 975
+            "price": 3800
         },
         {
             "id": 25,
@@ -558,7 +558,7 @@
             "maxWeight": 60,
             "name": "Full Bronze",
             "level": 49,
-            "price": 1000
+            "price": 4000
         }
     ]
 }
