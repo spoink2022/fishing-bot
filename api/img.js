@@ -19,3 +19,7 @@ module.exports.fetchAssetUrl = function(asset) {
 module.exports.fetchAquariumUrl = function(label) {
     return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/equipment/${label}.png`;
 }
+
+module.exports.fetchBaitImgUrl = function(bait) {
+    return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/bait/${bait}.png`;
+}
