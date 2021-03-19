@@ -1,5 +1,6 @@
 {
     "corn": {
+        "id": 0,
         "tier": "C",
         "sizeClass": 1,
         "catchSmaller": false,
@@ -10,6 +11,7 @@
         "max": 7
     },
     "worm": {
+        "id": 1,
         "tier": "B",
         "sizeClass": 1,
         "catchSmaller": false,
@@ -20,6 +22,7 @@
         "max": 7
     },
     "meat": {
+        "id": 2,
         "tier": "A",
         "sizeClass": 1,
         "catchSmaller": false,
@@ -30,6 +33,7 @@
         "max": 6
     },
     "leeches": {
+        "id": 3,
         "tier": "B",
         "sizeClass": 2,
         "catchSmaller": false,
@@ -40,36 +44,44 @@
         "max": 5
     },
     "crayfish": {
+        "id": 4,
         "tier": "D",
         "sizeClass": 3,
         "catchSmaller": false,
+        "stars": 2,
         "value": 4,
         "chance": 10,
         "min": 2,
         "max": 4
     },
     "crab": {
+        "id": 5,
         "tier": "B",
         "sizeClass": 3,
         "catchSmaller": false,
+        "stars": 3,
         "value": 5.5,
         "chance": 15,
         "min": 1,
         "max": 4
     },
     "liver": {
+        "id": 6,
         "tier": "D",
         "sizeClass": 4,
         "catchSmaller": false,
+        "stars": 3,
         "value": 10,
         "chance": 5,
         "min": 1,
         "max": 3
     },
     "peas": {
+        "id": 7,
         "tier": "D",
         "sizeClass": 1,
         "catchSmaller": true,
+        "stars": 1,
         "value": 1,
         "chance": 15,
         "min": 3,
