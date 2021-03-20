@@ -90,3 +90,9 @@ module.exports.handleQuestCollect = async function(userid, reward) {
     await config.pquery(query, [reward, userid]);
     return;
 }
+
+module.exports.updateBaits = async function(userid, baitList) {
+    let query = 'UPDATE users SET bait=$1 WHERE userid=$2';
+    await config.pquery(query, [baitList, userid]);
+    return;
+}
