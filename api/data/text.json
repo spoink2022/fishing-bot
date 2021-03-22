@@ -3,8 +3,9 @@
         "General": [
             "**Below is a full list of available commands**\nDetailed information can be found using ${PREFIX}info <command>",
             "(For new players, please type `${PREFIX}info start`)",
-            "\n**Gameplay Commands** :fish:\nfish, aquarium, collect, shop, setlocation, quest",
-            "**Profile Commands** :trophy:\nstats, equipment, leaderboards",
+            "\n**Basic Gameplay** :fish:\nfish, aquarium, collect, shop",
+            "**Advanced Gameplay** :octopus:\nsetlocation, quest, baitshop",
+            "**Profile Commands** :trophy:\nstats, equipment, baits, leaderboards",
             "**Info Commands** :question:\ninfo, iteminfo, fishinfo, locationinfo",
             "**Extra Commands** :eyes:\nvote, server"
         ],
@@ -48,9 +49,11 @@
             "- Hourly revenue is determined by fish quantity, rarity, and tier"
         ],
         "fish": [
-            "Usage: `${PREFIX}fish`",
-            "\n- Fishes at the current location of the player.",
-            "- The fish you catch will *always* be close to your hook",
+            "Usage: `${PREFIX}fish <bait>`",
+            "Example: `${PREFIX}fish worms`",
+            "\n- Just type `${PREFIX}fish` to not use bait.",
+            "- Fishes at the current location of the player.",
+            "- The fish you catch will *always* be close to your hook.",
             "- Don't forget to click the hook that appears! :hook:",
             "- Also accepts `${PREFIX}f`"
         ],
@@ -77,6 +80,13 @@
             "- :lock: = not unlocked yet. :credit_card: = not enough money",
             "- React with the corresponding icon to purchase an item"
         ],
+        "baitshop": [
+            "Usage: `${PREFIX}baitshop`",
+            "\n- Presents the bait shop page",
+            "- Refreshes daily",
+            "- :credit_card: = not enough quest points",
+            "- React with the corresponding icon to purchase an item"
+        ],
         "setlocation": [
             "Usage: `${PREFIX}setlocation <location number>`",
             "Example: `${PREFIX}setlocation 2`",
@@ -92,6 +102,11 @@
             "Usage: `${PREFIX}stats`",
             "\n- Shows you your stats.",
             "- Also accepts `${PREFIX}s`"
+        ],
+        "baits": [
+            "Usage: `${PREFIX}baits`",
+            "\n- Shows your inventory of baits.",
+            "- Also accepts `${PREFIX}b`"
         ],
         "equipment": [
             "Usage: `${PREFIX}equipment`",
