@@ -87,7 +87,7 @@
             "cooldown": 3900000,
             "maxWeight": 40,
             "level": 43,
-            "price": 3300,
+            "price": 4000,
             "size": 1.5
         },
         {
@@ -96,7 +96,7 @@
             "cooldown": 3900000,
             "maxWeight": 55,
             "level": 46,
-            "price": 3500,
+            "price": 5500,
             "size": 1.5
         },
         {
@@ -105,7 +105,7 @@
             "cooldown": 3840000,
             "maxWeight": 70,
             "level": 49,
-            "price": 5000,
+            "price": 8000,
             "size": 1.5
         }
     ],
@@ -277,7 +277,7 @@
             "rgb": "#005a00",
             "maxWeight": 21,
             "level": 37,
-            "price": 1800,
+            "price": 2000,
             "bonus": 4
         },
         {
@@ -287,7 +287,7 @@
             "rgb": "#004600",
             "maxWeight": 24,
             "level": 39,
-            "price": 1900,
+            "price": 2500,
             "bonus": 4
         },
         {
@@ -297,7 +297,7 @@
             "rgb": "#003264",
             "maxWeight": 30,
             "level": 40,
-            "price": 2000,
+            "price": 3000,
             "bonus": 5
         },
         {
@@ -307,7 +307,7 @@
             "rgb": "#002d5a",
             "maxWeight": 34,
             "level": 42,
-            "price": 2100,
+            "price": 3100,
             "bonus": 5
         },
         {
@@ -317,7 +317,7 @@
             "rgb": "#002850",
             "maxWeight": 38,
             "level": 44,
-            "price": 2200,
+            "price": 3200,
             "bonus": 5
         },
         {
@@ -327,7 +327,7 @@
             "rgb": "#002346",
             "maxWeight": 44,
             "level": 45,
-            "price": 2300,
+            "price": 3300,
             "bonus": 5
         },
         {
@@ -337,7 +337,7 @@
             "rgb": "#001e3c",
             "maxWeight": 50,
             "level": 47,
-            "price": 2400,
+            "price": 3400,
             "bonus": 5
         },
         {
@@ -347,7 +347,7 @@
             "rgb": "#999999",
             "maxWeight": 60,
             "level": 49,
-            "price": 3000,
+            "price": 5000,
             "bonus": 6
         }
     ],
