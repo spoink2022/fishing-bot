@@ -105,6 +105,12 @@ module.exports.updateQuest = async function(userid, questString) {
     return;
 }
 
+module.exports.deleteQuest = async function(userid) {
+    let query = 'UPDATE users SET quest=NULL WHERE userid=$1';
+    await config.pquery(query, [userid]);
+    return;
+}
+
 module.exports.handleQuestCollect = async function(userid, reward) {
     let query = 'UPDATE users SET quest=NULL, lollipops=lollipops+$1 WHERE userid=$2';
     await config.pquery(query, [reward, userid]);
