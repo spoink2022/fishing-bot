@@ -1,5 +1,6 @@
 const AquariumData = require('./data/aquarium.json');
 const BaitData = require('./data/bait.json');
+const BaitNames = Object.keys(BaitData);
 const QuestData = require('./data/quest.json');
 
 module.exports.getAquariumInfo = function(id) {
@@ -31,6 +32,9 @@ module.exports.getHighestAquariumID = function(level) {
 
 module.exports.getAllBaitData = function() {
     return BaitData;
+}
+module.exports.getAllBaitNames = function() {
+    return BaitNames;
 }
 
 module.exports.getBaitData = function(bait) {

@@ -19,6 +19,18 @@ module.exports.fetchUser = async function(userid) {
     return user;
 }
 
+module.exports.fetchInventory = async function(userid) {
+    let query = 'SELECT * FROM inventory WHERE userid=$1';
+    let inventory = (await config.pquery(query, [userid]))[0];
+    return inventory;
+}
+
+module.exports.updateInventory = async function(userid, column, amount) {
+    let query = `UPDATE inventory SET ${column}=${column}+$1 WHERE userid=$2`;
+    await config.pquery(query, [amount, userid]);
+    return;
+}
+
 module.exports.initializeAccount = async function(userid, cb) {
     let dateStr = Datetime.getDateAsString();
     let query = 'INSERT INTO users (userid, date_joined, last_collected_1) VALUES ($1, $2, $3)';
@@ -26,6 +38,8 @@ module.exports.initializeAccount = async function(userid, cb) {
     query = 'INSERT INTO aquarium (userid) VALUES ($1)';
     await config.pquery(query, [userid]);
     query = 'INSERT INTO stats (userid) VALUES ($1)';
+    await config.pquery(query, [userid]);
+    query = 'INSERT INTO inventory (userid) VALUES ($1)';
     await config.pquery(query, [userid]);
     cb();
 }
