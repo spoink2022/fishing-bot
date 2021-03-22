@@ -6,20 +6,18 @@
         "catchSmaller": false,
         "value": 1,
         "stars": 1,
-        "chance": 20,
-        "min": 3,
-        "max": 7
+        "min": 6,
+        "max": 12
     },
-    "worm": {
+    "worms": {
         "id": 1,
         "tier": "B",
         "sizeClass": 1,
         "catchSmaller": false,
         "value": 1.5,
         "stars": 1,
-        "chance": 10,
-        "min": 3,
-        "max": 7
+        "min": 5,
+        "max": 10
     },
     "meat": {
         "id": 2,
@@ -28,9 +26,8 @@
         "catchSmaller": false,
         "value": 2.5,
         "stars": 2,
-        "chance": 15,
-        "min": 2,
-        "max": 6
+        "min": 4,
+        "max": 8
     },
     "leeches": {
         "id": 3,
@@ -39,9 +36,8 @@
         "catchSmaller": false,
         "stars": 2,
         "value": 2.5,
-        "chance": 10,
-        "min": 2,
-        "max": 5
+        "min": 4,
+        "max": 8
     },
     "crayfish": {
         "id": 4,
@@ -50,9 +46,8 @@
         "catchSmaller": false,
         "stars": 2,
         "value": 4,
-        "chance": 10,
-        "min": 2,
-        "max": 4
+        "min": 3,
+        "max": 6
     },
     "crab": {
         "id": 5,
@@ -61,9 +56,8 @@
         "catchSmaller": false,
         "stars": 3,
         "value": 5.5,
-        "chance": 15,
-        "min": 1,
-        "max": 4
+        "min": 3,
+        "max": 5
     },
     "liver": {
         "id": 6,
@@ -72,9 +66,8 @@
         "catchSmaller": false,
         "stars": 3,
         "value": 10,
-        "chance": 5,
-        "min": 1,
-        "max": 3
+        "min": 2,
+        "max": 4
     },
     "peas": {
         "id": 7,
@@ -83,8 +76,7 @@
         "catchSmaller": true,
         "stars": 1,
         "value": 1,
-        "chance": 15,
-        "min": 3,
-        "max": 7
+        "min": 5,
+        "max": 10
     }
 }

@@ -6,11 +6,17 @@ const FishNameMap = {};
 for(const[key, val] of FishData.entries()) {
     FishNameMap[val.name.replace(/ /g, '_')] = key;
 }
-for(const val of FishingLocationsData.values()) {
-    for(const fishChance of val.fish) {
-        FishData[fishChance.id].chance = fishChance.chance;
+for (let i=0; i<FishingLocationsData.length; i++) {
+    const locationFish = FishingLocationsData[i].fish;
+    for(let j=0; j<locationFish.length; j++) {
+        const fishChanceObj = locationFish[j];
+        FishData[fishChanceObj.id].chance = fishChanceObj.chance;
+
+        FishingLocationsData[i].fish[j].sizeClass = FishData[fishChanceObj.id].sizeClass;
     }
 }
+
+
 
 module.exports.mapFishNameToID = function(fishName) {
     return FishNameMap[fishName];
