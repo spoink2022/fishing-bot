@@ -21,7 +21,8 @@
         "quest": "#ffac33",
         "voteReady": "#32cd32",
         "voteNotReady": "#ffff00",
-        "server": "#79b9b4"
+        "server": "#79b9b4",
+        "baitshop": "#215732"
     },
     "rank": [
         "#888888"

@@ -17,3 +17,9 @@ module.exports.insertEntry = async function(o) {
     await config.pquery(query, [o.start_time, o.end_time, o.option_1, o.price_1, o.qt_1, o.option_2, o.price_2, o.qt_2, o.option_3, o.price_3, o.qt_3, o.date_string]);
     return;
 }
+
+module.exports.getCurrentEntry = async function() {
+    let query = 'SELECT * FROM bait_shop WHERE start_time <= $1 AND end_time > $1';
+    let entry = (await config.pquery(query, [Date.now()]))[0];
+    return entry;
+}
