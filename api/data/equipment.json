@@ -85,7 +85,7 @@
             "id": 9,
             "name": "Metal Ocean",
             "cooldown": 3900000,
-            "maxWeight": 40,
+            "maxWeight": 34,
             "level": 43,
             "price": 4000,
             "size": 1.5
@@ -94,17 +94,35 @@
             "id": 10,
             "name": "Heavy Metal Ocean",
             "cooldown": 3900000,
-            "maxWeight": 55,
+            "maxWeight": 38,
             "level": 46,
             "price": 5500,
             "size": 1.5
         },
         {
             "id": 11,
-            "name": "Luxury",
+            "name": "Amazonian",
             "cooldown": 3840000,
-            "maxWeight": 70,
+            "maxWeight": 45,
             "level": 49,
+            "price": 6000,
+            "size": 1.5
+        },
+        {
+            "id": 11,
+            "name": "Deluxe Amazonian",
+            "cooldown": 3840000,
+            "maxWeight": 55,
+            "level": 51,
+            "price": 7000,
+            "size": 1.5
+        },
+        {
+            "id": 12,
+            "name": "Prime Amazonian",
+            "cooldown": 3780000,
+            "maxWeight": 60,
+            "level": 55,
             "price": 8000,
             "size": 1.5
         }
@@ -305,7 +323,7 @@
             "name": "Ocean B",
             "px": 3,
             "rgb": "#002d5a",
-            "maxWeight": 34,
+            "maxWeight": 32,
             "level": 42,
             "price": 3100,
             "bonus": 5
@@ -315,7 +333,7 @@
             "name": "Ocean A",
             "px": 3,
             "rgb": "#002850",
-            "maxWeight": 38,
+            "maxWeight": 34,
             "level": 44,
             "price": 3200,
             "bonus": 5
@@ -325,7 +343,7 @@
             "name": "Ocean AA",
             "px": 3,
             "rgb": "#002346",
-            "maxWeight": 44,
+            "maxWeight": 37,
             "level": 45,
             "price": 3300,
             "bonus": 5
@@ -335,19 +353,49 @@
             "name": "Ocean AAA",
             "px": 3,
             "rgb": "#001e3c",
-            "maxWeight": 50,
+            "maxWeight": 42,
             "level": 47,
             "price": 3400,
             "bonus": 5
         },
         {
             "id": 23,
-            "name": "Super Thick",
-            "px": 4,
-            "rgb": "#999999",
-            "maxWeight": 60,
+            "name": "Amazonian",
+            "px": 3,
+            "rgb": "#c4472e",
+            "maxWeight": 45,
             "level": 49,
-            "price": 5000,
+            "price": 3500,
+            "bonus": 6
+        },
+        {
+            "id": 24,
+            "name": "Amazonian A",
+            "px": 3,
+            "rgb": "#a73c26",
+            "maxWeight": 50,
+            "level": 50,
+            "price": 3750,
+            "bonus": 6
+        },
+        {
+            "id": 25,
+            "name": "Amazonian AA",
+            "px": 3,
+            "rgb": "#ad6253",
+            "maxWeight": 55,
+            "level": 54,
+            "price": 3900,
+            "bonus": 6
+        },
+        {
+            "id": 26,
+            "name": "Amazonian AAA",
+            "px": 3,
+            "rgb": "#732b1c",
+            "maxWeight": 60,
+            "level": 57,
+            "price": 4000,
             "bonus": 6
         }
     ],
@@ -515,7 +563,7 @@
         {
             "id": 20,
             "multiplier": 1.3,
-            "maxWeight": 25,
+            "maxWeight": 20,
             "name": "Full Wooden",
             "level": 38,
             "price": 3000
@@ -523,7 +571,7 @@
         {
             "id": 21,
             "multiplier": 1.31,
-            "maxWeight": 30,
+            "maxWeight": 25,
             "name": "Full Rusty",
             "level": 40,
             "price": 3200
@@ -531,7 +579,7 @@
         {
             "id": 22,
             "multiplier": 1.32,
-            "maxWeight": 35,
+            "maxWeight": 28,
             "name": "Full Tin",
             "level": 42,
             "price": 3400
@@ -539,7 +587,7 @@
         {
             "id": 23,
             "multiplier": 1.33,
-            "maxWeight": 40,
+            "maxWeight": 32,
             "name": "Full Aluminum",
             "level": 44,
             "price": 3600
@@ -547,7 +595,7 @@
         {
             "id": 24,
             "multiplier": 1.34,
-            "maxWeight": 50,
+            "maxWeight": 35,
             "name": "Full Copper",
             "level": 46,
             "price": 3800
@@ -555,10 +603,66 @@
         {
             "id": 25,
             "multiplier": 1.35,
-            "maxWeight": 60,
+            "maxWeight": 40,
             "name": "Full Bronze",
             "level": 49,
             "price": 4000
+        },
+        {
+            "id": 26,
+            "multiplier": 1.36,
+            "maxWeight": 43,
+            "name": "Full Iron",
+            "level": 50,
+            "price": 0
+        },
+        {
+            "id": 27,
+            "multiplier": 1.37,
+            "maxWeight": 46,
+            "name": "Full Steel",
+            "level": 51,
+            "price": 0
+        },
+        {
+            "id": 28,
+            "multiplier": 1.38,
+            "maxWeight": 49,
+            "name": "Full Titanium",
+            "level": 52,
+            "price": 0
+        },
+        {
+            "id": 29,
+            "multiplier": 1.39,
+            "maxWeight": 52,
+            "name": "Full Tungsten",
+            "level": 53,
+            "price": 0
+        },
+        {
+            "id": 30,
+            "multiplier": 1.4,
+            "maxWeight": 55,
+            "name": "Pro Bronze",
+            "level": 55,
+            "price": 0
+        },
+        {
+            "id": 31,
+            "multiplier": 1.41,
+            "maxWeight": 60,
+            "name": "Pro Iron",
+            "level": 56,
+            "price": 0
+        },
+        {
+            "id": 32,
+            "multiplier": 1.42,
+            "maxWeight": 70,
+            "name": "Pro Steel",
+            "level": 59,
+            "price": 0
         }
     ]
 }
