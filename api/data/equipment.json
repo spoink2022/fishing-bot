@@ -566,7 +566,7 @@
             "maxWeight": 20,
             "name": "Full Wooden",
             "level": 38,
-            "price": 3000
+            "price": 2000
         },
         {
             "id": 21,
@@ -574,7 +574,7 @@
             "maxWeight": 25,
             "name": "Full Rusty",
             "level": 40,
-            "price": 3200
+            "price": 1200
         },
         {
             "id": 22,
@@ -582,7 +582,7 @@
             "maxWeight": 28,
             "name": "Full Tin",
             "level": 42,
-            "price": 3400
+            "price": 1400
         },
         {
             "id": 23,
@@ -590,7 +590,7 @@
             "maxWeight": 32,
             "name": "Full Aluminum",
             "level": 44,
-            "price": 3600
+            "price": 1500
         },
         {
             "id": 24,
@@ -598,7 +598,7 @@
             "maxWeight": 35,
             "name": "Full Copper",
             "level": 46,
-            "price": 3800
+            "price": 1700
         },
         {
             "id": 25,
@@ -606,7 +606,7 @@
             "maxWeight": 40,
             "name": "Full Bronze",
             "level": 49,
-            "price": 4000
+            "price": 1750
         },
         {
             "id": 26,
@@ -614,7 +614,7 @@
             "maxWeight": 43,
             "name": "Full Iron",
             "level": 50,
-            "price": 0
+            "price": 1800
         },
         {
             "id": 27,
@@ -622,7 +622,7 @@
             "maxWeight": 46,
             "name": "Full Steel",
             "level": 51,
-            "price": 0
+            "price": 1900
         },
         {
             "id": 28,
@@ -630,7 +630,7 @@
             "maxWeight": 49,
             "name": "Full Titanium",
             "level": 52,
-            "price": 0
+            "price": 1950
         },
         {
             "id": 29,
@@ -638,7 +638,7 @@
             "maxWeight": 52,
             "name": "Full Tungsten",
             "level": 53,
-            "price": 0
+            "price": 2000
         },
         {
             "id": 30,
@@ -646,7 +646,7 @@
             "maxWeight": 55,
             "name": "Pro Bronze",
             "level": 55,
-            "price": 0
+            "price": 2100
         },
         {
             "id": 31,
@@ -654,7 +654,7 @@
             "maxWeight": 60,
             "name": "Pro Iron",
             "level": 56,
-            "price": 0
+            "price": 2300
         },
         {
             "id": 32,
@@ -662,7 +662,7 @@
             "maxWeight": 70,
             "name": "Pro Steel",
             "level": 59,
-            "price": 0
+            "price": 2400
         }
     ]
 }
