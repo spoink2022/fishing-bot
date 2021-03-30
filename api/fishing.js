@@ -11,6 +11,7 @@ for (let i=0; i<FishingLocationsData.length; i++) {
     for(let j=0; j<locationFish.length; j++) {
         const fishChanceObj = locationFish[j];
         FishData[fishChanceObj.id].chance = fishChanceObj.chance;
+        FishData[fishChanceObj.id].location = i+1;
 
         FishingLocationsData[i].fish[j].sizeClass = FishData[fishChanceObj.id].sizeClass;
     }

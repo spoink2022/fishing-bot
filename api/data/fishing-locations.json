@@ -100,5 +100,26 @@
             {"id": 56, "chance": 20},
             {"id": 57, "chance": 20}
         ]
+    },
+    {
+        "id": 6,
+        "name": "Amazon River",
+        "trashChance": 4,
+        "level": 50,
+        "zoom": 2,
+        "fish": [
+            {"id": 58, "chance": 2},
+            {"id": 59, "chance": 15},
+            {"id": 60, "chance": 1},
+            {"id": 61, "chance": 3},
+            {"id": 62, "chance": 3},
+            {"id": 63, "chance": 3},
+            {"id": 64, "chance": 18},
+            {"id": 65, "chance": 8},
+            {"id": 66, "chance": 15},
+            {"id": 67, "chance": 10},
+            {"id": 68, "chance": 10},
+            {"id": 69, "chance": 12}
+        ]
     }
 ]

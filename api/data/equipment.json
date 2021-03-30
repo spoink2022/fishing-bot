@@ -106,25 +106,25 @@
             "maxWeight": 45,
             "level": 49,
             "price": 6000,
-            "size": 1.5
+            "size": 2
         },
         {
-            "id": 11,
+            "id": 12,
             "name": "Deluxe Amazonian",
             "cooldown": 3840000,
             "maxWeight": 55,
             "level": 51,
             "price": 7000,
-            "size": 1.5
+            "size": 2
         },
         {
-            "id": 12,
+            "id": 13,
             "name": "Prime Amazonian",
             "cooldown": 3780000,
             "maxWeight": 60,
             "level": 55,
             "price": 8000,
-            "size": 1.5
+            "size": 2
         }
     ],
     "lines": [
