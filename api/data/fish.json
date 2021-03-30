@@ -10,8 +10,7 @@
         "sizeMin": 0.05,
         "sizeMax": 0.2,
         "screenLen": 3,
-        "value": 28,
-        "location": 1
+        "value": 28
     },
     {
         "id": 2,
@@ -20,8 +19,7 @@
         "sizeMin": 0.1,
         "sizeMax": 0.3,
         "screenLen": 3,
-        "value": 14,
-        "location": 1
+        "value": 14
     },
     {
         "id": 3,
@@ -30,8 +28,7 @@
         "sizeMin": 2,
         "sizeMax": 3.5,
         "screenLen": 7,
-        "value": 12,
-        "location": 1
+        "value": 12
     },
     {
         "id": 4,
@@ -40,8 +37,7 @@
         "sizeMin": 0.2,
         "sizeMax": 0.35,
         "screenLen": 3.5,
-        "value": 20,
-        "location": 1
+        "value": 20
     },
     {
         "id": 5,
@@ -50,8 +46,7 @@
         "sizeMin": 0.25,
         "sizeMax": 0.5,
         "screenLen": 4.5,
-        "value": 30,
-        "location": 1
+        "value": 30
     },
     {
         "id": 6,
@@ -60,8 +55,7 @@
         "sizeMin": 0.05,
         "sizeMax": 0.2,
         "screenLen": 3,
-        "value": 14,
-        "location": 1
+        "value": 14
     },
     {
         "id": 7,
@@ -70,8 +64,7 @@
         "sizeMin": 0.2,
         "sizeMax": 0.4,
         "screenLen": 3,
-        "value": 24,
-        "location": 1
+        "value": 24
     },
     {
         "id": 8,
@@ -80,8 +73,7 @@
         "sizeMin": 1.5,
         "sizeMax": 2.7,
         "screenLen": 6.5,
-        "value": 10,
-        "location": 1
+        "value": 10
     },
     {
         "id": 9,
@@ -90,8 +82,7 @@
         "sizeMin": 0.3,
         "sizeMax": 1,
         "screenLen": 4,
-        "value": 34,
-        "location": 1
+        "value": 34
     },
     {
         "id": 10,
@@ -100,8 +91,7 @@
         "sizeMin": 0.1,
         "sizeMax": 0.3,
         "screenLen": 3,
-        "value": 20,
-        "location": 1
+        "value": 20
     },
     {
         "id": 11,
@@ -110,8 +100,7 @@
         "sizeMin": 0.4,
         "sizeMax": 2,
         "screenLen": 5,
-        "value": 7,
-        "location": 2
+        "value": 7
     },
     {
         "id": 12,
@@ -120,8 +109,7 @@
         "sizeMin": 0.04,
         "sizeMax": 0.11,
         "screenLen": 2,
-        "value": 26,
-        "location": 2
+        "value": 26
     },
     {
         "id": 13,
@@ -130,8 +118,7 @@
         "sizeMin": 2,
         "sizeMax": 6,
         "screenLen": 8,
-        "value": 8,
-        "location": 2
+        "value": 8
     },
     {
         "id": 14,
@@ -140,8 +127,7 @@
         "sizeMin": 1.2,
         "sizeMax": 2,
         "screenLen": 5,
-        "value": 30,
-        "location": 2
+        "value": 30
     },
     {
         "id": 15,
@@ -150,8 +136,7 @@
         "sizeMin": 0.1,
         "sizeMax": 0.25,
         "screenLen": 3,
-        "value": 28,
-        "location": 2
+        "value": 28
     },
     {
         "id": 16,
@@ -160,8 +145,7 @@
         "sizeMin": 1,
         "sizeMax": 5,
         "screenLen": 6,
-        "value": 10,
-        "location": 2
+        "value": 10
     },
     {
         "id": 17,
@@ -170,8 +154,7 @@
         "sizeMin": 0.6,
         "sizeMax": 1.8,
         "screenLen": 4.5,
-        "value": 30,
-        "location": 2
+        "value": 30
     },
     {
         "id": 18,
@@ -180,8 +163,7 @@
         "sizeMin": 0.1,
         "sizeMax": 0.2,
         "screenLen": 2.5,
-        "value": 14,
-        "location": 2
+        "value": 14
     },
     {
         "id": 19,
@@ -190,8 +172,7 @@
         "sizeMin": 0.9,
         "sizeMax": 1.8,
         "screenLen": 5.5,
-        "value": 12,
-        "location": 2
+        "value": 12
     },
     {
         "id": 20,
@@ -200,8 +181,7 @@
         "sizeMin": 0.1,
         "sizeMax": 0.3,
         "screenLen": 3,
-        "value": 24,
-        "location": 3
+        "value": 24
     },
     {
         "id": 21,
@@ -210,8 +190,7 @@
         "sizeMin": 0.3,
         "sizeMax": 1.5,
         "screenLen": 5,
-        "value": 40,
-        "location": 3
+        "value": 40
     },
     {
         "id": 22,
@@ -220,8 +199,7 @@
         "sizeMin": 0.2,
         "sizeMax": 1.5,
         "screenLen": 5,
-        "value": 33,
-        "location": 3
+        "value": 33
     },
     {
         "id": 23,
@@ -230,8 +208,7 @@
         "sizeMin": 0.5,
         "sizeMax": 3,
         "screenLen": 7,
-        "value": 34,
-        "location": 3
+        "value": 34
     },
     {
         "id": 24,
@@ -240,8 +217,7 @@
         "sizeMin": 0.5,
         "sizeMax": 2,
         "screenLen": 5,
-        "value": 14,
-        "location": 3
+        "value": 14
     },
     {
         "id": 25,
@@ -250,8 +226,7 @@
         "sizeMin": 1,
         "sizeMax": 2.5,
         "screenLen": 6.5,
-        "value": 10,
-        "location": 3
+        "value": 10
     },
     {
         "id": 26,
@@ -260,8 +235,7 @@
         "sizeMin": 4,
         "sizeMax": 10,
         "screenLen": 10,
-        "value": 34,
-        "location": 3
+        "value": 34
     },
     {
         "id": 27,
@@ -270,8 +244,7 @@
         "sizeMin": 0.4,
         "sizeMax": 1,
         "screenLen": 4.5,
-        "value": 30,
-        "location": 3
+        "value": 30
     },
     {
         "id": 28,
@@ -280,8 +253,7 @@
         "sizeMin": 1,
         "sizeMax": 2.5,
         "screenLen": 6.5,
-        "value": 36,
-        "location": 3
+        "value": 36
     },
     {
         "id": 29,
@@ -290,8 +262,7 @@
         "sizeMin": 2,
         "sizeMax": 5,
         "screenLen": 8,
-        "value": 38,
-        "location": 3
+        "value": 38
     },
     {
         "id": 30,
@@ -300,8 +271,7 @@
         "sizeMin": 0.5,
         "sizeMax": 1,
         "screenLen": 4,
-        "value": 15,
-        "location": 3
+        "value": 15
     },
     {
         "id": 31,
@@ -310,8 +280,7 @@
         "sizeMin": 1.5,
         "sizeMax": 4,
         "screenLen": 5,
-        "value": 16,
-        "location": 4
+        "value": 16
     },
     {
         "id": 32,
@@ -320,8 +289,7 @@
         "sizeMin": 2,
         "sizeMax": 14,
         "screenLen": 7,
-        "value": 18,
-        "location": 4
+        "value": 18
     },
     {
         "id": 33,
@@ -330,8 +298,7 @@
         "sizeMin": 5,
         "sizeMax": 20,
         "screenLen": 8.5,
-        "value": 8,
-        "location": 4
+        "value": 8
     },
     {
         "id": 34,
@@ -340,8 +307,7 @@
         "sizeMin": 3,
         "sizeMax": 10,
         "screenLen": 9,
-        "value": 10,
-        "location": 4
+        "value": 10
     },
     {
         "id": 35,
@@ -350,8 +316,7 @@
         "sizeMin": 0.5,
         "sizeMax": 1.6,
         "screenLen": 3,
-        "value": 32,
-        "location": 4
+        "value": 32
     },
     {
         "id": 36,
@@ -360,8 +325,7 @@
         "sizeMin": 1,
         "sizeMax": 5,
         "screenLen": 6,
-        "value": 30,
-        "location": 4
+        "value": 30
     },
     {
         "id": 37,
@@ -370,8 +334,7 @@
         "sizeMin": 0.5,
         "sizeMax": 1.8,
         "screenLen": 3,
-        "value": 40,
-        "location": 4
+        "value": 40
     },
     {
         "id": 38,
@@ -380,8 +343,7 @@
         "sizeMin": 0.1,
         "sizeMax": 0.25,
         "screenLen": 2,
-        "value": 34,
-        "location": 4
+        "value": 34
     },
     {
         "id": 39,
@@ -390,8 +352,7 @@
         "sizeMin": 0.2,
         "sizeMax": 0.5,
         "screenLen": 2.5,
-        "value": 24,
-        "location": 4
+        "value": 24
     },
     {
         "id": 40,
@@ -400,8 +361,7 @@
         "sizeMin": 0.5,
         "sizeMax": 1.2,
         "screenLen": 4,
-        "value": 12,
-        "location": 4
+        "value": 12
     },
     {
         "id": 41,
@@ -410,8 +370,7 @@
         "sizeMin": 1.5,
         "sizeMax": 10.5,
         "screenLen": 7,
-        "value": 11,
-        "location": 4
+        "value": 11
     },
     {
         "id": 42,
@@ -420,8 +379,7 @@
         "sizeMin": 4.3,
         "sizeMax": 8,
         "screenLen": 8,
-        "value": 15,
-        "location": 4
+        "value": 15
     },
     {
         "id": 43,
@@ -430,8 +388,7 @@
         "sizeMin": 0.1,
         "sizeMax": 0.4,
         "screenLen": 2,
-        "value": 34,
-        "location": 4
+        "value": 34
     },
     {
         "id": 44,
@@ -440,8 +397,7 @@
         "sizeMin": 0.5,
         "sizeMax": 3,
         "screenLen": 4.5,
-        "value": 16,
-        "location": 4
+        "value": 16
     },
     {
         "id": 45,
@@ -450,8 +406,7 @@
         "sizeMin": 1,
         "sizeMax": 3.5,
         "screenLen": 4.5,
-        "value": 44,
-        "location": 4
+        "value": 44
     },
     {
         "id": 46,
@@ -460,8 +415,7 @@
         "sizeMin": 15,
         "sizeMax": 70,
         "screenLen": 10,
-        "value": 16,
-        "location": 5
+        "value": 16
     },
     {
         "id": 47,
@@ -470,8 +424,7 @@
         "sizeMin": 6,
         "sizeMax": 40,
         "screenLen": 7.5,
-        "value": 8,
-        "location": 5
+        "value": 8
     },
     {
         "id": 48,
@@ -480,8 +433,7 @@
         "sizeMin": 10,
         "sizeMax": 25,
         "screenLen": 6.5,
-        "value": 14,
-        "location": 5
+        "value": 14
     },
     {
         "id": 49,
@@ -490,8 +442,7 @@
         "sizeMin": 5,
         "sizeMax": 15,
         "screenLen": 5.5,
-        "value": 20,
-        "location": 5
+        "value": 20
     },
     {
         "id": 50,
@@ -500,8 +451,7 @@
         "sizeMin": 0.3,
         "sizeMax": 3,
         "screenLen": 3,
-        "value": 30,
-        "location": 5
+        "value": 30
     },
     {
         "id": 51,
@@ -510,8 +460,7 @@
         "sizeMin": 5,
         "sizeMax": 30,
         "screenLen": 7,
-        "value": 20,
-        "location": 5
+        "value": 20
     },
     {
         "id": 52,
@@ -520,8 +469,7 @@
         "sizeMin": 1.5,
         "sizeMax": 15,
         "screenLen": 5.5,
-        "value": 24,
-        "location": 5
+        "value": 24
     },
     {
         "id": 53,
@@ -530,8 +478,7 @@
         "sizeMin": 10,
         "sizeMax": 60,
         "screenLen": 10,
-        "value": 21,
-        "location": 5
+        "value": 21
     },
     {
         "id": 54,
@@ -540,8 +487,7 @@
         "sizeMin": 4,
         "sizeMax": 20,
         "screenLen": 6.5,
-        "value": 22,
-        "location": 5
+        "value": 22
     },
     {
         "id": 55,
@@ -550,8 +496,7 @@
         "sizeMin": 0.7,
         "sizeMax": 1.5,
         "screenLen": 3,
-        "value": 10,
-        "location": 5
+        "value": 10
     },
     {
         "id": 56,
@@ -560,8 +505,7 @@
         "sizeMin": 0.05,
         "sizeMax": 0.1,
         "screenLen": 2,
-        "value": 26,
-        "location": 5
+        "value": 26
     },
     {
         "id": 57,
@@ -570,7 +514,114 @@
         "sizeMin": 0.4,
         "sizeMax": 1,
         "screenLen": 2.5,
-        "value": 12,
-        "location": 5
+        "value": 12
+    },
+    {
+        "id": 58,
+        "name": "arapaima",
+        "sizeClass": 4,
+        "sizeMin": 40,
+        "sizeMax": 120,
+        "screenLen": 9.5,
+        "value": 6
+    },
+    {
+        "id": 59,
+        "name": "apapa",
+        "sizeClass": 1,
+        "sizeMin": 1.5,
+        "sizeMax": 3,
+        "screenLen": 3,
+        "value": 18
+    },
+    {
+        "id": 60,
+        "name": "bull shark",
+        "sizeClass": 4,
+        "sizeMin": 50,
+        "sizeMax": 130,
+        "screenLen": 10,
+        "value": 9
+    },
+    {
+        "id": 61,
+        "name": "redtail catfish",
+        "sizeClass": 3,
+        "sizeMin": 30,
+        "sizeMax": 60,
+        "screenLen": 7,
+        "value": 9
+    },
+    {
+        "id": 62,
+        "name": "piraiba catfish",
+        "sizeClass": 3,
+        "sizeMin": 45,
+        "sizeMax": 70,
+        "screenLen": 7.5,
+        "value": 8
+    },
+    {
+        "id": 63,
+        "name": "gilded catfish",
+        "sizeClass": 3,
+        "sizeMin": 30,
+        "sizeMax": 60,
+        "screenLen": 7,
+        "value": 8
+    },
+    {
+        "id": 64,
+        "name": "oscar",
+        "sizeClass": 1,
+        "sizeMin": 0.5,
+        "sizeMax": 1,
+        "screenLen": 2.5,
+        "value": 8
+    },
+    {
+        "id": 65,
+        "name": "electric eel",
+        "sizeClass": 2,
+        "sizeMin": 10,
+        "sizeMax": 20,
+        "screenLen": 7,
+        "value": 11
+    },
+    {
+        "id": 66,
+        "name": "jacunda",
+        "sizeClass": 1,
+        "sizeMin": 0.7,
+        "sizeMax": 2,
+        "screenLen": 3,
+        "value": 27
+    },
+    {
+        "id": 67,
+        "name": "payara",
+        "sizeClass": 2,
+        "sizeMin": 5,
+        "sizeMax": 10,
+        "screenLen": 4.5,
+        "value": 20
+    },
+    {
+        "id": 68,
+        "name": "trahira",
+        "sizeClass": 3,
+        "sizeMin": 15,
+        "sizeMax": 30,
+        "screenLen": 5.5,
+        "value": 8
+    },
+    {
+        "id": 69,
+        "name": "silver arowana",
+        "sizeClass": 2,
+        "sizeMin": 2,
+        "sizeMax": 4,
+        "screenLen": 3,
+        "value": 36
     }
 ]

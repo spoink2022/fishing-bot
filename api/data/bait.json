@@ -24,7 +24,7 @@
         "tier": "A",
         "sizeClass": 1,
         "catchSmaller": false,
-        "value": 2.5,
+        "value": 2,
         "stars": 2,
         "min": 4,
         "max": 8
@@ -35,7 +35,7 @@
         "sizeClass": 2,
         "catchSmaller": false,
         "stars": 2,
-        "value": 2.5,
+        "value": 3,
         "min": 4,
         "max": 8
     },
@@ -45,7 +45,7 @@
         "sizeClass": 3,
         "catchSmaller": false,
         "stars": 2,
-        "value": 4,
+        "value": 4.5,
         "min": 3,
         "max": 6
     },
@@ -77,6 +77,16 @@
         "stars": 1,
         "value": 1,
         "min": 5,
+        "max": 10
+    },
+    "maggots": {
+        "id": 8,
+        "tier": "D",
+        "sizeClass": 2,
+        "catchSmaller": false,
+        "stars": 2,
+        "value": 2.25,
+        "min": 4,
         "max": 10
     }
 }

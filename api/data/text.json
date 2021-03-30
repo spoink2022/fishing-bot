@@ -2,7 +2,7 @@
     "info": {
         "General": [
             "**Below is a full list of available commands**\nDetailed information can be found using ${PREFIX}info <command>",
-            "(For new players, please type `${PREFIX}info start`)",
+            "\n:arrow_right: New player? Feeling lost? Type `${PREFIX}info start`",
             "\n**Basic Gameplay** :fish:\nfish, aquarium, collect, shop",
             "**Advanced Gameplay** :octopus:\nsetlocation, quest, baitshop",
             "**Profile Commands** :trophy:\nstats, equipment, baits, leaderboards",
@@ -11,26 +11,28 @@
         ],
         "Start": [
             "**Welcome!**",
-            "We know you're eager to start, so let's get straight to the important commands:\n",
-            "**${PREFIX}fish** - You fish! Cooldown is determined by your rod.",
-            "**${PREFIX}aquarium** - View your largest catch of each species. And collect your revenue. :moneybag:",
-            "**${PREFIX}shop** - Upgrade your equipment with coins. Tax included.",
-            "**${PREFIX}stats** - View your personal stats.",
-            "\n**Tips**",
-            "- Be sure to upgrade your equipment to increase the maximum weight you can catch (a weak hook, line, or rod will cause your line to snap with bigger fish)",
-            "- Better hooks grant a coin multiplier",
-            "- Better rods lower your cooldown",
-            "- Better lines grant bonus exp per catch",
-            "- Take advantage of the `${PREFIX}info <command name>`",
-            "- For the nerds, detailed game mechanics are available at `${PREFIX}info mechanics`",
-            "- You will unlock the next location every 10 player levels. Don't lose hope!",
-            "\n**Other Commands to Try Out**",
-            "`${PREFIX}locationinfo 1`",
-            "`${PREFIX}fishinfo green sunfish`",
-            "`${PREFIX}iteminfo hooks`",
-            "`${PREFIX}iteminfo rusty hook`",
-            "`${PREFIX}leaderboards`",
-            "\nSo what are you waiting for? Go fish!"
+            "With Big Tuna, there are **4** main things that drive progress:",
+            "\n**1. Fishing**",
+            "- Fish with the `${PREFIX}fish` command, and click the :hook: (or wait) to reel in your catch",
+            "- Vote with `${PREFIX}vote` to reset your fishing cooldown",
+            "\n**2. Collecting from your aquariums**",
+            "- View your aquarium with `${PREFIX}aquarium`",
+            "- Collect coins by clicking the :coin: or by typing `${PREFIX}collect`",
+            "- High-tier and larger fish earn more money",
+            "\n**3. Upgrading your equipment**",
+            "- Open the shop with `${PREFIX}shop`",
+            "- Upgrade your aquarium for more capacity and earn rate",
+            "- Upgrade your fishing equipment to be able to catch larger fish",
+            "- Your max weight is the *lowest* weight out of your **hook**, **line**, and **rod**",
+            "\n**4. Baits/quests (unlocks at lvl. 10)**",
+            "- Access your quest and earn :lollipop: with `${PREFIX}quest`",
+            "- Buy baits with `${PREFIX}baitshop`",
+            "\n**The Other Commands**",
+            "The remaining commands are more about viewing information.",
+            "fishinfo: Views info about a fish (try `${PREFIX}fi spotted bass`)",
+            "locationinfo: Views info about a location (try `${PREFIX}li 1`)",
+            "iteminfo: Views info about an item (try `${PREFIX}ii wooden rod` or `${PREFIX}ii hooks`)",
+            "\nThe profile commands are all super simple, so go try them out too!"
         ],
         "Mechanics": [
             "**Fishing** :fishing_pole_and_fish:",
@@ -45,7 +47,6 @@
             "- There is a small chance that a fish spawns above its maximum weight (SS tier)",
             "\n**Aquarium** :truck:",
             "- Aquariums share shop-bought upgrades, but each separately earn revenue",
-            "- The first fish in an aquarium instantly maxes out its coin capacity when first caught",
             "- Hourly revenue is determined by fish quantity, rarity, and tier"
         ],
         "fish": [
@@ -54,17 +55,16 @@
             "\n- Just type `${PREFIX}fish` to not use bait.",
             "- Fishes at the current location of the player.",
             "- The fish you catch will *always* be close to your hook.",
-            "- Don't forget to click the hook that appears! :hook:",
+            "- Click the :hook: or wait a few seconds to reel in your catch.",
             "- Also accepts `${PREFIX}f`"
         ],
         "aquarium": [
             "Usage: `${PREFIX}aquarium <location number>`",
-            "Example: `${PREFIX}aquarium 2`",
+            "Example: `${PREFIX}aquarium 1`",
             "<location number> defaults to your location when no number is provided",
             "\n- Views your aquarium, consisting of your largest catch of each species from the given location.",
             "- Revenue is based off of the fish caught, and is collected by clicking the :coin: icon.",
             "- Upgrades can be bought in the shop, and increase both revenue *and* coin capacity.",
-            "- After catching a new fish, you'll have a spike in revenue, so be sure to check the aquarium.",
             "- Also accepts `${PREFIX}a`"
         ],
         "collect": [
@@ -116,7 +116,7 @@
         ],
         "leaderboards": [
             "Usage: `${PREFIX}leaderboards`",
-            "\n- Shows the top 10 players in the server by weight caught"
+            "\n- Shows the top 20 players in the server by weight caught"
         ],
         "info": [
             "Usage: `${PREFIX}info <command>`",
