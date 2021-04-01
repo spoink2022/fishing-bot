@@ -101,7 +101,8 @@
         ],
         "leaderboards": [
             "Usage: `${PREFIX}leaderboards`",
-            "\n- Shows the top 20 players in the server by weight caught"
+            "\n- Shows the top 20 players in the server by weight caught",
+            "- Also accepts `${PREFIX}lb`, `${PREFIX}leaders`"
         ],
         "info": [
             "Usage: `${PREFIX}info <command>`",
