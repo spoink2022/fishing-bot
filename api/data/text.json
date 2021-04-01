@@ -5,7 +5,7 @@
             "\n:arrow_right: New player? Feeling lost? Type `${PREFIX}info start`",
             "\n**Basic Gameplay** :fish:\nfish, aquarium, collect, shop",
             "**Advanced Gameplay** :octopus:\nsetlocation, quest, baitshop",
-            "**Profile Commands** :trophy:\nstats, equipment, baits, leaderboards",
+            "**Profile Commands** :trophy:\nstats, serverstats, equipment, baits, leaderboards",
             "**Info Commands** :question:\ninfo, iteminfo, fishinfo, locationinfo",
             "**Extra Commands** :eyes:\nvote, server"
         ],
@@ -87,6 +87,11 @@
             "Usage: `${PREFIX}stats`",
             "\n- Shows you your stats.",
             "- Also accepts `${PREFIX}s`"
+        ],
+        "serverstats": [
+            "Usage: `${PREFIX}serverstats`",
+            "\n- Shows your server's stats",
+            "- Also accepts `${PREFIX}ss`"
         ],
         "baits": [
             "Usage: `${PREFIX}baits`",
