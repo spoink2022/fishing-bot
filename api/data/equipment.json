@@ -605,7 +605,7 @@
             "multiplier": 1.35,
             "maxWeight": 40,
             "name": "Full Bronze",
-            "level": 49,
+            "level": 47,
             "price": 1750
         },
         {
@@ -613,7 +613,7 @@
             "multiplier": 1.36,
             "maxWeight": 43,
             "name": "Full Iron",
-            "level": 50,
+            "level": 48,
             "price": 1800
         },
         {
