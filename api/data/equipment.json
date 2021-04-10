@@ -48,7 +48,7 @@
         {
             "id": 5,
             "name": "Old Deepwater",
-            "cooldown": 4080000,
+            "cooldown": 4140000,
             "maxWeight": 15,
             "level": 30,
             "price": 1500,
@@ -75,7 +75,7 @@
         {
             "id": 8,
             "name": "Ocean",
-            "cooldown": 3900000,
+            "cooldown": 4020000,
             "maxWeight": 30,
             "level": 40,
             "price": 3000,
@@ -84,7 +84,7 @@
         {
             "id": 9,
             "name": "Metal Ocean",
-            "cooldown": 3900000,
+            "cooldown": 3960000,
             "maxWeight": 34,
             "level": 43,
             "price": 4000,
@@ -121,7 +121,7 @@
             "id": 13,
             "name": "Prime Amazonian",
             "cooldown": 3780000,
-            "maxWeight": 60,
+            "maxWeight": 65,
             "level": 55,
             "price": 8000,
             "size": 2

@@ -1,7 +1,7 @@
 {
     "info": {
         "General": [
-            "**Below is a full list of available commands**\nDetailed information can be found using ${PREFIX}info <command>",
+            "**Below is a full list of available commands**\nFor easy access to command information, visit the [Offical Big Tuna Website](https://bigtuna.xyz/commands)",
             "\n:arrow_right: New player? Feeling lost? Type `${PREFIX}info start`",
             "\n**Basic Gameplay** :fish:\nfish, aquarium, collect, shop",
             "**Advanced Gameplay** :octopus:\nsetlocation, quest, baitshop",
