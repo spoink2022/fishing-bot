@@ -4,7 +4,7 @@
             "**Below is a full list of available commands**\nFor easy access to command information, visit the [Offical Big Tuna Website](https://bigtuna.xyz/commands)",
             "\n:arrow_right: New player? Feeling lost? Type `${PREFIX}info start`",
             "\n**Basic Gameplay** :fish:\nfish, aquarium, collect, shop",
-            "**Advanced Gameplay** :octopus:\nsetlocation, quest, baitshop",
+            "**Advanced Gameplay** :octopus:\nsetlocation, quest, bounty, baitshop",
             "**Profile Commands** :trophy:\nstats, serverstats, equipment, baits, leaderboards",
             "**Info Commands** :question:\ninfo, iteminfo, fishinfo, locationinfo",
             "**Extra Commands** :eyes:\nvote, server"
@@ -83,6 +83,11 @@
             "- Claim quest rewards from here too",
             "- Also accepts `${PREFIX}q`"
         ],
+        "bounty": [
+            "Usage: `${PREFIX}bounty`",
+            "\n- Opens up the bounty page"
+        ]
+        ,
         "stats": [
             "Usage: `${PREFIX}stats`",
             "\n- Shows you your stats.",
