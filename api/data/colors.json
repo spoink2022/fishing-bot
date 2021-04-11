@@ -24,7 +24,9 @@
         "voteReady": "#32cd32",
         "voteNotReady": "#ffff00",
         "server": "#79b9b4",
-        "baitshop": "#215732"
+        "baitshop": "#215732",
+        "bounty": "#a43636",
+        "bountyComplete": "#32cd32"
     },
     "rank": [
         "#888888"

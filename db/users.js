@@ -116,3 +116,9 @@ module.exports.handleQuestCollect = async function(userid, reward) {
     await config.pquery(query, [reward, userid]);
     return;
 }
+
+module.exports.claimBounty = async function(userid, bountyid, bountyAmount) {
+    let query = 'UPDATE users SET bounty=$1, lollipops=lollipops+$2 WHERE userid=$3';
+    await config.pquery(query, [bountyid, bountyAmount, userid]);
+    return;
+}
