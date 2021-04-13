@@ -10,7 +10,8 @@
             "**Extra Commands** :eyes:\nvote, server"
         ],
         "Start": [
-            "**Welcome!**",
+            "A more detailed version of this guide can be found on our [Getting Started](https://bigtuna.xyz/start) webpage",
+            "\n**Welcome!**",
             "With Big Tuna, there are **4** main things that drive progress:",
             "\n**1. Fishing**",
             "- Fish with the `${PREFIX}fish` command, and click the :hook: (or wait) to reel in your catch",
