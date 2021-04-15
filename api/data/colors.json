@@ -2,6 +2,9 @@
     "admin": {
         "1": "#00ff00"
     },
+    "classic": {
+        "classic": "#327fa2"
+    },
     "locations": {
         "1": "#327fa2",
         "2": "#587e7e",
@@ -26,7 +29,8 @@
         "server": "#79b9b4",
         "baitshop": "#215732",
         "bounty": "#a43636",
-        "bountyComplete": "#32cd32"
+        "bountyComplete": "#32cd32",
+        "mod": "#fefefe"
     },
     "rank": [
         "#888888"
