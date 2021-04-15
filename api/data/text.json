@@ -7,7 +7,8 @@
             "**Advanced Gameplay** :octopus:\nsetlocation, quest, bounty, baitshop",
             "**Profile Commands** :trophy:\nstats, serverstats, equipment, baits, leaderboards",
             "**Info Commands** :question:\ninfo, iteminfo, fishinfo, locationinfo",
-            "**Extra Commands** :eyes:\nvote, server"
+            "**Extra Commands** :eyes:\nvote, server",
+            "**Mod Commands** :hammer:\ntoggle"
         ],
         "Start": [
             "A more detailed version of this guide can be found on our [Getting Started](https://bigtuna.xyz/start) webpage",
@@ -150,6 +151,12 @@
         "server": [
             "Usage: `${PREFIX}server`",
             "\n- Returns a link to the official server"
+        ],
+        "toggle": [
+            "Usage: `${PREFIX}toggle <setting>`",
+            "Example: `${PREFIX}toggle startinfo`",
+            "\n- As of now, the only setting that can be toggled is `startinfo`",
+            "- Can only be used by members with `Manage Server` privileges"
         ]
     }
 }
