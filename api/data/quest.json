@@ -59,8 +59,8 @@
             },
             {
                 "levelUnder": 60,
-                "min": 40,
-                "max": 60,
+                "min": 50,
+                "max": 90,
                 "reward": 0.03
             }
         ]
