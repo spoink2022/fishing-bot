@@ -43,13 +43,14 @@
             "- Also accepts `${PREFIX}f`"
         ],
         "aquarium": [
-            "Usage: `${PREFIX}aquarium <location number>`",
+            "Usage: `${PREFIX}aquarium <location number (optional)> @user (optional)`",
             "Example: `${PREFIX}aquarium 1`",
             "<location number> defaults to your location when no number is provided",
             "\n- Views your aquarium, consisting of your largest catch of each species from the given location.",
             "- Revenue is based off of the fish caught, and is collected by clicking the :coin: icon.",
             "- Upgrades can be bought in the shop, and increase both revenue *and* coin capacity.",
-            "- Also accepts `${PREFIX}a`"
+            "- Also accepts `${PREFIX}a`",
+            "- Ping a user with this command to see their aquarium"
         ],
         "collect": [
             "Usage: `${PREFIX}collect <location number>`",
@@ -88,9 +89,10 @@
         ]
         ,
         "stats": [
-            "Usage: `${PREFIX}stats`",
+            "Usage: `${PREFIX}stats @user (optional)`",
             "\n- Shows you your stats.",
-            "- Also accepts `${PREFIX}s`"
+            "- Also accepts `${PREFIX}s`",
+            "- Ping a user with this command to see their stats"
         ],
         "serverstats": [
             "Usage: `${PREFIX}serverstats`",
@@ -103,10 +105,12 @@
             "- Also accepts `${PREFIX}b`"
         ],
         "equipment": [
-            "Usage: `${PREFIX}equipment`",
+            "Usage: `${PREFIX}equipment @user (optional)`",
             "\n- Shows you your pieces of equipment and their stats",
             "- Useful for deciding what to upgrade",
-            "- Also accepts `${PREFIX}e`"
+            "- Also accepts `${PREFIX}e`",
+            "- Ping a user with this command to see their equipment"
+
         ],
         "leaderboards": [
             "Usage: `${PREFIX}leaderboards`",
