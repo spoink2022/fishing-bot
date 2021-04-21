@@ -93,6 +93,12 @@ module.exports.updateColumn = async function(userid, column, amount) {
     return;
 }
 
+module.exports.setColumn = async function(userid, column, setValue) {
+    let query = `UPDATE users SET ${column}=$1 WHERE userid=$2`;
+    await config.pquery(query, [setValue, userid]);
+    return;
+}
+
 module.exports.setLocation = async function(userid, locationID) {
     let query = 'UPDATE users SET location=$1 WHERE userid=$2';
     await config.pquery(query, [locationID, userid]);
