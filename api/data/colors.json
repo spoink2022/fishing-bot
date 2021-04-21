@@ -3,7 +3,8 @@
         "1": "#00ff00"
     },
     "classic": {
-        "classic": "#327fa2"
+        "classic": "#327fa2",
+        "success": "#32cd32"
     },
     "locations": {
         "1": "#327fa2",

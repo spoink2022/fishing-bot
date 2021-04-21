@@ -5,7 +5,7 @@
             "\n**Gameplay** :fish:\nfish, aquarium, collect, shop, setlocation, quest, bounty, baitshop",
             "**Profile Commands** :trophy:\nstats, serverstats, equipment, baits, leaderboards",
             "**Info Commands** :question:\nhelp, info, iteminfo, fishinfo, locationinfo",
-            "**Extra Commands** :eyes:\nvote, server, toggle"
+            "**Extra Commands** :eyes:\nvote, server, toggle, optin, optout"
         ],
         "Start": [
             "A more detailed version of this guide can be found on our [Getting Started](https://bigtuna.xyz/start) webpage",
@@ -154,6 +154,16 @@
             "Example: `${PREFIX}toggle startinfo`",
             "\n- As of now, the only setting that can be toggled is `startinfo`",
             "- Can only be used by members with `Manage Server` privileges"
+        ],
+        "optin": [
+            "Usage: `${PREFIX}optin`",
+            "\n- Allows other players to view your stuff",
+            "- Includes stats, aquariums, and equipment"
+        ],
+        "optout": [
+            "Usage: `${PREFIX}optout`",
+            "\n- Makes it so other players cannot view your stuff",
+            "- This covers stats, aquariums, and equipment"
         ]
     }
 }
