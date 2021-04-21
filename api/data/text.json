@@ -1,14 +1,11 @@
 {
     "info": {
         "General": [
-            "**Below is a full list of available commands**\nFor easy access to command information, visit the [Offical Big Tuna Website](https://bigtuna.xyz/commands)",
-            "\n:arrow_right: New player? Feeling lost? Type `${PREFIX}info start`",
-            "\n**Basic Gameplay** :fish:\nfish, aquarium, collect, shop",
-            "**Advanced Gameplay** :octopus:\nsetlocation, quest, bounty, baitshop",
+            "**Below is a full list of available commands**\nTo better understand commands, visit the [Offical Commands Page](https://bigtuna.xyz/commands)",
+            "\n**Gameplay** :fish:\nfish, aquarium, collect, shop, setlocation, quest, bounty, baitshop",
             "**Profile Commands** :trophy:\nstats, serverstats, equipment, baits, leaderboards",
-            "**Info Commands** :question:\ninfo, iteminfo, fishinfo, locationinfo",
-            "**Extra Commands** :eyes:\nvote, server",
-            "**Mod Commands** :hammer:\ntoggle"
+            "**Info Commands** :question:\nhelp, info, iteminfo, fishinfo, locationinfo",
+            "**Extra Commands** :eyes:\nvote, server, toggle"
         ],
         "Start": [
             "A more detailed version of this guide can be found on our [Getting Started](https://bigtuna.xyz/start) webpage",
