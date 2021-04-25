@@ -55,7 +55,7 @@
         "sizes": [3, 4],
         "families": [],
         "stars": 3,
-        "value": 5.5,
+        "value": 6,
         "min": 3,
         "max": 5
     },
@@ -65,7 +65,7 @@
         "sizes": [4],
         "families": [],
         "stars": 3,
-        "value": 10,
+        "value": 9,
         "min": 2,
         "max": 4
     },
