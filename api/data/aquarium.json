@@ -75,5 +75,47 @@
         "max": 70,
         "level": 47,
         "price": 1400
+    },
+    {
+        "name": "crystal",
+        "multiplier": 1.5,
+        "max": 80,
+        "level": 52,
+        "price": 4000
+    },
+    {
+        "name": "premium crystal",
+        "multiplier": 1.53,
+        "max": 85,
+        "level": 55,
+        "price": 6000
+    },
+    {
+        "name": "superior crystal",
+        "multiplier": 1.57,
+        "max": 90,
+        "level": 59,
+        "price": 8000
+    },
+    {
+        "name": "titanium",
+        "multiplier": 1.6,
+        "max": 100,
+        "level": 64,
+        "price": 12000
+    },
+    {
+        "name": "premium titanium",
+        "multiplier": 1.64,
+        "max": 105,
+        "level": 68,
+        "price": 15000
+    },
+    {
+        "name": "superior titanium",
+        "multiplier": 1.68,
+        "max": 110,
+        "level": 73,
+        "price": 22000
     }
 ]
