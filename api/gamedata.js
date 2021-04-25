@@ -33,8 +33,12 @@ module.exports.getHighestAquariumID = function(level) {
 module.exports.getAllBaitData = function() {
     return BaitData;
 }
-module.exports.getAllBaitNames = function() {
-    return BaitNames;
+module.exports.getAllBaitNames = function(stars=false) {
+    if (!stars) {
+        return BaitNames;
+    } else {
+        return BaitNames.filter(baitName => BaitData[baitName].stars === stars);
+    }
 }
 
 module.exports.getBaitData = function(bait) {
