@@ -6,6 +6,7 @@
     {
         "id": 1,
         "name": "blacktail shiner",
+        "family": "minnow",
         "sizeClass": 1,
         "sizeMin": 0.05,
         "sizeMax": 0.2,
@@ -15,6 +16,7 @@
     {
         "id": 2,
         "name": "bluegill",
+        "family": "panfish",
         "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.3,
@@ -24,6 +26,7 @@
     {
         "id": 3,
         "name": "channel catfish",
+        "family": "catfish",
         "sizeClass": 4,
         "sizeMin": 2,
         "sizeMax": 3.5,
@@ -33,6 +36,7 @@
     {
         "id": 4,
         "name": "golden shiner",
+        "family": "minnow",
         "sizeClass": 1,
         "sizeMin": 0.2,
         "sizeMax": 0.35,
@@ -42,6 +46,7 @@
     {
         "id": 5,
         "name": "grass pickerel",
+        "family": "pike",
         "sizeClass": 2,
         "sizeMin": 0.25,
         "sizeMax": 0.5,
@@ -51,6 +56,7 @@
     {
         "id": 6,
         "name": "green sunfish",
+        "family": "panfish",
         "sizeClass": 1,
         "sizeMin": 0.05,
         "sizeMax": 0.2,
@@ -60,6 +66,7 @@
     {
         "id": 7,
         "name": "redear sunfish",
+        "family": "panfish",
         "sizeClass": 2,
         "sizeMin": 0.2,
         "sizeMax": 0.4,
@@ -69,6 +76,7 @@
     {
         "id": 8,
         "name": "smallmouth buffalo",
+        "family": "carp",
         "sizeClass": 4,
         "sizeMin": 1.5,
         "sizeMax": 2.7,
@@ -78,6 +86,7 @@
     {
         "id": 9,
         "name": "spotted bass",
+        "family": "bass",
         "sizeClass": 3,
         "sizeMin": 0.3,
         "sizeMax": 1,
@@ -87,6 +96,7 @@
     {
         "id": 10,
         "name": "white crappie",
+        "family": "crappie",
         "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.3,
@@ -96,6 +106,7 @@
     {
         "id": 11,
         "name": "black bullhead catfish",
+        "family": "catfish",
         "sizeClass": 2,
         "sizeMin": 0.4,
         "sizeMax": 2,
@@ -105,6 +116,7 @@
     {
         "id": 12,
         "name": "bluntnose minnow",
+        "family": "minnow",
         "sizeClass": 1,
         "sizeMin": 0.04,
         "sizeMax": 0.11,
@@ -114,6 +126,7 @@
     {
         "id": 13,
         "name": "bowfin",
+        "family": null,
         "sizeClass": 4,
         "sizeMin": 2,
         "sizeMax": 6,
@@ -123,6 +136,7 @@
     {
         "id": 14,
         "name": "chain pickerel",
+        "family": "pike",
         "sizeClass": 3,
         "sizeMin": 1.2,
         "sizeMax": 2,
@@ -132,6 +146,7 @@
     {
         "id": 15,
         "name": "common shiner",
+        "family": "minnow",
         "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.25,
@@ -141,6 +156,7 @@
     {
         "id": 16,
         "name": "freshwater drum",
+        "family": "drum",
         "sizeClass": 4,
         "sizeMin": 1,
         "sizeMax": 5,
@@ -150,6 +166,7 @@
     {
         "id": 17,
         "name": "largemouth bass",
+        "family": "bass",
         "sizeClass": 2,
         "sizeMin": 0.6,
         "sizeMax": 1.8,
@@ -159,6 +176,7 @@
     {
         "id": 18,
         "name": "pumpkinseed",
+        "family": "panfish",
         "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.2,
@@ -168,6 +186,7 @@
     {
         "id": 19,
         "name": "spotted gar",
+        "family": "gar",
         "sizeClass": 3,
         "sizeMin": 0.9,
         "sizeMax": 1.8,
@@ -177,6 +196,7 @@
     {
         "id": 20,
         "name": "black crappie",
+        "family": "crappie",
         "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.3,
@@ -186,6 +206,7 @@
     {
         "id": 21,
         "name": "colorado golden trout",
+        "family": "trout",
         "sizeClass": 2,
         "sizeMin": 0.3,
         "sizeMax": 1.5,
@@ -195,6 +216,7 @@
     {
         "id": 22,
         "name": "cutthroat trout",
+        "family": "trout",
         "sizeClass": 2,
         "sizeMin": 0.2,
         "sizeMax": 1.5,
@@ -204,6 +226,7 @@
     {
         "id": 23,
         "name": "rainbow trout",
+        "family": "trout",
         "sizeClass": 3,
         "sizeMin": 0.5,
         "sizeMax": 3,
@@ -213,6 +236,7 @@
     {
         "id": 24,
         "name": "white bass",
+        "family": "bass",
         "sizeClass": 2,
         "sizeMin": 0.5,
         "sizeMax": 2,
@@ -222,6 +246,7 @@
     {
         "id": 25,
         "name": "white sucker",
+        "family": "carp",
         "sizeClass": 3,
         "sizeMin": 1,
         "sizeMax": 2.5,
@@ -231,6 +256,7 @@
     {
         "id": 26,
         "name": "northern pike",
+        "family": "pike",
         "sizeClass": 4,
         "sizeMin": 4,
         "sizeMax": 10,
@@ -240,6 +266,7 @@
     {
         "id": 27,
         "name": "redfin pickerel",
+        "family": "pike",
         "sizeClass": 2,
         "sizeMin": 0.4,
         "sizeMax": 1,
@@ -249,6 +276,7 @@
     {
         "id": 28,
         "name": "sauger",
+        "family": "perch",
         "sizeClass": 3,
         "sizeMin": 1,
         "sizeMax": 2.5,
@@ -258,6 +286,7 @@
     {
         "id": 29,
         "name": "walleye",
+        "family": "perch",
         "sizeClass": 4,
         "sizeMin": 2,
         "sizeMax": 5,
@@ -267,6 +296,7 @@
     {
         "id": 30,
         "name": "yellow perch",
+        "family": "perch",
         "sizeClass": 1,
         "sizeMin": 0.5,
         "sizeMax": 1,
@@ -276,6 +306,7 @@
     {
         "id": 31,
         "name": "american shad",
+        "family": "herring",
         "sizeClass": 2,
         "sizeMin": 1.5,
         "sizeMax": 4,
@@ -285,6 +316,7 @@
     {
         "id": 32,
         "name": "common carp",
+        "family": "carp",
         "sizeClass": 4,
         "sizeMin": 2,
         "sizeMax": 14,
@@ -294,6 +326,7 @@
     {
         "id": 33,
         "name": "flathead catfish",
+        "family": "catfish",
         "sizeClass": 4,
         "sizeMin": 5,
         "sizeMax": 20,
@@ -303,6 +336,7 @@
     {
         "id": 34,
         "name": "longnose gar",
+        "family": "gar",
         "sizeClass": 3,
         "sizeMin": 3,
         "sizeMax": 10,
@@ -312,6 +346,7 @@
     {
         "id": 35,
         "name": "smallmouth bass",
+        "family": "bass",
         "sizeClass": 2,
         "sizeMin": 0.5,
         "sizeMax": 1.6,
@@ -321,6 +356,7 @@
     {
         "id": 36,
         "name": "brown trout",
+        "family": "trout",
         "sizeClass": 3,
         "sizeMin": 1,
         "sizeMax": 5,
@@ -330,6 +366,7 @@
     {
         "id": 37,
         "name": "redband trout",
+        "family": "trout",
         "sizeClass": 2,
         "sizeMin": 0.5,
         "sizeMax": 1.8,
@@ -339,6 +376,7 @@
     {
         "id": 38,
         "name": "redbreast sunfish",
+        "family": "panfish",
         "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.25,
@@ -348,6 +386,7 @@
     {
         "id": 39,
         "name": "rock bass",
+        "family": "bass",
         "sizeClass": 1,
         "sizeMin": 0.2,
         "sizeMax": 0.5,
@@ -357,6 +396,7 @@
     {
         "id": 40,
         "name": "brown bullhead catfish",
+        "family": "catfish",
         "sizeClass": 2,
         "sizeMin": 0.5,
         "sizeMax": 1.2,
@@ -366,6 +406,7 @@
     {
         "id": 41,
         "name": "common snook",
+        "family": "perch",
         "sizeClass": 3,
         "sizeMin": 1.5,
         "sizeMax": 10.5,
@@ -375,6 +416,7 @@
     {
         "id": 42,
         "name": "florida gar",
+        "family": "gar",
         "sizeClass": 3,
         "sizeMin": 4.3,
         "sizeMax": 8,
@@ -384,6 +426,7 @@
     {
         "id": 43,
         "name": "warmouth",
+        "family": "panfish",
         "sizeClass": 1,
         "sizeMin": 0.1,
         "sizeMax": 0.4,
@@ -393,6 +436,7 @@
     {
         "id": 44,
         "name": "gafftopsail catfish",
+        "family": "catfish",
         "sizeClass": 2,
         "sizeMin": 0.5,
         "sizeMax": 3,
@@ -402,6 +446,7 @@
     {
         "id": 45,
         "name": "butterfly peacock bass",
+        "family": "bass",
         "sizeClass": 2,
         "sizeMin": 1,
         "sizeMax": 3.5,
@@ -411,6 +456,7 @@
     {
         "id": 46,
         "name": "tarpon",
+        "family": null,
         "sizeClass": 4,
         "sizeMin": 15,
         "sizeMax": 70,
@@ -420,6 +466,7 @@
     {
         "id": 47,
         "name": "alligator gar",
+        "family": "gar",
         "sizeClass": 4,
         "sizeMin": 6,
         "sizeMax": 40,
@@ -429,6 +476,7 @@
     {
         "id": 48,
         "name": "blue catfish",
+        "family": "catfish",
         "sizeClass": 3,
         "sizeMin": 10,
         "sizeMax": 25,
@@ -438,6 +486,7 @@
     {
         "id": 49,
         "name": "atlantic salmon",
+        "family": "salmon",
         "sizeClass": 2,
         "sizeMin": 5,
         "sizeMax": 15,
@@ -447,6 +496,7 @@
     {
         "id": 50,
         "name": "brook trout",
+        "family": "trout",
         "sizeClass": 2,
         "sizeMin": 0.3,
         "sizeMax": 3,
@@ -456,6 +506,7 @@
     {
         "id": 51,
         "name": "clear muskie",
+        "family": "pike",
         "sizeClass": 3,
         "sizeMin": 5,
         "sizeMax": 30,
@@ -465,6 +516,7 @@
     {
         "id": 52,
         "name": "tiger muskie",
+        "family": "pike",
         "sizeClass": 2,
         "sizeMin": 1.5,
         "sizeMax": 15,
@@ -474,6 +526,7 @@
     {
         "id": 53,
         "name": "sturgeon",
+        "family": "sturgeon",
         "sizeClass": 4,
         "sizeMin": 10,
         "sizeMax": 60,
@@ -483,6 +536,7 @@
     {
         "id": 54,
         "name": "muskellunge",
+        "family": "pike",
         "sizeClass": 3,
         "sizeMin": 4,
         "sizeMax": 20,
@@ -492,6 +546,7 @@
     {
         "id": 55,
         "name": "longnose sucker",
+        "family": "carp",
         "sizeClass": 1,
         "sizeMin": 0.7,
         "sizeMax": 1.5,
@@ -501,6 +556,7 @@
     {
         "id": 56,
         "name": "california roach",
+        "family": "minnow",
         "sizeClass": 1,
         "sizeMin": 0.05,
         "sizeMax": 0.1,
@@ -510,6 +566,7 @@
     {
         "id": 57,
         "name": "white catfish",
+        "family": "catfish",
         "sizeClass": 1,
         "sizeMin": 0.4,
         "sizeMax": 1,
@@ -519,6 +576,7 @@
     {
         "id": 58,
         "name": "arapaima",
+        "family": null,
         "sizeClass": 4,
         "sizeMin": 40,
         "sizeMax": 120,
@@ -528,6 +586,7 @@
     {
         "id": 59,
         "name": "apapa",
+        "family": "herring",
         "sizeClass": 1,
         "sizeMin": 1.5,
         "sizeMax": 3,
@@ -537,6 +596,7 @@
     {
         "id": 60,
         "name": "bull shark",
+        "family": "shark",
         "sizeClass": 4,
         "sizeMin": 50,
         "sizeMax": 130,
@@ -546,6 +606,7 @@
     {
         "id": 61,
         "name": "redtail catfish",
+        "family": "catfish",
         "sizeClass": 3,
         "sizeMin": 30,
         "sizeMax": 60,
@@ -555,6 +616,7 @@
     {
         "id": 62,
         "name": "piraiba catfish",
+        "family": "catfish",
         "sizeClass": 3,
         "sizeMin": 45,
         "sizeMax": 70,
@@ -564,6 +626,7 @@
     {
         "id": 63,
         "name": "gilded catfish",
+        "family": "catfish",
         "sizeClass": 3,
         "sizeMin": 30,
         "sizeMax": 60,
@@ -573,6 +636,7 @@
     {
         "id": 64,
         "name": "oscar",
+        "family": "cichlid",
         "sizeClass": 1,
         "sizeMin": 0.5,
         "sizeMax": 1,
@@ -582,6 +646,7 @@
     {
         "id": 65,
         "name": "electric eel",
+        "family": "eel",
         "sizeClass": 2,
         "sizeMin": 10,
         "sizeMax": 20,
@@ -591,6 +656,7 @@
     {
         "id": 66,
         "name": "jacunda",
+        "family": "cichlid",
         "sizeClass": 1,
         "sizeMin": 0.7,
         "sizeMax": 2,
@@ -600,6 +666,7 @@
     {
         "id": 67,
         "name": "payara",
+        "family": null,
         "sizeClass": 2,
         "sizeMin": 5,
         "sizeMax": 10,
@@ -609,6 +676,7 @@
     {
         "id": 68,
         "name": "trahira",
+        "family": null,
         "sizeClass": 3,
         "sizeMin": 15,
         "sizeMax": 30,
@@ -618,6 +686,7 @@
     {
         "id": 69,
         "name": "silver arowana",
+        "family": null,
         "sizeClass": 2,
         "sizeMin": 2,
         "sizeMax": 4,
