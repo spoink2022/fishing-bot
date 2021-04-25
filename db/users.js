@@ -22,10 +22,16 @@ module.exports.fetchUser = async function(userid) {
 module.exports.fetchInventory = async function(userid) {
     let query = 'SELECT * FROM inventory WHERE userid=$1';
     let inventory = (await config.pquery(query, [userid]))[0];
+    for (const [key, value] of Object.entries(inventory)) {
+        if (key.includes('_')) {
+            inventory[key.replace(/_/g, ' ')] = value;
+        }
+    }
     return inventory;
 }
 
 module.exports.updateInventory = async function(userid, column, amount) {
+    column = column.replace(/ /g, '_');
     let query = `UPDATE inventory SET ${column}=${column}+$1 WHERE userid=$2`;
     await config.pquery(query, [amount, userid]);
     return;
