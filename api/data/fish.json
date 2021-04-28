@@ -140,7 +140,7 @@
         "sizeClass": 3,
         "sizeMin": 1.2,
         "sizeMax": 2,
-        "screenLen": 5,
+        "screenLen": 5.5,
         "value": 30
     },
     {
@@ -190,7 +190,7 @@
         "sizeClass": 3,
         "sizeMin": 0.9,
         "sizeMax": 1.8,
-        "screenLen": 5.5,
+        "screenLen": 6,
         "value": 12
     },
     {
