@@ -664,5 +664,35 @@
             "level": 59,
             "price": 2400
         }
+    ],
+    "gloves": [
+        {
+            "id": 0,
+            "name": "None",
+            "chance": 0,
+            "bonus": 0,
+            "level": 0,
+            "price": null
+        },
+        {
+            "id": 1,
+            "name": "Vinyl"
+        },
+        {
+            "id": 2,
+            "name": "Latex"
+        },
+        {
+            "id": 3,
+            "name": "Nitrile"
+        },
+        {
+            "id": 4,
+            "name": "Neoprene"
+        },
+        {
+            "id": 5,
+            "name": ""
+        }
     ]
 }
