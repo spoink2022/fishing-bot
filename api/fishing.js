@@ -89,14 +89,22 @@ module.exports.getAllHookData = function() {
     return EquipmentData.hooks;
 }
 
+// gloves
+module.exports.getGloveData = function(id) {
+    return EquipmentData.gloves[id-1];
+}
+module.exports.getAllGloveData = function() {
+    return EquipmentData.gloves;
+}
+
 // general
 // gets highest item ID user can view info about
 module.exports.getHighestItemID = function(category, level) {
     const categoryLen = EquipmentData[category].length;
     for(let i=0; i<categoryLen; i++) {
         if(EquipmentData[category][i].level > level) {
-            return i;
+            return EquipmentData[category][i].id;
         }
     }
-    return categoryLen-1;
+    return EquipmentData[category].slice(-1)[0];
 }

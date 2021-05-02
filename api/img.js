@@ -11,6 +11,10 @@ module.exports.fetchHookImgUrl = function(hookID) {
     return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/equipment/hooks/hook_${hookID}.png`;
 }
 
+module.exports.fetchGloveImgUrl = function(gloveID) {
+    return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/equipment/gloves/glove_${gloveID}.png`;
+}
+
 module.exports.fetchAssetUrl = function(asset) {
     let baseUrl = `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/assets/`;
     return baseUrl + asset + '.png';
