@@ -667,32 +667,44 @@
     ],
     "gloves": [
         {
-            "id": 0,
-            "name": "None",
-            "chance": 0,
-            "bonus": 0,
-            "level": 0,
-            "price": null
-        },
-        {
             "id": 1,
-            "name": "Vinyl"
+            "name": "Cheap",
+            "chance": 2,
+            "bonus": 3,
+            "level": 20,
+            "price": 300
         },
         {
             "id": 2,
-            "name": "Latex"
+            "name": "Vinyl",
+            "chance": 3,
+            "bonus": 4,
+            "level": 26,
+            "price": 500
         },
         {
             "id": 3,
-            "name": "Nitrile"
+            "name": "Latex",
+            "chance": 4,
+            "bonus": 5,
+            "level": 31,
+            "price": 800
         },
         {
             "id": 4,
-            "name": "Neoprene"
+            "name": "Nitrile",
+            "chance": 5,
+            "bonus": 6,
+            "level": 35,
+            "price": 1200
         },
         {
             "id": 5,
-            "name": ""
+            "name": "Neoprene",
+            "chance": 5,
+            "bonus": 10,
+            "level": 39,
+            "price": 2500
         }
     ]
 }
