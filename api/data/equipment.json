@@ -705,6 +705,30 @@
             "bonus": 10,
             "level": 39,
             "price": 2500
+        },
+        {
+            "id": 6,
+            "name": "Leather",
+            "chance": 6,
+            "bonus": 12,
+            "level": 46,
+            "price": 4500
+        },
+        {
+            "id": 7,
+            "name": "Utility",
+            "chance": 6,
+            "bonus": 15,
+            "level": 49,
+            "price": 6000
+        },
+        {
+            "id": 8,
+            "name": "Sport",
+            "chance": 7,
+            "bonus": 20,
+            "level": 56,
+            "price": 10000
         }
     ]
 }
