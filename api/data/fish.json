@@ -290,7 +290,7 @@
         "sizeClass": 4,
         "sizeMin": 2,
         "sizeMax": 5,
-        "screenLen": 7.5,
+        "screenLen": 7,
         "value": 38
     },
     {
@@ -330,7 +330,7 @@
         "sizeClass": 4,
         "sizeMin": 5,
         "sizeMax": 20,
-        "screenLen": 8.5,
+        "screenLen": 9.5,
         "value": 8
     },
     {
@@ -360,7 +360,7 @@
         "sizeClass": 3,
         "sizeMin": 1,
         "sizeMax": 5,
-        "screenLen": 6,
+        "screenLen": 5,
         "value": 30
     },
     {
@@ -400,7 +400,7 @@
         "sizeClass": 2,
         "sizeMin": 0.5,
         "sizeMax": 1.2,
-        "screenLen": 4,
+        "screenLen": 3.5,
         "value": 12
     },
     {
@@ -440,7 +440,7 @@
         "sizeClass": 2,
         "sizeMin": 0.5,
         "sizeMax": 3,
-        "screenLen": 4.5,
+        "screenLen": 4,
         "value": 16
     },
     {
