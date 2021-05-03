@@ -730,5 +730,28 @@
             "level": 56,
             "price": 10000
         }
+    ],
+    "swivels": [
+        {
+            "id": 1,
+            "name": "Small",
+            "bonus": 10,
+            "level": 50,
+            "price": 3500
+        },
+        {
+            "id": 2,
+            "name": "Standard",
+            "bonus": 20,
+            "level": 55,
+            "price": 5000
+        },
+        {
+            "id": 3,
+            "name": "Steel",
+            "bonus": 35,
+            "level": 61,
+            "price": 7000
+        }
     ]
 }
