@@ -97,6 +97,14 @@ module.exports.getAllGloveData = function() {
     return EquipmentData.gloves;
 }
 
+// swivels
+module.exports.getSwivelData = function(id) {
+    return EquipmentData.swivels[id-1];
+}
+module.exports.getAllSwivelData = function() {
+    return EquipmentData.swivels;
+}
+
 // general
 // gets highest item ID user can view info about
 module.exports.getHighestItemID = function(category, level) {
