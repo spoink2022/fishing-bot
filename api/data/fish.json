@@ -692,5 +692,125 @@
         "sizeMax": 4,
         "screenLen": 3,
         "value": 36
+    },
+    {
+        "id": 70,
+        "name": "yellowfin tuna",
+        "family": "scombridae",
+        "sizeClass": 4,
+        "sizeMin": 70,
+        "sizeMax": 150,
+        "screenLen": 10,
+        "value": 18
+    },
+    {
+        "id": 71,
+        "name": "bonito",
+        "family": "scombridae",
+        "sizeClass": 1,
+        "sizeMin": 3,
+        "sizeMax": 6,
+        "screenLen": 3,
+        "value": 20
+    },
+    {
+        "id": 72,
+        "name": "mako shark",
+        "family": "shark",
+        "sizeClass": 4,
+        "sizeMin": 60,
+        "sizeMax": 160,
+        "screenLen": 12,
+        "value": 14
+    },
+    {
+        "id": 73,
+        "name": "red snapper",
+        "family": "perch",
+        "sizeClass": 2,
+        "sizeMin": 9,
+        "sizeMax": 20,
+        "screenLen": 3.5,
+        "value": 14
+    },
+    {
+        "id": 74,
+        "name": "gulf grouper",
+        "family": null,
+        "sizeClass": 3,
+        "sizeMin": 30,
+        "sizeMax": 70,
+        "screenLen": 6.5,
+        "value": 9
+    },
+    {
+        "id": 75,
+        "name": "red grouper",
+        "family": null,
+        "sizeClass": 2,
+        "sizeMin": 10,
+        "sizeMax": 20,
+        "screenLen": 4,
+        "value": 9
+    },
+    {
+        "id": 76,
+        "name": "sailfish",
+        "family": "marlin",
+        "sizeClass": 3,
+        "sizeMin": 40,
+        "sizeMax": 90,
+        "screenLen": 8.5,
+        "value": 10
+    },
+    {
+        "id": 77,
+        "name": "mahi mahi",
+        "family": null,
+        "sizeClass": 2,
+        "sizeMin": 7,
+        "sizeMax": 15,
+        "screenLen": 4.25,
+        "value": 22
+    },
+    {
+        "id": 78,
+        "name": "wahoo",
+        "family": "scombridae",
+        "sizeClass": 3,
+        "sizeMin": 35,
+        "sizeMax": 80,
+        "screenLen": 7.5,
+        "value": 7
+    },
+    {
+        "id": 79,
+        "name": "spotted mackerel",
+        "family": "scombridae",
+        "sizeClass": 1,
+        "sizeMin": 5,
+        "sizeMax": 10,
+        "screenLen": 3,
+        "value": 8
+    },
+    {
+        "id": 80,
+        "name": "spanish mackerel",
+        "family": "scombridae",
+        "sizeClass": 3,
+        "sizeMin": 30,
+        "sizeMax": 75,
+        "screenLen": 7.5,
+        "value": 6
+    },
+    {
+        "id": 81,
+        "name": "blackfish",
+        "family": null,
+        "sizeClass": 1,
+        "sizeMin": 0.4,
+        "sizeMax": 0.8,
+        "screenLen": 2,
+        "value": 10
     }
 ]
