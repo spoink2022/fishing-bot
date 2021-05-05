@@ -125,6 +125,42 @@
             "level": 55,
             "price": 8000,
             "size": 2
+        },
+        {
+            "id": 14,
+            "name": "Tropical",
+            "cooldown": 3720000,
+            "maxWeight": 75,
+            "level": 58,
+            "price": 10000,
+            "size": 2.5
+        },
+        {
+            "id": 15,
+            "name": "Silver Tropical",
+            "cooldown": 3660000,
+            "maxWeight": 85,
+            "level": 61,
+            "price": 14000,
+            "size": 2.5
+        },
+        {
+            "id": 16,
+            "name": "Gold Tropical",
+            "cooldown": 3600000,
+            "maxWeight": 100,
+            "level": 65,
+            "price": 18000,
+            "size": 2.5
+        },
+        {
+            "id": 17,
+            "name": "Yellowfin",
+            "cooldown": 3600000,
+            "maxWeight": 120,
+            "level": 70,
+            "price": 24000,
+            "size": 3
         }
     ],
     "lines": [
@@ -397,6 +433,46 @@
             "level": 57,
             "price": 4000,
             "bonus": 6
+        },
+        {
+            "id": 27,
+            "name": "Tropical",
+            "px": 3,
+            "rgb": "#fad25a",
+            "maxWeight": 70,
+            "level": 60,
+            "price": 4500,
+            "bonus": 7
+        },
+        {
+            "id": 28,
+            "name": "Tropical A",
+            "px": 3,
+            "rgb": "#e1ba43",
+            "maxWeight": 80,
+            "level": 62,
+            "price": 5500,
+            "bonus": 7
+        },
+        {
+            "id": 29,
+            "name": "Tropical AA",
+            "px": 3,
+            "rgb": "#c7a42b",
+            "maxWeight": 90,
+            "level": 64,
+            "price": 6250,
+            "bonus": 7
+        },
+        {
+            "id": 30,
+            "name": "Tropical AAA",
+            "px": 3,
+            "rgb": "#ae8d0b",
+            "maxWeight": 100,
+            "level": 67,
+            "price": 7000,
+            "bonus": 7
         }
     ],
     "hooks": [
@@ -663,13 +739,53 @@
             "name": "Pro Steel",
             "level": 59,
             "price": 2400
+        },
+        {
+            "id": 33,
+            "multiplier": 1.43,
+            "maxWeight": 75,
+            "name": "Pro Titanium",
+            "level": 61,
+            "price": 2450
+        },
+        {
+            "id": 34,
+            "multiplier": 1.43,
+            "maxWeight": 80,
+            "name": "Pro Tungsten",
+            "level": 62,
+            "price": 2500
+        },
+        {
+            "id": 35,
+            "multiplier": 1.44,
+            "maxWeight": 90,
+            "name": "Industrial",
+            "level": 64,
+            "price": 2750
+        },
+        {
+            "id": 36,
+            "multiplier": 1.45,
+            "maxWeight": 95,
+            "name": "Industrial A",
+            "level": 66,
+            "price": 2850
+        },
+        {
+            "id": 37,
+            "multiplier": 1.46,
+            "maxWeight": 100,
+            "name": "Industrial AA",
+            "level": 69,
+            "price": 2900
         }
     ],
     "gloves": [
         {
             "id": 1,
             "name": "Cheap",
-            "chance": 2,
+            "chance": 4,
             "bonus": 3,
             "level": 20,
             "price": 300
@@ -677,7 +793,7 @@
         {
             "id": 2,
             "name": "Vinyl",
-            "chance": 3,
+            "chance": 4,
             "bonus": 4,
             "level": 26,
             "price": 500
@@ -685,7 +801,7 @@
         {
             "id": 3,
             "name": "Latex",
-            "chance": 4,
+            "chance": 5,
             "bonus": 5,
             "level": 31,
             "price": 800
@@ -701,7 +817,7 @@
         {
             "id": 5,
             "name": "Neoprene",
-            "chance": 5,
+            "chance": 6,
             "bonus": 10,
             "level": 39,
             "price": 2500
@@ -717,7 +833,7 @@
         {
             "id": 7,
             "name": "Utility",
-            "chance": 6,
+            "chance": 7,
             "bonus": 15,
             "level": 49,
             "price": 6000
@@ -729,6 +845,22 @@
             "bonus": 20,
             "level": 56,
             "price": 10000
+        },
+        {
+            "id": 9,
+            "name": "Sport Plus",
+            "chance": 7,
+            "bonus": 25,
+            "level": 62,
+            "price": 13000
+        },
+        {
+            "id": 10,
+            "name": "Fishing",
+            "chance": 8,
+            "bonus": 30,
+            "level": 69,
+            "price": 18000
         }
     ],
     "swivels": [
@@ -749,9 +881,16 @@
         {
             "id": 3,
             "name": "Steel",
-            "bonus": 35,
+            "bonus": 30,
             "level": 61,
             "price": 7000
+        },
+        {
+            "id": 4,
+            "name": "Titanium",
+            "bonus": 40,
+            "level": 67,
+            "price": 11000
         }
     ]
 }
