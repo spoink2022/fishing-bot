@@ -24,6 +24,7 @@
         "leaderboards": "#dddddd",
         "baits": "#ffac33",
         "locationinfo": "#dddddd",
+        "familyinfo": "#dddddd",
         "event": "#9933cc",
         "quest": "#ffac33",
         "voteReady": "#32cd32",
