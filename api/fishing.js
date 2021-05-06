@@ -17,6 +17,21 @@ for (let i=0; i<FishingLocationsData.length; i++) {
     }
 }
 
+// location names
+const FishingLocationNames = FishingLocationsData.map(obj => obj.name);
+
+// generates family list
+let FamilyData = {};
+for (const fishObj of Object.values(FishData)) {
+    if (fishObj.family) {
+        if (!FamilyData[fishObj.family]) {
+            FamilyData[fishObj.family] = [fishObj];
+        } else {
+            FamilyData[fishObj.family].push(fishObj);
+        }
+    }
+}
+let FamilyNames = Object.keys(FamilyData);
 
 
 module.exports.mapFishNameToID = function(fishName) {
@@ -40,6 +55,9 @@ module.exports.getUnlockedLocations = function(level) {
 module.exports.getAllLocationData = function() {
     return FishingLocationsData;
 }
+module.exports.getLocationNames = function() {
+    return FishingLocationNames;
+}
 
 // fish.json
 module.exports.getFishData = function(id) {
@@ -47,6 +65,16 @@ module.exports.getFishData = function(id) {
 }
 module.exports.getFishNames = function() {
     return FishData.map(obj => obj.name);
+}
+
+module.exports.getAllFamilyData = function() {
+    return FamilyData;
+}
+module.exports.getFamilyData = function(family) {
+    return FamilyData[family];
+}
+module.exports.getFamilyNames = function() {
+    return FamilyNames;
 }
 
 // equipment.json

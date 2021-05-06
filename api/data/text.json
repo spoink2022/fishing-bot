@@ -130,9 +130,11 @@
             "- Also accepts `${PREFIX}ii`"
         ],
         "fishinfo": [
-            "Usage: `${PREFIX}fishinfo <fish name>`",
+            "Usage: `${PREFIX}fishinfo <fish/family name>`",
             "Example: `${PREFIX}fishinfo northern pike`",
             "\n- Gives you all information about a given fish",
+            "- Can also be used to view fish species",
+            "- Type only `.fishinfo` for a list of fish species",
             "- Also accepts `${PREFIX}fi`"
         ],
         "locationinfo": [
