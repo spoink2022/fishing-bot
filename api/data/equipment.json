@@ -481,7 +481,7 @@
             "multiplier": 1,
             "maxWeight": 0.5,
             "name": "Wooden",
-            "level": null,
+            "level": 1,
             "price": null
         },
         {
