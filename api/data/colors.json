@@ -33,9 +33,19 @@
         "baitshop": "#215732",
         "bounty": "#a43636",
         "bountyComplete": "#32cd32",
-        "mod": "#fefefe"
+        "mod": "#fefefe",
+        "market": "#215732"
     },
     "rank": [
         "#888888"
-    ]
+    ],
+    "cardbox": {
+        "1": "#855E42"
+    },
+    "card": {
+        "Trophy": "#d4af37",
+        "Sashimi": "#fa8072",
+        "Premium": "#ffebcd",
+        "Consumer": "#dddddd"
+    }
 }

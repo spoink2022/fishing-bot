@@ -2,7 +2,7 @@
     "info": {
         "General": [
             "**Below is a full list of available commands**\nTo better understand commands, visit the [Offical Commands Page](https://bigtuna.xyz/commands)",
-            "\n**Gameplay** :fish:\nfish, aquarium, collect, shop, setlocation, quest, bounty, baitshop",
+            "\n**Gameplay** :fish:\nfish, aquarium, collect, shop, setlocation, quest, bounty, baitshop, market, card, givecard",
             "**Profile Commands** :trophy:\nstats, serverstats, equipment, baits, leaderboards",
             "**Info Commands** :question:\nhelp, info, iteminfo, fishinfo, locationinfo",
             "**Extra Commands** :eyes:\nvote, server, toggle, optin, optout"
@@ -86,8 +86,22 @@
         "bounty": [
             "Usage: `${PREFIX}bounty`",
             "\n- Opens up the bounty page"
-        ]
-        ,
+        ],
+        "market": [
+            "Usage: `${PREFIX}market`",
+            "\n- Displays current market prices by fish quality"
+        ],
+        "card": [
+            "Usage: `${PREFIX}card <card id (optional)>`",
+            "\n- Shows your card collection or a specific card",
+            "- You may sell cards for :lollipop:",
+            "- You may put fish from cards in your aquarium"
+        ],
+        "givecard": [
+            "Usage: `${PREFIX}givecard <card id> @user`",
+            "\n- Gives one of your cards to another player",
+            "- Also accepts `${PREFIX}gc`"
+        ],
         "stats": [
             "Usage: `${PREFIX}stats @user (optional)`",
             "\n- Shows you your stats.",
