@@ -107,6 +107,7 @@
         "serverstats": [
             "Usage: `${PREFIX}serverstats`",
             "\n- Shows your server's stats",
+            "- Global rankings are based on weight caught",
             "- Also accepts `${PREFIX}ss`"
         ],
         "baits": [
