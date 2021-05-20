@@ -11,7 +11,7 @@
         "sizeMin": 0.05,
         "sizeMax": 0.2,
         "screenLen": 3,
-        "value": 28
+        "value": 40
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "sizeMin": 0.1,
         "sizeMax": 0.3,
         "screenLen": 2.5,
-        "value": 14
+        "value": 20
     },
     {
         "id": 3,
@@ -31,7 +31,7 @@
         "sizeMin": 2,
         "sizeMax": 3.5,
         "screenLen": 7.5,
-        "value": 12
+        "value": 18
     },
     {
         "id": 4,
@@ -41,7 +41,7 @@
         "sizeMin": 0.2,
         "sizeMax": 0.35,
         "screenLen": 3,
-        "value": 20
+        "value": 30
     },
     {
         "id": 5,
@@ -51,7 +51,7 @@
         "sizeMin": 0.25,
         "sizeMax": 0.5,
         "screenLen": 5,
-        "value": 30
+        "value": 46
     },
     {
         "id": 6,
@@ -61,7 +61,7 @@
         "sizeMin": 0.05,
         "sizeMax": 0.2,
         "screenLen": 2.5,
-        "value": 14
+        "value": 22
     },
     {
         "id": 7,
@@ -71,7 +71,7 @@
         "sizeMin": 0.2,
         "sizeMax": 0.4,
         "screenLen": 3.25,
-        "value": 24
+        "value": 36
     },
     {
         "id": 8,
@@ -81,7 +81,7 @@
         "sizeMin": 1.5,
         "sizeMax": 2.7,
         "screenLen": 6,
-        "value": 10
+        "value": 15
     },
     {
         "id": 9,
@@ -91,7 +91,7 @@
         "sizeMin": 0.3,
         "sizeMax": 1,
         "screenLen": 4.5,
-        "value": 34
+        "value": 48
     },
     {
         "id": 10,
@@ -101,7 +101,7 @@
         "sizeMin": 0.1,
         "sizeMax": 0.3,
         "screenLen": 3,
-        "value": 20
+        "value": 28
     },
     {
         "id": 11,
@@ -111,7 +111,7 @@
         "sizeMin": 0.4,
         "sizeMax": 2,
         "screenLen": 5,
-        "value": 7
+        "value": 8
     },
     {
         "id": 12,
@@ -121,7 +121,7 @@
         "sizeMin": 0.04,
         "sizeMax": 0.11,
         "screenLen": 2,
-        "value": 26
+        "value": 31
     },
     {
         "id": 13,
@@ -131,7 +131,7 @@
         "sizeMin": 2,
         "sizeMax": 6,
         "screenLen": 8,
-        "value": 8
+        "value": 10
     },
     {
         "id": 14,
@@ -151,7 +151,7 @@
         "sizeMin": 0.1,
         "sizeMax": 0.25,
         "screenLen": 3,
-        "value": 28
+        "value": 30
     },
     {
         "id": 16,
@@ -161,7 +161,7 @@
         "sizeMin": 1,
         "sizeMax": 5,
         "screenLen": 6,
-        "value": 10
+        "value": 12
     },
     {
         "id": 17,
@@ -171,7 +171,7 @@
         "sizeMin": 0.6,
         "sizeMax": 1.8,
         "screenLen": 4.5,
-        "value": 30
+        "value": 34
     },
     {
         "id": 18,
@@ -181,7 +181,7 @@
         "sizeMin": 0.1,
         "sizeMax": 0.2,
         "screenLen": 2.5,
-        "value": 14
+        "value": 18
     },
     {
         "id": 19,
@@ -191,7 +191,7 @@
         "sizeMin": 0.9,
         "sizeMax": 1.8,
         "screenLen": 6,
-        "value": 12
+        "value": 16
     },
     {
         "id": 20,
