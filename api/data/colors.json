@@ -25,7 +25,6 @@
         "baits": "#ffac33",
         "locationinfo": "#dddddd",
         "familyinfo": "#dddddd",
-        "event": "#9933cc",
         "quest": "#ffac33",
         "voteReady": "#32cd32",
         "voteNotReady": "#ffff00",
@@ -47,5 +46,10 @@
         "Sashimi": "#fa8072",
         "Premium": "#ffebcd",
         "Consumer": "#dddddd"
+    },
+    "event": {
+        "none": "#9933cc",
+        "pending": "#ff8000",
+        "current": "#32cd32"
     }
 }
