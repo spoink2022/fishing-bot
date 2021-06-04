@@ -812,5 +812,155 @@
         "sizeMax": 0.8,
         "screenLen": 2,
         "value": 10
+    },
+    {
+        "id": 82,
+        "name": "bluefin tuna",
+        "family": "scombridae",
+        "sizeClass": 4,
+        "sizeMin": 100,
+        "sizeMax": 250,
+        "screenLen": 10.5,
+        "value": 22
+    },
+    {
+        "id": 83,
+        "name": "garfish",
+        "family": "gar",
+        "sizeClass": 1,
+        "sizeMin": 0.5,
+        "sizeMax": 1,
+        "screenLen": 3,
+        "value": 20
+    },
+    {
+        "id": 84,
+        "name": "pearl perch",
+        "family": "perch",
+        "sizeClass": 1,
+        "sizeMin": 1,
+        "sizeMax": 3,
+        "screenLen": 2.5,
+        "value": 24
+    },
+    {
+        "id": 85,
+        "name": "cobia",
+        "family": null,
+        "sizeClass": 3,
+        "sizeMin": 30,
+        "sizeMax": 50,
+        "screenLen": 7,
+        "value": 18
+    },
+    {
+        "id": 86,
+        "name": "striped marlin",
+        "family": "marlin",
+        "sizeClass": 4,
+        "sizeMin": 80,
+        "sizeMax": 200,
+        "screenLen": 11,
+        "value": 10
+    },
+    {
+        "id": 87,
+        "name": "butterfish",
+        "family": null,
+        "sizeClass": 3,
+        "sizeMin": 30,
+        "sizeMax": 60,
+        "screenLen": 7,
+        "value": 14
+    },
+    {
+        "id": 88,
+        "name": "atlantic cod",
+        "family": "cod",
+        "sizeClass": 2,
+        "sizeMin": 10,
+        "sizeMax": 35,
+        "screenLen": 6,
+        "value": 8
+    },
+    {
+        "id": 89,
+        "name": "amberjack",
+        "family": null,
+        "sizeClass": 2,
+        "sizeMin": 20,
+        "sizeMax": 40,
+        "screenLen": 6,
+        "value": 10
+    },
+    {
+        "id": 90,
+        "name": "whaler shark",
+        "family": "shark",
+        "sizeClass": 4,
+        "sizeMin": 130,
+        "sizeMax": 250,
+        "screenLen": 12,
+        "value": 16
+    },
+    {
+        "id": 91,
+        "name": "spearfish",
+        "family": "marlin",
+        "sizeClass": 2,
+        "sizeMin": 15,
+        "sizeMax": 30,
+        "screenLen": 5.5,
+        "value": 10
+    },
+    {
+        "id": 92,
+        "name": "bluefish",
+        "family": null,
+        "sizeClass": 1,
+        "sizeMin": 2,
+        "sizeMax": 6,
+        "screenLen": 2.5,
+        "value": 8
+    },
+    {
+        "id": 93,
+        "name": "sockeye salmon",
+        "family": "salmon",
+        "sizeClass": 1,
+        "sizeMin": 3,
+        "sizeMax": 10,
+        "screenLen": 4.5,
+        "value": 20
+    },
+    {
+        "id": 94,
+        "name": "mulloway",
+        "family": null,
+        "sizeClass": 3,
+        "sizeMin": 30,
+        "sizeMax": 50,
+        "screenLen": 7,
+        "value": 15
+    },
+    {
+        "id": 95,
+        "name": "longtail tuna",
+        "family": "scombridae",
+        "sizeClass": 2,
+        "sizeMin": 20,
+        "sizeMax": 45,
+        "screenLen": 6.5,
+        "value": 16
+    },
+    {
+        "id": 96,
+        "name": "hapuku",
+        "family": null,
+        "sizeClass": 3,
+        "sizeMin": 50,
+        "sizeMax": 110,
+        "screenLen": 8.25,
+        "value": 12
     }
 ]

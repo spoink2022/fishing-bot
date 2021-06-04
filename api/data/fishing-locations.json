@@ -142,5 +142,29 @@
             {"id": 80, "chance": 6.5},
             {"id": 81, "chance": 21}
         ]
+    },
+    {
+        "id": 8,
+        "name": "Open Waters",
+        "trashChance": 1,
+        "level": 70,
+        "zoom": 3,
+        "fish": [
+            {"id": 82, "chance": 0.5},
+            {"id": 83, "chance": 14},
+            {"id": 84, "chance": 12},
+            {"id": 85, "chance": 5},
+            {"id": 86, "chance": 1.75},
+            {"id": 87, "chance": 4},
+            {"id": 88, "chance": 9},
+            {"id": 89, "chance": 8},
+            {"id": 90, "chance": 0.75},
+            {"id": 91, "chance": 9},
+            {"id": 92, "chance": 16},
+            {"id": 93, "chance": 9},
+            {"id": 94, "chance": 4},
+            {"id": 95, "chance": 5},
+            {"id": 96, "chance": 2}
+        ]
     }
 ]
