@@ -117,5 +117,26 @@
         "max": 110,
         "level": 73,
         "price": 22000
+    },
+    {
+        "name": "glass",
+        "multiplier": 1.75,
+        "max": 120,
+        "level": 75,
+        "price": 30000
+    },
+    {
+        "name": "premium glass",
+        "multiplier": 1.78,
+        "max": 125,
+        "level": 78,
+        "price": 45000
+    },
+    {
+        "name": "superior glass",
+        "multiplier": 1.84,
+        "max": 130,
+        "level": 84,
+        "price": 60000
     }
 ]

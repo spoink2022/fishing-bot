@@ -147,7 +147,7 @@
         {
             "id": 16,
             "name": "Gold Tropical",
-            "cooldown": 3600000,
+            "cooldown": 3660000,
             "maxWeight": 100,
             "level": 65,
             "price": 18000,
@@ -160,6 +160,24 @@
             "maxWeight": 120,
             "level": 70,
             "price": 24000,
+            "size": 3
+        },
+        {
+            "id": 18,
+            "name": "Bluefin",
+            "cooldown": 3600000,
+            "maxWeight": 150,
+            "level": 73,
+            "price": 28000,
+            "size": 3
+        },
+        {
+            "id": 19,
+            "name": "Sharkfin",
+            "cooldown": 3600000,
+            "maxWeight": 170,
+            "level": 78,
+            "price": 32000,
             "size": 3
         }
     ],
@@ -473,6 +491,56 @@
             "level": 67,
             "price": 7000,
             "bonus": 7
+        },
+        {
+            "id": 31,
+            "name": "Saltwater",
+            "px": 4,
+            "rgb": "#dddddd",
+            "maxWeight": 110,
+            "level": 70,
+            "price": 8000,
+            "bonus": 8
+        },
+        {
+            "id": 32,
+            "name": "Saltwater A",
+            "px": 4,
+            "rgb": "#bbbbbb",
+            "maxWeight": 130,
+            "level": 72,
+            "price": 8500,
+            "bonus": 8
+        },
+        {
+            "id": 33,
+            "name": "Saltwater AA",
+            "px": 4,
+            "rgb": "#999999",
+            "maxWeight": 140,
+            "level": 75,
+            "price": 9000,
+            "bonus": 8
+        },
+        {
+            "id": 34,
+            "name": "Saltwater AAA",
+            "px": 4,
+            "rgb": "#777777",
+            "maxWeight": 150,
+            "level": 77,
+            "price": 9500,
+            "bonus": 8
+        },
+        {
+            "id": 35,
+            "name": "Depths",
+            "px": 4,
+            "rgb": "#007700",
+            "maxWeight": 190,
+            "level": 80,
+            "price": 10000,
+            "bonus": 8
         }
     ],
     "hooks": [
@@ -779,6 +847,62 @@
             "name": "Industrial AA",
             "level": 69,
             "price": 2900
+        },
+        {
+            "id": 38,
+            "multiplier": 1.47,
+            "maxWeight": 105,
+            "name": "Industrial AAA",
+            "level": 70,
+            "price": 3000
+        },
+        {
+            "id": 39,
+            "multiplier": 1.5,
+            "maxWeight": 110,
+            "name": "Pronged Bronze",
+            "level": 71,
+            "price": 3250
+        },
+        {
+            "id": 40,
+            "multiplier": 1.51,
+            "maxWeight": 115,
+            "name": "Pronged Alloy",
+            "level": 72,
+            "price": 3400
+        },
+        {
+            "id": 41,
+            "multiplier": 1.52,
+            "maxWeight": 125,
+            "name": "Pronged Tinted",
+            "level": 74,
+            "price": 3600
+        },
+        {
+            "id": 42,
+            "multiplier": 1.53,
+            "maxWeight": 135,
+            "name": "Pronged Industrial",
+            "level": 76,
+            "price": 3800
+        },
+        {
+            "id": 43,
+            "multiplier": 1.54,
+            "maxWeight": 145,
+            "name": "Pronged Reinforced",
+            "level": 78,
+            "price": 4000
+        },
+        {
+            "id": 44,
+            "multiplier": 1.55,
+            "maxWeight": 160,
+            "name": "Abyssal",
+            "level": 80,
+            "price": 4500
         }
     ],
     "gloves": [
@@ -861,6 +985,22 @@
             "bonus": 30,
             "level": 69,
             "price": 18000
+        },
+        {
+            "id": 11,
+            "name": "Tough",
+            "chance": 9,
+            "bonus": 35,
+            "level": 74,
+            "price": 22000
+        },
+        {
+            "id": 12,
+            "name": "Pro",
+            "chance": 9,
+            "bonus": 45,
+            "level": 78,
+            "price": 26000
         }
     ],
     "swivels": [
@@ -891,6 +1031,20 @@
             "bonus": 40,
             "level": 67,
             "price": 11000
+        },
+        {
+            "id": 5,
+            "name": "Reinforced",
+            "bonus": 50,
+            "level": 76,
+            "price": 14000
+        },
+        {
+            "id": 6,
+            "name": "Tactical",
+            "bonus": 75,
+            "level": 83,
+            "price": 20000
         }
     ]
 }
