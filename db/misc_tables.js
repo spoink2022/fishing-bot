@@ -52,14 +52,13 @@ module.exports.daily.getLatestEntry = async function() {
     return parseForIntegers(entry);
 }
 module.exports.daily.insertEntry = async function(o) {
-    let weather_identifiers = [], weather_vars = [], weather_choices = [];
+    let weather_identifiers = [], weather_vars = [];
     const WEATHER_REPS = api.fishing.getLocationDatasetLength();
     for (let i=1; i<=WEATHER_REPS; i++) {
         weather_identifiers.push(`weather_${i}`);
         weather_vars.push(`$${i+3}`);
     }
     let query = `INSERT INTO daily (start_time, end_time, date_string, ${weather_identifiers.join(', ')}) VALUES ($1, $2, $3, ${weather_vars.join(', ')})`;
-
     await config.pquery(query, [o.start_time, o.end_time, o.date_string, ...o.weather]);
 }
 module.exports.daily.getCurrentEntry = async function() {
