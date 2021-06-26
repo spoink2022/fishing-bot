@@ -14,9 +14,9 @@ for (let i=0; i<FishingLocationsData.length; i++) {
         FishData[fishChanceObj.id].location = i+1;
 
         FishingLocationsData[i].fish[j].sizeClass = FishData[fishChanceObj.id].sizeClass;
+        FishingLocationsData[i].fish[j].family = FishData[fishChanceObj.id].family;
     }
 }
-
 // location names
 const FishingLocationNames = FishingLocationsData.map(obj => obj.name);
 

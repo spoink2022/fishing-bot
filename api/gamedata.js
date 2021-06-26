@@ -2,6 +2,7 @@ const AquariumData = require('./data/aquarium.json');
 const BaitData = require('./data/bait.json');
 const BaitNames = Object.keys(BaitData);
 const QuestData = require('./data/quest.json');
+const WeatherData = require('./data/weather.json');
 
 module.exports.getAquariumInfo = function(id) {
     return AquariumData[id];
@@ -57,4 +58,8 @@ module.exports.getRandomQuestData = function() {
     }
     console.log('ALERT - QUEST DATA');
     return QuestData[0]; // just in case some sketchy stuff happens
+}
+
+module.exports.getWeatherData = function() {
+    return WeatherData;
 }

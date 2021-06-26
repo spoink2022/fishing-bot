@@ -1,3 +1,4 @@
+const api = require('../api');
 const config = require('./config.js');
 
 function parseForIntegers(obj) {
@@ -7,25 +8,21 @@ function parseForIntegers(obj) {
 }
 
 module.exports.baitshop = {};
-
 module.exports.baitshop.getLatestEntry = async function() {
     let query = 'SELECT * FROM bait_shop ORDER BY end_time DESC LIMIT 1';
     let entry = (await config.pquery(query))[0];
     return parseForIntegers(entry);
 }
-
 module.exports.baitshop.insertEntry = async function(o) {
     let query = 'INSERT INTO bait_shop (start_time, end_time, option_1, price_1, qt_1, option_2, price_2, qt_2, option_3, price_3, qt_3, date_string) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)';
     await config.pquery(query, [o.start_time, o.end_time, o.option_1, o.price_1, o.qt_1, o.option_2, o.price_2, o.qt_2, o.option_3, o.price_3, o.qt_3, o.date_string]);
     return;
 }
-
 module.exports.baitshop.getCurrentEntry = async function() {
     let query = 'SELECT * FROM bait_shop WHERE start_time <= $1 AND end_time > $1';
     let entry = (await config.pquery(query, [Date.now()]))[0];
     return entry;
 }
-
 
 module.exports.bounty = {};
 module.exports.bounty.getLatestEntry = async function() {
@@ -48,18 +45,24 @@ module.exports.bounty.incrementCompleted = async function(bountyid) {
     return;
 }
 
-module.exports.market = {};
-module.exports.market.getLatestEntry = async function() {
-    let query = 'SELECT * FROM market ORDER BY end_time DESC LIMIT 1';
+module.exports.daily = {};
+module.exports.daily.getLatestEntry = async function() {
+    let query = 'SELECT * FROM daily ORDER BY end_time DESC LIMIT 1';
     let entry = (await config.pquery(query))[0];
     return parseForIntegers(entry);
 }
-module.exports.market.insertEntry = async function(o) {
-    let query = 'INSERT INTO market (start_time, end_time, trophy, sashimi, premium, consumer, date_string) VALUES ($1, $2, $3, $4, $5, $6, $7)';
-    await config.pquery(query, [o.start_time, o.end_time, o.trophy, o.sashimi, o.premium, o.consumer, o.date_string]);
+module.exports.daily.insertEntry = async function(o) {
+    let weather_identifiers = [], weather_vars = [];
+    const WEATHER_REPS = api.fishing.getLocationDatasetLength();
+    for (let i=1; i<=WEATHER_REPS; i++) {
+        weather_identifiers.push(`weather_${i}`);
+        weather_vars.push(`$${i+3}`);
+    }
+    let query = `INSERT INTO daily (start_time, end_time, date_string, ${weather_identifiers.join(', ')}) VALUES ($1, $2, $3, ${weather_vars.join(', ')})`;
+    await config.pquery(query, [o.start_time, o.end_time, o.date_string, ...o.weather]);
 }
-module.exports.market.getCurrentEntry = async function() {
-    let query = 'SELECT * FROM market WHERE start_time <= $1 AND end_time > $1';
+module.exports.daily.getCurrentEntry = async function() {
+    let query = 'SELECT * FROM daily WHERE start_time <= $1 AND end_time > $1';
     let entry = (await config.pquery(query, [Date.now()]))[0];
     return parseForIntegers(entry);
 }
