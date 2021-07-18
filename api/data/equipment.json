@@ -1108,6 +1108,30 @@
             "bonus": 45,
             "level": 78,
             "price": 26000
+        },
+        {
+            "id": 13,
+            "name": "Mech",
+            "chance": 10,
+            "bonus": 55,
+            "level": 83,
+            "price": 35000
+        },
+        {
+            "id": 14,
+            "name": "Mech V2",
+            "chance": 10,
+            "bonus": 70,
+            "level": 88,
+            "price": 50000
+        },
+        {
+            "id": 15,
+            "name": "Mech V3",
+            "chance": 11,
+            "bonus": 80,
+            "level": 94,
+            "price": 70000
         }
     ],
     "swivels": [
@@ -1152,6 +1176,13 @@
             "bonus": 75,
             "level": 83,
             "price": 20000
+        },
+        {
+            "id": 7,
+            "name": "Tactical V2",
+            "bonus": 90,
+            "level": 87,
+            "price": 35000
         }
     ]
 }
