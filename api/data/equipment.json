@@ -967,9 +967,49 @@
             "id": 44,
             "multiplier": 1.55,
             "maxWeight": 160,
-            "name": "Abyssal",
+            "name": "Military",
             "level": 80,
             "price": 4500
+        },
+        {
+            "id": 45,
+            "multiplier": 1.56,
+            "maxWeight": 190,
+            "name": "Military B",
+            "level": 82,
+            "price": 6000
+        },
+        {
+            "id": 46,
+            "multiplier": 1.565,
+            "maxWeight": 220,
+            "name": "Military A",
+            "level": 84,
+            "price": 8000
+        },
+        {
+            "id": 47,
+            "multiplier": 1.57,
+            "maxWeight": 240,
+            "name": "Military AA",
+            "level": 86,
+            "price": 9000
+        },
+        {
+            "id": 48,
+            "multiplier": 1.575,
+            "maxWeight": 250,
+            "name": "Military AAA",
+            "level": 88,
+            "price": 10000
+        },
+        {
+            "id": 49,
+            "multiplier": 1.59,
+            "maxWeight": 280,
+            "name": "Abyssal",
+            "level": 90,
+            "price": 15000
         }
     ],
     "gloves": [
