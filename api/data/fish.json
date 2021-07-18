@@ -726,7 +726,7 @@
     {
         "id": 73,
         "name": "red snapper",
-        "family": "perch",
+        "family": "snapper",
         "sizeClass": 2,
         "sizeMin": 9,
         "sizeMax": 20,
