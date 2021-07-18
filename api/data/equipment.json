@@ -179,6 +179,33 @@
             "level": 78,
             "price": 32000,
             "size": 3
+        },
+        {
+            "id": 20,
+            "name": "Saltwater",
+            "cooldown": 3540000,
+            "maxWeight": 200,
+            "level": 81,
+            "price": 50000,
+            "size": 3
+        },
+        {
+            "id": 21,
+            "name": "Reinforced Saltwater",
+            "cooldown": 3540000,
+            "maxWeight": 240,
+            "level": 85,
+            "price": 75000,
+            "size": 3
+        },
+        {
+            "id": 22,
+            "name": "Great Saltwater",
+            "cooldown": 3480000,
+            "maxWeight": 290,
+            "level": 89,
+            "price": 100000,
+            "size": 3
         }
     ],
     "lines": [
@@ -534,13 +561,53 @@
         },
         {
             "id": 35,
+            "name": "Royal",
+            "px": 4,
+            "rgb": "#940094",
+            "maxWeight": 190,
+            "level": 80,
+            "price": 16000,
+            "bonus": 9
+        },
+        {
+            "id": 36,
+            "name": "Royal A",
+            "px": 4,
+            "rgb": "#800080",
+            "maxWeight": 220,
+            "level": 83,
+            "price": 18000,
+            "bonus": 9
+        },
+        {
+            "id": 37,
+            "name": "Royal AA",
+            "px": 4,
+            "rgb": "#6c006c",
+            "maxWeight": 250,
+            "level": 86,
+            "price": 21000,
+            "bonus": 9
+        },
+        {
+            "id": 38,
+            "name": "Royal AAA",
+            "px": 4,
+            "rgb": "#590059",
+            "maxWeight": 270,
+            "level": 88,
+            "price": 25000,
+            "bonus": 9
+        },
+        {
+            "id": 39,
             "name": "Depths",
             "px": 4,
             "rgb": "#007700",
-            "maxWeight": 190,
-            "level": 80,
-            "price": 10000,
-            "bonus": 8
+            "maxWeight": 300,
+            "level": 90,
+            "price": 40000,
+            "bonus": 10
         }
     ],
     "hooks": [
