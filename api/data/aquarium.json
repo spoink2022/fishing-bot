@@ -138,5 +138,26 @@
         "max": 130,
         "level": 84,
         "price": 60000
+    },
+    {
+        "name": "elite",
+        "multiplier": 1.86,
+        "max": 140,
+        "level": 88,
+        "price": 100000
+    },
+    {
+        "name": "premium elite",
+        "multiplier": 1.88,
+        "max": 150,
+        "level": 93,
+        "price": 120000
+    },
+    {
+        "name": "superior elite",
+        "multiplier": 1.9,
+        "max": 165,
+        "level": 97,
+        "price": 150000
     }
 ]

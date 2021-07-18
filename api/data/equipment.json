@@ -179,6 +179,33 @@
             "level": 78,
             "price": 32000,
             "size": 3
+        },
+        {
+            "id": 20,
+            "name": "Saltwater",
+            "cooldown": 3540000,
+            "maxWeight": 200,
+            "level": 81,
+            "price": 50000,
+            "size": 3
+        },
+        {
+            "id": 21,
+            "name": "Reinforced Saltwater",
+            "cooldown": 3540000,
+            "maxWeight": 240,
+            "level": 85,
+            "price": 75000,
+            "size": 3
+        },
+        {
+            "id": 22,
+            "name": "Great Saltwater",
+            "cooldown": 3480000,
+            "maxWeight": 290,
+            "level": 89,
+            "price": 100000,
+            "size": 3
         }
     ],
     "lines": [
@@ -534,13 +561,53 @@
         },
         {
             "id": 35,
+            "name": "Royal",
+            "px": 4,
+            "rgb": "#940094",
+            "maxWeight": 190,
+            "level": 80,
+            "price": 16000,
+            "bonus": 9
+        },
+        {
+            "id": 36,
+            "name": "Royal A",
+            "px": 4,
+            "rgb": "#800080",
+            "maxWeight": 220,
+            "level": 83,
+            "price": 18000,
+            "bonus": 9
+        },
+        {
+            "id": 37,
+            "name": "Royal AA",
+            "px": 4,
+            "rgb": "#6c006c",
+            "maxWeight": 250,
+            "level": 86,
+            "price": 21000,
+            "bonus": 9
+        },
+        {
+            "id": 38,
+            "name": "Royal AAA",
+            "px": 4,
+            "rgb": "#590059",
+            "maxWeight": 270,
+            "level": 88,
+            "price": 25000,
+            "bonus": 9
+        },
+        {
+            "id": 39,
             "name": "Depths",
             "px": 4,
             "rgb": "#007700",
-            "maxWeight": 190,
-            "level": 80,
-            "price": 10000,
-            "bonus": 8
+            "maxWeight": 300,
+            "level": 90,
+            "price": 40000,
+            "bonus": 10
         }
     ],
     "hooks": [
@@ -900,9 +967,49 @@
             "id": 44,
             "multiplier": 1.55,
             "maxWeight": 160,
-            "name": "Abyssal",
+            "name": "Military",
             "level": 80,
             "price": 4500
+        },
+        {
+            "id": 45,
+            "multiplier": 1.56,
+            "maxWeight": 190,
+            "name": "Military B",
+            "level": 82,
+            "price": 6000
+        },
+        {
+            "id": 46,
+            "multiplier": 1.565,
+            "maxWeight": 220,
+            "name": "Military A",
+            "level": 84,
+            "price": 8000
+        },
+        {
+            "id": 47,
+            "multiplier": 1.57,
+            "maxWeight": 240,
+            "name": "Military AA",
+            "level": 86,
+            "price": 9000
+        },
+        {
+            "id": 48,
+            "multiplier": 1.575,
+            "maxWeight": 250,
+            "name": "Military AAA",
+            "level": 88,
+            "price": 10000
+        },
+        {
+            "id": 49,
+            "multiplier": 1.59,
+            "maxWeight": 280,
+            "name": "Abyssal",
+            "level": 90,
+            "price": 15000
         }
     ],
     "gloves": [
@@ -1001,6 +1108,30 @@
             "bonus": 45,
             "level": 78,
             "price": 26000
+        },
+        {
+            "id": 13,
+            "name": "Mech",
+            "chance": 10,
+            "bonus": 55,
+            "level": 83,
+            "price": 35000
+        },
+        {
+            "id": 14,
+            "name": "Mech V2",
+            "chance": 10,
+            "bonus": 70,
+            "level": 88,
+            "price": 50000
+        },
+        {
+            "id": 15,
+            "name": "Mech V3",
+            "chance": 11,
+            "bonus": 80,
+            "level": 94,
+            "price": 70000
         }
     ],
     "swivels": [
@@ -1045,6 +1176,13 @@
             "bonus": 75,
             "level": 83,
             "price": 20000
+        },
+        {
+            "id": 7,
+            "name": "Tactical V2",
+            "bonus": 90,
+            "level": 87,
+            "price": 35000
         }
     ]
 }

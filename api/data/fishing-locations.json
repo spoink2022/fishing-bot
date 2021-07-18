@@ -166,5 +166,28 @@
             {"id": 95, "chance": 5},
             {"id": 96, "chance": 2}
         ]
+    },
+    {
+        "id": 9,
+        "name": "The Wreck",
+        "trashChance": 3,
+        "level": 80,
+        "zoom": 3,
+        "fish": [
+            {"id": 97, "chance": 0.5},
+            {"id": 98, "chance": 14},
+            {"id": 99, "chance": 12},
+            {"id": 100, "chance": 5},
+            {"id": 101, "chance": 1.75},
+            {"id": 102, "chance": 4},
+            {"id": 103, "chance": 9},
+            {"id": 104, "chance": 8},
+            {"id": 105, "chance": 0.75},
+            {"id": 106, "chance": 9},
+            {"id": 107, "chance": 16},
+            {"id": 108, "chance": 9},
+            {"id": 109, "chance": 4},
+            {"id": 110, "chance": 7}
+        ]
     }
 ]

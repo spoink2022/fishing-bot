@@ -962,5 +962,145 @@
         "sizeMax": 110,
         "screenLen": 8.25,
         "value": 12
+    },
+    {
+        "id": 97,
+        "name": "black marlin",
+        "family": "marlin",
+        "sizeClass": 4,
+        "sizeMin": 130,
+        "sizeMax": 300,
+        "screenLen": 9.5,
+        "value": 12
+    },
+    {
+        "id": 98,
+        "name": "mangrove jack",
+        "family": "snapper",
+        "sizeClass": 2,
+        "sizeMin": 14,
+        "sizeMax": 26,
+        "screenLen": 4.5,
+        "value": 18
+    },
+    {
+        "id": 99,
+        "name": "yellowfin bream",
+        "family": null,
+        "sizeClass": 1,
+        "sizeMin": 2,
+        "sizeMax": 5,
+        "screenLen": 2.5,
+        "value": 18
+    },
+    {
+        "id": 100,
+        "name": "swordfish",
+        "family": null,
+        "sizeClass": 4,
+        "sizeMin": 150,
+        "sizeMax": 350,
+        "screenLen": 11,
+        "value": 14
+    },
+    {
+        "id": 101,
+        "name": "flounder",
+        "family": null,
+        "sizeClass": 1,
+        "sizeMin": 3,
+        "sizeMax": 5,
+        "screenLen": 3,
+        "value": 10
+    },
+    {
+        "id": 102,
+        "name": "red drum",
+        "family": "drum",
+        "sizeClass": 2,
+        "sizeMin": 15,
+        "sizeMax": 40,
+        "screenLen": 5.5,
+        "value": 16
+    },
+    {
+        "id": 103,
+        "name": "spotted seatrout",
+        "family": "trout",
+        "sizeClass": 1,
+        "sizeMin": 0.5,
+        "sizeMax": 2,
+        "screenLen": 2,
+        "value": 20
+    },
+    {
+        "id": 104,
+        "name": "atlantic sturgeon",
+        "family": "sturgeon",
+        "sizeClass": 3,
+        "sizeMin": 60,
+        "sizeMax": 140,
+        "screenLen": 9.5,
+        "value": 10
+    },
+    {
+        "id": 105,
+        "name": "cubera snapper",
+        "family": "snapper",
+        "sizeClass": 2,
+        "sizeMin": 15,
+        "sizeMax": 25,
+        "screenLen": 4.5,
+        "value": 28
+    },
+    {
+        "id": 106,
+        "name": "tiger shark",
+        "family": "shark",
+        "sizeClass": 4,
+        "sizeMin": 220,
+        "sizeMax": 450,
+        "screenLen": 13,
+        "value": 15
+    },
+    {
+        "id": 107,
+        "name": "hammerhead shark",
+        "family": "shark",
+        "sizeClass": 3,
+        "sizeMin": 50,
+        "sizeMax": 110,
+        "screenLen": 8,
+        "value": 17
+    },
+    {
+        "id": 108,
+        "name": "sheepshead",
+        "family": null,
+        "sizeClass": 1,
+        "sizeMin": 1,
+        "sizeMax": 2,
+        "screenLen": 2.5,
+        "value": 14
+    },
+    {
+        "id": 109,
+        "name": "goliath grouper",
+        "family": "grouper",
+        "sizeClass": 3,
+        "sizeMin": 90,
+        "sizeMax": 150,
+        "screenLen": 7.5,
+        "value": 9
+    },
+    {
+        "id": 110,
+        "name": "blacktip shark",
+        "family": "shark",
+        "sizeClass": 3,
+        "sizeMin": 70,
+        "sizeMax": 120,
+        "screenLen": 8,
+        "value": 15
     }
 ]
