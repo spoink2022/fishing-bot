@@ -73,7 +73,13 @@
                 "levelUnder": 80,
                 "min": 100,
                 "max": 250,
-                "reward": 0.0214
+                "reward": 0.0187
+            },
+            {
+                "levelUnder": 90,
+                "min": 140,
+                "max": 300,
+                "reward": 0.014
             }
         ]
     },
