@@ -1,2 +1,4 @@
 # fishing-bot
-This is NOT a phishing scheme, rather a discord bot fishing game
+An epic progression-based Discord fishing experience.
+
+Find on top.gg: https://top.gg/bot/803361191166607370
