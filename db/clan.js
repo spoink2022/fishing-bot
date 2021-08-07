@@ -1,0 +1,43 @@
+const config = require('./config.js');
+
+module.exports.fetchClan = async function(clanID) {
+    let query = 'SELECT * FROM clan WHERE id=$1 LIMIT 1';
+    let res = await config.pquery(query, [clanID]);
+    return res[0];
+}
+
+module.exports.fetchMember = async function(userid) {
+    let query = 'SELECT * FROM clan_member WHERE userid=$1 LIMIT 1';
+    let res = await config.pquery(query, [userid]);
+    return res[0];
+}
+
+module.exports.fetchMemberByUsername = async function(username) {
+    let query = 'SELECT * FROM clan_member WHERE username=$1 LIMIT 1';
+    let res = await config.pquery(query, [username]);
+    return res[0];
+}
+
+module.exports.fetchMembers = async function(clanID) {
+    let query = 'SELECT * FROM clan_member WHERE clan=$1';
+    let res = await config.pquery(query, [clanID]);
+    return res;
+}
+
+module.exports.setRole = async function(userid, role) {
+    let query = 'UPDATE clan_member SET role=$1 WHERE userid=$2';
+    await config.pquery(query, [role, userid]);
+    return;
+}
+
+module.exports.incrementCaught = async function(clanID) {
+    let query = 'UPDATE clan SET fish_caught=fish_caught+1 WHERE id=$1';
+    await config.pquery(query, [clanID]);
+    return;
+}
+
+module.exports.kickMember = async function(userid) {
+    let query = 'DELETE FROM clan_member WHERE userid=$1;';
+    await config.pquery(query, [userid]);
+    return;
+}
