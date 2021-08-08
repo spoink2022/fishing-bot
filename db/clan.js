@@ -70,3 +70,9 @@ module.exports.setPassword = async function(clanID, newPassword) {
     await config.pquery(query, [newPassword, clanID]);
     return;
 }
+
+module.exports.deleteClan = async function(clanID) {
+    let query = 'DELETE FROM clan WHERE id=$1';
+    await config.pquery(query, [clanID]);
+    return;
+}
