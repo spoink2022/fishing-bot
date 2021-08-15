@@ -59,6 +59,25 @@ module.exports.joinMember = async function(userid, username, clan) {
 }
 
 // UPDATE CLAN STATUS
+module.exports.createClan = async function(userid, username) {
+    // create clan entry
+    let query = 'INSERT INTO clan (name, date) VALUES ($1, $2) RETURNING id';
+    let clanID = (await config.pquery(query, ['processing...', getDateAsString()]))[0].id;
+    // update name
+    query = 'UPDATE clan SET name=$1 WHERE id=$2';
+    config.pquery(query, [`Unnamed Clan ${clanID}`, clanID]);
+    // create clan_member (leader)
+    query = 'INSERT INTO clan_member (userid, role, date, clan, username) VALUES ($1, $2, $3, $4, $5)';
+    config.pquery(query, [userid, 2, getDateAsString(), clanID, username]);
+    return;
+}
+
+module.exports.renameClan = async function(clanID, newName) {
+    let query = 'UPDATE clan SET name=$1 WHERE id=$2';
+    await config.pquery(query, [newName, clanID]);
+    return;
+}
+
 module.exports.incrementCaught = async function(clanID) {
     let query = 'UPDATE clan SET fish_caught=fish_caught+1 WHERE id=$1';
     await config.pquery(query, [clanID]);
