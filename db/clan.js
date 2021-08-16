@@ -73,7 +73,7 @@ module.exports.createClan = async function(userid, username) {
 }
 
 module.exports.renameClan = async function(clanID, newName) {
-    let query = 'UPDATE clan SET name=$1 WHERE id=$2';
+    let query = 'UPDATE clan SET name=$1, rename=rename-1 WHERE id=$2';
     await config.pquery(query, [newName, clanID]);
     return;
 }
