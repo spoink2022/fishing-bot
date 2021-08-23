@@ -4,7 +4,8 @@
     },
     "classic": {
         "classic": "#327fa2",
-        "success": "#32cd32"
+        "success": "#32cd32",
+        "failure": "#a43636"
     },
     "locations": {
         "1": "#327fa2",

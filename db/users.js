@@ -134,3 +134,10 @@ module.exports.claimBounty = async function(userid, bountyid, bountyAmount) {
     await config.pquery(query, [bountyid, bountyAmount, userid]);
     return;
 }
+
+// for clan
+module.exports.fetchLevels = async function(useridArray) {
+    let query = 'SELECT userid, level, exp, cooldown FROM users WHERE userid=ANY($1)';
+    let res = await config.pquery(query, [useridArray]);
+    return res;
+}
