@@ -141,3 +141,10 @@ module.exports.fetchLevels = async function(useridArray) {
     let res = await config.pquery(query, [useridArray]);
     return res;
 }
+
+// PURCHASES TABLE
+module.exports.getPurchases = async function(userid) {
+    let query = 'SELECT * FROM purchases WHERE userid=$1 LIMIT 1';
+    let res = await config.pquery(query, [userid]);
+    return res[0];
+}
