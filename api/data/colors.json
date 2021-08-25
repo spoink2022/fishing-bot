@@ -36,11 +36,13 @@
         "bounty": "#a43636",
         "bountyComplete": "#32cd32",
         "mod": "#fefefe",
-        "market": "#215732"
+        "market": "#215732",
+        "stats": {
+            "default": "#888888",
+            "oneDayHost": "#fa8072",
+            "oneWeekHost": "#d4af37"
+        }
     },
-    "rank": [
-        "#888888"
-    ],
     "cardbox": {
         "1": "#855E42"
     },
