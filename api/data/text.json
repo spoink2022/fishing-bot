@@ -3,7 +3,7 @@
         "General": [
             "**Below is a full list of available commands**\nTo better understand commands, visit the [Offical Commands Page](https://bigtuna.xyz/commands)",
             "\n**Gameplay** :fish:\nfish, aquarium, collect, shop, setlocation, quest, bounty, baitshop, card, givecard",
-            "**Profile Commands** :trophy:\nstats, serverstats, equipment, baits, leaderboards",
+            "**Profile Commands** :trophy:\nstats, serverstats, equipment, baits, leaderboards, fishleaderboards",
             "**Info Commands** :question:\nhelp, info, iteminfo, fishinfo, locationinfo",
             "**Extra Commands** :eyes:\nvote, server, toggle, optin, optout"
         ],
@@ -127,6 +127,11 @@
             "Usage: `${PREFIX}leaderboards`",
             "\n- Shows the top 20 players in the server by weight caught",
             "- Also accepts `${PREFIX}lb`, `${PREFIX}leaders`"
+        ],
+        "fishleaderboards": [
+            "Usage: `${PREFIX}fishleaderboards <fish name>`",
+            "\n- Shows the top 10 global and server rankings for a fish",
+            "- Also accepts `${PREFIX}fishlb`, `${PREFIX}flb`"
         ],
         "info": [
             "Usage: `${PREFIX}info <command>`",
