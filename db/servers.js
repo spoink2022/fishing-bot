@@ -30,3 +30,27 @@ module.exports.setPrefix = async function(serverid, prefix) {
     await config.pquery(query, [prefix, serverid]);
     return;
 }
+
+module.exports.fetchCustomFishServers = async function() {
+    let query = 'SELECT serverid, custom_fish FROM servers WHERE custom_fish IS NOT NULL';
+    let res = await config.pquery(query, []);
+    return res;
+}
+
+module.exports.setCustomFishCommand = async function(serverid, customFishCommand) {
+    let query = 'UPDATE servers SET custom_fish=$1 WHERE serverid=$2';
+    await config.pquery(query, [customFishCommand, serverid]);
+    return;
+}
+
+module.exports.removeCustomFishCommand = async function(serverid) {
+    let query = 'UPDATE servers SET custom_fish=NULL WHERE serverid=$1';
+    await config.pquery(query, [serverid]);
+    return;
+}
+
+module.exports.exists = async function(serverid) {
+    let query = 'SELECT id FROM servers WHERE serverid=$1';
+    let res = await config.pquery(query, [serverid]);
+    return !!res[0];
+}
