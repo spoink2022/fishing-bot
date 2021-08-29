@@ -30,3 +30,9 @@ module.exports.setPrefix = async function(serverid, prefix) {
     await config.pquery(query, [prefix, serverid]);
     return;
 }
+
+module.exports.fetchCustomFishServers = async function() {
+    let query = 'SELECT serverid, custom_fish FROM servers WHERE custom_fish IS NOT NULL';
+    let res = await config.pquery(query, []);
+    return res;
+}
