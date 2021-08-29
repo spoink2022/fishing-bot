@@ -5,7 +5,7 @@
             "\n**Gameplay** :fish:\nfish, aquarium, collect, shop, setlocation, quest, bounty, baitshop, card, givecard",
             "**Profile Commands** :trophy:\nstats, serverstats, equipment, baits, leaderboards, fishleaderboards",
             "**Info Commands** :question:\nhelp, info, iteminfo, fishinfo, locationinfo",
-            "**Extra Commands** :eyes:\nvote, server, toggle, setprefix, optin, optout, redeem, setfishcommand"
+            "**Extra Commands** :eyes:\nvote, server, toggle, setprefix, optin, optout, redeem, setcustomfish"
         ],
         "Start": [
             "A more detailed version of this guide can be found on our [Getting Started](https://bigtuna.xyz/start) webpage",
@@ -199,11 +199,11 @@
             "\n- Redeems your custom fish command privilege to a server",
             "- These redeems can be purchased from https://bigtuna.xyz/shop"
         ],
-        "setfishcommand": [
-            "Usage: `${PREFIX}setfishcommand <alias>`",
-            "Example: `${PREFIX}setfishcommand bop`",
+        "setcustomfish": [
+            "Usage: `${PREFIX}setcustomfish <alias>`",
+            "Example: `${PREFIX}setcustomfish bop`",
             "\n- Creates an alternate word that will trigger fishing",
-            "- Also accepts `${PREFIX}sfc`"
+            "- Also accepts `${PREFIX}scf`"
         ]
     }
 }
