@@ -180,7 +180,7 @@
         "setprefix": [
             "Usage: `${PREFIX}setprefix <prefix>`",
             "Example: `${PREFIX}setprefix f!`",
-            "\n- Only accepts prefixes from the set: `. ! ? , ~ ; .. ?? !! f! t!`",
+            "\n- Only accepts prefixes from the set: `. ! ? , ~ ; f .. ?? !! f! t!`",
             "- Ping Big Tuna if you forget your prefix",
             "- Can only be used by members with `Manage Server` privileges"
         ],
