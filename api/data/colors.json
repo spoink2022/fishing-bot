@@ -23,7 +23,10 @@
         "iteminfo": "#215732",
         "collect": "#ffd700",
         "info": "#dddddd",
-        "serverstats": "#dddddd",
+        "serverstats": {
+            "default": "#dddddd",
+            "boosted": "#d4af37"
+        },
         "leaderboards": "#dddddd",
         "baits": "#ffac33",
         "locationinfo": "#dddddd",

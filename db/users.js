@@ -148,3 +148,9 @@ module.exports.getPurchases = async function(userid) {
     let res = await config.pquery(query, [userid]);
     return res[0];
 }
+
+module.exports.decrementCustomFish = async function(userid) {
+    let query = 'UPDATE purchases SET custom_fish=custom_fish-1 WHERE userid=$1 RETURNING custom_fish';
+    let res = await config.pquery(query, [userid]);
+    return res[0].custom_fish;
+}

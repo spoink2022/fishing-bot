@@ -49,6 +49,12 @@ module.exports.removeCustomFishCommand = async function(serverid) {
     return;
 }
 
+module.exports.setColumn = async function(serverid, column, value) {
+    let query = `UPDATE servers SET ${column}=$1 WHERE serverid=$2`;
+    await config.pquery(query, [value, serverid]);
+    return;
+}
+
 module.exports.exists = async function(serverid) {
     let query = 'SELECT id FROM servers WHERE serverid=$1';
     let res = await config.pquery(query, [serverid]);

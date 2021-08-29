@@ -42,7 +42,7 @@ module.exports.fetchServerStats = async function(serverid) {
     let res = (await config.pquery(query, [serverid]))[0];
     if (!res) {
         await createServerEntry(serverid);
-        res = { fish_caught: 0, weight_caught: 0 };
+        res = { fish_caught: 0, weight_caught: 0, custom_fish_privilege: false };
     }
     query = 'SELECT position FROM (SELECT serverid, RANK() OVER(ORDER BY weight_caught DESC) AS position FROM servers) RESULT WHERE serverid=$1';
     let rank = (await config.pquery(query, [serverid]))[0].position;
