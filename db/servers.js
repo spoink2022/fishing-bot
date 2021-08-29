@@ -2,14 +2,14 @@ const config = require('./config.js');
 
 async function createServerEntry(serverid) {
     let query = 'INSERT INTO servers (serverid) VALUES ($1) RETURNING *';
-    await config.pquery(query, [serverid]);
-    return;
+    let res = await config.pquery(query, [serverid]);
+    return res;
 }
 
 async function fetchServer(serverid) {
     let query = 'SELECT * FROM servers WHERE serverid=$1';
     let res = await config.pquery(query, [serverid]);
-    if (!res) {
+    if (!res[0]) {
         res = await createServerEntry(serverid);
     }
     return res[0];
