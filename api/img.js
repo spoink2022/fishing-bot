@@ -1,33 +1,38 @@
+const path = 'https://storage.googleapis.com/fishingbot/assets';
+
 module.exports.fetchFishImgUrl = function(fishName) {
     fishName = fishName.replace(/ /g, '_');
-    return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/fish/${fishName}.png`;
+    return `${path}/fish/${fishName}.png`;
 }
 
 module.exports.fetchRodImgUrl = function(rodID) {
-    return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/equipment/rods/rod_${rodID}.png`;
+    return `${path}/equipment/rods/rod_${rodID}.png`;
 }
 
 module.exports.fetchHookImgUrl = function(hookID) {
-    return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/equipment/hooks/hook_${hookID}.png`;
+    return `${path}/equipment/hooks/hook_${hookID}.png`;
 }
 
 module.exports.fetchGloveImgUrl = function(gloveID) {
-    return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/equipment/gloves/glove_${gloveID}.png`;
+    return `${path}/equipment/gloves/glove_${gloveID}.png`;
 }
 
 module.exports.fetchSwivelImgUrl = function(swivelID) {
-    return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/equipment/swivels/swivel_${swivelID}.png`;
+    return `${path}/equipment/swivels/swivel_${swivelID}.png`;
 }
 
 module.exports.fetchAssetUrl = function(asset) {
-    let baseUrl = `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/assets/`;
-    return baseUrl + asset + '.png';
+    return `${path}/misc/${asset}.png`;
+}
+
+module.exports.fetchBackgroundUrl = function(key) {
+    return `${path}/background/${key}.png`;
 }
 
 module.exports.fetchAquariumUrl = function(label) {
-    return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/equipment/${label}.png`;
+    return `${path}/aquarium/${label}.png`;
 }
 
 module.exports.fetchBaitImgUrl = function(bait) {
-    return `https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img/bait/${bait}.png`;
+    return `${path}/bait/${bait}.png`;
 }
