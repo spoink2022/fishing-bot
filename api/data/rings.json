@@ -1,0 +1,170 @@
+{
+    "types": {
+        "classic": {
+            "classBoost": [0, 0, 0, 0],
+            "gradeBoost": [0, 0, 0],
+            "rating": 0
+        },
+        "wooden": {
+            "classBoost": [1, 0, 0, 0],
+            "gradeBoost": [0, 0, 0],
+            "rating": 1
+        },
+        "tin": {
+            "classBoost": [0, 1, 0, 0],
+            "gradeBoost": [0, 0, 0],
+            "rating": 1
+        },
+        "aluminum": {
+            "classBoost": [0, 0, 1, 0],
+            "gradeBoost": [0, 0, 0],
+            "rating": 1
+        },
+        "copper": {
+            "classBoost": [0, 0, 0, 1],
+            "gradeBoost": [0, 0, 0],
+            "rating": 1
+        },
+        "bronze": {
+            "classBoost": [1, 1, 0, 0],
+            "gradeBoost": [0, 0, 0],
+            "rating": 2
+        },
+        "iron": {
+            "classBoost": [0, 0, 1, 1],
+            "gradeBoost": [0, 0, 0],
+            "rating": 2
+        },
+        "steel": {
+            "classBoost": [0, 0, 2, 0],
+            "gradeBoost": [0, 0, 0],
+            "rating": 2
+        },
+        "titanium": {
+            "classBoost": [0, 0, 0, 2],
+            "gradeBoost": [0, 0, 0],
+            "rating": 2
+        },
+        "tungsten": {
+            "classBoost": [0, 0, 2, 2],
+            "gradeBoost": [0, 0, 0],
+            "rating": 3
+        },
+        "silver": {
+            "classBoost": [1, 1, 1, 1],
+            "gradeBoost": [0, 0, 0],
+            "rating": 3
+        },
+        "gold": {
+            "classBoost": [2, 2, 2, 2],
+            "gradeBoost": [0, 0, 0],
+            "rating": 4
+        },
+        "pearl": {
+            "classBoost": [4, 4, 0, 0],
+            "gradeBoost": [0, 0, 0],
+            "rating": 5
+        },
+        "alexandrite": {
+            "classBoost": [0, 0, 4, 4],
+            "gradeBoost": [0, 0, 0],
+            "rating": 5
+        },
+        "ruby": {
+            "classBoost": [0, 0, 0, 0],
+            "gradeBoost": [50, 0, 0],
+            "rating": 6
+        },
+        "sapphire": {
+            "classBoost": [0, 0, 0, 0],
+            "gradeBoost": [0, 50, 0],
+            "rating": 5
+        },
+        "emerald": {
+            "classBoost": [0, 0, 0, 0],
+            "gradeBoost": [0, 0, 50],
+            "rating": 5
+        },
+        "diamond": {
+            "classBoost": [3, 3, 3, 3],
+            "gradeBoost": [0, 0, 0],
+            "rating": 6
+        }
+        
+    },
+    "sellRates": [10, 15, 25, 50, 150, 300, 1000],
+    "packs": [
+        {
+            "maxLevel": 40,
+            "flips": 3,
+            "grades": {
+                "premium": [10, 30],
+                "sashimi": [2, 8],
+                "trophy": [1, 2]
+            },
+            "regular": {
+                "price": 1000,
+                "sizeBase": 0.5
+            },
+            "premium": {
+                "price": 5000,
+                "sizeBase": 1
+            }
+        },
+        {
+            "maxLevel": 60,
+            "flips": 4,
+            "grades": {
+                "premium": [15, 30],
+                "sashimi": [4, 8],
+                "trophy": [1, 2]
+            },
+            "regular": {
+                "price": 2500,
+                "sizeBase": 1
+            },
+            "premium": {
+                "price": 12500,
+                "sizeBase": 2
+            }
+        },
+        {
+            "maxLevel": 80,
+            "flips": 6,
+            "grades": {
+                "premium": [25, 30],
+                "sashimi": [8, 8],
+                "trophy": [2, 2]
+            },
+            "regular": {
+                "price": 10000,
+                "sizeBase": 1.5
+            },
+            "premium": {
+                "price": 50000,
+                "sizeBase": 2.5
+            }
+        },
+        {
+            "maxLevel": 100,
+            "flips": 7,
+            "grades": {
+                "premium": [25, 36],
+                "sashimi": [8, 10],
+                "trophy": [2, 4]
+            },
+            "regular": {
+                "price": 20000,
+                "sizeBase": 2
+            },
+            "premium": {
+                "price": 100000,
+                "sizeBase": 3
+            }
+        }
+    ],
+    "packDraws": {
+        "regular": [10, 52, 28, 8, 2, 0, 0],
+        "premium": [0, 0, 32, 28, 10, 24, 6]
+    }
+}
