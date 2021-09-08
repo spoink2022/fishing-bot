@@ -144,6 +144,9 @@ module.exports.getAllRingData = function() {
 module.exports.getRingSellRate = function(rating) {
     return RingData.sellRates[rating];
 }
+module.exports.ringIsPremium = function(ringName) {
+    return RingData.types[ringName].rating >= 5;
+}
 
 // general
 // gets highest item ID user can view info about

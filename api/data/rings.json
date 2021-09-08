@@ -90,7 +90,6 @@
             "gradeBoost": [0, 0, 0],
             "rating": 6
         }
-        
     },
     "sellRates": [10, 15, 25, 50, 150, 300, 1000],
     "packs": [

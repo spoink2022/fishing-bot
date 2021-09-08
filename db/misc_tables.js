@@ -88,11 +88,28 @@ module.exports.cards.getAllEntries = async function(userid) {
     return cards;
 }
 module.exports.cards.getCardData = async function(cardID) {
-    let query = 'SELECT * FROM cards WHERE id=$1';
+    let query = 'SELECT * FROM cards WHERE id=$1 LIMIT 1';
     let card = (await config.pquery(query, [cardID]))[0];
     return card;
 }
 module.exports.cards.changeOwner = async function(cardID, newUserid) {
     let query = 'UPDATE cards SET userid=$1 WHERE id=$2';
     await config.pquery(query, [newUserid, cardID]);
+}
+
+module.exports.rings = {};
+module.exports.rings.getAllEntries = async function(userid) {
+    let query = 'SELECT * FROM rings WHERE userid=$1 ORDER BY id';
+    let rings = await config.pquery(query, [userid]);
+    return rings;
+}
+module.exports.rings.getRingData = async function(ringID) {
+    let query = 'SELECT * FROM rings WHERE id=$1 LIMIT 1';
+    let ring = (await config.pquery(query, [ringID]))[0];
+    return ring;
+}
+module.exports.rings.removeEntry = async function(ringID) {
+    let query = 'DELETE FROM rings WHERE id=$1';
+    await config.pquery(query, [ringID]);
+    return;
 }
