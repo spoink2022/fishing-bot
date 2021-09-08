@@ -71,17 +71,17 @@
             "rating": 5
         },
         "ruby": {
-            "classBoost": [0, 0, 0, 0],
+            "classBoost": [2, 0, 0, 0],
             "gradeBoost": [50, 0, 0],
-            "rating": 6
+            "rating": 5
         },
         "sapphire": {
-            "classBoost": [0, 0, 0, 0],
+            "classBoost": [0, 2, 0, 0],
             "gradeBoost": [0, 50, 0],
             "rating": 5
         },
         "emerald": {
-            "classBoost": [0, 0, 0, 0],
+            "classBoost": [0, 0, 2, 0],
             "gradeBoost": [0, 0, 50],
             "rating": 5
         },
