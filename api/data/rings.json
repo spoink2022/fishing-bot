@@ -99,7 +99,7 @@
             "grades": {
                 "premium": [10, 30],
                 "sashimi": [2, 8],
-                "trophy": [1, 2]
+                "trophy": [1, 1]
             },
             "regular": {
                 "price": 1000,
@@ -150,7 +150,7 @@
             "grades": {
                 "premium": [25, 36],
                 "sashimi": [8, 10],
-                "trophy": [2, 4]
+                "trophy": [2, 3]
             },
             "regular": {
                 "price": 20000,

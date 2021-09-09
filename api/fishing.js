@@ -147,6 +147,16 @@ module.exports.getRingSellRate = function(rating) {
 module.exports.ringIsPremium = function(ringName) {
     return RingData.types[ringName].rating >= 5;
 }
+module.exports.getPackInfo = function(level) {
+    return RingData.packs.find(element => level < element.maxLevel);
+}
+module.exports.getRingPackDrawData = function() {
+    return RingData.packDraws;
+}
+module.exports.getRingSellRates = function() {
+    return RingData.sellRates;
+}
+
 
 // general
 // gets highest item ID user can view info about

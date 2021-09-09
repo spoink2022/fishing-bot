@@ -113,3 +113,8 @@ module.exports.rings.removeEntry = async function(ringID) {
     await config.pquery(query, [ringID]);
     return;
 }
+module.exports.rings.insertEntry = async function(r) {
+    let query = 'INSERT INTO rings (userid, ring_type, value, s, m, l, xl, premium, sashimi, trophy) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING id';
+    let ringID = (await config.pquery(query, [r.userid, r.ring_type, r.value, r.s, r.m, r.l, r.xl, r.premium, r.sashimi, r.trophy]))[0].id;
+    return ringID;
+}
