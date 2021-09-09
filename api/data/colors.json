@@ -44,16 +44,21 @@
             "default": "#888888",
             "oneDayHost": "#fa8072",
             "oneWeekHost": "#d4af37"
+        },
+        "rings": {
+            "default": "#855E42",
+            "oneWeekHost": "#d4af37"
+        },
+        "cards": {
+            "default": "855E42",
+            "oneWeekHost": "#d4af37"
         }
     },
-    "cardbox": {
-        "1": "#855E42"
-    },
     "card": {
-        "Trophy": "#d4af37",
-        "Sashimi": "#fa8072",
-        "Premium": "#ffebcd",
-        "Consumer": "#dddddd"
+        "trophy": "#d4af37",
+        "sashimi": "#fa8072",
+        "premium": "#ffebcd",
+        "consumer": "#dddddd"
     },
     "event": {
         "none": "#9933cc",

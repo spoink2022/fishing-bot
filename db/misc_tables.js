@@ -88,11 +88,33 @@ module.exports.cards.getAllEntries = async function(userid) {
     return cards;
 }
 module.exports.cards.getCardData = async function(cardID) {
-    let query = 'SELECT * FROM cards WHERE id=$1';
+    let query = 'SELECT * FROM cards WHERE id=$1 LIMIT 1';
     let card = (await config.pquery(query, [cardID]))[0];
     return card;
 }
 module.exports.cards.changeOwner = async function(cardID, newUserid) {
     let query = 'UPDATE cards SET userid=$1 WHERE id=$2';
     await config.pquery(query, [newUserid, cardID]);
+}
+
+module.exports.rings = {};
+module.exports.rings.getAllEntries = async function(userid) {
+    let query = 'SELECT * FROM rings WHERE userid=$1 ORDER BY id';
+    let rings = await config.pquery(query, [userid]);
+    return rings;
+}
+module.exports.rings.getRingData = async function(ringID) {
+    let query = 'SELECT * FROM rings WHERE id=$1 LIMIT 1';
+    let ring = (await config.pquery(query, [ringID]))[0];
+    return ring;
+}
+module.exports.rings.removeEntry = async function(ringID) {
+    let query = 'DELETE FROM rings WHERE id=$1';
+    await config.pquery(query, [ringID]);
+    return;
+}
+module.exports.rings.insertEntry = async function(r) {
+    let query = 'INSERT INTO rings (userid, ring_type, value, s, m, l, xl, premium, sashimi, trophy) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING id';
+    let ringID = (await config.pquery(query, [r.userid, r.ring_type, r.value, r.s, r.m, r.l, r.xl, r.premium, r.sashimi, r.trophy]))[0].id;
+    return ringID;
 }

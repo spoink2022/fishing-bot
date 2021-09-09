@@ -1,6 +1,7 @@
 const FishingLocationsData = require('./data/fishing-locations.json');
 const FishData = require('./data/fish.json');
 const EquipmentData = require('./data/equipment.json');
+const RingData = require('./data/rings.json');
 
 const FishNameMap = {};
 for(const[key, val] of FishData.entries()) {
@@ -132,6 +133,30 @@ module.exports.getSwivelData = function(id) {
 module.exports.getAllSwivelData = function() {
     return EquipmentData.swivels;
 }
+
+// rings
+module.exports.getRingData = function(ringName) {
+    return RingData.types[ringName];
+}
+module.exports.getAllRingData = function() {
+    return RingData.types;
+}
+module.exports.getRingSellRate = function(rating) {
+    return RingData.sellRates[rating];
+}
+module.exports.ringIsPremium = function(ringName) {
+    return RingData.types[ringName].rating >= 5;
+}
+module.exports.getPackInfo = function(level) {
+    return RingData.packs.find(element => level < element.maxLevel);
+}
+module.exports.getRingPackDrawData = function() {
+    return RingData.packDraws;
+}
+module.exports.getRingSellRates = function() {
+    return RingData.sellRates;
+}
+
 
 // general
 // gets highest item ID user can view info about
