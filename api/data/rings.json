@@ -112,7 +112,7 @@
         },
         {
             "maxLevel": 60,
-            "flips": 4,
+            "flips": 5,
             "grades": {
                 "premium": [15, 30],
                 "sashimi": [4, 8],
@@ -120,16 +120,16 @@
             },
             "regular": {
                 "price": 2500,
-                "sizeBase": 1
+                "sizeBase": 0.5
             },
             "premium": {
                 "price": 12500,
-                "sizeBase": 2
+                "sizeBase": 1.5
             }
         },
         {
             "maxLevel": 80,
-            "flips": 6,
+            "flips": 7,
             "grades": {
                 "premium": [25, 30],
                 "sashimi": [8, 8],
@@ -137,16 +137,16 @@
             },
             "regular": {
                 "price": 10000,
-                "sizeBase": 1.5
+                "sizeBase": 1
             },
             "premium": {
                 "price": 50000,
-                "sizeBase": 2.5
+                "sizeBase": 2
             }
         },
         {
             "maxLevel": 100,
-            "flips": 7,
+            "flips": 9,
             "grades": {
                 "premium": [25, 36],
                 "sashimi": [8, 10],
@@ -154,11 +154,11 @@
             },
             "regular": {
                 "price": 20000,
-                "sizeBase": 2
+                "sizeBase": 1.5
             },
             "premium": {
                 "price": 100000,
-                "sizeBase": 3
+                "sizeBase": 2.5
             }
         }
     ],
