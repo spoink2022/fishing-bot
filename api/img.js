@@ -1,4 +1,9 @@
-const path = 'https://storage.googleapis.com/fishingbot/assets';
+const DEV = false;
+
+let path = 'https://storage.googleapis.com/fishingbot/assets';
+if (DEV) {
+    path = 'https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img';
+}
 
 module.exports.fetchFishImgUrl = function(fishName) {
     fishName = fishName.replace(/ /g, '_');
