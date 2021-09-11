@@ -1,8 +1,9 @@
-const DEV = false;
+const DEV = true;
 
 let path = 'https://storage.googleapis.com/fishingbot/assets';
 if (DEV) {
     path = 'https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img';
+    console.log('new path');
 }
 
 module.exports.fetchFishImgUrl = function(fishName) {
