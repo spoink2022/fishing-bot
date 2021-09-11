@@ -1,4 +1,4 @@
-const DEV = false;
+const DEV = true;
 
 let path = 'https://storage.googleapis.com/fishingbot/assets';
 if (DEV) {

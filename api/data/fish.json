@@ -1105,12 +1105,12 @@
     },
     {
         "id": 111,
-        "name": "tresher shark",
+        "name": "thresher shark",
         "family": "shark",
         "sizeClass": 4,
         "sizeMin": 350,
         "sizeMax": 700,
-        "screenLen": 12,
+        "screenLen": 18,
         "value": 11
     },
     {
@@ -1120,7 +1120,7 @@
         "sizeClass": 1,
         "sizeMin": 2,
         "sizeMax": 3.5,
-        "screenLen": 2,
+        "screenLen": 3,
         "value": 18
     },
     {
@@ -1130,7 +1130,7 @@
         "sizeClass": 3,
         "sizeMin": 200,
         "sizeMax": 350,
-        "screenLen": 8,
+        "screenLen": 16,
         "value": 9
     },
     {
@@ -1140,7 +1140,7 @@
         "sizeClass": 2,
         "sizeMin": 40,
         "sizeMax": 72,
-        "screenLen": 5,
+        "screenLen": 7,
         "value": 10
     },
     {
@@ -1150,7 +1150,7 @@
         "sizeClass": 1,
         "sizeMin": 8,
         "sizeMax": 14,
-        "screenLen": 3,
+        "screenLen": 5,
         "value": 13
     },
     {
@@ -1160,7 +1160,7 @@
         "sizeClass": 1,
         "sizeMin": 6,
         "sizeMax": 12,
-        "screenLen": 2,
+        "screenLen": 5,
         "value": 10
     },
     {
@@ -1170,7 +1170,7 @@
         "sizeClass": 4,
         "sizeMin": 400,
         "sizeMax": 700,
-        "screenLen": 13,
+        "screenLen": 11,
         "value": 14
     },
     {
@@ -1180,7 +1180,7 @@
         "sizeClass": 2,
         "sizeMin": 24,
         "sizeMax": 36,
-        "screenLen": 5,
+        "screenLen": 8,
         "value": 14
     },
     {
@@ -1197,10 +1197,10 @@
         "id": 120,
         "name": "gag grouper",
         "family": "grouper",
-        "sizeClass": 2,
+        "sizeClass": 1,
         "sizeMin": 15,
         "sizeMax": 24,
-        "screenLen": 5,
+        "screenLen": 6,
         "value": 12
     },
     {
@@ -1220,7 +1220,7 @@
         "sizeClass": 4,
         "sizeMin": 250,
         "sizeMax": 500,
-        "screenLen": 11,
+        "screenLen": 15,
         "value": 10
     },
     {
@@ -1230,7 +1230,7 @@
         "sizeClass": 3,
         "sizeMin": 75,
         "sizeMax": 98,
-        "screenLen": 7,
+        "screenLen": 9,
         "value": 13
     },
     {
@@ -1240,7 +1240,7 @@
         "sizeClass": 2,
         "sizeMin": 58,
         "sizeMax": 75,
-        "screenLen": 5,
+        "screenLen": 8,
         "value": 20
     },
     {
@@ -1250,7 +1250,7 @@
         "sizeClass": 3,
         "sizeMin": 107,
         "sizeMax": 192,
-        "screenLen": 10,
+        "screenLen": 9,
         "value": 14
     },
     {
@@ -1260,7 +1260,7 @@
         "sizeClass": 2,
         "sizeMin": 62,
         "sizeMax": 92,
-        "screenLen": 7,
+        "screenLen": 13,
         "value": 14
     }
 ]

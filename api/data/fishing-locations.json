@@ -197,8 +197,8 @@
         "level": 90,
         "zoom": 3,
         "fish": [
-            {"id": 111, "chance": 0.8},
-            {"id": 112, "chance": 15},
+            {"id": 111, "chance": 15},
+            {"id": 112, "chance": 0.8},
             {"id": 113, "chance": 2},
             {"id": 114, "chance": 7},
             {"id": 115, "chance": 11},

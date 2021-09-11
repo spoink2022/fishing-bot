@@ -206,6 +206,33 @@
             "level": 89,
             "price": 100000,
             "size": 3
+        },
+        {
+            "id": 23,
+            "name": "Costal",
+            "cooldown": 3480000,
+            "maxWeight": 360,
+            "level": 92,
+            "price": 120000,
+            "size": 3.5
+        },
+        {
+            "id": 24,
+            "name": "Reinforced Costal",
+            "cooldown": 3480000,
+            "maxWeight": 430,
+            "level": 95,
+            "price": 125000,
+            "size": 3.5
+        },
+        {
+            "id": 25,
+            "name": "Great Costal",
+            "cooldown": 3480000,
+            "maxWeight": 500,
+            "level": 99,
+            "price": 150000,
+            "size": 3.5
         }
     ],
     "lines": [
@@ -608,6 +635,56 @@
             "level": 90,
             "price": 40000,
             "bonus": 10
+        },
+        {
+            "id": 40,
+            "name": "Depths A",
+            "px": 5,
+            "rgb": "#748D1C",
+            "maxWeight": 340,
+            "level": 92,
+            "price": 45000,
+            "bonus": 10
+        },
+        {
+            "id": 41,
+            "name": "Depths AA",
+            "px": 5,
+            "rgb": "#6F8D08",
+            "maxWeight": 375,
+            "level": 94,
+            "price": 55000,
+            "bonus": 10
+        },
+        {
+            "id": 42,
+            "name": "Depths AAA",
+            "px": 5,
+            "rgb": "#5AA642",
+            "maxWeight": 400,
+            "level": 95,
+            "price": 70000,
+            "bonus": 10
+        },
+        {
+            "id": 43,
+            "name": "Depths AAAA",
+            "px": 5,
+            "rgb": "#617A08",
+            "maxWeight": 440,
+            "level": 97,
+            "price": 75000,
+            "bonus": 11
+        },
+        {
+            "id": 44,
+            "name": "Depths AAAAA",
+            "px": 5,
+            "rgb": "#32A40E",
+            "maxWeight": 490,
+            "level": 100,
+            "price": 80000,
+            "bonus": 11
         }
     ],
     "hooks": [
@@ -1010,6 +1087,54 @@
             "name": "Abyssal",
             "level": 90,
             "price": 15000
+        },
+        {
+            "id": 50,
+            "multiplier": 1.60,
+            "maxWeight": 300,
+            "name": "Abyssal D",
+            "level": 91,
+            "price": 18000
+        },
+        {
+            "id": 51,
+            "multiplier": 1.657,
+            "maxWeight": 330,
+            "name": "Abyssal C",
+            "level": 93,
+            "price": 22000
+        },
+        {
+            "id": 52,
+            "multiplier": 1.75,
+            "maxWeight": 370,
+            "name": "Abyssal B",
+            "level": 94,
+            "price": 25000
+        },
+        {
+            "id": 53,
+            "multiplier": 1.76,
+            "maxWeight": 420,
+            "name": "Abyssal A",
+            "level": 96,
+            "price": 27500
+        },
+        {
+            "id": 54,
+            "multiplier": 1.78,
+            "maxWeight": 445,
+            "name": "Abyssal AA",
+            "level": 98,
+            "price": 30000
+        },
+        {
+            "id": 55,
+            "multiplier": 1.8,
+            "maxWeight": 470,
+            "name": "Abyssal AAA",
+            "level": 100,
+            "price": 35000
         }
     ],
     "gloves": [
