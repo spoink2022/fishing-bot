@@ -1183,6 +1183,20 @@
             "bonus": 90,
             "level": 87,
             "price": 35000
+        },
+        {
+            "id": 8,
+            "name": "Gold Tactical V1",
+            "bonus": 98,
+            "level": 92,
+            "price": 42000
+        },
+        {
+            "id": 9,
+            "name": "Gold Tactical V2",
+            "bonus": 117,
+            "level": 97,
+            "price": 55000
         }
     ]
 }

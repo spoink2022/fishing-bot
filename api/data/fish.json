@@ -1102,5 +1102,165 @@
         "sizeMax": 120,
         "screenLen": 8,
         "value": 15
+    },
+    {
+        "id": 111,
+        "name": "tresher shark",
+        "family": "shark",
+        "sizeClass": 4,
+        "sizeMin": 350,
+        "sizeMax": 700,
+        "screenLen": 12,
+        "value": 11
+    },
+    {
+        "id": 112,
+        "name": "pacific whiting",
+        "family": null,
+        "sizeClass": 1,
+        "sizeMin": 2,
+        "sizeMax": 3.5,
+        "screenLen": 2,
+        "value": 18
+    },
+    {
+        "id": 113,
+        "name": "giant squid",
+        "family": "squid",
+        "sizeClass": 3,
+        "sizeMin": 200,
+        "sizeMax": 350,
+        "screenLen": 8,
+        "value": 9
+    },
+    {
+        "id": 114,
+        "name": "coelacanth",
+        "family": null,
+        "sizeClass": 2,
+        "sizeMin": 40,
+        "sizeMax": 72,
+        "screenLen": 5,
+        "value": 10
+    },
+    {
+        "id": 115,
+        "name": "chinook salmon",
+        "family": "salmon",
+        "sizeClass": 1,
+        "sizeMin": 8,
+        "sizeMax": 14,
+        "screenLen": 3,
+        "value": 13
+    },
+    {
+        "id": 116,
+        "name": "coho salmon",
+        "family": "salmon",
+        "sizeClass": 1,
+        "sizeMin": 6,
+        "sizeMax": 12,
+        "screenLen": 2,
+        "value": 10
+    },
+    {
+        "id": 117,
+        "name": "blue shark",
+        "family": "shark",
+        "sizeClass": 4,
+        "sizeMin": 400,
+        "sizeMax": 700,
+        "screenLen": 13,
+        "value": 14
+    },
+    {
+        "id": 118,
+        "name": "smooth hound",
+        "family": "shark",
+        "sizeClass": 2,
+        "sizeMin": 24,
+        "sizeMax": 36,
+        "screenLen": 5,
+        "value": 14
+    },
+    {
+        "id": 119,
+        "name": "black grouper",
+        "family": "grouper",
+        "sizeClass": 2,
+        "sizeMin": 64,
+        "sizeMax": 94,
+        "screenLen": 6,
+        "value": 9
+    },
+    {
+        "id": 120,
+        "name": "gag grouper",
+        "family": "grouper",
+        "sizeClass": 2,
+        "sizeMin": 15,
+        "sizeMax": 24,
+        "screenLen": 5,
+        "value": 12
+    },
+    {
+        "id": 121,
+        "name": "sea sturgeon",
+        "family": "sturgeon",
+        "sizeClass": 3,
+        "sizeMin": 150,
+        "sizeMax": 276,
+        "screenLen": 10,
+        "value": 11
+    },
+    {
+        "id": 122,
+        "name": "manta ray",
+        "family": "ray",
+        "sizeClass": 4,
+        "sizeMin": 250,
+        "sizeMax": 500,
+        "screenLen": 11,
+        "value": 10
+    },
+    {
+        "id": 123,
+        "name": "whitetip shark",
+        "family": "shark",
+        "sizeClass": 3,
+        "sizeMin": 75,
+        "sizeMax": 98,
+        "screenLen": 7,
+        "value": 13
+    },
+    {
+        "id": 124,
+        "name": "nurse shark",
+        "family": "shark",
+        "sizeClass": 2,
+        "sizeMin": 58,
+        "sizeMax": 75,
+        "screenLen": 5,
+        "value": 20
+    },
+    {
+        "id": 125,
+        "name": "bigeye tuna",
+        "family": "scombridae",
+        "sizeClass": 3,
+        "sizeMin": 107,
+        "sizeMax": 192,
+        "screenLen": 10,
+        "value": 14
+    },
+    {
+        "id": 126,
+        "name": "scalloped hammerhead",
+        "family": "shark",
+        "sizeClass": 2,
+        "sizeMin": 62,
+        "sizeMax": 92,
+        "screenLen": 7,
+        "value": 14
     }
 ]
