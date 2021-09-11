@@ -1,14 +1,16 @@
 {
     "info": {
         "General": [
-            "**Below is a full list of available commands**\nTo better understand commands, visit the [Offical Commands Page](https://bigtuna.xyz/commands)",
-            "\n**Gameplay** :fish:\nfish, aquarium, collect, shop, setlocation, quest, bounty, baitshop, card, givecard, rings",
-            "**Profile Commands** :trophy:\nstats, serverstats, equipment, baits, leaderboards, fishleaderboards",
-            "**Info Commands** :question:\nhelp, info, iteminfo, fishinfo, locationinfo",
-            "**Extra Commands** :eyes:\nvote, server, toggle, setprefix, optin, optout, redeem, setcustomfish"
+            "**Below is a full list of available commands** (Excluding clan commands)\nTo better understand commands, visit the [Offical Commands Page](https://bigtuna.xyz/commands)",
+            "\n:fish: **Gameplay** :fish:\nfish, aquarium, collect, shop",
+            "(Level 10+) setlocation, quest, bounty, baitshop",
+            "(Level 20+) card, givecard, rings",
+            "\n:trophy: **Profile Commands** :trophy:\nstats, serverstats, equipment, baits, leaderboards, fishleaderboards",
+            "\n:question: **Info Commands** :question:\nhelp, info, iteminfo, fishinfo, locationinfo",
+            "\n:eyes: **Extra Commands** :eyes:\nvote, server, toggle, setprefix, optin, optout, redeem, setcustomfish"
         ],
         "fish": [
-            "Usage: `${PREFIX}fish <bait>`",
+            "Usage: `${PREFIX}fish [bait]`",
             "Example: `${PREFIX}fish worms`",
             "\n- Just type `${PREFIX}fish` to not use bait.",
             "- Fishes at the current location of the player.",
@@ -17,9 +19,9 @@
             "- Also accepts `${PREFIX}f`"
         ],
         "aquarium": [
-            "Usage: `${PREFIX}aquarium <location number (optional)> @user (optional)`",
+            "Usage: `${PREFIX}aquarium [location number (optional)] @user (optional)`",
             "Example: `${PREFIX}aquarium 1`",
-            "<location number> defaults to your location when no number is provided",
+            "[location number] defaults to your location when no number is provided",
             "\n- Views your aquarium, consisting of your largest catch of each species from the given location.",
             "- Revenue is based off of the fish caught, and is collected by clicking the :coin: icon.",
             "- Upgrades can be bought in the shop, and increase both revenue *and* coin capacity.",
@@ -27,9 +29,9 @@
             "- Ping a user with this command to see their aquarium"
         ],
         "collect": [
-            "Usage: `${PREFIX}collect <location number>`",
+            "Usage: `${PREFIX}collect [location number]`",
             "Example: `${PREFIX}collect 1`",
-            "<location number> defaults to `all` when no number is provided",
+            "[location number] defaults to `all` when no number is provided",
             "\n- A convenient way to collect money from your aquariums",
             "- Also accepts `${PREFIX}c`"
         ],
@@ -47,7 +49,7 @@
             "- React with the corresponding icon to purchase an item"
         ],
         "setlocation": [
-            "Usage: `${PREFIX}setlocation <location number>`",
+            "Usage: `${PREFIX}setlocation [location number]`",
             "Example: `${PREFIX}setlocation 2`",
             "\n- Sets your fishing location to somewhere else (given that you have unlocked that location)"
         ],
@@ -62,19 +64,19 @@
             "\n- Opens up the bounty page"
         ],
         "card": [
-            "Usage: `${PREFIX}card <ID (optional)>`",
+            "Usage: `${PREFIX}card [ID (optional)]`",
             "\n- Shows your card collection or a specific card",
             "- You may sell cards for :lollipop:",
             "- You may put fish from cards in your aquarium"
         ],
         "rings": [
-            "Usage: `${PREFIX}rings <ID (optional)>`",
+            "Usage: `${PREFIX}rings [ID (optional)]`",
             "\n- Shows your rings or a specific ring",
             "- You may sell rings for :coin:",
             "- See more on rings with `.help rings`"
         ],
         "givecard": [
-            "Usage: `${PREFIX}givecard <card id> @user`",
+            "Usage: `${PREFIX}givecard [card id] @user`",
             "\n- Gives one of your cards to another player",
             "- Also accepts `${PREFIX}gc`"
         ],
@@ -109,24 +111,24 @@
             "- Also accepts `${PREFIX}lb`, `${PREFIX}leaders`"
         ],
         "fishleaderboards": [
-            "Usage: `${PREFIX}fishleaderboards <fish name>`",
+            "Usage: `${PREFIX}fishleaderboards [fish name]`",
             "\n- Shows the top 10 global and server rankings for a fish",
             "- Also accepts `${PREFIX}fishlb`, `${PREFIX}flb`"
         ],
         "info": [
-            "Usage: `${PREFIX}info <command>`",
+            "Usage: `${PREFIX}info [command]`",
             "Example: `${PREFIX}info aquarium`",
-            "<command> defaults to general when no value (or an invalid value) is provided"
+            "[command] defaults to general when no value (or an invalid value) is provided"
         ],
         "iteminfo": [
-            "Usage: `${PREFIX}iteminfo <item name>`",
+            "Usage: `${PREFIX}iteminfo [item name]`",
             "Example: `${PREFIX}iteminfo copper hook`",
-            "<item name> can also be one of `rods`, `hooks`, `lines`, or `aquariums`",
+            "[item name] can also be one of `rods`, `hooks`, `lines`, or `aquariums`",
             "\n- Gives you all information about a given item",
             "- Also accepts `${PREFIX}ii`"
         ],
         "fishinfo": [
-            "Usage: `${PREFIX}fishinfo <fish/family name>`",
+            "Usage: `${PREFIX}fishinfo [fish/family name]`",
             "Example: `${PREFIX}fishinfo northern pike`",
             "\n- Gives you all information about a given fish",
             "- Can also be used to view fish species",
@@ -134,9 +136,9 @@
             "- Also accepts `${PREFIX}fi`"
         ],
         "locationinfo": [
-            "Usage: `${PREFIX}locationinfo <location number>`",
+            "Usage: `${PREFIX}locationinfo [location number]`",
             "Example: `${PREFIX}locationinfo 1`",
-            "<location number> defaults to all when no value (or an invalid value) is provided",
+            "[location number] defaults to all when no value (or an invalid value) is provided",
             "\n- Gives you all information about a given location",
             "- Includes unlock level, all fish, fish rarity",
             "- Also accepts `${PREFIX}li`"
@@ -152,13 +154,13 @@
             "\n- Returns a link to the official server"
         ],
         "toggle": [
-            "Usage: `${PREFIX}toggle <setting>`",
+            "Usage: `${PREFIX}toggle [setting]`",
             "Example: `${PREFIX}toggle startinfo`",
             "\n- As of now, the only setting that can be toggled is `startinfo`",
             "- Can only be used by members with `Manage Server` privileges"
         ],
         "setprefix": [
-            "Usage: `${PREFIX}setprefix <prefix>`",
+            "Usage: `${PREFIX}setprefix [prefix]`",
             "Example: `${PREFIX}setprefix f!`",
             "\n- Only accepts prefixes from the set: `. ! ? , ~ ; f .. ?? !! f! t!`",
             "- Ping Big Tuna if you forget your prefix",
@@ -180,7 +182,7 @@
             "- These redeems can be purchased from https://bigtuna.xyz/shop"
         ],
         "setcustomfish": [
-            "Usage: `${PREFIX}setcustomfish <alias>`",
+            "Usage: `${PREFIX}setcustomfish [alias]`",
             "Example: `${PREFIX}setcustomfish bop`",
             "\n- Creates an alternate word that will trigger fishing",
             "- Also accepts `${PREFIX}scf`"
