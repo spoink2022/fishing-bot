@@ -19,7 +19,7 @@
             "- Also accepts `${PREFIX}f`"
         ],
         "aquarium": [
-            "Usage: `${PREFIX}aquarium [location number (optional)] @user (optional)`",
+            "Usage: `${PREFIX}aquarium [location number (optional)] [@user (optional)]`",
             "Example: `${PREFIX}aquarium 1`",
             "[location number] defaults to your location when no number is provided",
             "\n- Views your aquarium, consisting of your largest catch of each species from the given location.",
@@ -76,12 +76,12 @@
             "- See more on rings with `.help rings`"
         ],
         "givecard": [
-            "Usage: `${PREFIX}givecard [card id] @user`",
+            "Usage: `${PREFIX}givecard [card id] [@user]`",
             "\n- Gives one of your cards to another player",
             "- Also accepts `${PREFIX}gc`"
         ],
         "stats": [
-            "Usage: `${PREFIX}stats @user (optional)`",
+            "Usage: `${PREFIX}stats [@user] (optional)`",
             "\n- Shows you your stats.",
             "- Also accepts `${PREFIX}s`",
             "- Ping a user with this command to see their stats"
@@ -98,7 +98,7 @@
             "- Also accepts `${PREFIX}b`"
         ],
         "equipment": [
-            "Usage: `${PREFIX}equipment @user (optional)`",
+            "Usage: `${PREFIX}equipment [@user] (optional)`",
             "\n- Shows you your pieces of equipment and their stats",
             "- Useful for deciding what to upgrade",
             "- Also accepts `${PREFIX}e`",
