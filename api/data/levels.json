@@ -397,6 +397,26 @@
     },
     {
         "level": 100,
-        "expRequired": 13000
+        "expRequired": 14000
+    },
+    {
+        "level": 101,
+        "expRequired": 15000
+    },
+    {
+        "level": 102,
+        "expRequired": 15500
+    },
+    {
+        "level": 103,
+        "expRequired": 16000
+    },
+    {
+        "level": 104,
+        "expRequired": 16500
+    },
+    {
+        "level": 105,
+        "expRequired": 17500
     }
 ]
