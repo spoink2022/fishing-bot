@@ -1110,7 +1110,7 @@
         "sizeClass": 4,
         "sizeMin": 350,
         "sizeMax": 700,
-        "screenLen": 16,
+        "screenLen": 18,
         "value": 8
     },
     {
@@ -1130,7 +1130,7 @@
         "sizeClass": 4,
         "sizeMin": 400,
         "sizeMax": 750,
-        "screenLen": 13,
+        "screenLen": 15,
         "value": 12
     },
     {
@@ -1170,7 +1170,7 @@
         "sizeClass": 3,
         "sizeMin": 100,
         "sizeMax": 200,
-        "screenLen": 7,
+        "screenLen": 13,
         "value": 12
     },
     {
@@ -1190,7 +1190,7 @@
         "sizeClass": 2,
         "sizeMin": 64,
         "sizeMax": 94,
-        "screenLen": 4,
+        "screenLen": 6,
         "value": 16
     },
     {
@@ -1210,7 +1210,7 @@
         "sizeClass": 3,
         "sizeMin": 150,
         "sizeMax": 276,
-        "screenLen": 8,
+        "screenLen": 9,
         "value": 14
     },
     {
@@ -1250,7 +1250,7 @@
         "sizeClass": 3,
         "sizeMin": 107,
         "sizeMax": 192,
-        "screenLen": 7,
+        "screenLen": 8.5,
         "value": 22
     }
 ]

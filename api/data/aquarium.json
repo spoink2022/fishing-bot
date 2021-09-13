@@ -149,36 +149,36 @@
     {
         "name": "premium elite",
         "multiplier": 1.88,
-        "max": 150,
+        "max": 145,
         "level": 93,
         "price": 120000
     },
     {
         "name": "superior elite",
         "multiplier": 1.9,
-        "max": 165,
+        "max": 150,
         "level": 97,
         "price": 150000
     },
     {
-        "name": "superior elite",
+        "name": "palladium",
         "multiplier": 1.92,
-        "max": 175,
+        "max": 160,
         "level": 101,
-        "price": 150000
+        "price": 220000
     },
     {
-        "name": "superior elite",
+        "name": "premium palladium",
         "multiplier": 1.95,
-        "max": 190,
+        "max": 165,
         "level": 108,
-        "price": 150000
+        "price": 250000
     },
     {
-        "name": "superior elite",
+        "name": "superior palladium",
         "multiplier": 1.98,
-        "max": 210,
+        "max": 175,
         "level": 113,
-        "price": 150000
+        "price": 300000
     }
 ]
