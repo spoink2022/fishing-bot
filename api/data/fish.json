@@ -1111,7 +1111,7 @@
         "sizeMin": 350,
         "sizeMax": 700,
         "screenLen": 14,
-        "value": 11
+        "value": 8
     },
     {
         "id": 112,
@@ -1121,7 +1121,7 @@
         "sizeMin": 2,
         "sizeMax": 3.5,
         "screenLen": 3,
-        "value": 18
+        "value": 16
     },
     {
         "id": 113,
@@ -1131,7 +1131,7 @@
         "sizeMin": 200,
         "sizeMax": 350,
         "screenLen": 16,
-        "value": 9
+        "value": 18
     },
     {
         "id": 114,
@@ -1141,7 +1141,7 @@
         "sizeMin": 40,
         "sizeMax": 72,
         "screenLen": 7,
-        "value": 10
+        "value": 40
     },
     {
         "id": 115,
@@ -1151,7 +1151,7 @@
         "sizeMin": 8,
         "sizeMax": 14,
         "screenLen": 5,
-        "value": 13
+        "value": 20
     },
     {
         "id": 116,
@@ -1161,7 +1161,7 @@
         "sizeMin": 6,
         "sizeMax": 12,
         "screenLen": 5,
-        "value": 10
+        "value": 18
     },
     {
         "id": 117,
@@ -1171,7 +1171,7 @@
         "sizeMin": 400,
         "sizeMax": 700,
         "screenLen": 11,
-        "value": 14
+        "value": 9
     },
     {
         "id": 118,
@@ -1181,7 +1181,7 @@
         "sizeMin": 24,
         "sizeMax": 36,
         "screenLen": 8,
-        "value": 14
+        "value": 12
     },
     {
         "id": 119,
@@ -1191,7 +1191,7 @@
         "sizeMin": 64,
         "sizeMax": 94,
         "screenLen": 6,
-        "value": 9
+        "value": 16
     },
     {
         "id": 120,
@@ -1211,7 +1211,7 @@
         "sizeMin": 150,
         "sizeMax": 276,
         "screenLen": 10,
-        "value": 11
+        "value": 14
     },
     {
         "id": 122,
@@ -1221,7 +1221,7 @@
         "sizeMin": 250,
         "sizeMax": 500,
         "screenLen": 15,
-        "value": 10
+        "value": 4
     },
     {
         "id": 123,
@@ -1231,7 +1231,7 @@
         "sizeMin": 75,
         "sizeMax": 98,
         "screenLen": 9,
-        "value": 13
+        "value": 12
     },
     {
         "id": 124,
@@ -1241,7 +1241,7 @@
         "sizeMin": 58,
         "sizeMax": 75,
         "screenLen": 8,
-        "value": 20
+        "value": 6
     },
     {
         "id": 125,
@@ -1251,16 +1251,6 @@
         "sizeMin": 107,
         "sizeMax": 192,
         "screenLen": 9,
-        "value": 14
-    },
-    {
-        "id": 126,
-        "name": "scalloped hammerhead",
-        "family": "shark",
-        "sizeClass": 2,
-        "sizeMin": 62,
-        "sizeMax": 92,
-        "screenLen": 13,
-        "value": 14
+        "value": 22
     }
 ]
