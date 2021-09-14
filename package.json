@@ -27,6 +27,7 @@
     "discord.js": "12.5.1",
     "express": "4.17.1",
     "pg": "8.5.1",
+    "socket.io-client": "4.2.0",
     "topgg-autoposter": "1.1.7"
   }
 }
