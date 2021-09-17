@@ -1,7 +1,7 @@
-const DEV = false;
+const config = require('../static/private/config.json');
 
 let path = 'https://storage.googleapis.com/fishingbot/assets';
-if (DEV) {
+if (config.DEV) {
     path = 'https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img';
     console.log('new path');
 }
