@@ -736,7 +736,7 @@
     {
         "id": 74,
         "name": "gulf grouper",
-        "family": null,
+        "family": "grouper",
         "sizeClass": 3,
         "sizeMin": 30,
         "sizeMax": 70,
@@ -746,7 +746,7 @@
     {
         "id": 75,
         "name": "red grouper",
-        "family": null,
+        "family": "grouper",
         "sizeClass": 2,
         "sizeMin": 10,
         "sizeMax": 20,
