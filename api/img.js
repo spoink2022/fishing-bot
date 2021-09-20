@@ -15,6 +15,10 @@ module.exports.fetchAssetUrl = function(asset) {
     return `${path}/misc/${asset}.png`;
 }
 
+module.exports.fetchCosmeticUrl = function(cosmetic) {
+    return `${path}/cosmetics/${cosmetic}.png`;
+}
+
 module.exports.fetchBackgroundUrl = function(key) {
     return `${path}/background/${key}.png`;
 }
