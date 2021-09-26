@@ -1,8 +1,23 @@
+const api = require('./index.js');
+
 const AquariumData = require('./data/aquarium.json');
 const BaitData = require('./data/bait.json');
 const BaitNames = Object.keys(BaitData);
+let CampaignData = require('./data/campaign.json');
+const MAX_CAMPAIGN_STAGE = CampaignData.length;
 const QuestData = require('./data/quest.json');
 const WeatherData = require('./data/weather.json');
+
+// format CampaignData
+let fishNames = api.fishing.getFishNames();
+for (let i=0; i<CampaignData.length; i++) {
+    let requirements = [];
+    for (let entry of CampaignData[i].requirements_string) {
+        let fishID = fishNames.indexOf(entry[0].replace(/_/g, ' '));
+        requirements.push([fishID, entry[1]]);
+    }
+    CampaignData[i].requirements = requirements;
+}
 
 module.exports.getAquariumInfo = function(id) {
     return AquariumData[id];
@@ -46,6 +61,11 @@ module.exports.getBaitsByFamily = function(family) {
 }
 module.exports.getBaitData = function(bait) {
     return BaitData[bait];
+}
+
+module.exports.getCampaignData = function(stage) {
+    if (stage > MAX_CAMPAIGN_STAGE) { return null; }
+    return CampaignData[stage-1];
 }
 
 module.exports.getRandomQuestData = function() {
