@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Fishing in The Small Pond",
+        "description": "Catch these fish to prove your clan is worthy to move on to the next stage!",
+        "requirements_string": [
+            ["bluegill", 20],
+            ["grass_pickerel", 10],
+            ["spotted_bass", 5]
+        ],
+        "rewards": {
+            "clanPoints": 15,
+            "lollipops": 0,
+            "coins": 50
+        }
+    },
+    {
+        "name": "Panfish Species Control",
+        "description": "The panfish population has grown out of control!\nHelp remove them from our local lakes.",
+        "requirements_string": [
+            ["bluegill", 20],
+            ["green_sunfish", 30],
+            ["redear_sunfish", 10],
+            ["pumpkinseed", 20]
+        ],
+        "rewards": {
+            "clanPoints": 20,
+            "lollipops": 5,
+            "coins": 0
+        }
+    },
+    {
+        "name": "Bass Hunt",
+        "description": "Catch bass for the local fishing contest!",
+        "requirements_string": [
+            ["spotted_bass", 25],
+            ["largemouth_bass", 20]
+        ],
+        "rewards": {
+            "clanPoints": 10,
+            "lollipops": 0,
+            "coins": 75
+        }
+    },
+    {
+        "name": "Pest Control",
+        "description": "Local fishers are upset that all they catch are tiny pest fish.\n\nHelp remove them from our lakes!",
+        "requirements_string": [
+            ["white_crappie", 20],
+            ["green_sunfish", 25],
+            ["bluntnose_minnow", 30],
+            ["black_crappie", 20]
+        ],
+        "rewards": {
+            "clanPoints": 20,
+            "lollipops": 7,
+            "coins": 100
+        }
+    },
+    {
+        "name": "Catching Giants",
+        "description": "Hope your equipment is strong enough!",
+        "requirements_string": [
+            ["smallmouth_buffalo", 15],
+            ["channel_catfish", 5],
+            ["bowfin", 5],
+            ["freshwater_drum", 10],
+            ["northern_pike", 3],
+            ["walleye", 5]
+        ],
+        "rewards": {
+            "clanPoints": 20,
+            "lollipops": 10,
+            "coins": 100
+        }
+    }
+]

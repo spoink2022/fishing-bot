@@ -95,3 +95,22 @@ module.exports.deleteClan = async function(clanID) {
     await config.pquery(query, [clanID]);
     return;
 }
+
+module.exports.setColumn = async function(clanID, columnName, value) {
+    let query = `UPDATE clan SET ${columnName}=$1 WHERE id=$2`;
+    await config.pquery(query, [value, clanID]);
+    return;
+}
+
+module.exports.updateColumn = async function(clanID, columnName, value) {
+    let query = `UPDATE clan SET ${columnName}=${columnName}+$1 WHERE id=$2`;
+    await config.pquery(query, [value, clanID]);
+    return;
+}
+
+// CAMPAIGN
+module.exports.addCampaignCatch = async function(clanID, fishID) {
+    let query = 'UPDATE clan SET campaign_progress=ARRAY_APPEND(campaign_progress, $1) WHERE id=$2';
+    await config.pquery(query, [fishID, clanID]);
+    return;
+}

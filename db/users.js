@@ -135,11 +135,17 @@ module.exports.claimBounty = async function(userid, bountyid, bountyAmount) {
     return;
 }
 
-// for clan
+// BULK USER QUERIES
 module.exports.fetchLevels = async function(useridArray) {
     let query = 'SELECT userid, level, exp, cooldown FROM users WHERE userid=ANY($1)';
     let res = await config.pquery(query, [useridArray]);
     return res;
+}
+
+module.exports.updateArrayOfColumns = async function(useridArray, columnName, value) {
+    let query = `UPDATE users SET ${columnName}=${columnName}+$1 WHERE userid=ANY($2)`;
+    await config.pquery(query, [value, useridArray]);
+    return;
 }
 
 // PURCHASES TABLE
