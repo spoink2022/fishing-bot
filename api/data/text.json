@@ -5,7 +5,7 @@
             "\n:fish: **Gameplay** :fish:\nfish, aquarium, collect, shop",
             "(Level 10+) setlocation, quest, bounty, baitshop",
             "(Level 20+) card, givecard, rings",
-            "\n:trophy: **Profile Commands** :trophy:\nstats, serverstats, equipment, baits, leaderboards, fishleaderboards",
+            "\n:trophy: **Profile Commands** :trophy:\nstats, serverstats, cooldowns, equipment, baits, leaderboards, fishleaderboards",
             "\n:question: **Info Commands** :question:\nhelp, info, iteminfo, fishinfo, locationinfo",
             "\n:eyes: **Extra Commands** :eyes:\nvote, server, toggle, setprefix, optin, optout, redeem, setcustomfish"
         ],
@@ -91,6 +91,11 @@
             "\n- Shows your server's stats",
             "- Global rankings are based on weight caught",
             "- Also accepts `${PREFIX}ss`"
+        ],
+        "cooldowns": [
+            "Usage: `${PREFIX}cooldowns`",
+            "\n- Shows your cooldowns",
+            "- Also accepts `${PREFIX}cd`"
         ],
         "baits": [
             "Usage: `${PREFIX}baits`",
