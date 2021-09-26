@@ -58,6 +58,12 @@ module.exports.joinMember = async function(userid, username, clan) {
     return;
 }
 
+module.exports.creditMemberWithCampaignCatch = async function(userid) {
+    let query = 'UPDATE clan_member SET campaign_catches=campaign_catches+1 WHERE userid=$1';
+    await config.pquery(query, [userid]);
+    return;
+}
+
 // UPDATE CLAN STATUS
 module.exports.createClan = async function(userid, username) {
     // create clan entry
