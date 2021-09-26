@@ -62,9 +62,9 @@ module.exports.incrementLevel = async function(userid, expToSubtract) {
     await config.pquery(query, [expToSubtract, userid]);
 }
 
-module.exports.resetFishingCooldown = async function(userid) {
+module.exports.resetFishingCooldown = async function(userid, chargeback) {
     let query = 'UPDATE users SET cooldown=$1 WHERE userid=$2';
-    await config.pquery(query, [Date.now(), userid]);
+    await config.pquery(query, [Date.now() - chargeback, userid]);
     return;
 }
 
