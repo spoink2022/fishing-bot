@@ -68,8 +68,8 @@ module.exports.resetFishingCooldown = async function(userid, chargeback) {
     return;
 }
 
-module.exports.removeFishingCooldown = async function(userid) { // also logs vote timestamp
-    let query = 'UPDATE users SET cooldown=0, next_vote=$1 WHERE userid=$2';
+module.exports.removeFishingCooldown = async function(userid, rodCooldown) { // also logs vote timestamp
+    let query = `UPDATE users SET cooldown=cooldown-${rodCooldown}, next_vote=$1 WHERE userid=$2`;
     await config.pquery(query, [Date.now()+1000*60*60*12, userid]);
     return;
 }
