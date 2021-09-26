@@ -4,8 +4,8 @@ const EquipmentData = require('./data/equipment.json');
 const RingData = require('./data/rings.json');
 
 const FishNameMap = {};
-for(const obj of FishData) {
-    FishNameMap[obj.name.replace(/ /g, '_')] = obj.name;
+for(const[key, val] of FishData.entries()) {
+    FishNameMap[val.name.replace(/ /g, '_')] = key;
 }
 for (let i=0; i<FishingLocationsData.length; i++) {
     const locationFish = FishingLocationsData[i].fish;
