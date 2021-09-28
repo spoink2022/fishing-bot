@@ -149,6 +149,16 @@ module.exports.updateArrayOfColumns = async function(useridArray, columnName, va
 }
 
 // PURCHASES TABLE
+async function ensurePurchasesEntry(userid) {
+    let query = 'SELECT * FROM purchases WHERE userid=$1 LIMIT 1';
+    let purchases = await config.pquery(query, [userid]);
+    if (!purchases[0]) {
+        query = 'INSERT INTO purchases (userid) VALUES ($1)';
+        await config.pquery(query, [userid]);
+    }
+    return true;
+}
+
 module.exports.getPurchases = async function(userid) {
     let query = 'SELECT * FROM purchases WHERE userid=$1 LIMIT 1';
     let res = await config.pquery(query, [userid]);
@@ -160,3 +170,11 @@ module.exports.decrementCustomFish = async function(userid) {
     let res = await config.pquery(query, [userid]);
     return res[0].custom_fish;
 }
+
+module.exports.updatePurchasesColumn = async function(userid, columnName, value) {
+    let tmp = await ensurePurchasesEntry(userid);
+    let query = `UPDATE purchases SET ${columnName}=${columnName}+$1 WHERE userid=$2`;
+    await config.pquery(query, [value, userid]);
+    return;
+}
+
