@@ -13,7 +13,8 @@ let fishNames = api.fishing.getFishNames();
 for (let i=0; i<CampaignData.length; i++) {
     let requirements = [];
     for (let entry of CampaignData[i].requirements_string) {
-        let fishID = fishNames.indexOf(entry[0].replace(/_/g, ' '));
+        let fishName = entry[0]; // lists are mutable
+        let fishID = fishNames.indexOf(fishName.replace(/_/g, ' '));
         requirements.push([fishID, entry[1]]);
     }
     CampaignData[i].requirements = requirements;
