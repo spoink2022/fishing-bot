@@ -4,7 +4,7 @@
             "**Below is a full list of available commands** (Excluding clan commands)\nTo better understand commands, visit the [Offical Commands Page](https://bigtuna.xyz/commands)",
             "\n:fish: **Gameplay** :fish:\nfish, aquarium, collect, shop",
             "(Level 10+) setlocation, quest, bounty, baitshop",
-            "(Level 20+) card, givecard, rings",
+            "(Level 20+) card, givecard, ring, givering",
             "\n:trophy: **Profile Commands** :trophy:\nstats, serverstats, cooldowns, equipment, baits, leaderboards, fishleaderboards",
             "\n:question: **Info Commands** :question:\nhelp, info, iteminfo, fishinfo, locationinfo",
             "\n:eyes: **Extra Commands** :eyes:\nvote, server, toggle, setprefix, optin, optout, redeem, setcustomfish"
@@ -69,7 +69,7 @@
             "- You may sell cards for :lollipop:",
             "- You may put fish from cards in your aquarium"
         ],
-        "rings": [
+        "ring": [
             "Usage: `${PREFIX}rings [ID (optional)]`",
             "\n- Shows your rings or a specific ring",
             "- You may sell rings for :coin:",
@@ -79,6 +79,11 @@
             "Usage: `${PREFIX}givecard [card id] [@user]`",
             "\n- Gives one of your cards to another player",
             "- Also accepts `${PREFIX}gc`"
+        ],
+        "givering": [
+            "Usage: `${PREFIX}givering [ring id] [@user]`",
+            "\n- Gives one of your rings to another player",
+            "- Also accepts `${PREFIX}gr`"
         ],
         "stats": [
             "Usage: `${PREFIX}stats [@user] (optional)`",
