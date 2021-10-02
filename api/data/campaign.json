@@ -75,34 +75,34 @@
     },
     {
         "name": "Cleaning Muddy River",
-        "description": "The river is too muddy, help catch all the fish before the river is cleaned!",
+        "description": "The river is too muddy.\nLower the fish population and clear up the river!",
         "requirements_string": [
-            ["bluntnose_minnow", 30],
+            ["bluntnose_minnow", 20],
             ["bowfin", 8],
-            ["pumpkinseed", 20],
-            ["spotted_gar", 15],
-            ["black_bullhead_catfish", 20]
+            ["pumpkinseed", 15],
+            ["spotted_gar", 10],
+            ["black_bullhead_catfish", 15]
         ],
         "rewards": {
             "clanPoints": 20,
-            "lollipops": 15,
-            "coins": 0
+            "lollipops": 10,
+            "coins": 200
         }
     },
     {
         "name": "Fishing Contest",
-        "description": "You are invited to a local fishing contest, can your clan take first place?",
+        "description": "You are invited to a local fishing contest.\nShow your skill and catch the species below!",
         "requirements_string": [
-            ["chain_pickerel", 10],
-            ["freshwater_drum", 20],
-            ["cutthroat_trout", 20],
-            ["redfin_pickerel", 20],
-            ["colorado_golden_trout", 15]
+            ["chain_pickerel", 5],
+            ["freshwater_drum", 10],
+            ["cutthroat_trout", 15],
+            ["redfin_pickerel", 5],
+            ["colorado_golden_trout", 10]
         ],
         "rewards": {
-            "clanPoints": 25,
-            "lollipops": 15,
-            "coins": 200
+            "clanPoints": 12,
+            "lollipops": 0,
+            "coins": 150
         }
     }
 ]
