@@ -4,6 +4,7 @@ const AquariumData = require('./data/aquarium.json');
 const BaitData = require('./data/bait.json');
 const BaitNames = Object.keys(BaitData);
 let CampaignData = require('./data/campaign.json');
+const ClanShopData = require('./data/clanshop.json');
 const MAX_CAMPAIGN_STAGE = CampaignData.length;
 const QuestData = require('./data/quest.json');
 const WeatherData = require('./data/weather.json');
@@ -67,6 +68,10 @@ module.exports.getBaitData = function(bait) {
 module.exports.getCampaignData = function(stage) {
     if (stage > MAX_CAMPAIGN_STAGE) { return null; }
     return CampaignData[stage-1];
+}
+
+module.exports.getAllClanShopData = function() {
+    return ClanShopData;
 }
 
 module.exports.getRandomQuestData = function() {
