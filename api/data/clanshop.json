@@ -1,0 +1,94 @@
+{
+    "perks": {
+        "fish_cd": {
+            "shopName": "Fish Cooldown Reduction",
+            "desc": "Overall fishing cooldown **{OLD}%** :arrow_right: **{NEW}%**",
+            "emoji": "⏲️",
+            "levels": [
+                {
+                    "price": 40,
+                    "value": 0.5
+                }
+            ]
+        },
+        "coin_bonus": {
+            "shopName": "Fish Coin Bonus",
+            "desc": "Coin bonus **{OLD}%** :arrow_right: **{NEW}%**",
+            "emoji": "🪙",
+            "levels": [
+                {
+                    "price": 25,
+                    "value": 1
+                }
+            ]
+        },
+        "exp_bonus": {
+            "shopName": "Fish Exp Bonus",
+            "desc": "Exp bonus **{OLD}%** :arrow_right: **{NEW}%**",
+            "emoji": "⭐",
+            "levels": [
+                {
+                    "price": 30,
+                    "value": 1
+                }
+            ]
+        },
+        "vote_bonus": {
+            "shopName": "Bonus Vote Rewards",
+            "desc": "Quest points on vote **{OLD}** :arrow_right: **{NEW}**",
+            "emoji": "⬆️",
+            "levels": [
+                {
+                    "price": 75,
+                    "value": 1
+                }
+            ]
+        },
+        "campaign_mba": {
+            "shopName": "Campaign MBA",
+            "desc": "Bonus clan points from campaigns **{OLD}** :arrow_right: **{NEW}**",
+            "emoji": "🧾",
+            "levels": [
+                {
+                    "price": 40,
+                    "value": 4
+                },
+                {
+                    "price": 60,
+                    "value": 7
+                },
+                {
+                    "price": 100,
+                    "value": 11
+                }
+            ]
+        },
+        "quest_mba": {
+            "shopName": "Quest MBA",
+            "desc": "Bonus quest points from quests **{OLD}%** :arrow_right: **{NEW}%**",
+            "emoji": "📜",
+            "levels": [
+                {
+                    "price": 20,
+                    "value": 10
+                },
+                {
+                    "price": 30,
+                    "value": 15
+                },
+                {
+                    "price": 45,
+                    "value": 20
+                }
+            ]
+        }
+    },
+    "items": {
+        "renames": {
+            "shopName": "Clan Rename",
+            "desc": "+1 Clan Rename",
+            "emoji": "🪧",
+            "price": 10
+        }
+    }
+}
