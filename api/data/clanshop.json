@@ -8,6 +8,18 @@
                 {
                     "price": 40,
                     "value": 0.5
+                },
+                {
+                    "price": 40,
+                    "value": 1
+                },
+                {
+                    "price": 45,
+                    "value": 1.5
+                },
+                {
+                    "price": 50,
+                    "value": 2
                 }
             ]
         },
@@ -19,6 +31,14 @@
                 {
                     "price": 25,
                     "value": 1
+                },
+                {
+                    "price": 40,
+                    "value": 2
+                },
+                {
+                    "price": 55,
+                    "value": 3
                 }
             ]
         },
@@ -30,6 +50,14 @@
                 {
                     "price": 30,
                     "value": 1
+                },
+                {
+                    "price": 45,
+                    "value": 2
+                },
+                {
+                    "price": 60,
+                    "value": 3
                 }
             ]
         },
@@ -41,6 +69,10 @@
                 {
                     "price": 75,
                     "value": 1
+                },
+                {
+                    "price": 90,
+                    "value": 2
                 }
             ]
         },
@@ -84,7 +116,7 @@
         }
     },
     "items": {
-        "renames": {
+        "rename": {
             "shopName": "Clan Rename",
             "desc": "+1 Clan Rename",
             "emoji": "🪧",
