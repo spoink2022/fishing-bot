@@ -104,5 +104,59 @@
             "lollipops": 0,
             "coins": 150
         }
+    },
+    {
+        "name": "Bass Hunt 2",
+        "description": "Bass season is still not over yet!\nCatch Bass in the remaining few days of the season!",
+        "requirements_string": [
+            ["butterfly_peacock_bass", 2],
+            ["rock_bass", 35],
+            ["smallmouth_bass", 23],
+            ["largemouth_bass", 10],
+            ["white_bass", 15]
+        ],
+        "rewards": {
+            "clanPoints": 25,
+            "lollipops": 12,
+            "coins": 100
+        }
+    },
+    {
+        "name": "Endangered species",
+        "description": "Help save the endangered fish from the poachers!",
+        "requirements_string": [
+            ["butterfly_peacock_bass", 2],
+            ["gafftopsail_catfish", 2],
+            ["florida_gar", 7],
+            ["longnose_gar", 12],
+            ["common_carp", 12],
+            ["longnose_gar", 7],
+            ["Northern Pike", 3],
+            ["colorado_golden_trout", 15],
+            ["cutthroat_trout", 22],
+            ["sauger", 10]
+        ],
+        "rewards": {
+            "clanPoints": 25,
+            "lollipops": 20,
+            "coins": 0
+        }
+    },
+    {
+        "name": "Price Increase",
+        "description": "The price of trout doubled!\nLocal fishers needs your help to catch more!",
+        "requirements_string": [
+            ["colorado_golden_trout", 8],
+            ["cutthroat_trout", 20],
+            ["rainbow_trout", 26],
+            ["brown_trout", 7],
+            ["redband_trout", 10],
+            ["brook_trout", 10]
+        ],
+        "rewards": {
+            "clanPoints": 20,
+            "lollipops": 5,
+            "coins": 200
+        }
     }
 ]
