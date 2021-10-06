@@ -8,6 +8,18 @@
                 {
                     "price": 40,
                     "value": 0.5
+                },
+                {
+                    "price": 50,
+                    "value": 1
+                },
+                {
+                    "price": 60,
+                    "value": 1.5
+                },
+                {
+                    "price": 70,
+                    "value": 2
                 }
             ]
         },
@@ -17,8 +29,16 @@
             "emoji": "🪙",
             "levels": [
                 {
-                    "price": 25,
+                    "price": 50,
                     "value": 1
+                },
+                {
+                    "price": 60,
+                    "value": 2
+                },
+                {
+                    "price": 75,
+                    "value": 3
                 }
             ]
         },
@@ -28,8 +48,16 @@
             "emoji": "⭐",
             "levels": [
                 {
-                    "price": 30,
+                    "price": 50,
                     "value": 1
+                },
+                {
+                    "price": 60,
+                    "value": 2
+                },
+                {
+                    "price": 75,
+                    "value": 3
                 }
             ]
         },
@@ -39,15 +67,19 @@
             "emoji": "⬆️",
             "levels": [
                 {
-                    "price": 75,
+                    "price": 50,
                     "value": 1
+                },
+                {
+                    "price": 75,
+                    "value": 2
                 }
             ]
         },
         "campaign_mba": {
             "shopName": "Campaign MBA",
             "desc": "Bonus clan points from campaigns **{OLD}** :arrow_right: **{NEW}**",
-            "emoji": "🧾",
+            "emoji": "🛡️",
             "levels": [
                 {
                     "price": 40,
@@ -84,7 +116,7 @@
         }
     },
     "items": {
-        "renames": {
+        "rename": {
             "shopName": "Clan Rename",
             "desc": "+1 Clan Rename",
             "emoji": "🪧",
