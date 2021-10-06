@@ -109,20 +109,20 @@
         "name": "Bass Hunt 2",
         "description": "Bass season is still not over yet!\nCatch Bass in the remaining few days of the season!",
         "requirements_string": [
-            ["butterfly_peacock_bass", 2],
-            ["rock_bass", 35],
-            ["smallmouth_bass", 23],
-            ["largemouth_bass", 10],
+            ["butterfly_peacock_bass", 3],
+            ["rock_bass", 30],
+            ["smallmouth_bass", 15],
+            ["largemouth_bass", 15],
             ["white_bass", 15]
         ],
         "rewards": {
             "clanPoints": 25,
-            "lollipops": 12,
+            "lollipops": 5,
             "coins": 100
         }
     },
     {
-        "name": "Endangered species",
+        "name": "Endangered Species",
         "description": "Help save the endangered fish from the poachers!",
         "requirements_string": [
             ["butterfly_peacock_bass", 2],
@@ -133,28 +133,28 @@
             ["longnose_gar", 7],
             ["northern_pike", 3],
             ["colorado_golden_trout", 15],
-            ["cutthroat_trout", 22],
+            ["cutthroat_trout", 25],
             ["sauger", 10]
         ],
         "rewards": {
-            "clanPoints": 25,
-            "lollipops": 20,
+            "clanPoints": 30,
+            "lollipops": 10,
             "coins": 0
         }
     },
     {
-        "name": "Price Increase",
-        "description": "The price of trout doubled!\nLocal fishers needs your help to catch more!",
+        "name": "Trout Fest",
+        "description": "Local demand for trout doubled!\nLocal fishers needs your help to catch more!",
         "requirements_string": [
-            ["colorado_golden_trout", 8],
+            ["colorado_golden_trout", 15],
             ["cutthroat_trout", 20],
-            ["rainbow_trout", 26],
-            ["brown_trout", 7],
-            ["redband_trout", 10],
+            ["rainbow_trout", 40],
+            ["brown_trout", 8],
+            ["redband_trout", 15],
             ["brook_trout", 10]
         ],
         "rewards": {
-            "clanPoints": 20,
+            "clanPoints": 35,
             "lollipops": 5,
             "coins": 200
         }
