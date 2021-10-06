@@ -79,7 +79,7 @@
         "campaign_mba": {
             "shopName": "Campaign MBA",
             "desc": "Bonus clan points from campaigns **{OLD}** :arrow_right: **{NEW}**",
-            "emoji": "🧾",
+            "emoji": "🛡️",
             "levels": [
                 {
                     "price": 40,
