@@ -3,7 +3,7 @@
         "fish_cd": {
             "shopName": "Fish Cooldown Reduction",
             "desc": "Overall fishing cooldown **{OLD}%** :arrow_right: **{NEW}%**",
-            "emoji": "⏲️",
+            "emoji": "⏰",
             "levels": [
                 {
                     "price": 40,
