@@ -132,7 +132,7 @@
             ["common_carp", 12],
             ["longnose_gar", 7],
             ["northern_pike", 3],
-            ["colorado_golden_trout", 15],
+            ["colorado_golden_trout", 10],
             ["cutthroat_trout", 25],
             ["sauger", 10]
         ],
@@ -146,7 +146,7 @@
         "name": "Trout Fest",
         "description": "Local demand for trout doubled!\nLocal fishers needs your help to catch more!",
         "requirements_string": [
-            ["colorado_golden_trout", 15],
+            ["colorado_golden_trout", 10],
             ["cutthroat_trout", 20],
             ["rainbow_trout", 40],
             ["brown_trout", 8],
