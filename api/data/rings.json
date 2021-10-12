@@ -160,6 +160,23 @@
                 "price": 100000,
                 "sizeBase": 2.5
             }
+        },
+        {
+            "maxLevel": 120,
+            "flips": 11,
+            "grades": {
+                "premium": [28, 39],
+                "sashimi": [9, 12],
+                "trophy": [3, 4]
+            },
+            "regular": {
+                "price": 40000,
+                "sizeBase": 2.5
+            },
+            "premium": {
+                "price": 200000,
+                "sizeBase": 4.5
+            }
         }
     ],
     "packDraws": {
