@@ -3,9 +3,9 @@
         "name": "Fishing in The Small Pond",
         "description": "Catch these fish to prove your clan is worthy to move on to the next stage!",
         "requirements_string": [
-            ["bluegill", 20],
-            ["grass_pickerel", 10],
-            ["spotted_bass", 5]
+            ["bluegill", 10],
+            ["grass_pickerel", 5],
+            ["spotted_bass", 2]
         ],
         "rewards": {
             "clanPoints": 15,
@@ -17,10 +17,10 @@
         "name": "Panfish Species Control",
         "description": "The panfish population has grown out of control!\nHelp remove them from our local lakes.",
         "requirements_string": [
-            ["bluegill", 20],
-            ["green_sunfish", 30],
-            ["redear_sunfish", 10],
-            ["pumpkinseed", 20]
+            ["bluegill", 10],
+            ["green_sunfish", 10],
+            ["redear_sunfish", 5],
+            ["pumpkinseed", 5]
         ],
         "rewards": {
             "clanPoints": 20,
@@ -32,8 +32,8 @@
         "name": "Bass Hunt",
         "description": "Catch bass for the local fishing contest!",
         "requirements_string": [
-            ["spotted_bass", 25],
-            ["largemouth_bass", 20]
+            ["spotted_bass", 10],
+            ["largemouth_bass", 5]
         ],
         "rewards": {
             "clanPoints": 10,
@@ -45,10 +45,10 @@
         "name": "Pest Control",
         "description": "Local fishers are upset that all they catch are tiny pest fish.\n\nHelp remove them from our lakes!",
         "requirements_string": [
-            ["white_crappie", 20],
-            ["green_sunfish", 25],
-            ["bluntnose_minnow", 30],
-            ["black_crappie", 20]
+            ["white_crappie", 7],
+            ["green_sunfish", 10],
+            ["bluntnose_minnow", 12],
+            ["black_crappie", 7]
         ],
         "rewards": {
             "clanPoints": 20,
@@ -60,12 +60,12 @@
         "name": "Catching Giants",
         "description": "Hope your equipment is strong enough!",
         "requirements_string": [
-            ["smallmouth_buffalo", 15],
-            ["channel_catfish", 5],
-            ["bowfin", 5],
-            ["freshwater_drum", 10],
-            ["northern_pike", 3],
-            ["walleye", 5]
+            ["smallmouth_buffalo", 10],
+            ["channel_catfish", 2],
+            ["bowfin", 2],
+            ["freshwater_drum", 5],
+            ["northern_pike", 1],
+            ["walleye", 2]
         ],
         "rewards": {
             "clanPoints": 20,
@@ -77,14 +77,14 @@
         "name": "Cleaning Muddy River",
         "description": "The river is too muddy.\nLower the fish population and clear up the river!",
         "requirements_string": [
-            ["bluntnose_minnow", 20],
-            ["bowfin", 8],
-            ["pumpkinseed", 15],
-            ["spotted_gar", 10],
-            ["black_bullhead_catfish", 15]
+            ["bluntnose_minnow", 15],
+            ["bowfin", 3],
+            ["pumpkinseed", 10],
+            ["spotted_gar", 5],
+            ["black_bullhead_catfish", 8]
         ],
         "rewards": {
-            "clanPoints": 20,
+            "clanPoints": 17,
             "lollipops": 10,
             "coins": 200
         }
@@ -93,14 +93,14 @@
         "name": "Fishing Contest",
         "description": "You are invited to a local fishing contest.\nShow your skill and catch the species below!",
         "requirements_string": [
-            ["chain_pickerel", 5],
+            ["chain_pickerel", 3],
             ["freshwater_drum", 10],
-            ["cutthroat_trout", 15],
+            ["cutthroat_trout", 5],
             ["redfin_pickerel", 5],
-            ["colorado_golden_trout", 10]
+            ["colorado_golden_trout", 5]
         ],
         "rewards": {
-            "clanPoints": 12,
+            "clanPoints": 14,
             "lollipops": 0,
             "coins": 150
         }
@@ -109,14 +109,14 @@
         "name": "Bass Hunt 2",
         "description": "Bass season is still not over yet!\nCatch Bass in the remaining few days of the season!",
         "requirements_string": [
-            ["butterfly_peacock_bass", 3],
-            ["rock_bass", 30],
-            ["smallmouth_bass", 15],
-            ["largemouth_bass", 15],
-            ["white_bass", 15]
+            ["butterfly_peacock_bass", 1],
+            ["rock_bass", 20],
+            ["smallmouth_bass", 5],
+            ["largemouth_bass", 5],
+            ["white_bass", 5]
         ],
         "rewards": {
-            "clanPoints": 25,
+            "clanPoints": 19,
             "lollipops": 5,
             "coins": 100
         }
@@ -125,19 +125,19 @@
         "name": "Endangered Species",
         "description": "Help save the endangered fish from the poachers!",
         "requirements_string": [
-            ["butterfly_peacock_bass", 2],
-            ["gafftopsail_catfish", 2],
-            ["florida_gar", 7],
-            ["longnose_gar", 12],
-            ["common_carp", 12],
-            ["northern_pike", 3],
-            ["colorado_golden_trout", 10],
-            ["cutthroat_trout", 25],
-            ["sauger", 10]
+            ["butterfly_peacock_bass", 1],
+            ["gafftopsail_catfish", 1],
+            ["florida_gar", 3],
+            ["longnose_gar", 7],
+            ["common_carp", 7],
+            ["northern_pike", 2],
+            ["colorado_golden_trout", 7],
+            ["cutthroat_trout", 20],
+            ["sauger", 3]
         ],
         "rewards": {
-            "clanPoints": 30,
-            "lollipops": 10,
+            "clanPoints": 32,
+            "lollipops": 30,
             "coins": 0
         }
     },
@@ -145,11 +145,11 @@
         "name": "Trout Fest",
         "description": "Local demand for trout doubled!\nLocal fishers needs your help to catch more!",
         "requirements_string": [
-            ["colorado_golden_trout", 10],
+            ["colorado_golden_trout", 5],
             ["cutthroat_trout", 20],
-            ["rainbow_trout", 40],
-            ["brown_trout", 8],
-            ["redband_trout", 15],
+            ["rainbow_trout", 8],
+            ["brown_trout", 5],
+            ["redband_trout", 5],
             ["brook_trout", 10]
         ],
         "rewards": {
