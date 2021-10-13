@@ -6,20 +6,44 @@
             "emoji": "⏰",
             "levels": [
                 {
-                    "price": 40,
+                    "price": 30,
                     "value": 0.5
                 },
                 {
-                    "price": 50,
+                    "price": 40,
                     "value": 1
                 },
                 {
-                    "price": 60,
+                    "price": 50,
                     "value": 1.5
                 },
                 {
-                    "price": 70,
+                    "price": 50,
                     "value": 2
+                },
+                {
+                    "price": 100,
+                    "value": 3
+                },
+                {
+                    "price": 75,
+                    "value": 3.5
+                },
+                {
+                    "price": 75,
+                    "value": 4
+                },
+                {
+                    "price": 75,
+                    "value": 4.5
+                },
+                {
+                    "price": 75,
+                    "value": 5
+                },
+                {
+                    "price": 150,
+                    "value": 6
                 }
             ]
         },
@@ -29,16 +53,44 @@
             "emoji": "🪙",
             "levels": [
                 {
-                    "price": 50,
+                    "price": 30,
                     "value": 1
                 },
                 {
-                    "price": 60,
+                    "price": 40,
                     "value": 2
                 },
                 {
-                    "price": 75,
+                    "price": 50,
                     "value": 3
+                },
+                {
+                    "price": 50,
+                    "value": 4
+                },
+                {
+                    "price": 100,
+                    "value": 6
+                },
+                {
+                    "price": 75,
+                    "value": 7
+                },
+                {
+                    "price": 75,
+                    "value": 8
+                },
+                {
+                    "price": 75,
+                    "value": 9
+                },
+                {
+                    "price": 75,
+                    "value": 10
+                },
+                {
+                    "price": 150,
+                    "value": 12
                 }
             ]
         },
@@ -48,16 +100,44 @@
             "emoji": "⭐",
             "levels": [
                 {
-                    "price": 50,
+                    "price": 30,
                     "value": 1
                 },
                 {
-                    "price": 60,
+                    "price": 40,
                     "value": 2
                 },
                 {
-                    "price": 75,
+                    "price": 50,
                     "value": 3
+                },
+                {
+                    "price": 50,
+                    "value": 4
+                },
+                {
+                    "price": 100,
+                    "value": 6
+                },
+                {
+                    "price": 75,
+                    "value": 7
+                },
+                {
+                    "price": 75,
+                    "value": 8
+                },
+                {
+                    "price": 75,
+                    "value": 9
+                },
+                {
+                    "price": 75,
+                    "value": 10
+                },
+                {
+                    "price": 150,
+                    "value": 12
                 }
             ]
         },
@@ -73,6 +153,10 @@
                 {
                     "price": 75,
                     "value": 2
+                },
+                {
+                    "price": 100,
+                    "value": 3
                 }
             ]
         },
@@ -83,15 +167,15 @@
             "levels": [
                 {
                     "price": 40,
-                    "value": 4
+                    "value": 5
                 },
                 {
                     "price": 60,
-                    "value": 7
+                    "value": 10
                 },
                 {
                     "price": 100,
-                    "value": 11
+                    "value": 15
                 }
             ]
         },
@@ -106,11 +190,19 @@
                 },
                 {
                     "price": 30,
-                    "value": 15
+                    "value": 20
                 },
                 {
-                    "price": 45,
-                    "value": 20
+                    "price": 40,
+                    "value": 30
+                },
+                {
+                    "price": 50,
+                    "value": 40
+                },
+                {
+                    "price": 50,
+                    "value": 50
                 }
             ]
         }
