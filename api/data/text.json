@@ -7,7 +7,7 @@
             "(Level 20+) card, givecard, ring, givering",
             "\n:trophy: **Profile Commands** :trophy:\nstats, serverstats, cooldowns, equipment, baits, leaderboards, fishleaderboards",
             "\n:question: **Info Commands** :question:\nhelp, info, iteminfo, fishinfo, locationinfo",
-            "\n:eyes: **Extra Commands** :eyes:\nvote, server, toggle, setprefix, optin, optout, redeem, setcustomfish"
+            "\n:eyes: **Extra Commands** :eyes:\nvote, server, toggle, setprefix, optin, optout, redeem, setcustomfish, skin, giveskin"
         ],
         "fish": [
             "Usage: `${PREFIX}fish [bait]`",
@@ -196,6 +196,14 @@
             "Example: `${PREFIX}setcustomfish bop`",
             "\n- Creates an alternate word that will trigger fishing",
             "- Also accepts `${PREFIX}scf`"
+        ],
+        "skin": [
+            "Usage: `${PREFIX}skin [ID (optional)]`",
+            "\n- View your skins or a specific skin"
+        ],
+        "giveskin": [
+            "Usage: `${PREFIX}giveskin [ID] [@user]`",
+            "\n- Give another player one of your skins"
         ]
     }
 }
