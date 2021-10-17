@@ -1,5 +1,20 @@
 {
-    "banners": [
-        "green_banner"
-    ]
+    "equipment_banner": {
+        "name": "Equipment Banners",
+        "index": 0,
+        "contents": [
+            {
+                "name": "Blue Banner",
+                "src": "blue_banner"
+            },
+            {
+                "name": "Red Banner",
+                "src": "red_banner"
+            },
+            {
+                "name": "Green Banner",
+                "src": "green_banner"
+            }
+        ]
+    }
 }
