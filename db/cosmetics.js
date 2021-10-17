@@ -37,13 +37,13 @@ module.exports.unequipCosmetic = async function(id) {
     return;
 }
 
-module.exports.equipCosmetic = async function(id, category) {
+module.exports.equipCosmetic = async function(userid, id, category) {
     // set other equips in category to false
-    let query = 'UPDATE cosmetics SET equipped=FALSE WHERE category=$1 AND equipped=TRUE AND NOT id=$2';
-    await config.pquery(query, [category, id]);
+    let query = 'UPDATE cosmetics SET equipped=FALSE WHERE category=$1 AND userid=$2';
+    await config.pquery(query, [category, userid]);
 
     query = 'UPDATE cosmetics SET equipped=TRUE WHERE id=$1';
-    config.pquery(query, [id]);
+    await config.pquery(query, [id]);
     return;
 }
 
