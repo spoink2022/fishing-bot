@@ -1,6 +1,7 @@
 {
     "equipment_banner": {
         "name": "Equipment Banners",
+        "index": 0,
         "contents": [
             {
                 "name": "Blue Banner",
