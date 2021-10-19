@@ -58,3 +58,9 @@ module.exports.setOwner = async function(id, userid) {
     await config.pquery(query, [userid, id]);
     return;
 }
+
+module.exports.giveCosmetic = async function(userid, category, cosmeticID) {
+    let query = 'INSERT INTO cosmetics (userid, category, cosmetic_id) VALUES ($1, $2, $3)';
+    await config.pquery(query, [userid, category, cosmeticID]);
+    return;
+}

@@ -14,6 +14,10 @@
             {
                 "name": "Green Banner",
                 "src": "green_banner"
+            },
+            {
+                "name": "Grey Banner",
+                "src": "grey_banner"
             }
         ]
     }
