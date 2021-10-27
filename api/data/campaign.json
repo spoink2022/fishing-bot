@@ -221,8 +221,8 @@
             ["bowfin", 5]
         ],
         "rewards": {
-            "clanPoints": 40,
-            "lollipops": 30,
+            "clanPoints": 30,
+            "lollipops": 10,
             "coins": 100
         }
     },
