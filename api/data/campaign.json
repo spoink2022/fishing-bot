@@ -212,7 +212,7 @@
         "name": "Fishing Trip (Part 4/5: Down the Rushing River)",
         "description": "You found some super-large fish at a nearby river!\nHope your fishing lines won't snap!",
         "requirements_string": [
-            ["sturgeon", 3],
+            ["lake_sturgeon", 3],
             ["tarpon", 2],
             ["alligator_gar", 10],
             ["common_carp", 10],
@@ -221,7 +221,7 @@
             ["bowfin", 5]
         ],
         "rewards": {
-            "clanPoints": 30,
+            "clanPoints": 40,
             "lollipops": 30,
             "coins": 100
         }
