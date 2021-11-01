@@ -246,5 +246,82 @@
             "lollipops": 15,
             "coins": 200
         }
+    },
+    {
+        "name": "Fisheries Research Institute (Part 1/5: Catfish)",
+        "description": "Your clan have been hired by a local fish research centre\n to research specific families of fish.\nFirst, you will be researching the Catfish family!",
+        "requirements_string": [
+            ["black_bullhead_catfish", 5],
+            ["flathead_catfish", 3],
+            ["brown_bullhead_catfish", 24],
+            ["gafftopsail_catfish", 1],
+            ["blue_catfish", 2],
+            ["white_catfish", 35]
+        ],
+        "rewards": {
+            "clanPoints": 40,
+            "lollipops": 10,
+            "coins": 400
+        }
+    },
+    {
+        "name": "Fisheries Research Institute (Part 2/5: Pike)",
+        "description": "Now for your second task\nYou will be researching the Pike family",
+        "requirements_string": [
+            ["chain_pickerel", 4],
+            ["northern_pike", 2],
+            ["redfin_pickerel", 25],
+            ["clear_muskie", 2],
+            ["tiger_muskie", 18],
+            ["muskellunge", 5]
+        ],
+        "rewards": {
+            "clanPoints": 40,
+            "lollipops": 15,
+            "coins": 0
+        }
+    },
+    {
+        "name": "Fisheries Research Institute (Part 3/5: Gar)",
+        "description": "Time to research the Gar family!",
+        "requirements_string": [
+            ["spotted_gar", 10],
+            ["longnose_gar", 8],
+            ["florida_gar", 6],
+            ["alligator_gar", 10]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 20,
+            "coins": 600
+        }
+    },
+    {
+        "name": "Fisheries Research Institute (Part 4/5: Carp)",
+        "description": "Your clan's research is almost over.\nYour second last fish family will be Carp!",
+        "requirements_string": [
+            ["smallmouth_buffalo", 5],
+            ["white_sucker", 15],
+            ["common_carp", 5],
+            ["longnose_sucker", 35]
+        ],
+        "rewards": {
+            "clanPoints": 35,
+            "lollipops": 12,
+            "coins": 250
+        }
+    },
+    {
+        "name": "Fisheries Research Institute (Part 5/5: Herring)",
+        "description": "Congratulations, your clan is at the final species to research\nThis one will be Herring!!",
+        "requirements_string": [
+            ["american_shad", 20],
+            ["apapa", 30]
+        ],
+        "rewards": {
+            "clanPoints": 40,
+            "lollipops": 10,
+            "coins": 320
+        }
     }
 ]
