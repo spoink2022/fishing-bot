@@ -692,6 +692,55 @@
             "level": 98,
             "price": 60000,
             "bonus": 10
+        },        {
+            "id": 43,
+            "name": "Falcon",
+            "px": 4,
+            "rgb": "#51BC30",
+            "maxWeight": 470,
+            "level": 100,
+            "price": 70000,
+            "bonus": 10
+        },
+        {
+            "id": 44,
+            "name": "Falcon A",
+            "px": 4,
+            "rgb": "#37AE12",
+            "maxWeight": 540,
+            "level": 102,
+            "price": 85000,
+            "bonus": 11
+        },
+        {
+            "id": 45,
+            "name": "Falcon AA",
+            "px": 4,
+            "rgb": "#2CA407",
+            "maxWeight": 630,
+            "level": 104,
+            "price": 100000,
+            "bonus": 11
+        },
+        {
+            "id": 46,
+            "name": "Falcon AAA",
+            "px": 4,
+            "rgb": "#2B9F07",
+            "maxWeight": 720,
+            "level": 107,
+            "price": 115000,
+            "bonus": 11
+        },
+        {
+            "id": 47,
+            "name": "Falcon AAAA",
+            "px": 4,
+            "rgb": "#278A09",
+            "maxWeight": 755,
+            "level": 109,
+            "price": 130000,
+            "bonus": 12
         }
     ],
     "hooks": [
