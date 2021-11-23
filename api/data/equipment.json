@@ -1345,6 +1345,22 @@
             "bonus": 80,
             "level": 94,
             "price": 70000
+        },
+        {
+            "id": 16,
+            "name": "Mech V4",
+            "chance": 11,
+            "bonus": 95,
+            "level": 100,
+            "price": 90000
+        },
+        {
+            "id": 17,
+            "name": "Mech V5",
+            "chance": 12,
+            "bonus": 110,
+            "level": 106,
+            "price": 110000
         }
     ],
     "swivels": [
@@ -1410,6 +1426,19 @@
             "bonus": 120,
             "level": 97,
             "price": 70000
+        },
+        {
+            "id": 10,
+            "name": "Amethyst Tactical V1",
+            "bonus": 150,
+            "level": 103,
+            "price": 100000
+        },        {
+            "id": 11,
+            "name": "Amethyst Tactical V2",
+            "bonus": 180,
+            "level": 107,
+            "price": 140000
         }
     ]
 }
