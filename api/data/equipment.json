@@ -1191,6 +1191,38 @@
             "name": "Abyssal AAA",
             "level": 99,
             "price": 28500
+        },
+        {
+            "id": 56,
+            "multiplier": 1.645,
+            "maxWeight": 520,
+            "name": "Muskie D",
+            "level": 101,
+            "price": 30000
+        },
+        {
+            "id": 57,
+            "multiplier": 1.65,
+            "maxWeight": 600,
+            "name": "Muskie C",
+            "level": 103,
+            "price": 32000
+        },
+        {
+            "id": 58,
+            "multiplier": 1.66,
+            "maxWeight": 680,
+            "name": "Muskie B",
+            "level": 106,
+            "price": 34000
+        },
+        {
+            "id": 59,
+            "multiplier": 1.67,
+            "maxWeight": 750,
+            "name": "Muskie A",
+            "level": 108,
+            "price": 36000
         }
     ],
     "gloves": [
