@@ -180,5 +180,19 @@
         "max": 175,
         "level": 113,
         "price": 300000
+    },
+    {
+        "name": "rhodium",
+        "multiplier": 2.04,
+        "max": 185,
+        "level": 117,
+        "price": 350000
+    },
+    {
+        "name": "premium rhodium",
+        "multiplier": 2.08,
+        "max": 200,
+        "level": 120,
+        "price": 400000
     }
 ]
