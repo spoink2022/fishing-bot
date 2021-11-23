@@ -1252,5 +1252,155 @@
         "sizeMax": 192,
         "screenLen": 8.5,
         "value": 22
+    },
+    {
+        "id": 126,
+        "name": "monk seal",
+        "family": "seal",
+        "sizeClass": 3,
+        "sizeMin": 200,
+        "sizeMax": 250,
+        "screenLen": 8.5,
+        "value": 10
+    },
+    {
+        "id": 127,
+        "name": "lemon shark",
+        "family": "shark",
+        "sizeClass": 2,
+        "sizeMin": 90,
+        "sizeMax": 110,
+        "screenLen": 6.5,
+        "value": 6
+    },
+    {
+        "id": 128,
+        "name": "beluga sturgeon",
+        "family": "sturgeon",
+        "sizeClass": 4,
+        "sizeMin": 550,
+        "sizeMax": 900,
+        "screenLen": 10.5,
+        "value": 6
+    },
+    {
+        "id": 129,
+        "name": "sterlet",
+        "family": "sturgeon",
+        "sizeClass": 1,
+        "sizeMin": 6,
+        "sizeMax": 12,
+        "screenLen": 2.5,
+        "value": 6
+    },
+    {
+        "id": 130,
+        "name": "nassau grouper",
+        "family": "grouper",
+        "sizeClass": 1,
+        "sizeMin": 16,
+        "sizeMax": 22,
+        "screenLen": 3,
+        "value": 8
+    },
+    {
+        "id": 131,
+        "name": "largetooth sawfish",
+        "family": null,
+        "sizeClass": 3,
+        "sizeMin": 280,
+        "sizeMax": 330,
+        "screenLen": 8.5,
+        "value": 5
+    },
+    {
+        "id": 132,
+        "name": "sharpnose shark",
+        "family": "shark",
+        "sizeClass": 1,
+        "sizeMin": 4,
+        "sizeMax": 7,
+        "screenLen": 2,
+        "value": 10
+    },
+    {
+        "id": 133,
+        "name": "angel shark",
+        "family": "shark",
+        "sizeClass": 2,
+        "sizeMin": 30,
+        "sizeMax": 41,
+        "screenLen": 3.5,
+        "value": 13
+    },
+    {
+        "id": 134,
+        "name": "spinner shark",
+        "family": "shark",
+        "sizeClass": 2,
+        "sizeMin": 52,
+        "sizeMax": 60,
+        "screenLen": 4,
+        "value": 17
+    },
+    {
+        "id": 135,
+        "name": "pygmy sperm whale",
+        "family": "whale",
+        "sizeClass": 3,
+        "sizeMin": 380,
+        "sizeMax": 430,
+        "screenLen": 6.5,
+        "value": 9
+    },
+    {
+        "id": 136,
+        "name": "chinese sturgeon",
+        "family": "sturgeon",
+        "sizeClass": 3,
+        "sizeMin": 330,
+        "sizeMax": 390,
+        "screenLen": 8.5,
+        "value": 13
+    },
+    {
+        "id": 137,
+        "name": "totoaba",
+        "family": "drum",
+        "sizeClass": 2,
+        "sizeMin": 84,
+        "sizeMax": 98,
+        "screenLen": 3.5,
+        "value": 6
+    },
+    {
+        "id": 138,
+        "name": "school shark",
+        "family": "shark",
+        "sizeClass": 1,
+        "sizeMin": 20,
+        "sizeMax": 25,
+        "screenLen": 2.5,
+        "value": 8
+    },
+    {
+        "id": 139,
+        "name": "ocean sunfish",
+        "family": "sunfish",
+        "sizeClass": 4,
+        "sizeMin": 280,
+        "sizeMax": 900,
+        "screenLen": 11.5,
+        "value": 12
+    },
+    {
+        "id": 140,
+        "name": "great white shark",
+        "family": "shark",
+        "sizeClass": 4,
+        "sizeMin": 520,
+        "sizeMax": 1050,
+        "screenLen": 10.5,
+        "value": 6
     }
 ]
