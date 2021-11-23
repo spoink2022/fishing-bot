@@ -233,6 +233,33 @@
             "level": 99,
             "price": 160000,
             "size": 3
+        },
+        {
+            "id": 26,
+            "name": "Falcon",
+            "cooldown": 3360000,
+            "maxWeight": 550,
+            "level": 102,
+            "price": 170000,
+            "size": 3
+        },
+        {
+            "id": 27,
+            "name": "Reinforced Falcon",
+            "cooldown": 3300000,
+            "maxWeight": 650,
+            "level": 105,
+            "price": 210000,
+            "size": 3
+        },
+        {
+            "id": 28,
+            "name": "Great Falcon",
+            "cooldown": 3300000,
+            "maxWeight": 750,
+            "level": 108,
+            "price": 250000,
+            "size": 3
         }
     ],
     "lines": [
