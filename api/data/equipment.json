@@ -233,6 +233,33 @@
             "level": 99,
             "price": 160000,
             "size": 3
+        },
+        {
+            "id": 26,
+            "name": "Falcon",
+            "cooldown": 3360000,
+            "maxWeight": 550,
+            "level": 102,
+            "price": 170000,
+            "size": 3
+        },
+        {
+            "id": 27,
+            "name": "Reinforced Falcon",
+            "cooldown": 3300000,
+            "maxWeight": 650,
+            "level": 105,
+            "price": 210000,
+            "size": 3
+        },
+        {
+            "id": 28,
+            "name": "Great Falcon",
+            "cooldown": 3300000,
+            "maxWeight": 750,
+            "level": 108,
+            "price": 250000,
+            "size": 3
         }
     ],
     "lines": [
@@ -665,6 +692,55 @@
             "level": 98,
             "price": 60000,
             "bonus": 10
+        },        {
+            "id": 43,
+            "name": "Falcon",
+            "px": 4,
+            "rgb": "#51BC30",
+            "maxWeight": 470,
+            "level": 100,
+            "price": 70000,
+            "bonus": 10
+        },
+        {
+            "id": 44,
+            "name": "Falcon A",
+            "px": 4,
+            "rgb": "#37AE12",
+            "maxWeight": 540,
+            "level": 102,
+            "price": 85000,
+            "bonus": 11
+        },
+        {
+            "id": 45,
+            "name": "Falcon AA",
+            "px": 4,
+            "rgb": "#2CA407",
+            "maxWeight": 630,
+            "level": 104,
+            "price": 100000,
+            "bonus": 11
+        },
+        {
+            "id": 46,
+            "name": "Falcon AAA",
+            "px": 4,
+            "rgb": "#2B9F07",
+            "maxWeight": 720,
+            "level": 107,
+            "price": 115000,
+            "bonus": 11
+        },
+        {
+            "id": 47,
+            "name": "Falcon AAAA",
+            "px": 4,
+            "rgb": "#278A09",
+            "maxWeight": 755,
+            "level": 109,
+            "price": 130000,
+            "bonus": 12
         }
     ],
     "hooks": [
@@ -1115,6 +1191,38 @@
             "name": "Abyssal AAA",
             "level": 99,
             "price": 28500
+        },
+        {
+            "id": 56,
+            "multiplier": 1.645,
+            "maxWeight": 520,
+            "name": "Muskie D",
+            "level": 101,
+            "price": 30000
+        },
+        {
+            "id": 57,
+            "multiplier": 1.65,
+            "maxWeight": 600,
+            "name": "Muskie C",
+            "level": 103,
+            "price": 32000
+        },
+        {
+            "id": 58,
+            "multiplier": 1.66,
+            "maxWeight": 680,
+            "name": "Muskie B",
+            "level": 106,
+            "price": 34000
+        },
+        {
+            "id": 59,
+            "multiplier": 1.67,
+            "maxWeight": 750,
+            "name": "Muskie A",
+            "level": 108,
+            "price": 36000
         }
     ],
     "gloves": [
@@ -1237,6 +1345,22 @@
             "bonus": 80,
             "level": 94,
             "price": 70000
+        },
+        {
+            "id": 16,
+            "name": "Mech V4",
+            "chance": 11,
+            "bonus": 95,
+            "level": 100,
+            "price": 90000
+        },
+        {
+            "id": 17,
+            "name": "Mech V5",
+            "chance": 12,
+            "bonus": 110,
+            "level": 106,
+            "price": 110000
         }
     ],
     "swivels": [
@@ -1302,6 +1426,19 @@
             "bonus": 120,
             "level": 97,
             "price": 70000
+        },
+        {
+            "id": 10,
+            "name": "Amethyst Tactical V1",
+            "bonus": 150,
+            "level": 103,
+            "price": 100000
+        },        {
+            "id": 11,
+            "name": "Amethyst Tactical V2",
+            "bonus": 180,
+            "level": 107,
+            "price": 140000
         }
     ]
 }
