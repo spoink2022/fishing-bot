@@ -1260,7 +1260,7 @@
         "sizeClass": 3,
         "sizeMin": 200,
         "sizeMax": 250,
-        "screenLen": 8.5,
+        "screenLen": 10,
         "value": 10
     },
     {
@@ -1270,7 +1270,7 @@
         "sizeClass": 2,
         "sizeMin": 90,
         "sizeMax": 110,
-        "screenLen": 6.5,
+        "screenLen": 8,
         "value": 6
     },
     {
@@ -1280,7 +1280,7 @@
         "sizeClass": 4,
         "sizeMin": 550,
         "sizeMax": 900,
-        "screenLen": 10.5,
+        "screenLen": 12.5,
         "value": 6
     },
     {
@@ -1290,7 +1290,7 @@
         "sizeClass": 1,
         "sizeMin": 6,
         "sizeMax": 12,
-        "screenLen": 2.5,
+        "screenLen": 3,
         "value": 6
     },
     {
@@ -1300,7 +1300,7 @@
         "sizeClass": 1,
         "sizeMin": 16,
         "sizeMax": 22,
-        "screenLen": 3,
+        "screenLen": 3.5,
         "value": 8
     },
     {
@@ -1310,7 +1310,7 @@
         "sizeClass": 3,
         "sizeMin": 280,
         "sizeMax": 330,
-        "screenLen": 8.5,
+        "screenLen": 11,
         "value": 5
     },
     {
@@ -1320,7 +1320,7 @@
         "sizeClass": 1,
         "sizeMin": 4,
         "sizeMax": 7,
-        "screenLen": 2,
+        "screenLen": 2.5,
         "value": 10
     },
     {
@@ -1330,7 +1330,7 @@
         "sizeClass": 2,
         "sizeMin": 30,
         "sizeMax": 41,
-        "screenLen": 3.5,
+        "screenLen": 4,
         "value": 13
     },
     {
@@ -1350,7 +1350,7 @@
         "sizeClass": 3,
         "sizeMin": 380,
         "sizeMax": 430,
-        "screenLen": 6.5,
+        "screenLen": 9.5,
         "value": 9
     },
     {
@@ -1380,7 +1380,7 @@
         "sizeClass": 1,
         "sizeMin": 20,
         "sizeMax": 25,
-        "screenLen": 2.5,
+        "screenLen": 3.5,
         "value": 8
     },
     {
@@ -1390,7 +1390,7 @@
         "sizeClass": 4,
         "sizeMin": 280,
         "sizeMax": 900,
-        "screenLen": 11.5,
+        "screenLen": 9.5,
         "value": 12
     },
     {
@@ -1400,7 +1400,7 @@
         "sizeClass": 4,
         "sizeMin": 520,
         "sizeMax": 1050,
-        "screenLen": 10.5,
+        "screenLen": 11.5,
         "value": 6
     }
 ]
