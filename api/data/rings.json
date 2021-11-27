@@ -165,7 +165,7 @@
             "maxLevel": 120,
             "flips": 11,
             "grades": {
-                "premium": [28, 39],
+                "premium": [22, 33],
                 "sashimi": [9, 12],
                 "trophy": [3, 4]
             },
