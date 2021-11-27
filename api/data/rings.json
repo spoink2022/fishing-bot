@@ -165,17 +165,17 @@
             "maxLevel": 120,
             "flips": 11,
             "grades": {
-                "premium": [22, 33],
-                "sashimi": [9, 12],
-                "trophy": [3, 4]
+                "premium": [30, 35],
+                "sashimi": [8, 12],
+                "trophy": [2, 4]
             },
             "regular": {
                 "price": 40000,
-                "sizeBase": 2.5
+                "sizeBase": 2
             },
             "premium": {
                 "price": 200000,
-                "sizeBase": 4.5
+                "sizeBase": 3
             }
         }
     ],
