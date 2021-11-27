@@ -165,34 +165,34 @@
         "multiplier": 1.92,
         "max": 160,
         "level": 101,
-        "price": 220000
+        "price": 170000
     },
     {
         "name": "premium palladium",
         "multiplier": 1.95,
         "max": 165,
         "level": 108,
-        "price": 250000
+        "price": 190000
     },
     {
         "name": "superior palladium",
         "multiplier": 1.98,
         "max": 175,
         "level": 113,
-        "price": 300000
+        "price": 200000
     },
     {
         "name": "rhodium",
-        "multiplier": 2.04,
-        "max": 185,
+        "multiplier": 2,
+        "max": 180,
         "level": 117,
-        "price": 350000
+        "price": 250000
     },
     {
         "name": "premium rhodium",
-        "multiplier": 2.08,
-        "max": 200,
+        "multiplier": 2.03,
+        "max": 185,
         "level": 120,
-        "price": 400000
+        "price": 275000
     }
 ]
