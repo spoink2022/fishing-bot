@@ -1255,51 +1255,51 @@
     },
     {
         "id": 126,
-        "name": "monk seal",
-        "family": "seal",
-        "sizeClass": 3,
-        "sizeMin": 200,
-        "sizeMax": 250,
-        "screenLen": 10,
-        "value": 10
+        "name": "bristlemouth",
+        "family": null,
+        "sizeClass": 1,
+        "sizeMin": 0.5,
+        "sizeMax": 1,
+        "screenLen": 3,
+        "value": 16
     },
     {
         "id": 127,
         "name": "lemon shark",
         "family": "shark",
         "sizeClass": 2,
-        "sizeMin": 90,
-        "sizeMax": 110,
-        "screenLen": 8,
-        "value": 6
+        "sizeMin": 60,
+        "sizeMax": 140,
+        "screenLen": 6,
+        "value": 12
     },
     {
         "id": 128,
         "name": "beluga sturgeon",
         "family": "sturgeon",
         "sizeClass": 4,
-        "sizeMin": 550,
+        "sizeMin": 400,
         "sizeMax": 900,
-        "screenLen": 12.5,
-        "value": 6
+        "screenLen": 13,
+        "value": 7
     },
     {
         "id": 129,
         "name": "sterlet",
         "family": "sturgeon",
         "sizeClass": 1,
-        "sizeMin": 6,
+        "sizeMin": 5,
         "sizeMax": 12,
-        "screenLen": 3,
-        "value": 6
+        "screenLen": 3.5,
+        "value": 14
     },
     {
         "id": 130,
         "name": "nassau grouper",
         "family": "grouper",
         "sizeClass": 1,
-        "sizeMin": 16,
-        "sizeMax": 22,
+        "sizeMin": 14,
+        "sizeMax": 24,
         "screenLen": 3.5,
         "value": 8
     },
@@ -1308,20 +1308,20 @@
         "name": "largetooth sawfish",
         "family": null,
         "sizeClass": 3,
-        "sizeMin": 280,
-        "sizeMax": 330,
+        "sizeMin": 250,
+        "sizeMax": 400,
         "screenLen": 11,
-        "value": 5
+        "value": 4
     },
     {
         "id": 132,
         "name": "sharpnose shark",
         "family": "shark",
         "sizeClass": 1,
-        "sizeMin": 4,
+        "sizeMin": 2,
         "sizeMax": 7,
-        "screenLen": 2.5,
-        "value": 10
+        "screenLen": 3,
+        "value": 20
     },
     {
         "id": 133,
@@ -1329,56 +1329,56 @@
         "family": "shark",
         "sizeClass": 2,
         "sizeMin": 30,
-        "sizeMax": 41,
-        "screenLen": 4,
-        "value": 13
+        "sizeMax": 40,
+        "screenLen": 5,
+        "value": 30
     },
     {
         "id": 134,
         "name": "spinner shark",
         "family": "shark",
         "sizeClass": 2,
-        "sizeMin": 52,
-        "sizeMax": 60,
-        "screenLen": 4,
-        "value": 17
+        "sizeMin": 40,
+        "sizeMax": 70,
+        "screenLen": 6,
+        "value": 14
     },
     {
         "id": 135,
         "name": "pygmy sperm whale",
         "family": "whale",
         "sizeClass": 3,
-        "sizeMin": 380,
-        "sizeMax": 430,
-        "screenLen": 9.5,
-        "value": 9
+        "sizeMin": 300,
+        "sizeMax": 500,
+        "screenLen": 9,
+        "value": 8
     },
     {
         "id": 136,
         "name": "chinese sturgeon",
         "family": "sturgeon",
         "sizeClass": 3,
-        "sizeMin": 330,
-        "sizeMax": 390,
-        "screenLen": 8.5,
-        "value": 13
+        "sizeMin": 200,
+        "sizeMax": 400,
+        "screenLen": 10,
+        "value": 14
     },
     {
         "id": 137,
         "name": "totoaba",
         "family": "drum",
         "sizeClass": 2,
-        "sizeMin": 84,
-        "sizeMax": 98,
-        "screenLen": 3.5,
-        "value": 6
+        "sizeMin": 80,
+        "sizeMax": 120,
+        "screenLen": 6,
+        "value": 7
     },
     {
         "id": 138,
         "name": "school shark",
         "family": "shark",
         "sizeClass": 1,
-        "sizeMin": 20,
+        "sizeMin": 15,
         "sizeMax": 25,
         "screenLen": 3.5,
         "value": 8
@@ -1388,19 +1388,19 @@
         "name": "ocean sunfish",
         "family": "sunfish",
         "sizeClass": 4,
-        "sizeMin": 280,
-        "sizeMax": 900,
-        "screenLen": 9.5,
-        "value": 12
+        "sizeMin": 300,
+        "sizeMax": 1000,
+        "screenLen": 8,
+        "value": 4
     },
     {
         "id": 140,
         "name": "great white shark",
         "family": "shark",
         "sizeClass": 4,
-        "sizeMin": 520,
-        "sizeMax": 1050,
-        "screenLen": 11.5,
-        "value": 6
+        "sizeMin": 500,
+        "sizeMax": 1100,
+        "screenLen": 14,
+        "value": 12
     }
 ]
