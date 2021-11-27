@@ -238,25 +238,25 @@
             "id": 26,
             "name": "Falcon",
             "cooldown": 3360000,
-            "maxWeight": 550,
+            "maxWeight": 500,
             "level": 102,
-            "price": 170000,
+            "price": 175000,
             "size": 3
         },
         {
             "id": 27,
             "name": "Reinforced Falcon",
             "cooldown": 3300000,
-            "maxWeight": 650,
+            "maxWeight": 600,
             "level": 105,
-            "price": 210000,
+            "price": 200000,
             "size": 3
         },
         {
             "id": 28,
             "name": "Great Falcon",
             "cooldown": 3300000,
-            "maxWeight": 750,
+            "maxWeight": 700,
             "level": 108,
             "price": 250000,
             "size": 3
@@ -692,24 +692,25 @@
             "level": 98,
             "price": 60000,
             "bonus": 10
-        },        {
+        },
+        {
             "id": 43,
             "name": "Falcon",
             "px": 4,
             "rgb": "#51BC30",
-            "maxWeight": 470,
+            "maxWeight": 500,
             "level": 100,
-            "price": 70000,
-            "bonus": 10
+            "price": 65000,
+            "bonus": 11
         },
         {
             "id": 44,
             "name": "Falcon A",
             "px": 4,
             "rgb": "#37AE12",
-            "maxWeight": 540,
+            "maxWeight": 550,
             "level": 102,
-            "price": 85000,
+            "price": 70000,
             "bonus": 11
         },
         {
@@ -717,9 +718,9 @@
             "name": "Falcon AA",
             "px": 4,
             "rgb": "#2CA407",
-            "maxWeight": 630,
+            "maxWeight": 600,
             "level": 104,
-            "price": 100000,
+            "price": 75000,
             "bonus": 11
         },
         {
@@ -727,9 +728,9 @@
             "name": "Falcon AAA",
             "px": 4,
             "rgb": "#2B9F07",
-            "maxWeight": 720,
-            "level": 107,
-            "price": 115000,
+            "maxWeight": 650,
+            "level": 106,
+            "price": 80000,
             "bonus": 11
         },
         {
@@ -737,10 +738,10 @@
             "name": "Falcon AAAA",
             "px": 4,
             "rgb": "#278A09",
-            "maxWeight": 755,
+            "maxWeight": 700,
             "level": 109,
-            "price": 130000,
-            "bonus": 12
+            "price": 85000,
+            "bonus": 11
         }
     ],
     "hooks": [
@@ -1206,7 +1207,7 @@
             "maxWeight": 600,
             "name": "Muskie C",
             "level": 103,
-            "price": 32000
+            "price": 33000
         },
         {
             "id": 58,
@@ -1214,7 +1215,7 @@
             "maxWeight": 680,
             "name": "Muskie B",
             "level": 106,
-            "price": 34000
+            "price": 36000
         },
         {
             "id": 59,
@@ -1222,7 +1223,7 @@
             "maxWeight": 750,
             "name": "Muskie A",
             "level": 108,
-            "price": 36000
+            "price": 40000
         }
     ],
     "gloves": [
@@ -1349,8 +1350,8 @@
         {
             "id": 16,
             "name": "Mech V4",
-            "chance": 11,
-            "bonus": 95,
+            "chance": 12,
+            "bonus": 90,
             "level": 100,
             "price": 90000
         },
@@ -1358,9 +1359,9 @@
             "id": 17,
             "name": "Mech V5",
             "chance": 12,
-            "bonus": 110,
-            "level": 106,
-            "price": 110000
+            "bonus": 120,
+            "level": 105,
+            "price": 120000
         }
     ],
     "swivels": [
@@ -1429,16 +1430,17 @@
         },
         {
             "id": 10,
-            "name": "Amethyst Tactical V1",
+            "name": "Amethyst Tactical",
             "bonus": 150,
             "level": 103,
             "price": 100000
-        },        {
+        },
+        {
             "id": 11,
             "name": "Amethyst Tactical V2",
             "bonus": 180,
             "level": 107,
-            "price": 140000
+            "price": 150000
         }
     ]
 }
