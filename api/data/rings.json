@@ -163,7 +163,7 @@
         },
         {
             "maxLevel": 120,
-            "flips": 11,
+            "flips": 9,
             "grades": {
                 "premium": [30, 35],
                 "sashimi": [8, 12],
@@ -171,11 +171,11 @@
             },
             "regular": {
                 "price": 40000,
-                "sizeBase": 2
+                "sizeBase": 2.5
             },
             "premium": {
                 "price": 200000,
-                "sizeBase": 3
+                "sizeBase": 3.5
             }
         }
     ],
