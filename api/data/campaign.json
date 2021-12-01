@@ -327,5 +327,87 @@
             "lollipops": 10,
             "coins": 400
         }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 1/5: Shallow Waters)",
+        "description": "Your clan is going scuba diving!\nRight now, you have decended 10 meters!",
+        "requirements_string": [
+            ["longnose_sucker", 20],
+            ["atlantic_salmon", 7],
+            ["brook_trout", 20],
+            ["redband_trout", 7],
+            ["electric_eel", 8],
+            ["silver_arowana", 14]
+        ],
+        "rewards": {
+            "clanPoints": 40,
+            "lollipops": 5,
+            "coins": 500
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 2/5: heading down)",
+        "description": "Your clan has reached 20 meters!",
+        "requirements_string": [
+            ["white_sucker", 10],
+            ["redfin_pickerel", 15],
+            ["tiger_muskie", 8],
+            ["muskellunge", 5],
+            ["trahira", 15],
+            ["payara", 15]
+        ],
+        "rewards": {
+            "clanPoints": 35,
+            "lollipops": 5,
+            "coins": 400
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 3/5: Bottom of Surface Ocean)",
+        "description": "40 meters!\nThere are bigger species here!",
+        "requirements_string": [
+            ["american_shad", 10],
+            ["common_snook", 12],
+            ["alligator_gar", 8],
+            ["atlantic_salmon", 5],
+            ["trahira", 15],
+            ["redtail_catfish", 8],
+            ["piraiba_catfish", 8],
+            ["gilded_catfish", 8]
+        ],
+        "rewards": {
+            "clanPoints": 40,
+            "lollipops": 15,
+            "coins": 500
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 4/5: Epipelagic Zone)",
+        "description": "Congratulations, your clan reached the Epipelagic Zone!\nNow time to get back up\nThere are a lot of gigantic fish here!",
+        "requirements_string": [
+            ["alligator_gar", 18],
+            ["tarpon", 2],
+            ["sturgeon", 2],
+            ["bull_shark", 4],
+            ["arapaima", 12]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 35,
+            "coins": 400
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 5/5: The End)",
+        "description": "Your clan is back on the surface!\nBut saw a swarm of fish as you head up",
+        "requirements_string": [
+            ["california_roach", 50],
+            ["white_catfish", 50]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 10,
+            "coins": 400
+        }
     }
 ]
