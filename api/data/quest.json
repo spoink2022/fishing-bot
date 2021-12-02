@@ -4,27 +4,27 @@
         "chance": 35,
         "data": {
             "C": {
-                "chance": 30,
-                "min": 7,
-                "max": 14,
+                "chance": 25,
+                "min": 10,
+                "max": 20,
                 "reward": 0.5
             },
             "B": {
-                "chance": 30,
-                "min": 5,
-                "max": 10,
+                "chance": 25,
+                "min": 8,
+                "max": 16,
                 "reward": 0.9
             },
             "A": {
                 "chance": 25,
-                "min": 3,
-                "max": 7,
+                "min": 6,
+                "max": 12,
                 "reward": 1.4
             },
             "S": {
-                "chance": 15,
-                "min": 2,
-                "max": 4,
+                "chance": 25,
+                "min": 4,
+                "max": 8,
                 "reward": 3.5
             }
         }
@@ -35,61 +35,61 @@
         "data": [
             {
                 "levelUnder": 20,
-                "min": 8,
+                "min": 10,
                 "max": 20,
                 "reward": 0.4
             },
             {
                 "levelUnder": 30,
-                "min": 10,
-                "max": 22,
+                "min": 15,
+                "max": 25,
                 "reward": 0.38
             },
             {
                 "levelUnder": 40,
                 "min": 20,
-                "max": 30,
+                "max": 40,
                 "reward": 0.16
             },
             {
                 "levelUnder": 50,
-                "min": 40,
-                "max": 70,
+                "min": 50,
+                "max": 100,
                 "reward": 0.085
             },
             {
                 "levelUnder": 60,
-                "min": 70,
-                "max": 150,
+                "min": 100,
+                "max": 200,
                 "reward": 0.03
             },
             {
                 "levelUnder": 70,
-                "min": 100,
-                "max": 250,
+                "min": 200,
+                "max": 400,
                 "reward": 0.0214
             },
             {
                 "levelUnder": 80,
-                "min": 100,
-                "max": 250,
+                "min": 400,
+                "max": 800,
                 "reward": 0.0187
             },
             {
                 "levelUnder": 90,
-                "min": 140,
-                "max": 300,
+                "min": 500,
+                "max": 800,
                 "reward": 0.014
             },
             {
                 "levelUnder": 100,
-                "min": 300,
-                "max": 600,
+                "min": 600,
+                "max": 900,
                 "reward": 0.012
             },
             {
                 "levelUnder": 110,
-                "min": 500,
+                "min": 700,
                 "max": 1200,
                 "reward": 0.008
             }
@@ -99,22 +99,22 @@
         "type": "catch_fish",
         "chance": 40,
         "data": {
-            "reward": 0.45,
+            "reward": 0.6,
             "Common": {
+                "min": 4,
+                "max": 6
+            },
+            "Uncommon": {
                 "min": 3,
                 "max": 5
             },
-            "Uncommon": {
+            "Rare": {
                 "min": 2,
                 "max": 4
             },
-            "Rare": {
-                "min": 1,
-                "max": 3
-            },
             "Super Rare": {
                 "min": 1,
-                "max": 1
+                "max": 2
             }
         }
     }
