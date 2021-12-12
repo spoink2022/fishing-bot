@@ -1,7 +1,7 @@
 [
     {
         "type": "catch_tier",
-        "chance": 0,
+        "chance": 20,
         "data": {
             "C": {
                 "chance": 25,
@@ -31,7 +31,7 @@
     },
     {
         "type": "catch_weight",
-        "chance": 0,
+        "chance": 25,
         "data": [
             {
                 "levelUnder": 20,
@@ -103,7 +103,7 @@
     },
     {
         "type": "catch_fish",
-        "chance": 0,
+        "chance": 20,
         "data": {
             "reward": 0.6,
             "Common": {
@@ -126,7 +126,7 @@
     },
     {
         "type": "collect_coins",
-        "chance": 0,
+        "chance": 15,
         "data": [
             {
                 "levelUnder": 20,
@@ -198,7 +198,7 @@
     },
     {
         "type": "use_bait",
-        "chance": 100,
+        "chance": 20,
         "data": {
             "min": 3,
             "max": 6,
