@@ -76,7 +76,7 @@ module.exports.getAllClanShopData = function() {
 
 module.exports.getRandomQuestData = function() {
     let chanceNum = Math.floor(Math.random()*100)+1
-    for(const questTypeData of QuestData) {
+    for (const questTypeData of QuestData) {
         chanceNum -= questTypeData.chance
         if(chanceNum <= 0) {
             return questTypeData;

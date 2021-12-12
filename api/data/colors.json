@@ -66,5 +66,12 @@
         "none": "#9933cc",
         "pending": "#ff8000",
         "current": "#32cd32"
+    },
+    "quest": {
+        "catch_tier": "#3ACADC",
+        "catch_weight": "#7F7F7F",
+        "catch_fish": "#A43636",
+        "collect_coins": "#ffd700",
+        "use_bait": "#fa8072"
     }
 }
