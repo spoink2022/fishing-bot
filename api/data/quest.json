@@ -132,61 +132,61 @@
                 "levelUnder": 20,
                 "min": 4,
                 "max": 6,
-                "reward": 1.5
+                "reward": 1.25
             },
             {
                 "levelUnder": 30,
                 "min": 6,
                 "max": 8,
-                "reward": 1.25
+                "reward": 1.1
             },
             {
                 "levelUnder": 40,
                 "min": 8,
                 "max": 12,
-                "reward": 1
+                "reward": 0.9
             },
             {
                 "levelUnder": 50,
                 "min": 8,
                 "max": 20,
-                "reward": 0.8
+                "reward": 0.75
             },
             {
                 "levelUnder": 60,
                 "min": 12,
                 "max": 24,
-                "reward": 0.7
+                "reward": 0.65
             },
             {
                 "levelUnder": 70,
                 "min": 16,
                 "max": 28,
-                "reward": 0.6
+                "reward": 0.55
             },
             {
                 "levelUnder": 80,
                 "min": 20,
                 "max": 32,
-                "reward": 0.5
+                "reward": 0.45
             },
             {
                 "levelUnder": 90,
                 "min": 24,
                 "max": 36,
-                "reward": 0.45
+                "reward": 0.4
             },
             {
                 "levelUnder": 100,
                 "min": 24,
                 "max": 44,
-                "reward": 0.4
+                "reward": 0.35
             },
             {
                 "levelUnder": 110,
                 "min": 30,
                 "max": 50,
-                "reward": 0.375
+                "reward": 0.3
             },
             {
                 "levelUnder": 120,
