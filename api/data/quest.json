@@ -1,7 +1,7 @@
 [
     {
         "type": "catch_tier",
-        "chance": 35,
+        "chance": 0,
         "data": {
             "C": {
                 "chance": 25,
@@ -31,7 +31,7 @@
     },
     {
         "type": "catch_weight",
-        "chance": 25,
+        "chance": 0,
         "data": [
             {
                 "levelUnder": 20,
@@ -92,12 +92,18 @@
                 "min": 700,
                 "max": 1200,
                 "reward": 0.008
+            },
+            {
+                "levelUnder": 120,
+                "min": 700,
+                "max": 1200,
+                "reward": 0.008
             }
         ]
     },
     {
         "type": "catch_fish",
-        "chance": 40,
+        "chance": 0,
         "data": {
             "reward": 0.6,
             "Common": {
@@ -117,5 +123,77 @@
                 "max": 2
             }
         }
+    },
+    {
+        "type": "collect_coins",
+        "chance": 100,
+        "data": [
+            {
+                "levelUnder": 20,
+                "min": 4,
+                "max": 6,
+                "reward": 1.5
+            },
+            {
+                "levelUnder": 30,
+                "min": 6,
+                "max": 8,
+                "reward": 1.25
+            },
+            {
+                "levelUnder": 40,
+                "min": 8,
+                "max": 12,
+                "reward": 1
+            },
+            {
+                "levelUnder": 50,
+                "min": 8,
+                "max": 20,
+                "reward": 0.8
+            },
+            {
+                "levelUnder": 60,
+                "min": 12,
+                "max": 24,
+                "reward": 0.7
+            },
+            {
+                "levelUnder": 70,
+                "min": 16,
+                "max": 28,
+                "reward": 0.6
+            },
+            {
+                "levelUnder": 80,
+                "min": 20,
+                "max": 32,
+                "reward": 0.5
+            },
+            {
+                "levelUnder": 90,
+                "min": 24,
+                "max": 36,
+                "reward": 0.45
+            },
+            {
+                "levelUnder": 100,
+                "min": 24,
+                "max": 44,
+                "reward": 0.4
+            },
+            {
+                "levelUnder": 110,
+                "min": 30,
+                "max": 50,
+                "reward": 0.375
+            },
+            {
+                "levelUnder": 120,
+                "min": 30,
+                "max": 50,
+                "reward": 0.375
+            }
+        ]
     }
 ]

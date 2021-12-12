@@ -70,6 +70,7 @@
     "quest": {
         "catch_tier": "#3ACADC",
         "catch_weight": "#7F7F7F",
-        "catch_fish": "#A43636"
+        "catch_fish": "#A43636",
+        "collect_coins": "#ffd700"
     }
 }
