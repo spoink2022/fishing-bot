@@ -387,7 +387,7 @@
         "requirements_string": [
             ["alligator_gar", 10],
             ["tarpon", 2],
-            ["sturgeon", 2],
+            ["lake_sturgeon", 2],
             ["bull_shark", 4],
             ["arapaima", 12]
         ],
