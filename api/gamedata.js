@@ -58,6 +58,10 @@ module.exports.getAllBaitNames = function(stars=false) {
         return BaitNames.filter(baitName => BaitData[baitName].stars === stars);
     }
 }
+module.exports.getPurchasableBaitNames = function() {
+    return BaitNames.filter(baitName => !BaitData[baitName].banned);
+}
+
 module.exports.getBaitsByFamily = function(family) {
     return Object.entries(BaitData).filter(tuple => tuple[1].families.includes(family)).map(tuple => tuple[0]);
 }
