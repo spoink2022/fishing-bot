@@ -18,6 +18,10 @@
             {
                 "name": "Grey Banner",
                 "src": "grey_banner"
+            },
+            {
+                "name": "Christmas Banner",
+                "src": "christmas_banner"
             }
         ]
     }
