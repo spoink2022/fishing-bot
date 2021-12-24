@@ -188,5 +188,16 @@
         "value": 1,
         "min": 7,
         "max": 13
+    },
+    "candy cane": {
+        "id": 19,
+        "tier": "SS",
+        "sizes": [1, 2, 3, 4],
+        "families": [],
+        "stars": 3,
+        "value": 20,
+        "min": null,
+        "max": null,
+        "banned": true
     }
 }
