@@ -17,6 +17,21 @@ async function fetchServer(serverid) {
 
 module.exports.fetchServer = fetchServer;
 
+module.exports.fetchServerStats = async function(serverid) {
+    let query = 'SELECT * FROM servers WHERE serverid=$1';
+    let res = (await config.pquery(query, [serverid]))[0];
+    if (!res) {
+        await createServerEntry(serverid);
+        res = { fish_caught: 0, weight_caught: 0, custom_fish_privilege: false };
+    }
+    query = 'SELECT position FROM (SELECT serverid, RANK() OVER(ORDER BY weight_caught DESC) AS position FROM servers) RESULT WHERE serverid=$1';
+    let rank = (await config.pquery(query, [serverid]))[0].position;
+    res.fish_caught = parseInt(res.fish_caught);
+    res.weight_caught = parseInt(res.weight_caught);
+    res.rank = parseInt(rank);
+    return res;
+}
+
 module.exports.toggle = async function(serverid, column) {
     await fetchServer(serverid); // ensure there is a server in the db
     let query = `UPDATE servers SET ${column} = NOT ${column} WHERE serverid=$1 RETURNING ${column}`;
