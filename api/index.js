@@ -5,3 +5,5 @@ module.exports.leveldata = require('./leveldata.js');
 module.exports.gamedata = require('./gamedata.js');
 module.exports.visuals = require('./visuals.js');
 module.exports.text = require('./text.js');
+
+module.exports.equipment = require('./equipment.js');

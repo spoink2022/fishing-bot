@@ -6,3 +6,5 @@ module.exports.stats = require('./stats.js');
 module.exports.events = require('./events.js');
 module.exports.clan = require('./clan.js');
 module.exports.cosmetics = require('./cosmetics.js');
+
+module.exports.rings = require('./rings.js');
