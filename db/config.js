@@ -1,12 +1,12 @@
 const { Pool } = require('pg');
-const auth = require('../static/private/auth.json');
+const { db } = require('../private/config.json');
 
 const pool = new Pool ({
-    user: auth.db.user,
-    host: auth.db.host,
-    database: auth.db.database,
-    password: auth.db.password,
-    port: auth.db.port
+    user: db.user,
+    host: db.host,
+    database: db.database,
+    password: db.password,
+    port: db.port
 });
 
 module.exports.pquery = async function(text, params) {
