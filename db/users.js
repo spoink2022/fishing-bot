@@ -5,19 +5,31 @@ const { parseQuestString } = require('../lib/misc/str_functions.js');
 
 const config = require('./config.js');
 
+
+// NEW -- START
 module.exports.fetchUser = async function(userid) {
     let query = 'SELECT * FROM users WHERE userid=$1';
     let user = (await config.pquery(query, [userid]))[0];
-    if(user) {
-        user.cooldown = parseInt(user.cooldown)
-        if(user.next_vote) { user.next_vote = parseInt(user.next_vote); }
-        for(let i=1; i<=5; i++) {
-            user[`last_collected_${i}`] = parseInt(user[`last_collected_${i}`]) || 0;
-        }
-        if(user.quest) { user.quest = parseQuestString(user.quest); }
+    if (!user) {
+        query = 'INSERT INTO users (userid) VALUES ($1) returning *';
+        user = (await config.pquery(query, [userid]))[0];
     }
     return user;
 }
+
+module.exports.setQuest = async function(userid, quest) {
+    let query = 'UPDATE users SET quest_type=$1, quest_progress=0, quest_requirement=$2, quest_data=$3, quest_reward=$4, quest_start=$5 WHERE userid=$6 RETURNING *';
+    let user = (await config.pquery(query, [quest.quest_type, quest.quest_requirement, quest.quest_data, quest.quest_reward, Date.now(), userid]))[0];
+    return user;
+}
+
+module.exports.setQuestProgress = async function(userid, questProgress) {
+    let query = 'UPDATE users SET quest_progress=$1 WHERE userid=$2';
+    return await config.pquery(query, [questProgress, userid]);
+}
+// NEW -- END
+
+
 
 module.exports.fetchInventory = async function(userid) {
     let query = 'SELECT * FROM inventory WHERE userid=$1';

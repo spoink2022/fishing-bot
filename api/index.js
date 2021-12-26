@@ -6,4 +6,8 @@ module.exports.gamedata = require('./gamedata.js');
 module.exports.visuals = require('./visuals.js');
 module.exports.text = require('./text.js');
 
+module.exports.bait = require('./bait.js');
+module.exports.clan = require('./clan.js');
 module.exports.equipment = require('./equipment.js');
+module.exports.fish = require('./fish.js');
+module.exports.quest = require('./quest.js');
