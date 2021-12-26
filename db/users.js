@@ -17,6 +17,12 @@ module.exports.fetchUser = async function(userid) {
     return user;
 }
 
+module.exports.updateColumns = async function(userid, obj) {
+    let queryMiddle = Object.keys(obj).map(key => `${key}=${key}+${obj[key]}`).join(', ');
+    let query = `UPDATE users SET ${queryMiddle} WHERE userid=$1`;
+    return await config.pquery(query, [userid]);
+}
+
 module.exports.setQuest = async function(userid, quest) {
     let query = 'UPDATE users SET quest_type=$1, quest_progress=0, quest_requirement=$2, quest_data=$3, quest_reward=$4, quest_start=$5 WHERE userid=$6 RETURNING *';
     let user = (await config.pquery(query, [quest.quest_type, quest.quest_requirement, quest.quest_data, quest.quest_reward, Date.now(), userid]))[0];
