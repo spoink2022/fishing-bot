@@ -3,91 +3,109 @@
         "classic": {
             "classBoost": [0, 0, 0, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 0
+            "rating": 0,
+            "jewel": false
         },
         "wooden": {
             "classBoost": [1, 0, 0, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 1
+            "rating": 1,
+            "jewel": false
         },
         "tin": {
             "classBoost": [0, 1, 0, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 1
+            "rating": 1,
+            "jewel": false
         },
         "aluminum": {
             "classBoost": [0, 0, 1, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 1
+            "rating": 1,
+            "jewel": false
         },
         "copper": {
             "classBoost": [0, 0, 0, 1],
             "gradeBoost": [0, 0, 0],
-            "rating": 1
+            "rating": 1,
+            "jewel": false
         },
         "bronze": {
             "classBoost": [1, 1, 0, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 2
+            "rating": 2,
+            "jewel": false
         },
         "iron": {
             "classBoost": [0, 0, 1, 1],
             "gradeBoost": [0, 0, 0],
-            "rating": 2
+            "rating": 2,
+            "jewel": false
         },
         "steel": {
             "classBoost": [0, 0, 2, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 2
+            "rating": 2,
+            "jewel": false
         },
         "titanium": {
             "classBoost": [0, 0, 0, 2],
             "gradeBoost": [0, 0, 0],
-            "rating": 2
+            "rating": 2,
+            "jewel": false
         },
         "tungsten": {
             "classBoost": [0, 0, 2, 2],
             "gradeBoost": [0, 0, 0],
-            "rating": 3
+            "rating": 3,
+            "jewel": false
         },
         "silver": {
             "classBoost": [1, 1, 1, 1],
             "gradeBoost": [0, 0, 0],
-            "rating": 3
+            "rating": 3,
+            "jewel": false
         },
         "gold": {
             "classBoost": [2, 2, 2, 2],
             "gradeBoost": [0, 0, 0],
-            "rating": 4
+            "rating": 4,
+            "jewel": false
         },
         "pearl": {
             "classBoost": [4, 4, 0, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 5
+            "rating": 5,
+            "jewel": true
         },
         "alexandrite": {
             "classBoost": [0, 0, 4, 4],
             "gradeBoost": [0, 0, 0],
-            "rating": 5
+            "rating": 5,
+            "jewel": true
         },
         "ruby": {
             "classBoost": [2, 0, 0, 0],
             "gradeBoost": [50, 0, 0],
-            "rating": 5
+            "rating": 5,
+            "jewel": true
         },
         "sapphire": {
             "classBoost": [0, 2, 0, 0],
             "gradeBoost": [0, 50, 0],
-            "rating": 5
+            "rating": 5,
+            "jewel": true
         },
         "emerald": {
             "classBoost": [0, 0, 2, 0],
             "gradeBoost": [0, 0, 50],
-            "rating": 5
+            "rating": 5,
+            "jewel": true
         },
         "diamond": {
             "classBoost": [3, 3, 3, 3],
             "gradeBoost": [0, 0, 0],
+            "jewel": true,
             "rating": 6
         }
     },

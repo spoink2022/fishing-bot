@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon bot.js",
-    "prod": "node bot.js"
+    "prod": "node --max-old-space-size=2048 bot.js"
   },
   "repository": {
     "type": "git",
