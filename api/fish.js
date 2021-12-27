@@ -13,10 +13,6 @@ for (let locationId=0; locationId<LocationData.length; locationId++) {
 }
 
 const FishNames = FishData.map(obj => obj.name);
-const FishChances = FishData.map(obj => obj.chance);
-const FishSizes = FishData.map(obj => {
-    return { min: obj.sizeMin, max: obj.sizeMax }
-});
 
 // Exports
 module.exports.getFishData = function(fishId) {
@@ -38,23 +34,16 @@ module.exports.getFishDataFromLocation = function(locationId) {
     );
 }
 
-module.exports.getFishNamesFromLocation = function(locationId) {
-    return FishNames.slice(
-        LocationData[locationId-1].fish[0].id,
-        LocationData[locationId-1].fish[LocationData[locationId-1].fish.length-1].id + 1
+module.exports.getAllUnlockedFishData = function(userLevel) {
+    return FishData.slice(
+        1,
+        LocationData[Math.floor(userLevel/10)].fish[LocationData[Math.floor(userLevel/10)].fish.length-1].id + 1
     );
 }
 
-module.exports.getFishChancesFromLocation = function(locationId) {
-    return FishChances.slice(
-        LocationData[locationId-1].fish[0].id,
-        LocationData[locationId-1].fish[LocationData[locationId-1].fish.length-1].id + 1
-    );
-}
-
-module.exports.getFishSizesFromLocation = function(locationId) {
-    return FishSizes.slice(
-        LocationData[locationId-1].fish[0].id,
-        LocationData[locationId-1].fish[LocationData[locationId-1].fish.length-1].id + 1
-    );
+module.exports.getAllUnlockedLocationData = function(userLevel) {
+    return LocationData.slice(
+        0,
+        Math.floor(userLevel/10) + 1
+    )
 }

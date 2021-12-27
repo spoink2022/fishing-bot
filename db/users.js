@@ -10,9 +10,13 @@ const config = require('./config.js');
 module.exports.fetchUser = async function(userid) {
     let query = 'SELECT * FROM users WHERE userid=$1';
     let user = (await config.pquery(query, [userid]))[0];
-    if (!user) {
+    if (!user) { // initialize user
         query = 'INSERT INTO users (userid) VALUES ($1) returning *';
         user = (await config.pquery(query, [userid]))[0];
+        query = 'INSERT INTO aquarium (userid) VALUES ($1)';
+        await config.pquery(query, [userid]);
+        query = 'INSERT INTO inventory (userid) VALUES ($1)';
+        await config.pquery(query, [userid]);
     }
     return user;
 }
@@ -21,6 +25,11 @@ module.exports.updateColumns = async function(userid, obj) {
     let queryMiddle = Object.keys(obj).map(key => `${key}=${key}+${obj[key]}`).join(', ');
     let query = `UPDATE users SET ${queryMiddle} WHERE userid=$1`;
     return await config.pquery(query, [userid]);
+}
+
+module.exports.handleAquariumCollect = async function(userid, coinsCollected, newAquariumCollected) {
+    let query = 'UPDATE users SET coins=coins+$1, aquarium_collected=$2 WHERE userid=$3';
+    return await config.pquery(query, [coinsCollected, newAquariumCollected, userid]);
 }
 
 module.exports.setQuest = async function(userid, quest) {
@@ -34,16 +43,24 @@ module.exports.setQuestProgress = async function(userid, questProgress) {
     return await config.pquery(query, [questProgress, userid]);
 }
 
-module.exports.getLastCollected = async function(userid, locationId) {
-    let query = 'SELECT aquarium_collected FROM users WHERE userid=$1';
-    let arr = (await config.pquery(query, [userid]))[0].aquarium_collected;
-    if (locationId > arr.length) { // Append to the array
-        const appendArray = Array(locationId-arr.length).fill(Date.now());
-        query = 'UPDATE users SET aquarium_collected = aquarium_collected || $1 WHERE userid=$2 RETURNING aquarium_collected';
-        arr = (await config.pquery(query, [appendArray, userid]))[0].aquarium_collected;
-    }
-    return arr[locationId-1];
+module.exports.appendToAquariumCollected = async function(userid, appendArray) {
+    let query = 'UPDATE users SET aquarium_collected = aquarium_collected || $1 WHERE userid=$2';
+    return await config.pquery(query, [appendArray, userid]);
 }
+
+// Summation Functions
+module.exports.fetchTotalFishCaught = async function() {
+    let query = 'SELECT SUM(fish_caught) FROM users';
+    let fishCaught = (await config.pquery(query))[0].sum;
+    return fishCaught;
+}
+
+module.exports.fetchTotalWeightCaught = async function() {
+    let query = 'SELECT SUM(weight_caught) FROM users';
+    let weightCaught = (await config.pquery(query))[0].sum / 1000000;
+    return weightCaught; // tons
+}
+
 // NEW -- END
 
 
