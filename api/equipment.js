@@ -1,5 +1,5 @@
-// Supply Equipment Data Information
-// # ----------------------------- #
+// Provides Equipment Data Information
+// # ------------------------------- #
 
 const EquipmentData = require('./data/equipment.json');
 const RingData = require('./data/rings.json');

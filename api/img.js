@@ -23,7 +23,7 @@ module.exports.fetchBackgroundUrl = function(key) {
     return `${path}/background/${key}.png`;
 }
 
-module.exports.fetchAquariumUrl = function(label) {
+module.exports.fetchAquariumImgUrl = function(label) {
     return `${path}/aquarium/${label}.png`;
 }
 

@@ -33,6 +33,17 @@ module.exports.setQuestProgress = async function(userid, questProgress) {
     let query = 'UPDATE users SET quest_progress=$1 WHERE userid=$2';
     return await config.pquery(query, [questProgress, userid]);
 }
+
+module.exports.getLastCollected = async function(userid, locationId) {
+    let query = 'SELECT aquarium_collected FROM users WHERE userid=$1';
+    let arr = (await config.pquery(query, [userid]))[0].aquarium_collected;
+    if (locationId > arr.length) { // Append to the array
+        const appendArray = Array(locationId-arr.length).fill(Date.now());
+        query = 'UPDATE users SET aquarium_collected = aquarium_collected || $1 WHERE userid=$2 RETURNING aquarium_collected';
+        arr = (await config.pquery(query, [appendArray, userid]))[0].aquarium_collected;
+    }
+    return arr[locationId-1];
+}
 // NEW -- END
 
 
