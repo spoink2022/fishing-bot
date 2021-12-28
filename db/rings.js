@@ -6,6 +6,12 @@ module.exports.getRing = async function(ringID) {
     return ring;
 }
 
+module.exports.getRingByRelativeId = async function(userid, relativeId) {
+    let query = `SELECT * FROM rings WHERE userid=$1 ORDER BY id ASC LIMIT 1 OFFSET ${relativeId-1}`;
+    let ring = (await config.pquery(query, [userid]))[0];
+    return ring;
+}
+
 module.exports.getAllUserRings = async function(userid) {
     let query = 'SELECT * FROM rings WHERE userid=$1 ORDER BY id';
     let rings = await config.pquery(query, [userid]);

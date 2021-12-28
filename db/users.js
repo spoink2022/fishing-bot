@@ -27,6 +27,12 @@ module.exports.updateColumns = async function(userid, obj) {
     return await config.pquery(query, [userid]);
 }
 
+module.exports.setColumns = async function(userid, obj) {
+    let queryMiddle = Object.keys(obj).map(key => `${key}=${obj[key]}`).join(', ');
+    let query = `UPDATE users SET ${queryMiddle} WHERE userid=$1`;
+    return await config.pquery(query, [userid]);
+}
+
 module.exports.handleAquariumCollect = async function(userid, coinsCollected, newAquariumCollected) {
     let query = 'UPDATE users SET coins=coins+$1, aquarium_collected=$2 WHERE userid=$3';
     return await config.pquery(query, [coinsCollected, newAquariumCollected, userid]);

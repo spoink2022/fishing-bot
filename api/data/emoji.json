@@ -1,4 +1,8 @@
 {
     "RINGPACK_REGULAR": "<:bt_ringpack_regular:925191999185887303>",
-    "RINGPACK_PREMIUM": "<:bt_ringpack_premium:925191793597890561>"
+    "RINGPACK_PREMIUM": "<:bt_ringpack_premium:925191793597890561>",
+    "SIZE_S": "<:bt_size_S:925477961963036743>",
+    "SIZE_M": "<:bt_size_M:925478428944269312>",
+    "SIZE_L": "<:bt_size_L:925478429107818536>",
+    "SIZE_XL": "<:bt_size_XL:925478429028151296>"
 }
