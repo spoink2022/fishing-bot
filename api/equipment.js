@@ -27,3 +27,8 @@ module.exports.getRingData = function(ringType) {
 module.exports.getSwivelData = function(id) {
     return EquipmentData.swivels[id-1];
 }
+
+// Rings
+module.exports.getRingPackData = function(userLevel) {
+    return RingData.packs.find(element => userLevel < element.maxLevel);
+}
