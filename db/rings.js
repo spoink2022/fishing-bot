@@ -23,3 +23,8 @@ module.exports.addRing = async function(r) {
     let ringID = (await config.pquery(query, [r.userid, r.ring_type, r.value, r.s, r.m, r.l, r.xl, r.premium, r.sashimi, r.trophy]))[0].id;
     return ringID;
 }
+
+module.exports.removeRing = async function(ringId) {
+    let query = 'DELETE FROM rings WHERE id=$1';
+    return await config.pquery(query, [ringId]);
+}
