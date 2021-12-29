@@ -7,6 +7,10 @@ const BaitData = require('./data/bait.json');
 const BaitNames = Object.keys(BaitData);
 
 // Exports
+module.exports.getBaitData = function(baitName) {
+    return BaitData[baitName];
+}
+
 module.exports.getAllBaitNames = function() {
     return BaitNames;
 }

@@ -7,4 +7,6 @@ module.exports.events = require('./events.js');
 module.exports.clan = require('./clan.js');
 module.exports.cosmetics = require('./cosmetics.js');
 
+module.exports.bait = require('./bait.js');
+module.exports.baitShop = require('./bait_shop.js');
 module.exports.rings = require('./rings.js');
