@@ -13,8 +13,22 @@ for (let locationId=0; locationId<LocationData.length; locationId++) {
 }
 
 const FishNames = FishData.map(obj => obj.name);
+const FishMap = generateFishMap();
+
+// Formatting Functions
+function generateFishMap() {
+    let myMap = {};
+    for (let i=0; i<FishNames.length; i++) {
+        myMap[FishNames[i]] = i;
+    }
+    return myMap;
+}
 
 // Exports
+module.exports.getFishDataByName = function(fishName) {
+    return FishData[FishMap[fishName]];
+}
+
 module.exports.getFishData = function(fishId) {
     return FishData[fishId];
 }
@@ -27,6 +41,10 @@ module.exports.getLocationCount= function() {
     return LocationData.length;
 }
 // Exports - Bulk
+module.exports.getFishNames = function() {
+    return FishNames;
+}
+
 module.exports.getFishDataFromLocation = function(locationId) {
     return FishData.slice(
         LocationData[locationId-1].fish[0].id,

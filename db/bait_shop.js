@@ -21,17 +21,20 @@ async function getLatestEntry() {
 }
 
 async function generateBaitShop() {
-    // Generates baitshop entries until up-to-date
-    const latestEntry = await getLatestEntry();
-    const toGenerate = Math.floor((Date.now() - parseInt(latestEntry.start_time))/86400000);
+    // Generates baitshop entries until up-to-date, returning current entry
+    const BONUS = 7; // bonus entries to generate
 
-    let entry;
+    const latestEntry = await getLatestEntry();
+    const toGenerate = Math.floor((Date.now() - parseInt(latestEntry.start_time))/86400000) + BONUS;
+
     let entryArr = [];
     for (let i=0; i<toGenerate; i++) {
-        entry = logic.generation.generateBaitShop(parseInt(latestEntry.end_time) + 86400000*i);
+        let entry = logic.generation.generateBaitShop(parseInt(latestEntry.end_time) + 86400000*i);
         entryArr.push(entry);
     }
 
     insertEntries(entryArr);
+    let entry = entryArr[toGenerate - 1 - BONUS];
+    Object.keys(entry).forEach(key => entry[key] = JSON.parse(entry[key]));
     return entry;
 }
