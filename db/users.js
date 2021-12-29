@@ -15,7 +15,9 @@ module.exports.fetchUser = async function(userid) {
         user = (await config.pquery(query, [userid]))[0];
         query = 'INSERT INTO aquarium (userid) VALUES ($1)';
         await config.pquery(query, [userid]);
-        query = 'INSERT INTO inventory (userid) VALUES ($1)';
+        query = 'INSERT INTO bait (userid) VALUES ($1)';
+        await config.pquery(query, [userid]);
+        query = 'INSERT INTO scores (userid) VALUES ($1)';
         await config.pquery(query, [userid]);
     }
     return user;
@@ -65,6 +67,13 @@ module.exports.fetchTotalWeightCaught = async function() {
     let query = 'SELECT SUM(weight_caught) FROM users';
     let weightCaught = (await config.pquery(query))[0].sum / 1000000;
     return weightCaught; // tons
+}
+
+// Bulk Queries
+module.exports.fetchLeaderboardsByWeight = async function(useridArray) {
+    let query = 'SELECT userid, weight_caught FROM users WHERE userid=ANY($1) ORDER BY weight_caught DESC';
+    let res = await config.pquery(query, [useridArray]);
+    return res;
 }
 
 // NEW -- END

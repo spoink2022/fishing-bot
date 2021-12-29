@@ -11,3 +11,4 @@ module.exports.bait = require('./bait.js');
 module.exports.baitShop = require('./bait_shop.js');
 module.exports.bounty = require('./bounty.js');
 module.exports.rings = require('./rings.js');
+module.exports.scores = require('./scores.js');
