@@ -2,22 +2,42 @@ const { getDateAsString } = require('../lib/misc/datetime.js');
 
 const config = require('./config.js');
 
-// GENERAL
+// NEW -- START
 module.exports.fetchClan = async function(clanID) {
     let query = 'SELECT * FROM clan WHERE id=$1 LIMIT 1';
     let res = await config.pquery(query, [clanID]);
     return res[0];
 }
 
-module.exports.fetchClanByName = async function(name) {
-    let query = 'SELECT * FROM clan WHERE name=$1 LIMIT 1';
-    let res = await config.pquery(query, [name]);
-    return res[0];
+module.exports.createClan = async function(name) {
+    let query = 'INSERT INTO clan (name) VALUES ($1) RETURNING id';
+    let clanId = (await config.pquery(query, [name]))[0].id;
+    return clanId;
+}
+
+module.exports.createClanMember = async function(userid, tag, clanId, role=0) {
+    let query = 'INSERT INTO clan_member (userid, tag, clan, role) VALUES ($1, $2, $3, $4)';
+    return await config.pquery(query, [userid, tag, clanId, role]);
 }
 
 module.exports.fetchMember = async function(userid) {
     let query = 'SELECT * FROM clan_member WHERE userid=$1 LIMIT 1';
     let res = await config.pquery(query, [userid]);
+    return res[0];
+}
+
+module.exports.setMemberTag = async function(userid, username) {
+    let query = 'UPDATE clan_member SET username=$1 WHERE userid=$2';
+    return await config.pquery(query, [username, userid]);
+}
+// NEW -- END
+
+// GENERAL
+
+
+module.exports.fetchClanByName = async function(name) {
+    let query = 'SELECT * FROM clan WHERE name=$1 LIMIT 1';
+    let res = await config.pquery(query, [name]);
     return res[0];
 }
 
@@ -71,7 +91,7 @@ module.exports.creditMemberWithCampaignCatch = async function(userid) {
 }
 
 // UPDATE CLAN STATUS
-module.exports.createClan = async function(userid, username) {
+module.exports.createClanOLD = async function(userid, username) {
     // create clan entry
     let query = 'INSERT INTO clan (name, date) VALUES ($1, $2) RETURNING id';
     let clanID = (await config.pquery(query, ['processing...', getDateAsString()]))[0].id;
