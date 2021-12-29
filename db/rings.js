@@ -28,3 +28,8 @@ module.exports.removeRing = async function(ringId) {
     let query = 'DELETE FROM rings WHERE id=$1';
     return await config.pquery(query, [ringId]);
 }
+
+module.exports.setRingOwner = async function(ringId, userid) {
+    let query = 'UPDATE rings SET userid=$1 WHERE id=$2';
+    return await config.pquery(query, [userid, ringId]);
+}
