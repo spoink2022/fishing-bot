@@ -26,6 +26,11 @@ module.exports.setClanName = async function(clanId, newName, paid=true) {
     return await config.pquery(query, [newName, paid ? 1 : 0, clanId]);
 }
 
+module.exports.setClanPassword = async function(clanId, newPassword) {
+    let query = 'UPDATE clan SET password=$1 WHERE id=$2';
+    return await config.pquery(query, [newPassword, clanId]);
+}
+
 module.exports.fetchMember = async function(userid) {
     let query = 'SELECT * FROM clan_member WHERE userid=$1 LIMIT 1';
     let res = await config.pquery(query, [userid]);
