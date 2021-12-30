@@ -36,6 +36,11 @@ module.exports.setMemberRole = async function(userid, newRole) {
     return await config.pquery(query, [newRole, userid]);
 }
 
+module.exports.removeMember = async function(userid) {
+    let query = 'DELETE FROM clan_member WHERE userid=$1';
+    return await config.pquery(query, [userid]);
+}
+
 module.exports.createClanMember = async function(userid, tag, clanId, role=0) {
     let query = 'INSERT INTO clan_member (userid, tag, clan, role, joined) VALUES ($1, $2, $3, $4, $5)';
     return await config.pquery(query, [userid, tag, clanId, role, Date.now()]);
