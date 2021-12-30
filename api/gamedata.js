@@ -10,7 +10,7 @@ const QuestData = require('./data/quest.json');
 const WeatherData = require('./data/weather.json');
 
 // format CampaignData
-let fishNames = api.fishing.getFishNames();
+let fishNames = api.fishing.getFishNames();/*
 for (let i=0; i<CampaignData.length; i++) {
     let requirements = [];
     for (let entry of CampaignData[i].requirements_string) {
@@ -19,8 +19,7 @@ for (let i=0; i<CampaignData.length; i++) {
         requirements.push([fishID, entry[1]]);
     }
     CampaignData[i].requirements = requirements;
-}
-
+}*/
 module.exports.getAquariumInfo = function(id) {
     return AquariumData[id];
 }

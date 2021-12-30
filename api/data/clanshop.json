@@ -6,6 +6,10 @@
             "emoji": "⏰",
             "levels": [
                 {
+                    "price": 0,
+                    "value": 0
+                },
+                {
                     "price": 30,
                     "value": 0.5
                 },
@@ -56,6 +60,10 @@
             "desc": "Coin bonus **{OLD}%** :arrow_right: **{NEW}%**",
             "emoji": "🪙",
             "levels": [
+                {
+                    "price": 0,
+                    "value": 0
+                },
                 {
                     "price": 30,
                     "value": 1
@@ -108,6 +116,10 @@
             "emoji": "⭐",
             "levels": [
                 {
+                    "price": 0,
+                    "value": 0
+                },
+                {
                     "price": 30,
                     "value": 1
                 },
@@ -159,6 +171,10 @@
             "emoji": "⬆️",
             "levels": [
                 {
+                    "price": 0,
+                    "value": 0
+                },
+                {
                     "price": 50,
                     "value": 1
                 },
@@ -182,6 +198,10 @@
             "emoji": "🛡️",
             "levels": [
                 {
+                    "price": 0,
+                    "value": 0
+                },
+                {
                     "price": 40,
                     "value": 5
                 },
@@ -204,6 +224,10 @@
             "desc": "Bonus quest points from quests **{OLD}%** :arrow_right: **{NEW}%**",
             "emoji": "📜",
             "levels": [
+                {
+                    "price": 0,
+                    "value": 0
+                },
                 {
                     "price": 20,
                     "value": 10

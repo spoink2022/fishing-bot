@@ -29,6 +29,12 @@ module.exports.updateColumns = async function(userid, obj) {
     return await config.pquery(query, [userid]);
 }
 
+module.exports.updateColumnsBulk = async function(useridArray, obj) {
+    let queryMiddle = Object.keys(obj).map(key => `${key}=${key}+${obj[key]}`).join(', ');
+    let query = `UPDATE users SET ${queryMiddle} WHERE userid=ANY($1)`;
+    return await config.pquery(query, [useridArray]);
+}
+
 module.exports.setColumns = async function(userid, obj) {
     let queryMiddle = Object.keys(obj).map(key => `${key}=${obj[key]}`).join(', ');
     let query = `UPDATE users SET ${queryMiddle} WHERE userid=$1`;

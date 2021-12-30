@@ -8,6 +8,7 @@ module.exports.text = require('./text.js');
 
 module.exports.aquarium = require('./aquarium.js');
 module.exports.bait = require('./bait.js');
+module.exports.campaign = require('./campaign.js');
 module.exports.clan = require('./clan.js');
 module.exports.emoji = require('./emoji.js');
 module.exports.equipment = require('./equipment.js');

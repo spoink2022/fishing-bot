@@ -31,6 +31,17 @@ module.exports.setClanPassword = async function(clanId, newPassword) {
     return await config.pquery(query, [newPassword, clanId]);
 }
 
+module.exports.updateClanColumns = async function(clanId, obj) {
+    let queryMiddle = Object.keys(obj).map(key => `${key}=${key}+${obj[key]}`).join(', ');
+    let query = `UPDATE clan SET ${queryMiddle} WHERE id=$1`;
+    return await config.pquery(query, [clanId]);
+}
+
+module.exports.resetClanCampaignProgress = async function(clanId) {
+    let query = 'UPDATE clan SET campaign_progress=ARRAY[]::INT[] WHERE id=$1';
+    return await config.pquery(query, [clanId]);
+}
+
 module.exports.fetchMember = async function(userid) {
     let query = 'SELECT * FROM clan_member WHERE userid=$1 LIMIT 1';
     let res = await config.pquery(query, [userid]);

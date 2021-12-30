@@ -2,7 +2,7 @@
     {
         "name": "Fishing in The Small Pond",
         "description": "Catch these fish to prove your clan is worthy to move on to the next stage!",
-        "requirements_string": [
+        "requirements": [
             ["bluegill", 10],
             ["grass_pickerel", 5],
             ["spotted_bass", 2]
@@ -16,7 +16,7 @@
     {
         "name": "Panfish Species Control",
         "description": "The panfish population has grown out of control!\nHelp remove them from our local lakes.",
-        "requirements_string": [
+        "requirements": [
             ["bluegill", 10],
             ["green_sunfish", 10],
             ["redear_sunfish", 5],
@@ -31,7 +31,7 @@
     {
         "name": "Bass Hunt",
         "description": "Catch bass for the local fishing contest!",
-        "requirements_string": [
+        "requirements": [
             ["spotted_bass", 10],
             ["largemouth_bass", 5]
         ],
@@ -44,7 +44,7 @@
     {
         "name": "Pest Control",
         "description": "Local fishers are upset that all they catch are tiny pest fish.\n\nHelp remove them from our lakes!",
-        "requirements_string": [
+        "requirements": [
             ["white_crappie", 7],
             ["green_sunfish", 10],
             ["bluntnose_minnow", 12],
@@ -59,7 +59,7 @@
     {
         "name": "Catching Giants",
         "description": "Hope your equipment is strong enough!",
-        "requirements_string": [
+        "requirements": [
             ["smallmouth_buffalo", 10],
             ["channel_catfish", 2],
             ["bowfin", 2],
@@ -76,7 +76,7 @@
     {
         "name": "Cleaning Muddy River",
         "description": "The river is too muddy.\nLower the fish population and clear up the river!",
-        "requirements_string": [
+        "requirements": [
             ["bluntnose_minnow", 15],
             ["bowfin", 3],
             ["pumpkinseed", 10],
@@ -92,7 +92,7 @@
     {
         "name": "Fishing Contest",
         "description": "You are invited to a local fishing contest.\nShow your skill and catch the species below!",
-        "requirements_string": [
+        "requirements": [
             ["chain_pickerel", 3],
             ["freshwater_drum", 10],
             ["cutthroat_trout", 5],
@@ -108,7 +108,7 @@
     {
         "name": "Bass Hunt 2",
         "description": "Bass season is still not over yet!\nCatch Bass in the remaining few days of the season!",
-        "requirements_string": [
+        "requirements": [
             ["butterfly_peacock_bass", 1],
             ["rock_bass", 20],
             ["smallmouth_bass", 5],
@@ -124,7 +124,7 @@
     {
         "name": "Endangered Species",
         "description": "Help save the endangered fish from the poachers!",
-        "requirements_string": [
+        "requirements": [
             ["butterfly_peacock_bass", 1],
             ["gafftopsail_catfish", 1],
             ["florida_gar", 3],
@@ -144,7 +144,7 @@
     {
         "name": "Trout Fest",
         "description": "Local demand for trout doubled!\nLocal fishers needs your help to catch more!",
-        "requirements_string": [
+        "requirements": [
             ["colorado_golden_trout", 5],
             ["cutthroat_trout", 20],
             ["rainbow_trout", 8],
@@ -161,7 +161,7 @@
     {
         "name": "Fishing Trip (Part 1/5: Shallow Stream)",
         "description": "Your clan decided to go on a fishing trip.\nCatch these species from the nearby river to move on!",
-        "requirements_string": [
+        "requirements": [
             ["black_crappie", 15],
             ["yellow_perch", 8],
             ["longnose_sucker", 6],
@@ -177,7 +177,7 @@
     {
         "name": "Fishing Trip (Part 2/5: Small Lake)",
         "description": "Your clan travels down the stream and reached a small lake.\nThere are bigger, medium-sized fish to catch here!",
-        "requirements_string": [
+        "requirements": [
             ["largemouth_bass", 5],
             ["black_bullhead_catfish", 5],
             ["spotted_gar", 10],
@@ -194,7 +194,7 @@
     {
         "name": "Fishing Trip (part 3/5: Drainage Area)",
         "description": "Near the small lake, your clan found a drainage area!\nIt is filled with large fish!",
-        "requirements_string": [
+        "requirements": [
             ["common_snook", 15],
             ["florida_gar", 5],
             ["longnose_gar", 5],
@@ -211,7 +211,7 @@
     {
         "name": "Fishing Trip (Part 4/5: Down the Rushing River)",
         "description": "You found some super-large fish at a nearby river!\nHope your fishing lines won't snap!",
-        "requirements_string": [
+        "requirements": [
             ["lake_sturgeon", 3],
             ["tarpon", 2],
             ["alligator_gar", 10],
@@ -229,7 +229,7 @@
     {
         "name": "Fishing Trip (Part 5/5: The Finale)",
         "description": "Your fishing trip is almost over.\nFinish this stage and bring home a plentiful harvest!",
-        "requirements_string": [
+        "requirements": [
             ["smallmouth_buffalo", 5],
             ["channel_catfish", 3],
             ["chain_pickerel", 5],
@@ -250,7 +250,7 @@
     {
         "name": "Fisheries Research Institute (Part 1/5: Catfish)",
         "description": "Your clan have been hired by a local fish research centre to research specific families of fish.\nFirst, you will be researching the Catfish family!",
-        "requirements_string": [
+        "requirements": [
             ["black_bullhead_catfish", 5],
             ["flathead_catfish", 3],
             ["brown_bullhead_catfish", 20],
@@ -267,7 +267,7 @@
     {
         "name": "Fisheries Research Institute (Part 2/5: Pike)",
         "description": "Now for your second task: you will be researching the Pike family",
-        "requirements_string": [
+        "requirements": [
             ["chain_pickerel", 4],
             ["northern_pike", 2],
             ["redfin_pickerel", 25],
@@ -284,7 +284,7 @@
     {
         "name": "Fisheries Research Institute (Part 3/5: Gar)",
         "description": "Time to research the Gar family!",
-        "requirements_string": [
+        "requirements": [
             ["spotted_gar", 10],
             ["longnose_gar", 8],
             ["florida_gar", 6],
@@ -299,7 +299,7 @@
     {
         "name": "Fisheries Research Institute (Part 4/5: Carp)",
         "description": "Your clan's research is almost over.\nYour second last fish family will be Carp!",
-        "requirements_string": [
+        "requirements": [
             ["smallmouth_buffalo", 5],
             ["white_sucker", 15],
             ["common_carp", 5],
@@ -314,7 +314,7 @@
     {
         "name": "Fisheries Research Institute (Part 5/5: Herring)",
         "description": "Congratulations, your clan is almost done the research!\nThis one will be Herring and Perch!",
-        "requirements_string": [
+        "requirements": [
             ["american_shad", 15],
             ["apapa", 10],
             ["yellow_perch", 20],
@@ -331,7 +331,7 @@
     {
         "name": "Scuba Diving Trip (Part 1/5: Shallow Waters)",
         "description": "Your clan is going scuba diving!\nRight now, you have descended 10 meters!",
-        "requirements_string": [
+        "requirements": [
             ["longnose_sucker", 20],
             ["atlantic_salmon", 7],
             ["brook_trout", 20],
@@ -348,7 +348,7 @@
     {
         "name": "Scuba Diving Trip (Part 2/5: Heading Down)",
         "description": "Your clan has reached 20 meters!",
-        "requirements_string": [
+        "requirements": [
             ["white_sucker", 10],
             ["redfin_pickerel", 15],
             ["tiger_muskie", 8],
@@ -365,7 +365,7 @@
     {
         "name": "Scuba Diving Trip (Part 3/5: Shallow Seabed)",
         "description": "40 meters!\nThere are bigger species here!",
-        "requirements_string": [
+        "requirements": [
             ["american_shad", 10],
             ["common_snook", 12],
             ["alligator_gar", 8],
@@ -384,7 +384,7 @@
     {
         "name": "Scuba Diving Trip (Part 4/5: Epipelagic Zone)",
         "description": "Congratulations, your clan reached the Epipelagic Zone!\nThere are a lot of gigantic fish here!",
-        "requirements_string": [
+        "requirements": [
             ["alligator_gar", 10],
             ["tarpon", 2],
             ["lake_sturgeon", 2],
@@ -400,7 +400,7 @@
     {
         "name": "Scuba Diving Trip (Part 5/5: The End)",
         "description": "Your clan is back on the surface!\nCatch the swarm of fish nearby!",
-        "requirements_string": [
+        "requirements": [
             ["california_roach", 40],
             ["white_catfish", 40]
         ],
