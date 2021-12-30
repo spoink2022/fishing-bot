@@ -11,8 +11,8 @@ module.exports.fetchUser = async function(userid) {
     let query = 'SELECT * FROM users WHERE userid=$1';
     let user = (await config.pquery(query, [userid]))[0];
     if (!user) { // initialize user
-        query = 'INSERT INTO users (userid) VALUES ($1) returning *';
-        user = (await config.pquery(query, [userid]))[0];
+        query = 'INSERT INTO users (userid, joined) VALUES ($1, $2) returning *';
+        user = (await config.pquery(query, [userid, Date.now()]))[0];
         query = 'INSERT INTO aquarium (userid) VALUES ($1)';
         await config.pquery(query, [userid]);
         query = 'INSERT INTO bait (userid) VALUES ($1)';

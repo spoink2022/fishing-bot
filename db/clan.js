@@ -10,14 +10,14 @@ module.exports.fetchClan = async function(clanID) {
 }
 
 module.exports.createClan = async function(name) {
-    let query = 'INSERT INTO clan (name) VALUES ($1) RETURNING id';
-    let clanId = (await config.pquery(query, [name]))[0].id;
+    let query = 'INSERT INTO clan (name, created) VALUES ($1, $2) RETURNING id';
+    let clanId = (await config.pquery(query, [name, Date.now()]))[0].id;
     return clanId;
 }
 
 module.exports.createClanMember = async function(userid, tag, clanId, role=0) {
-    let query = 'INSERT INTO clan_member (userid, tag, clan, role) VALUES ($1, $2, $3, $4)';
-    return await config.pquery(query, [userid, tag, clanId, role]);
+    let query = 'INSERT INTO clan_member (userid, tag, clan, role, joined) VALUES ($1, $2, $3, $4, $5)';
+    return await config.pquery(query, [userid, tag, clanId, role, Date.now()]);
 }
 
 module.exports.fetchMember = async function(userid) {
@@ -29,6 +29,12 @@ module.exports.fetchMember = async function(userid) {
 module.exports.setMemberTag = async function(userid, username) {
     let query = 'UPDATE clan_member SET username=$1 WHERE userid=$2';
     return await config.pquery(query, [username, userid]);
+}
+
+module.exports.fetchMembers = async function(clanID) {
+    let query = 'SELECT users.opted_in, users.level, users.cooldown, clan_member.joined, clan_member.userid, clan_member.tag, clan_member.role, clan_member.campaign_catches, clan_member.last_campaign_catch FROM users, clan_member WHERE users.userid=clan_member.userid AND users.clan=$1 ORDER BY users.level DESC';
+    let res = await config.pquery(query, [clanID]);
+    return res;
 }
 // NEW -- END
 
@@ -45,12 +51,6 @@ module.exports.fetchMemberByUsername = async function(username) {
     let query = 'SELECT * FROM clan_member WHERE username=$1 LIMIT 1';
     let res = await config.pquery(query, [username]);
     return res[0];
-}
-
-module.exports.fetchMembers = async function(clanID) {
-    let query = 'SELECT * FROM clan_member WHERE clan=$1';
-    let res = await config.pquery(query, [clanID]);
-    return res;
 }
 
 // UPDATE CLAN MEMBER STATUS
