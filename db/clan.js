@@ -9,6 +9,12 @@ module.exports.fetchClan = async function(clanId) {
     return res[0];
 }
 
+module.exports.fetchClanByUserid = async function(userid) {
+    let query = 'SELECT * FROM clan WHERE id=(SELECT clan FROM clan_member WHERE userid=$1) LIMIT 1';
+    let res = await config.pquery(query, [userid]);
+    return res[0];
+}
+
 module.exports.createClan = async function(name) {
     let query = 'INSERT INTO clan (name, created) VALUES ($1, $2) RETURNING id';
     let clanId = (await config.pquery(query, [name, Date.now()]))[0].id;
@@ -47,13 +53,13 @@ module.exports.createClanMember = async function(userid, tag, clanId, role=0) {
 }
 
 module.exports.fetchMemberByMemberId = async function(clanId, memberId) { // memberId is index in memberlist
-    let query = 'SELECT clan_member.* FROM users, clan_member WHERE users.userid=clan_member.userid AND users.clan=$1 ORDER BY users.level DESC, users.exp DESC OFFSET $2 LIMIT 1';
+    let query = 'SELECT clan_member.* FROM users, clan_member WHERE users.userid=clan_member.userid AND clan_member.clan=$1 ORDER BY users.level DESC, users.exp DESC OFFSET $2 LIMIT 1';
     let res = (await config.pquery(query, [clanId, memberId-1]))[0];
     return res;
 }
 
 module.exports.fetchMembers = async function(clanId) {
-    let query = 'SELECT users.opted_in, users.level, users.cooldown, clan_member.joined, clan_member.userid, clan_member.tag, clan_member.role, clan_member.campaign_catches, clan_member.last_campaign_catch FROM users, clan_member WHERE users.userid=clan_member.userid AND users.clan=$1 ORDER BY users.level DESC, users.exp DESC';
+    let query = 'SELECT users.opted_in, users.level, users.cooldown, clan_member.joined, clan_member.userid, clan_member.tag, clan_member.role, clan_member.campaign_catches, clan_member.last_campaign_catch FROM users, clan_member WHERE users.userid=clan_member.userid AND clan_member.clan=$1 ORDER BY users.level DESC, users.exp DESC';
     let res = await config.pquery(query, [clanId]);
     return res;
 }
