@@ -3,9 +3,9 @@ const { getDateAsString } = require('../lib/misc/datetime.js');
 const config = require('./config.js');
 
 // NEW -- START
-module.exports.fetchClan = async function(clanID) {
+module.exports.fetchClan = async function(clanId) {
     let query = 'SELECT * FROM clan WHERE id=$1 LIMIT 1';
-    let res = await config.pquery(query, [clanID]);
+    let res = await config.pquery(query, [clanId]);
     return res[0];
 }
 
@@ -31,10 +31,15 @@ module.exports.setMemberTag = async function(userid, username) {
     return await config.pquery(query, [username, userid]);
 }
 
-module.exports.fetchMembers = async function(clanID) {
+module.exports.fetchMembers = async function(clanId) {
     let query = 'SELECT users.opted_in, users.level, users.cooldown, clan_member.joined, clan_member.userid, clan_member.tag, clan_member.role, clan_member.campaign_catches, clan_member.last_campaign_catch FROM users, clan_member WHERE users.userid=clan_member.userid AND users.clan=$1 ORDER BY users.level DESC';
-    let res = await config.pquery(query, [clanID]);
+    let res = await config.pquery(query, [clanId]);
     return res;
+}
+
+module.exports.setClanName = async function(clanId, newName, paid=true) {
+    let query = `UPDATE clan SET name=$1, rename=rename-$2 WHERE id=$3`;
+    return await config.pquery(query, [newName, paid ? 1 : 0, clanId]);
 }
 // NEW -- END
 
