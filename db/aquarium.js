@@ -7,6 +7,11 @@ module.exports.getFish = async function(userid, fishNames) {
     let fishValues = (await config.pquery(query, [userid]))[0];
     return fishValues;
 }
+
+module.exports.setColumn = async function(userid, column, value) {
+    let query = `UPDATE aquarium SET ${column}=$1 WHERE userid=$2`;
+    return await config.pquery(query, [value, userid]);
+}
 // NEW -- END
 
 module.exports.getLargestSize = async function(userid, speciesName) {
