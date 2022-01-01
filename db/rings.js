@@ -13,7 +13,7 @@ module.exports.getRingByRelativeId = async function(userid, relativeId) {
 }
 
 module.exports.getAllUserRings = async function(userid) {
-    let query = 'SELECT * FROM rings WHERE userid=$1 ORDER BY id';
+    let query = 'SELECT * FROM rings WHERE userid=$1 ORDER BY id ASC';
     let rings = await config.pquery(query, [userid]);
     return rings;
 }

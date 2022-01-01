@@ -7,7 +7,7 @@ module.exports.getCard = async function(cardId) {
 }
 
 module.exports.getAllUserCards = async function(userid) {
-    let query = 'SELECT * FROM cards WHERE userid=$1';
+    let query = 'SELECT * FROM cards WHERE userid=$1 ORDER BY id ASC';
     let cards = await config.pquery(query, [userid]);
     return cards;
 }
