@@ -13,3 +13,4 @@ module.exports.bounty = require('./bounty.js');
 module.exports.cards = require('./cards.js');
 module.exports.rings = require('./rings.js');
 module.exports.scores = require('./scores.js');
+module.exports.weather = require('./weather.js');

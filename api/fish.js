@@ -5,10 +5,16 @@ const FishData = require('./data/fish.json');
 const LocationData = require('./data/fishing-locations.json');
 
 // Formatted Data
-for (let locationId=0; locationId<LocationData.length; locationId++) {
-    const fishList = LocationData[locationId].fish;
+for (let i=0; i<LocationData.length; i++) {
+    // Add "chance" field to fish
+    const fishList = LocationData[i].fish;
     for (let entry=0; entry<fishList.length; entry++) {
         FishData[fishList[entry].id].chance = fishList[entry].chance;
+    }
+    // Add "prefixSumChances" field to location
+    LocationData[i].prefixSumChances = [];
+    for (let j=0; j<LocationData[i].fish.length; j++) {
+        LocationData[i].prefixSumChances.push((LocationData[i].prefixSumChances[j-1] || 0) + LocationData[i].fish[j].chance);
     }
 }
 

@@ -37,6 +37,11 @@ module.exports.updateClanColumns = async function(clanId, obj) {
     return await config.pquery(query, [clanId]);
 }
 
+module.exports.appendToClanCampaignProgress = async function(clanId, fishId) {
+    let query = 'UPDATE clan SET campaign_progress=ARRAY_APPEND(campaign_progress, $1) WHERE id=$2';
+    return await config.pquery(query, [fishId, clanId]);
+}
+
 module.exports.resetClanCampaignProgress = async function(clanId) {
     let query = 'UPDATE clan SET campaign_progress=ARRAY[]::INT[] WHERE id=$1';
     return await config.pquery(query, [clanId]);
@@ -79,6 +84,12 @@ module.exports.fetchMembers = async function(clanId) {
     let res = await config.pquery(query, [clanId]);
     return res;
 }
+
+module.exports.setMemberColumn = async function(userid, column, value) {
+    let query = `UPDATE clan_member SET ${column}=$1 WHERE userid=$2`;
+    await config.pquery(query, [value, userid]);
+    return;
+}
 // NEW -- END
 
 // GENERAL
@@ -118,12 +129,6 @@ module.exports.kickMember = async function(userid) {
 module.exports.joinMember = async function(userid, username, clan) {
     let query = 'INSERT INTO clan_member (userid, date, clan, username) VALUES ($1, $2, $3, $4)';
     await config.pquery(query, [userid, getDateAsString(), clan, username]);
-    return;
-}
-
-module.exports.setClanMemberColumn = async function(userid, column, value) {
-    let query = `UPDATE clan_member SET ${column}=$1 WHERE userid=$2`;
-    await config.pquery(query, [value, userid]);
     return;
 }
 

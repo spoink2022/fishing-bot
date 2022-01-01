@@ -9,6 +9,11 @@ module.exports.getCurrentEntry = async function() {
     return entry;
 }
 
+module.exports.incrementCompleted = async function() {
+    let query = 'UPDATE bounty SET completed=completed + 1 WHERE start_time <= $1 AND end_time > $1';
+    return await config.pquery(query, [Date.now()]);
+}
+
 async function insertEntries(entryArr) {
     let query = `INSERT INTO bounty (start_time, end_time, date_string, fish, tier, reward) VALUES ${entryArr.map(o => `(${Object.values(o).join(', ').replace(/"/g, "'")})`).join(', ')}`;
     return await config.pquery(query);
