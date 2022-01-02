@@ -77,7 +77,7 @@ module.exports.fetchTotalWeightCaught = async function() {
 
 // Bulk Queries
 module.exports.fetchLeaderboardsByWeight = async function(useridArray) {
-    let query = 'SELECT userid, weight_caught FROM users WHERE userid=ANY($1) ORDER BY weight_caught DESC';
+    let query = 'SELECT userid, weight_caught AS value FROM users WHERE userid=ANY($1) ORDER BY weight_caught DESC';
     let res = await config.pquery(query, [useridArray]);
     return res;
 }
