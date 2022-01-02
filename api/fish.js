@@ -18,6 +18,17 @@ for (let i=0; i<LocationData.length; i++) {
     }
 }
 
+let FamilyData = {};
+for (const fish of Object.values(FishData)) {
+    if (fish.family) {
+        if (!FamilyData[fish.family]) {
+            FamilyData[fish.family] = [fish];
+        } else {
+            FamilyData[fish.family].push(fish);
+        }
+    }
+}
+
 const FishNames = FishData.map(obj => obj.name);
 const FishMap = generateFishMap();
 
@@ -49,6 +60,10 @@ module.exports.getLocationCount= function() {
 // Exports - Bulk
 module.exports.getFishNames = function() {
     return FishNames;
+}
+
+module.exports.getAllFamilyData = function() {
+    return FamilyData;
 }
 
 module.exports.getFishDataFromLocation = function(locationId) {

@@ -32,6 +32,7 @@ for (const fishObj of Object.values(FishData)) {
         }
     }
 }
+
 let FamilyNames = Object.keys(FamilyData);
 
 

@@ -15,6 +15,10 @@ module.exports.getAllBaitNames = function() {
     return BaitNames;
 }
 
+module.exports.getAllBaitData = function() {
+    return BaitData;
+}
+
 module.exports.getRegularBaitNames = function() {
     return BaitNames.filter(bait => !BaitData[bait].banned);
 }

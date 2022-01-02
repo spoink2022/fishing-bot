@@ -23,28 +23,43 @@ function getPrefixSum(arr) {
 module.exports.getRodData = function(id) {
     return EquipmentData.rods[id];
 }
+module.exports.getViewableRodData = function(maxId) {
+    return EquipmentData.rods.slice(0, maxId + 1);
+}
 
 module.exports.getLineData = function(id) {
     return EquipmentData.lines[id];
+}
+module.exports.getViewableLineData = function(maxId) {
+    return EquipmentData.lines.slice(0, maxId + 1);
 }
 
 module.exports.getHookData = function(id) {
     return EquipmentData.hooks[id];
 }
+module.exports.getViewableHookData = function(maxId) {
+    return EquipmentData.hooks.slice(0, maxId + 1);
+}
 
 module.exports.getGloveData = function(id) {
     return EquipmentData.gloves[id-1];
 }
-
-module.exports.getRingData = function(ringType) {
-    return RingData.types[ringType];
+module.exports.getViewableGloveData = function(maxId) {
+    return EquipmentData.gloves.slice(0, maxId + 1);
 }
 
 module.exports.getSwivelData = function(id) {
     return EquipmentData.swivels[id-1];
 }
+module.exports.getViewableSwivelData = function(maxId) {
+    return EquipmentData.swivels.slice(0, maxId + 1);
+}
 
 // Rings
+module.exports.getRingData = function(ringType) {
+    return RingData.types[ringType];
+}
+
 module.exports.getRingPackData = function(userLevel) {
     return RingData.packs.find(element => userLevel < element.maxLevel);
 }
@@ -60,4 +75,8 @@ module.exports.getRingNames = function(ringNames) {
 
 module.exports.getRingPackChances = function(packType) {
     return RingData.packChances[`${packType}PrefixSum`];
+}
+
+module.exports.getRingTypeData = function() {
+    return RingData.types;
 }
