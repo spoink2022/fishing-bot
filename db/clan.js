@@ -90,6 +90,14 @@ module.exports.setMemberColumn = async function(userid, column, value) {
     await config.pquery(query, [value, userid]);
     return;
 }
+
+// Summation Queries
+module.exports.fetchClanCount = async function() {
+    let query = 'SELECT COUNT(id) AS clans FROM clan';
+    let res = (await config.pquery(query))[0];
+    return res;
+}
+
 // NEW -- END
 
 // GENERAL

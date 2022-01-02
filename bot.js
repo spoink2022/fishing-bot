@@ -12,7 +12,7 @@ global.client = require('./lib/client.js');
 require('./lib/server.js');
 
 // autopost stats to top.gg (Production only)
-if(topggToken) { require('./lib/autopost.js'); }
+if (topggToken) { require('./lib/autopost.js'); }
 
 // preload images
 require('./lib/global/load_images.js');

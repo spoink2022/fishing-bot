@@ -82,6 +82,13 @@ module.exports.fetchLeaderboardsByWeight = async function(useridArray) {
     return res;
 }
 
+// Summation Queries
+module.exports.fetchGlobalUserStats = async function() {
+    let query = 'SELECT COUNT(id) AS users, SUM(fish_caught) AS fish, SUM(weight_caught) AS grams FROM users';
+    let res = (await config.pquery(query))[0];
+    return res;
+}
+
 // NEW -- END
 
 
