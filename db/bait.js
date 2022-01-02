@@ -6,6 +6,12 @@ module.exports.updateColumn = async function(userid, column, value) {
     return newValue;
 }
 
+module.exports.fetchAllBaits = async function(userid) {
+    let query = 'SELECT * FROM bait WHERE userid=$1 LIMIT 1';
+    let res = (await config.pquery(query, [userid]))[0];
+    return res;
+}
+
 module.exports.fetchBait = async function(userid, baitName) {
     let query = `SELECT ${baitName} FROM bait WHERE userid=$1`;
     let count = (await config.pquery(query, [userid]))[0][baitName];
