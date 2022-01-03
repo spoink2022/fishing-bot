@@ -30,7 +30,9 @@ for (const fish of Object.values(FishData)) {
 }
 
 const FishNames = FishData.map(obj => obj.name);
+const FamilyNames = Object.keys(FamilyData);
 const FishMap = generateFishMap();
+const LocationNames = LocationData.map(obj => obj.name);
 
 // Formatting Functions
 function generateFishMap() {
@@ -62,8 +64,20 @@ module.exports.getFishNames = function() {
     return FishNames;
 }
 
+module.exports.getLocationNames = function() {
+    return LocationNames;
+}
+
 module.exports.getAllFamilyData = function() {
     return FamilyData;
+}
+
+module.exports.getFamilyData = function(familyName) {
+    return FamilyData[familyName];
+}
+
+module.exports.getFamilyNames = function() {
+    return FamilyNames;
 }
 
 module.exports.getFishDataFromLocation = function(locationId) {
