@@ -6,6 +6,12 @@ module.exports.getAllSkins = async function(userid) {
     return res;
 }
 
+module.exports.getAllSkinsOfCategory = async function(userid, categoryId) {
+    let query = 'SELECT * FROM cosmetics WHERE userid=$1 AND category=$2';
+    let res = await config.pquery(query, [userid, categoryId]);
+    return res;
+}
+
 module.exports.getSkin = async function(skinId) {
     let query = 'SELECT * FROM cosmetics WHERE id=$1';
     let skin = (await config.pquery(query, [skinId]))[0];
@@ -22,6 +28,11 @@ module.exports.equipSkin = async function(userid, skinId) {
 module.exports.unequipSkin = async function(skinId) {
     let query = 'UPDATE cosmetics SET equipped=FALSE WHERE id=$1';
     return await config.pquery(query, [skinId]);
+}
+
+module.exports.setSkinOwner = async function(skinId, userid) {
+    let query = 'UPDATE cosmetics SET userid=$1, equipped=FALSE WHERE id=$2';
+    return await config.pquery(query, [userid, skinId]);
 }
 
 module.exports.deleteSkin = async function(skinId) {
