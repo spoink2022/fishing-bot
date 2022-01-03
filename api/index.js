@@ -13,5 +13,6 @@ module.exports.emoji = require('./emoji.js');
 module.exports.equipment = require('./equipment.js');
 module.exports.fish = require('./fish.js');
 module.exports.leveldata = require('./leveldata.js');
+module.exports.skins = require('./skins.js');
 module.exports.quest = require('./quest.js');
 module.exports.weather = require('./weather.js');
