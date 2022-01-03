@@ -26,12 +26,18 @@ module.exports.getRodData = function(id) {
 module.exports.getViewableRodData = function(maxId) {
     return EquipmentData.rods.slice(0, maxId + 1);
 }
+module.exports.getRodNames = function() {
+    return EquipmentData.rods.map(obj => obj.name);
+}
 
 module.exports.getLineData = function(id) {
     return EquipmentData.lines[id];
 }
 module.exports.getViewableLineData = function(maxId) {
     return EquipmentData.lines.slice(0, maxId + 1);
+}
+module.exports.getLineNames = function() {
+    return EquipmentData.lines.map(obj => obj.name);
 }
 
 module.exports.getHookData = function(id) {
@@ -40,6 +46,9 @@ module.exports.getHookData = function(id) {
 module.exports.getViewableHookData = function(maxId) {
     return EquipmentData.hooks.slice(0, maxId + 1);
 }
+module.exports.getHookNames = function() {
+    return EquipmentData.hooks.map(obj => obj.name);
+}
 
 module.exports.getGloveData = function(id) {
     return EquipmentData.gloves[id-1];
@@ -47,12 +56,19 @@ module.exports.getGloveData = function(id) {
 module.exports.getViewableGloveData = function(maxId) {
     return EquipmentData.gloves.slice(0, maxId + 1);
 }
+module.exports.getGloveNames = function() {
+    return EquipmentData.gloves.map(obj => obj.name);
+}
+
 
 module.exports.getSwivelData = function(id) {
     return EquipmentData.swivels[id-1];
 }
 module.exports.getViewableSwivelData = function(maxId) {
     return EquipmentData.swivels.slice(0, maxId + 1);
+}
+module.exports.getSwivelNames = function() {
+    return EquipmentData.swivels.map(obj => obj.name);
 }
 
 // Rings
