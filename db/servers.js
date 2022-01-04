@@ -17,6 +17,12 @@ async function fetchServer(serverid) {
 
 module.exports.fetchServer = fetchServer;
 
+module.exports.setColumn = async function(serverid, column, value) {
+    let query = `UPDATE servers SET ${column}=$1 WHERE serverid=$2`;
+    await config.pquery(query, [value, serverid]);
+    return;
+}
+
 module.exports.fetchServerStats = async function(serverid) {
     let query = 'SELECT * FROM servers WHERE serverid=$1';
     let res = (await config.pquery(query, [serverid]))[0];
@@ -61,12 +67,6 @@ module.exports.setCustomFishCommand = async function(serverid, customFishCommand
 module.exports.removeCustomFishCommand = async function(serverid) {
     let query = 'UPDATE servers SET custom_fish=NULL WHERE serverid=$1';
     await config.pquery(query, [serverid]);
-    return;
-}
-
-module.exports.setColumn = async function(serverid, column, value) {
-    let query = `UPDATE servers SET ${column}=$1 WHERE serverid=$2`;
-    await config.pquery(query, [value, serverid]);
     return;
 }
 
