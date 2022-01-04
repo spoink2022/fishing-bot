@@ -19,7 +19,6 @@ function getPrefixSum(arr) {
 }
 
 // Exports
-
 module.exports.getRodData = function(id) {
     return EquipmentData.rods[id];
 }
