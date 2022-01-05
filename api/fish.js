@@ -9,7 +9,10 @@ for (let i=0; i<LocationData.length; i++) {
     // Add "chance" field to fish
     const fishList = LocationData[i].fish;
     for (let entry=0; entry<fishList.length; entry++) {
+        // Add chance to each fish
         FishData[fishList[entry].id].chance = fishList[entry].chance;
+        // Add location to each fish
+        FishData[fishList[entry].id].location = i+1;
     }
     // Add "prefixSumChances" field to location
     LocationData[i].prefixSumChances = [];

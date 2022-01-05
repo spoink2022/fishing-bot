@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon index.js",
-    "prod": "node --max-old-space-size=1024 index.js"
+    "prod": "node --max-old-space-size=1024 index.js",
+    "recalculate": "node scripts/recalculate_scores.js"
   },
   "repository": {
     "type": "git",

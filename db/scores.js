@@ -22,3 +22,13 @@ module.exports.updateOverallScore = async function(userid) {
     let query = `UPDATE scores SET overall=${LOCATION_COLUMNS} WHERE userid=$1`;
     return await config.pquery(query, [userid]);
 }
+
+module.exports.setLocationScores = async function(userid, values) {
+    let query = 'UPDATE scores SET l1=$1, l2=$2, l3=$3, l4=$4, l5=$5, l6=$6, l7=$7, l8=$8, l9=$9, l10=$10, l11=$11 WHERE userid=$12';
+    return await config.pquery(query, [...values, userid]);
+}
+
+module.exports.updateOverallScores = async function() {
+    let query = 'UPDATE scores SET overall=l1 + l2 + l3 + l4 + l5 + l6 + l7 + l8 + l9 + l10 + l11';
+    return await config.pquery(query);
+}

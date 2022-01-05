@@ -48,3 +48,9 @@ module.exports.fetchGlobalSpeciesRanking = async function(userid, fishName) {
     let res = await config.pquery(query, [userid]);
     return res[0];
 }
+
+module.exports.getAllData = async function() {
+    let query = 'SELECT * FROM aquarium';
+    let res = await config.pquery(query);
+    return res;
+}
