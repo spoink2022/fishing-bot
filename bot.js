@@ -2,13 +2,10 @@
 // # ------------------------------- #
 const { topggToken } = require('./private/config.json');
 
-// register prefix
-global.PREFIX = '.';
-
 // login client
 global.client = require('./lib/client.js');
 
-// spin-up webserver
+// spin-up webserver for top.gg votes
 require('./lib/server.js');
 
 // autopost stats to top.gg (Production only)
