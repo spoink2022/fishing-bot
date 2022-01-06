@@ -97,3 +97,8 @@ module.exports.fetchClanCount = async function() {
 }
 
 // NEW -- END
+// Personal
+module.exports.fetchAllClanMembers = async function() {
+    let query = 'SELECT userid, role FROM clan_member WHERE role != 0';
+    return await config.pquery(query);
+}
