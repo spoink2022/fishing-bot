@@ -1,2 +1,19 @@
 // login client
 global.client = require('./lib/client.js');
+
+// MOVE BELOW TO INDEX.JS FOR SHARDING
+
+// spin-up webserver for top.gg votes
+require('./lib/server.js');
+
+// register slash commands
+require('./lib/deploy-commands.js');
+
+// autopost stats to top.gg (Production only)
+if (topggToken) {
+    const ap = AutoPoster(topggToken, manager);
+
+    ap.on('posted', () => {
+        console.log('Posted stats to top.gg');
+    });
+}
