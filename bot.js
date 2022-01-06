@@ -1,5 +1,5 @@
 // login client
-global.client = require('./lib/client.js');
+client = require('./lib/client.js');
 
 // MOVE BELOW TO INDEX.JS FOR SHARDING
 const AutoPoster = require('topgg-autoposter');
@@ -13,7 +13,7 @@ require('./lib/deploy-commands.js');
 
 // autopost stats to top.gg (Production only)
 if (topggToken) {
-    const ap = AutoPoster(topggToken, manager);
+    const ap = AutoPoster(topggToken, client);
 
     ap.on('posted', () => {
         console.log('Posted stats to top.gg');
