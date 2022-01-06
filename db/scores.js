@@ -7,7 +7,7 @@ module.exports.fetchLeaderboardsByScore = async function(useridArray) {
 }
 
 module.exports.fetchLeaderboardsRankByScore = async function(userid, useridArray) {
-    let query = 'WITH tmp AS (SELECT userid, overall FROM scores WHERE userid=ANY($2)) SELECT RANK() OVER(ORDER BY overall DESC) rank, overall AS value FROM tmp WHERE userid=$1 LIMIT 1;';
+    let query = 'SELECT rank, value FROM (SELECT userid, overall AS value, RANK() OVER(ORDER BY overall DESC) rank FROM scores WHERE userid=ANY($2)) AS tmp WHERE userid=$1';
     let res = await config.pquery(query, [userid, useridArray]);
     return res[0];
 }
