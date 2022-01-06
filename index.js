@@ -1,6 +1,6 @@
 // Shard Manager
 const { ShardingManager } = require('discord.js');
-const { AutoPoster } = require('topgg-autoposter');
+const AutoPoster = require('topgg-autoposter');
 
 const { discordToken, topggToken } = require('./private/config.json');
 
