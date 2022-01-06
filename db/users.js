@@ -89,7 +89,7 @@ module.exports.fetchLeaderboardsByWeight = async function(useridArray) {
 }
 
 module.exports.fetchLeaderboardsRankByWeight = async function(userid, useridArray) {
-    let query = 'WITH weights AS (SELECT userid, weight_caught FROM users WHERE userid=ANY($2)) SELECT RANK() OVER(ORDER BY weight_caught DESC) rank, weight_caught AS value FROM weights WHERE userid=$1 LIMIT 1;';
+    let query = 'SELECT rank, value FROM (SELECT userid, weight_caught AS value, RANK() OVER(ORDER BY weight_caught DESC) rank FROM users WHERE userid=ANY($2)) AS tmp WHERE userid=$1';
     let res = await config.pquery(query, [userid, useridArray]);
     return res[0];
 }
