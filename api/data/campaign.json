@@ -409,5 +409,86 @@
             "lollipops": 10,
             "coins": 400
         }
+    },
+    {
+        "name": "World fishing tour! (Part 1/10: The Start)",
+        "description": "Your clan is invited to a fishing trip spanning the world!\nFirst stop: Freshwater fish in America!",
+        "requirements_string": [
+            ["muskellunge", 9],
+            ["yellow_perch", 25],
+            ["white_bass", 14],
+            ["northern_pike", 4],
+            ["alligator_gar", 12],
+            ["atlantic_salmon", 10]
+        ],
+        "rewards": {
+            "clanPoints": 45,
+            "lollipops": 15,
+            "coins": 250
+        }
+    },
+    {
+        "name": "World fishing tour! (Part 2/10: Brazil)",
+        "description": "second stop, Brazil!\nA lot of species in the Amazon river!",
+        "requirements_string": [
+            ["piraiba_catfish", 6],
+            ["redtail_catfish", 6],
+            ["payara", 30],
+            ["silver_arowana", 35],
+            ["butterfly_peacock_bass", 1],
+            ["common_carp", 3]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 12,
+            "coins": 400
+        }
+    },
+    {
+        "name": "World fishing tour! (Part 3/10: Canada)",
+        "description": "Next stop is Canada!\nHome to 1389 different fish species!",
+        "requirements_string": [
+            ["longnose_sucker", 30],
+            ["muskellunge", 10],
+            ["lake_sturgeon", 2],
+            ["flathead_catfish", 5],
+            ["longnose_gar", 3],
+            ["rock_bass", 20]
+        ],
+        "rewards": {
+            "clanPoints": 48,
+            "lollipops": 12,
+            "coins": 400
+        }
+    },
+    {
+        "name": "World fishing tour! (Part 4/10: Australia)",
+        "description": "Australia is your next destination!",
+        "requirements_string": [
+            ["bonito", 10],
+            ["spotted_mackerel", 20],
+            ["spanish_mackerel", 5],
+            ["brown_trout", 5],
+            ["rainbow_trout", 4],
+            ["brook_trout", 20]
+        ],
+        "rewards": {
+            "clanPoints": 55,
+            "lollipops": 5,
+            "coins": 500
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 5/10: Mexico)",
+        "description": "Fifth's stop: Mexico!\nYour clan is halfway there!",
+        "requirements_string": [
+            ["warmouth", 24],
+            ["red_snapper", 40]
+        ],
+        "rewards": {
+            "clanPoints": 40,
+            "lollipops": 10,
+            "coins": 600
+        }
     }
 ]
