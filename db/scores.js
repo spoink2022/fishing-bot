@@ -1,9 +1,15 @@
 const config = require('./config.js');
 
 module.exports.fetchLeaderboardsByScore = async function(useridArray) {
-    let query = 'SELECT userid, overall AS value FROM scores WHERE userid=ANY($1) ORDER BY overall DESC';
+    let query = 'SELECT userid, overall AS value FROM scores WHERE userid=ANY($1) ORDER BY overall DESC LIMIT 20';
     let res = await config.pquery(query, [useridArray]);
     return res;
+}
+
+module.exports.fetchLeaderboardsRankByScore = async function(userid, useridArray) {
+    let query = 'WITH tmp AS (SELECT userid, overall FROM scores WHERE userid=ANY($2)) SELECT RANK() OVER(ORDER BY overall DESC) rank, overall AS value FROM tmp WHERE userid=$1 LIMIT 1;';
+    let res = await config.pquery(query, [userid, useridArray]);
+    return res[0];
 }
 
 module.exports.fetchScores = async function(userid) {

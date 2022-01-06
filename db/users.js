@@ -83,9 +83,15 @@ module.exports.fetchTotalWeightCaught = async function() {
 
 // Bulk Queries
 module.exports.fetchLeaderboardsByWeight = async function(useridArray) {
-    let query = 'SELECT userid, weight_caught AS value FROM users WHERE userid=ANY($1) ORDER BY weight_caught DESC';
+    let query = 'SELECT userid, weight_caught AS value FROM users WHERE userid=ANY($1) ORDER BY weight_caught DESC LIMIT 20';
     let res = await config.pquery(query, [useridArray]);
     return res;
+}
+
+module.exports.fetchLeaderboardsRankByWeight = async function(userid, useridArray) {
+    let query = 'WITH weights AS (SELECT userid, weight_caught FROM users WHERE userid=ANY($2)) SELECT RANK() OVER(ORDER BY weight_caught DESC) rank, weight_caught AS value FROM weights WHERE userid=$1 LIMIT 1;';
+    let res = await config.pquery(query, [userid, useridArray]);
+    return res[0];
 }
 
 // Summation Queries
@@ -94,5 +100,6 @@ module.exports.fetchGlobalUserStats = async function() {
     let res = (await config.pquery(query))[0];
     return res;
 }
+
 
 // NEW -- END
