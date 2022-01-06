@@ -51,9 +51,9 @@ module.exports.fetchMember = async function(userid) {
     return res[0];
 }
 
-module.exports.setMemberTag = async function(userid, username) {
-    let query = 'UPDATE clan_member SET username=$1 WHERE userid=$2';
-    return await config.pquery(query, [username, userid]);
+module.exports.setMemberTag = async function(userid, tag) {
+    let query = 'UPDATE clan_member SET tag=$1 WHERE userid=$2';
+    return await config.pquery(query, [tag, userid]);
 }
 
 module.exports.setMemberRole = async function(userid, newRole) {
