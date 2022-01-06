@@ -413,7 +413,7 @@
     {
         "name": "World fishing tour! (Part 1/10: The Start)",
         "description": "Your clan is invited to a fishing trip spanning the world!\nFirst stop: Freshwater fish in America!",
-        "requirements_string": [
+        "requirements": [
             ["muskellunge", 9],
             ["yellow_perch", 25],
             ["white_bass", 14],
@@ -430,7 +430,7 @@
     {
         "name": "World fishing tour! (Part 2/10: Brazil)",
         "description": "second stop, Brazil!\nA lot of species in the Amazon river!",
-        "requirements_string": [
+        "requirements": [
             ["piraiba_catfish", 6],
             ["redtail_catfish", 6],
             ["payara", 30],
@@ -447,7 +447,7 @@
     {
         "name": "World fishing tour! (Part 3/10: Canada)",
         "description": "Next stop is Canada!\nHome to 1389 different fish species!",
-        "requirements_string": [
+        "requirements": [
             ["longnose_sucker", 30],
             ["muskellunge", 10],
             ["lake_sturgeon", 2],
@@ -464,7 +464,7 @@
     {
         "name": "World fishing tour! (Part 4/10: Australia)",
         "description": "Australia is your next destination!",
-        "requirements_string": [
+        "requirements": [
             ["bonito", 10],
             ["spotted_mackerel", 20],
             ["spanish_mackerel", 5],
@@ -481,7 +481,7 @@
     {
         "name": "Scuba Diving Trip (Part 5/10: Mexico)",
         "description": "Fifth's stop: Mexico!\nYour clan is halfway there!",
-        "requirements_string": [
+        "requirements": [
             ["warmouth", 24],
             ["red_snapper", 40]
         ],
