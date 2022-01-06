@@ -2,7 +2,9 @@
 global.client = require('./lib/client.js');
 
 // MOVE BELOW TO INDEX.JS FOR SHARDING
+const AutoPoster = require('topgg-autoposter');
 
+const { discordToken, topggToken } = require('./private/config.json');
 // spin-up webserver for top.gg votes
 require('./lib/server.js');
 
