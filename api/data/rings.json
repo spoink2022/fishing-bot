@@ -1,186 +1,192 @@
 {
     "types": {
         "classic": {
+            "id": 0,
             "classBoost": [0, 0, 0, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 0
+            "rating": 0,
+            "jewel": false
         },
         "wooden": {
+            "id": 1,
             "classBoost": [1, 0, 0, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 1
+            "rating": 1,
+            "jewel": false
         },
         "tin": {
+            "id": 2,
             "classBoost": [0, 1, 0, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 1
+            "rating": 1,
+            "jewel": false
         },
         "aluminum": {
+            "id": 3,
             "classBoost": [0, 0, 1, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 1
+            "rating": 1,
+            "jewel": false
         },
         "copper": {
+            "id": 4,
             "classBoost": [0, 0, 0, 1],
             "gradeBoost": [0, 0, 0],
-            "rating": 1
+            "rating": 1,
+            "jewel": false
         },
         "bronze": {
+            "id": 5,
             "classBoost": [1, 1, 0, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 2
+            "rating": 2,
+            "jewel": false
         },
         "iron": {
+            "id": 6,
             "classBoost": [0, 0, 1, 1],
             "gradeBoost": [0, 0, 0],
-            "rating": 2
+            "rating": 2,
+            "jewel": false
         },
         "steel": {
+            "id": 7,
             "classBoost": [0, 0, 2, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 2
+            "rating": 2,
+            "jewel": false
         },
         "titanium": {
+            "id": 8,
             "classBoost": [0, 0, 0, 2],
             "gradeBoost": [0, 0, 0],
-            "rating": 2
+            "rating": 2,
+            "jewel": false
         },
         "tungsten": {
+            "id": 9,
             "classBoost": [0, 0, 2, 2],
             "gradeBoost": [0, 0, 0],
-            "rating": 3
+            "rating": 3,
+            "jewel": false
         },
         "silver": {
+            "id": 10,
             "classBoost": [1, 1, 1, 1],
             "gradeBoost": [0, 0, 0],
-            "rating": 3
+            "rating": 3,
+            "jewel": false
         },
         "gold": {
+            "id": 11,
             "classBoost": [2, 2, 2, 2],
             "gradeBoost": [0, 0, 0],
-            "rating": 4
+            "rating": 4,
+            "jewel": false
         },
         "pearl": {
+            "id": 12,
             "classBoost": [4, 4, 0, 0],
             "gradeBoost": [0, 0, 0],
-            "rating": 5
+            "rating": 5,
+            "jewel": true
         },
         "alexandrite": {
+            "id": 13,
             "classBoost": [0, 0, 4, 4],
             "gradeBoost": [0, 0, 0],
-            "rating": 5
+            "rating": 5,
+            "jewel": true
         },
         "ruby": {
+            "id": 14,
             "classBoost": [2, 0, 0, 0],
             "gradeBoost": [50, 0, 0],
-            "rating": 5
+            "rating": 5,
+            "jewel": true
         },
         "sapphire": {
+            "id": 15,
             "classBoost": [0, 2, 0, 0],
             "gradeBoost": [0, 50, 0],
-            "rating": 5
+            "rating": 5,
+            "jewel": true
         },
         "emerald": {
+            "id": 16,
             "classBoost": [0, 0, 2, 0],
             "gradeBoost": [0, 0, 50],
-            "rating": 5
+            "rating": 5,
+            "jewel": true
         },
         "diamond": {
+            "id": 17,
             "classBoost": [3, 3, 3, 3],
             "gradeBoost": [0, 0, 0],
+            "jewel": true,
             "rating": 6
         }
     },
     "sellRates": [10, 15, 25, 50, 150, 300, 1000],
+    "packChances": {
+        "regular": [10, 13, 13, 13, 13, 7, 7, 7, 7, 4, 3, 2, 0.2, 0.2, 0.2, 0.2, 0.1, 0.1],
+        "premium": [0, 0, 0, 0, 0, 8, 8, 8, 8, 16, 12, 10, 7, 7, 5, 5, 3, 3]
+    },
     "packs": [
         {
             "maxLevel": 40,
-            "flips": 3,
             "grades": {
-                "premium": [10, 30],
-                "sashimi": [2, 8],
-                "trophy": [1, 1]
+                "premium": { "mean": 10, "dev": 2, "devLimit": 4 },
+                "sashimi": { "mean": 2, "dev": 0.5, "devLimit": 4 },
+                "trophy": { "mean": 0.5, "dev": 0.5, "devLimit": 1 }
             },
-            "regular": {
-                "price": 1000,
-                "sizeBase": 0.5
-            },
-            "premium": {
-                "price": 5000,
-                "sizeBase": 1
-            }
+            "sizeClass": { "mean": 1, "dev": 0.5, "devLimit": 2 },
+            "regular": { "price": 1000 },
+            "premium": { "price": 5000 }
         },
         {
             "maxLevel": 60,
-            "flips": 5,
             "grades": {
-                "premium": [15, 30],
-                "sashimi": [4, 8],
-                "trophy": [1, 2]
+                "premium": { "mean": 14, "dev": 2, "devLimit": 4 },
+                "sashimi": { "mean": 3, "dev": 0.5, "devLimit": 4 },
+                "trophy": { "mean": 1, "dev": 0.5, "devLimit": 2 }
             },
-            "regular": {
-                "price": 2500,
-                "sizeBase": 0.5
-            },
-            "premium": {
-                "price": 12500,
-                "sizeBase": 1.5
-            }
+            "sizeClass": { "mean": 1.5, "dev": 0.5, "devLimit": 2 },
+            "regular": { "price": 2500 },
+            "premium": { "price": 12500 }
         },
         {
             "maxLevel": 80,
-            "flips": 7,
             "grades": {
-                "premium": [25, 30],
-                "sashimi": [8, 8],
-                "trophy": [2, 2]
+                "premium": { "mean": 20, "dev": 3, "devLimit": 4 },
+                "sashimi": { "mean": 4, "dev": 0.75, "devLimit": 4 },
+                "trophy": { "mean": 1.5, "dev": 0.5, "devLimit": 3 }
             },
-            "regular": {
-                "price": 10000,
-                "sizeBase": 1
-            },
-            "premium": {
-                "price": 50000,
-                "sizeBase": 2
-            }
+            "sizeClass": { "mean": 2.5, "dev": 1, "devLimit": 2 },
+            "regular": { "price": 10000 },
+            "premium": { "price": 50000 }
         },
         {
             "maxLevel": 100,
-            "flips": 9,
             "grades": {
-                "premium": [25, 36],
-                "sashimi": [8, 10],
-                "trophy": [2, 3]
+                "premium": { "mean": 24, "dev": 4, "devLimit": 4 },
+                "sashimi": { "mean": 6, "dev": 1, "devLimit": 3 },
+                "trophy": { "mean": 2, "dev": 0.5, "devLimit": 3 }
             },
-            "regular": {
-                "price": 20000,
-                "sizeBase": 1.5
-            },
-            "premium": {
-                "price": 100000,
-                "sizeBase": 2.5
-            }
+            "sizeClass": { "mean": 3.5, "dev": 1, "devLimit": 2 },
+            "regular": { "price": 20000 },
+            "premium": { "price": 100000 }
         },
         {
             "maxLevel": 120,
-            "flips": 9,
             "grades": {
-                "premium": [30, 35],
-                "sashimi": [8, 12],
-                "trophy": [2, 4]
+                "premium": { "mean": 26, "dev": 4, "devLimit": 4 },
+                "sashimi": { "mean": 7, "dev": 1, "devLimit": 3 },
+                "trophy": { "mean": 2.5, "dev": 0.5, "devLimit": 3 }
             },
-            "regular": {
-                "price": 40000,
-                "sizeBase": 2.5
-            },
-            "premium": {
-                "price": 200000,
-                "sizeBase": 3.5
-            }
+            "sizeClass": { "mean": 4, "dev": 1, "devLimit": 3 },
+            "regular": { "price": 40000 },
+            "premium": { "price": 200000 }
         }
-    ],
-    "packDraws": {
-        "regular": [10, 52, 28, 8, 2, 0, 0],
-        "premium": [0, 0, 32, 28, 10, 24, 6]
-    }
+    ]
 }

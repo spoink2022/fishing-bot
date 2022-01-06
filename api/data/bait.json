@@ -119,7 +119,7 @@
         "min": 2,
         "max": 5
     },
-    "small cutbait": {
+    "small_cutbait": {
         "id": 12,
         "tier": "S",
         "sizes": [1, 2, 3, 4],
@@ -129,7 +129,7 @@
         "min": 3,
         "max": 7
     },
-    "medium cutbait": {
+    "medium_cutbait": {
         "id": 13,
         "tier": "S",
         "sizes": [2, 3, 4],
@@ -139,7 +139,7 @@
         "min": 3,
         "max": 6
     },
-    "large cutbait": {
+    "large_cutbait": {
         "id": 14,
         "tier": "S",
         "sizes": [3, 4],
@@ -189,7 +189,7 @@
         "min": 7,
         "max": 13
     },
-    "candy cane": {
+    "candy_cane": {
         "id": 19,
         "tier": "SS",
         "sizes": [1, 2, 3, 4],

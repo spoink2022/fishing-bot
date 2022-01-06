@@ -5,7 +5,7 @@
     },
     {
         "id": 1,
-        "name": "blacktail shiner",
+        "name": "blacktail_shiner",
         "family": "minnow",
         "sizeClass": 1,
         "sizeMin": 0.05,
@@ -25,7 +25,7 @@
     },
     {
         "id": 3,
-        "name": "channel catfish",
+        "name": "channel_catfish",
         "family": "catfish",
         "sizeClass": 4,
         "sizeMin": 2,
@@ -35,7 +35,7 @@
     },
     {
         "id": 4,
-        "name": "golden shiner",
+        "name": "golden_shiner",
         "family": "minnow",
         "sizeClass": 1,
         "sizeMin": 0.2,
@@ -45,7 +45,7 @@
     },
     {
         "id": 5,
-        "name": "grass pickerel",
+        "name": "grass_pickerel",
         "family": "pike",
         "sizeClass": 2,
         "sizeMin": 0.25,
@@ -55,7 +55,7 @@
     },
     {
         "id": 6,
-        "name": "green sunfish",
+        "name": "green_sunfish",
         "family": "panfish",
         "sizeClass": 1,
         "sizeMin": 0.05,
@@ -65,7 +65,7 @@
     },
     {
         "id": 7,
-        "name": "redear sunfish",
+        "name": "redear_sunfish",
         "family": "panfish",
         "sizeClass": 2,
         "sizeMin": 0.2,
@@ -75,7 +75,7 @@
     },
     {
         "id": 8,
-        "name": "smallmouth buffalo",
+        "name": "smallmouth_buffalo",
         "family": "carp",
         "sizeClass": 4,
         "sizeMin": 1.5,
@@ -85,7 +85,7 @@
     },
     {
         "id": 9,
-        "name": "spotted bass",
+        "name": "spotted_bass",
         "family": "bass",
         "sizeClass": 3,
         "sizeMin": 0.3,
@@ -95,7 +95,7 @@
     },
     {
         "id": 10,
-        "name": "white crappie",
+        "name": "white_crappie",
         "family": "crappie",
         "sizeClass": 1,
         "sizeMin": 0.1,
@@ -105,7 +105,7 @@
     },
     {
         "id": 11,
-        "name": "black bullhead catfish",
+        "name": "black_bullhead_catfish",
         "family": "catfish",
         "sizeClass": 2,
         "sizeMin": 0.4,
@@ -115,7 +115,7 @@
     },
     {
         "id": 12,
-        "name": "bluntnose minnow",
+        "name": "bluntnose_minnow",
         "family": "minnow",
         "sizeClass": 1,
         "sizeMin": 0.04,
@@ -135,7 +135,7 @@
     },
     {
         "id": 14,
-        "name": "chain pickerel",
+        "name": "chain_pickerel",
         "family": "pike",
         "sizeClass": 3,
         "sizeMin": 1.2,
@@ -145,7 +145,7 @@
     },
     {
         "id": 15,
-        "name": "common shiner",
+        "name": "common_shiner",
         "family": "minnow",
         "sizeClass": 1,
         "sizeMin": 0.1,
@@ -155,7 +155,7 @@
     },
     {
         "id": 16,
-        "name": "freshwater drum",
+        "name": "freshwater_drum",
         "family": "drum",
         "sizeClass": 4,
         "sizeMin": 1,
@@ -165,7 +165,7 @@
     },
     {
         "id": 17,
-        "name": "largemouth bass",
+        "name": "largemouth_bass",
         "family": "bass",
         "sizeClass": 2,
         "sizeMin": 0.6,
@@ -185,7 +185,7 @@
     },
     {
         "id": 19,
-        "name": "spotted gar",
+        "name": "spotted_gar",
         "family": "gar",
         "sizeClass": 3,
         "sizeMin": 0.9,
@@ -195,7 +195,7 @@
     },
     {
         "id": 20,
-        "name": "black crappie",
+        "name": "black_crappie",
         "family": "crappie",
         "sizeClass": 1,
         "sizeMin": 0.1,
@@ -205,7 +205,7 @@
     },
     {
         "id": 21,
-        "name": "colorado golden trout",
+        "name": "colorado_golden_trout",
         "family": "trout",
         "sizeClass": 2,
         "sizeMin": 0.3,
@@ -215,7 +215,7 @@
     },
     {
         "id": 22,
-        "name": "cutthroat trout",
+        "name": "cutthroat_trout",
         "family": "trout",
         "sizeClass": 2,
         "sizeMin": 0.2,
@@ -225,7 +225,7 @@
     },
     {
         "id": 23,
-        "name": "rainbow trout",
+        "name": "rainbow_trout",
         "family": "trout",
         "sizeClass": 3,
         "sizeMin": 0.5,
@@ -235,7 +235,7 @@
     },
     {
         "id": 24,
-        "name": "white bass",
+        "name": "white_bass",
         "family": "bass",
         "sizeClass": 2,
         "sizeMin": 0.5,
@@ -245,7 +245,7 @@
     },
     {
         "id": 25,
-        "name": "white sucker",
+        "name": "white_sucker",
         "family": "carp",
         "sizeClass": 3,
         "sizeMin": 1,
@@ -255,7 +255,7 @@
     },
     {
         "id": 26,
-        "name": "northern pike",
+        "name": "northern_pike",
         "family": "pike",
         "sizeClass": 4,
         "sizeMin": 4,
@@ -265,7 +265,7 @@
     },
     {
         "id": 27,
-        "name": "redfin pickerel",
+        "name": "redfin_pickerel",
         "family": "pike",
         "sizeClass": 2,
         "sizeMin": 0.4,
@@ -295,7 +295,7 @@
     },
     {
         "id": 30,
-        "name": "yellow perch",
+        "name": "yellow_perch",
         "family": "perch",
         "sizeClass": 1,
         "sizeMin": 0.5,
@@ -305,7 +305,7 @@
     },
     {
         "id": 31,
-        "name": "american shad",
+        "name": "american_shad",
         "family": "herring",
         "sizeClass": 2,
         "sizeMin": 1.5,
@@ -315,7 +315,7 @@
     },
     {
         "id": 32,
-        "name": "common carp",
+        "name": "common_carp",
         "family": "carp",
         "sizeClass": 4,
         "sizeMin": 2,
@@ -325,7 +325,7 @@
     },
     {
         "id": 33,
-        "name": "flathead catfish",
+        "name": "flathead_catfish",
         "family": "catfish",
         "sizeClass": 4,
         "sizeMin": 5,
@@ -335,7 +335,7 @@
     },
     {
         "id": 34,
-        "name": "longnose gar",
+        "name": "longnose_gar",
         "family": "gar",
         "sizeClass": 3,
         "sizeMin": 3,
@@ -345,7 +345,7 @@
     },
     {
         "id": 35,
-        "name": "smallmouth bass",
+        "name": "smallmouth_bass",
         "family": "bass",
         "sizeClass": 2,
         "sizeMin": 0.5,
@@ -355,7 +355,7 @@
     },
     {
         "id": 36,
-        "name": "brown trout",
+        "name": "brown_trout",
         "family": "trout",
         "sizeClass": 3,
         "sizeMin": 1,
@@ -365,7 +365,7 @@
     },
     {
         "id": 37,
-        "name": "redband trout",
+        "name": "redband_trout",
         "family": "trout",
         "sizeClass": 2,
         "sizeMin": 0.5,
@@ -375,7 +375,7 @@
     },
     {
         "id": 38,
-        "name": "redbreast sunfish",
+        "name": "redbreast_sunfish",
         "family": "panfish",
         "sizeClass": 1,
         "sizeMin": 0.1,
@@ -385,7 +385,7 @@
     },
     {
         "id": 39,
-        "name": "rock bass",
+        "name": "rock_bass",
         "family": "bass",
         "sizeClass": 1,
         "sizeMin": 0.2,
@@ -395,7 +395,7 @@
     },
     {
         "id": 40,
-        "name": "brown bullhead catfish",
+        "name": "brown_bullhead_catfish",
         "family": "catfish",
         "sizeClass": 2,
         "sizeMin": 0.5,
@@ -405,7 +405,7 @@
     },
     {
         "id": 41,
-        "name": "common snook",
+        "name": "common_snook",
         "family": "perch",
         "sizeClass": 3,
         "sizeMin": 1.5,
@@ -415,7 +415,7 @@
     },
     {
         "id": 42,
-        "name": "florida gar",
+        "name": "florida_gar",
         "family": "gar",
         "sizeClass": 3,
         "sizeMin": 4.3,
@@ -435,7 +435,7 @@
     },
     {
         "id": 44,
-        "name": "gafftopsail catfish",
+        "name": "gafftopsail_catfish",
         "family": "catfish",
         "sizeClass": 2,
         "sizeMin": 0.5,
@@ -445,7 +445,7 @@
     },
     {
         "id": 45,
-        "name": "butterfly peacock bass",
+        "name": "butterfly_peacock_bass",
         "family": "bass",
         "sizeClass": 2,
         "sizeMin": 1,
@@ -465,7 +465,7 @@
     },
     {
         "id": 47,
-        "name": "alligator gar",
+        "name": "alligator_gar",
         "family": "gar",
         "sizeClass": 4,
         "sizeMin": 6,
@@ -475,7 +475,7 @@
     },
     {
         "id": 48,
-        "name": "blue catfish",
+        "name": "blue_catfish",
         "family": "catfish",
         "sizeClass": 3,
         "sizeMin": 10,
@@ -485,7 +485,7 @@
     },
     {
         "id": 49,
-        "name": "atlantic salmon",
+        "name": "atlantic_salmon",
         "family": "salmon",
         "sizeClass": 2,
         "sizeMin": 5,
@@ -495,7 +495,7 @@
     },
     {
         "id": 50,
-        "name": "brook trout",
+        "name": "brook_trout",
         "family": "trout",
         "sizeClass": 2,
         "sizeMin": 0.3,
@@ -505,7 +505,7 @@
     },
     {
         "id": 51,
-        "name": "clear muskie",
+        "name": "clear_muskie",
         "family": "pike",
         "sizeClass": 3,
         "sizeMin": 5,
@@ -515,7 +515,7 @@
     },
     {
         "id": 52,
-        "name": "tiger muskie",
+        "name": "tiger_muskie",
         "family": "pike",
         "sizeClass": 2,
         "sizeMin": 1.5,
@@ -525,7 +525,7 @@
     },
     {
         "id": 53,
-        "name": "lake sturgeon",
+        "name": "lake_sturgeon",
         "family": "sturgeon",
         "sizeClass": 4,
         "sizeMin": 10,
@@ -545,7 +545,7 @@
     },
     {
         "id": 55,
-        "name": "longnose sucker",
+        "name": "longnose_sucker",
         "family": "carp",
         "sizeClass": 1,
         "sizeMin": 0.7,
@@ -555,7 +555,7 @@
     },
     {
         "id": 56,
-        "name": "california roach",
+        "name": "california_roach",
         "family": "minnow",
         "sizeClass": 1,
         "sizeMin": 0.05,
@@ -565,7 +565,7 @@
     },
     {
         "id": 57,
-        "name": "white catfish",
+        "name": "white_catfish",
         "family": "catfish",
         "sizeClass": 1,
         "sizeMin": 0.4,
@@ -595,7 +595,7 @@
     },
     {
         "id": 60,
-        "name": "bull shark",
+        "name": "bull_shark",
         "family": "shark",
         "sizeClass": 4,
         "sizeMin": 50,
@@ -605,7 +605,7 @@
     },
     {
         "id": 61,
-        "name": "redtail catfish",
+        "name": "redtail_catfish",
         "family": "catfish",
         "sizeClass": 3,
         "sizeMin": 30,
@@ -615,7 +615,7 @@
     },
     {
         "id": 62,
-        "name": "piraiba catfish",
+        "name": "piraiba_catfish",
         "family": "catfish",
         "sizeClass": 3,
         "sizeMin": 45,
@@ -625,7 +625,7 @@
     },
     {
         "id": 63,
-        "name": "gilded catfish",
+        "name": "gilded_catfish",
         "family": "catfish",
         "sizeClass": 3,
         "sizeMin": 30,
@@ -645,7 +645,7 @@
     },
     {
         "id": 65,
-        "name": "electric eel",
+        "name": "electric_eel",
         "family": "eel",
         "sizeClass": 2,
         "sizeMin": 10,
@@ -685,7 +685,7 @@
     },
     {
         "id": 69,
-        "name": "silver arowana",
+        "name": "silver_arowana",
         "family": null,
         "sizeClass": 2,
         "sizeMin": 2,
@@ -695,7 +695,7 @@
     },
     {
         "id": 70,
-        "name": "yellowfin tuna",
+        "name": "yellowfin_tuna",
         "family": "scombridae",
         "sizeClass": 4,
         "sizeMin": 70,
@@ -715,7 +715,7 @@
     },
     {
         "id": 72,
-        "name": "mako shark",
+        "name": "mako_shark",
         "family": "shark",
         "sizeClass": 4,
         "sizeMin": 60,
@@ -725,7 +725,7 @@
     },
     {
         "id": 73,
-        "name": "red snapper",
+        "name": "red_snapper",
         "family": "snapper",
         "sizeClass": 2,
         "sizeMin": 9,
@@ -735,7 +735,7 @@
     },
     {
         "id": 74,
-        "name": "gulf grouper",
+        "name": "gulf_grouper",
         "family": "grouper",
         "sizeClass": 3,
         "sizeMin": 30,
@@ -745,7 +745,7 @@
     },
     {
         "id": 75,
-        "name": "red grouper",
+        "name": "red_grouper",
         "family": "grouper",
         "sizeClass": 2,
         "sizeMin": 10,
@@ -765,7 +765,7 @@
     },
     {
         "id": 77,
-        "name": "mahi mahi",
+        "name": "mahi_mahi",
         "family": null,
         "sizeClass": 2,
         "sizeMin": 7,
@@ -785,7 +785,7 @@
     },
     {
         "id": 79,
-        "name": "spotted mackerel",
+        "name": "spotted_mackerel",
         "family": "scombridae",
         "sizeClass": 1,
         "sizeMin": 5,
@@ -795,7 +795,7 @@
     },
     {
         "id": 80,
-        "name": "spanish mackerel",
+        "name": "spanish_mackerel",
         "family": "scombridae",
         "sizeClass": 3,
         "sizeMin": 30,
@@ -815,7 +815,7 @@
     },
     {
         "id": 82,
-        "name": "bluefin tuna",
+        "name": "bluefin_tuna",
         "family": "scombridae",
         "sizeClass": 4,
         "sizeMin": 100,
@@ -835,7 +835,7 @@
     },
     {
         "id": 84,
-        "name": "pearl perch",
+        "name": "pearl_perch",
         "family": "perch",
         "sizeClass": 1,
         "sizeMin": 1,
@@ -855,7 +855,7 @@
     },
     {
         "id": 86,
-        "name": "striped marlin",
+        "name": "striped_marlin",
         "family": "marlin",
         "sizeClass": 4,
         "sizeMin": 80,
@@ -875,7 +875,7 @@
     },
     {
         "id": 88,
-        "name": "atlantic cod",
+        "name": "atlantic_cod",
         "family": "cod",
         "sizeClass": 2,
         "sizeMin": 10,
@@ -895,7 +895,7 @@
     },
     {
         "id": 90,
-        "name": "whaler shark",
+        "name": "whaler_shark",
         "family": "shark",
         "sizeClass": 4,
         "sizeMin": 130,
@@ -925,7 +925,7 @@
     },
     {
         "id": 93,
-        "name": "sockeye salmon",
+        "name": "sockeye_salmon",
         "family": "salmon",
         "sizeClass": 1,
         "sizeMin": 3,
@@ -945,7 +945,7 @@
     },
     {
         "id": 95,
-        "name": "longtail tuna",
+        "name": "longtail_tuna",
         "family": "scombridae",
         "sizeClass": 2,
         "sizeMin": 20,
@@ -965,7 +965,7 @@
     },
     {
         "id": 97,
-        "name": "black marlin",
+        "name": "black_marlin",
         "family": "marlin",
         "sizeClass": 4,
         "sizeMin": 130,
@@ -975,7 +975,7 @@
     },
     {
         "id": 98,
-        "name": "mangrove jack",
+        "name": "mangrove_jack",
         "family": "snapper",
         "sizeClass": 2,
         "sizeMin": 14,
@@ -985,7 +985,7 @@
     },
     {
         "id": 99,
-        "name": "yellowfin bream",
+        "name": "yellowfin_bream",
         "family": null,
         "sizeClass": 1,
         "sizeMin": 2,
@@ -1015,7 +1015,7 @@
     },
     {
         "id": 102,
-        "name": "red drum",
+        "name": "red_drum",
         "family": "drum",
         "sizeClass": 2,
         "sizeMin": 15,
@@ -1025,7 +1025,7 @@
     },
     {
         "id": 103,
-        "name": "spotted seatrout",
+        "name": "spotted_seatrout",
         "family": "trout",
         "sizeClass": 1,
         "sizeMin": 0.5,
@@ -1035,7 +1035,7 @@
     },
     {
         "id": 104,
-        "name": "atlantic sturgeon",
+        "name": "atlantic_sturgeon",
         "family": "sturgeon",
         "sizeClass": 3,
         "sizeMin": 60,
@@ -1045,7 +1045,7 @@
     },
     {
         "id": 105,
-        "name": "cubera snapper",
+        "name": "cubera_snapper",
         "family": "snapper",
         "sizeClass": 2,
         "sizeMin": 15,
@@ -1055,7 +1055,7 @@
     },
     {
         "id": 106,
-        "name": "tiger shark",
+        "name": "tiger_shark",
         "family": "shark",
         "sizeClass": 4,
         "sizeMin": 220,
@@ -1065,7 +1065,7 @@
     },
     {
         "id": 107,
-        "name": "hammerhead shark",
+        "name": "hammerhead_shark",
         "family": "shark",
         "sizeClass": 3,
         "sizeMin": 50,
@@ -1085,7 +1085,7 @@
     },
     {
         "id": 109,
-        "name": "goliath grouper",
+        "name": "goliath_grouper",
         "family": "grouper",
         "sizeClass": 3,
         "sizeMin": 90,
@@ -1095,7 +1095,7 @@
     },
     {
         "id": 110,
-        "name": "blacktip shark",
+        "name": "blacktip_shark",
         "family": "shark",
         "sizeClass": 3,
         "sizeMin": 70,
@@ -1105,7 +1105,7 @@
     },
     {
         "id": 111,
-        "name": "thresher shark",
+        "name": "thresher_shark",
         "family": "shark",
         "sizeClass": 4,
         "sizeMin": 350,
@@ -1115,7 +1115,7 @@
     },
     {
         "id": 112,
-        "name": "pacific whiting",
+        "name": "pacific_whiting",
         "family": null,
         "sizeClass": 1,
         "sizeMin": 2,
@@ -1125,7 +1125,7 @@
     },
     {
         "id": 113,
-        "name": "giant squid",
+        "name": "giant_squid",
         "family": "squid",
         "sizeClass": 4,
         "sizeMin": 400,
@@ -1145,7 +1145,7 @@
     },
     {
         "id": 115,
-        "name": "chinook salmon",
+        "name": "chinook_salmon",
         "family": "salmon",
         "sizeClass": 1,
         "sizeMin": 8,
@@ -1155,7 +1155,7 @@
     },
     {
         "id": 116,
-        "name": "coho salmon",
+        "name": "coho_salmon",
         "family": "salmon",
         "sizeClass": 1,
         "sizeMin": 6,
@@ -1165,7 +1165,7 @@
     },
     {
         "id": 117,
-        "name": "blue shark",
+        "name": "blue_shark",
         "family": "shark",
         "sizeClass": 3,
         "sizeMin": 100,
@@ -1175,7 +1175,7 @@
     },
     {
         "id": 118,
-        "name": "smooth hound",
+        "name": "smooth_hound",
         "family": "shark",
         "sizeClass": 2,
         "sizeMin": 24,
@@ -1185,7 +1185,7 @@
     },
     {
         "id": 119,
-        "name": "black grouper",
+        "name": "black_grouper",
         "family": "grouper",
         "sizeClass": 2,
         "sizeMin": 64,
@@ -1195,7 +1195,7 @@
     },
     {
         "id": 120,
-        "name": "gag grouper",
+        "name": "gag_grouper",
         "family": "grouper",
         "sizeClass": 1,
         "sizeMin": 15,
@@ -1205,7 +1205,7 @@
     },
     {
         "id": 121,
-        "name": "sea sturgeon",
+        "name": "sea_sturgeon",
         "family": "sturgeon",
         "sizeClass": 3,
         "sizeMin": 150,
@@ -1215,7 +1215,7 @@
     },
     {
         "id": 122,
-        "name": "manta ray",
+        "name": "manta_ray",
         "family": "ray",
         "sizeClass": 4,
         "sizeMin": 250,
@@ -1225,7 +1225,7 @@
     },
     {
         "id": 123,
-        "name": "whitetip shark",
+        "name": "whitetip_shark",
         "family": "shark",
         "sizeClass": 3,
         "sizeMin": 75,
@@ -1235,7 +1235,7 @@
     },
     {
         "id": 124,
-        "name": "nurse shark",
+        "name": "nurse_shark",
         "family": "shark",
         "sizeClass": 2,
         "sizeMin": 58,
@@ -1245,7 +1245,7 @@
     },
     {
         "id": 125,
-        "name": "bigeye tuna",
+        "name": "bigeye_tuna",
         "family": "scombridae",
         "sizeClass": 3,
         "sizeMin": 107,
@@ -1265,7 +1265,7 @@
     },
     {
         "id": 127,
-        "name": "lemon shark",
+        "name": "lemon_shark",
         "family": "shark",
         "sizeClass": 2,
         "sizeMin": 60,
@@ -1275,7 +1275,7 @@
     },
     {
         "id": 128,
-        "name": "beluga sturgeon",
+        "name": "beluga_sturgeon",
         "family": "sturgeon",
         "sizeClass": 4,
         "sizeMin": 400,
@@ -1295,7 +1295,7 @@
     },
     {
         "id": 130,
-        "name": "nassau grouper",
+        "name": "nassau_grouper",
         "family": "grouper",
         "sizeClass": 1,
         "sizeMin": 14,
@@ -1305,7 +1305,7 @@
     },
     {
         "id": 131,
-        "name": "largetooth sawfish",
+        "name": "largetooth_sawfish",
         "family": null,
         "sizeClass": 3,
         "sizeMin": 250,
@@ -1315,7 +1315,7 @@
     },
     {
         "id": 132,
-        "name": "sharpnose shark",
+        "name": "sharpnose_shark",
         "family": "shark",
         "sizeClass": 1,
         "sizeMin": 2,
@@ -1325,7 +1325,7 @@
     },
     {
         "id": 133,
-        "name": "angel shark",
+        "name": "angel_shark",
         "family": "shark",
         "sizeClass": 2,
         "sizeMin": 30,
@@ -1335,7 +1335,7 @@
     },
     {
         "id": 134,
-        "name": "spinner shark",
+        "name": "spinner_shark",
         "family": "shark",
         "sizeClass": 2,
         "sizeMin": 40,
@@ -1345,7 +1345,7 @@
     },
     {
         "id": 135,
-        "name": "pygmy sperm whale",
+        "name": "pygmy_sperm_whale",
         "family": "whale",
         "sizeClass": 3,
         "sizeMin": 300,
@@ -1355,7 +1355,7 @@
     },
     {
         "id": 136,
-        "name": "chinese sturgeon",
+        "name": "chinese_sturgeon",
         "family": "sturgeon",
         "sizeClass": 3,
         "sizeMin": 200,
@@ -1375,7 +1375,7 @@
     },
     {
         "id": 138,
-        "name": "school shark",
+        "name": "school_shark",
         "family": "shark",
         "sizeClass": 1,
         "sizeMin": 15,
@@ -1385,7 +1385,7 @@
     },
     {
         "id": 139,
-        "name": "ocean sunfish",
+        "name": "ocean_sunfish",
         "family": "sunfish",
         "sizeClass": 4,
         "sizeMin": 300,
@@ -1395,7 +1395,7 @@
     },
     {
         "id": 140,
-        "name": "great white shark",
+        "name": "great_white_shark",
         "family": "shark",
         "sizeClass": 4,
         "sizeMin": 500,

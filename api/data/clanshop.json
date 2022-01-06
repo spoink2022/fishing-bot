@@ -2,9 +2,13 @@
     "perks": {
         "fish_cd": {
             "shopName": "Fish Cooldown Reduction",
-            "desc": "Overall fishing cooldown **{OLD}%** :arrow_right: **{NEW}%**",
+            "desc": "Fishing cooldown **{OLD}%** → **{NEW}%**",
             "emoji": "⏰",
             "levels": [
+                {
+                    "price": 0,
+                    "value": 0
+                },
                 {
                     "price": 30,
                     "value": 0.5
@@ -53,9 +57,13 @@
         },
         "coin_bonus": {
             "shopName": "Fish Coin Bonus",
-            "desc": "Coin bonus **{OLD}%** :arrow_right: **{NEW}%**",
+            "desc": "Coin bonus **{OLD}%** → **{NEW}%**",
             "emoji": "🪙",
             "levels": [
+                {
+                    "price": 0,
+                    "value": 0
+                },
                 {
                     "price": 30,
                     "value": 1
@@ -104,9 +112,13 @@
         },
         "exp_bonus": {
             "shopName": "Fish Exp Bonus",
-            "desc": "Exp bonus **{OLD}%** :arrow_right: **{NEW}%**",
+            "desc": "Exp bonus **{OLD}%** → **{NEW}%**",
             "emoji": "⭐",
             "levels": [
+                {
+                    "price": 0,
+                    "value": 0
+                },
                 {
                     "price": 30,
                     "value": 1
@@ -155,9 +167,13 @@
         },
         "vote_bonus": {
             "shopName": "Bonus Vote Rewards",
-            "desc": "Quest points on vote **{OLD}** :arrow_right: **{NEW}**",
+            "desc": "Quest points on vote **{OLD}** → **{NEW}**",
             "emoji": "⬆️",
             "levels": [
+                {
+                    "price": 0,
+                    "value": 0
+                },
                 {
                     "price": 50,
                     "value": 1
@@ -178,9 +194,13 @@
         },
         "campaign_mba": {
             "shopName": "Campaign MBA",
-            "desc": "Bonus clan points from campaigns **{OLD}** :arrow_right: **{NEW}**",
+            "desc": "Bonus clan points from campaigns **{OLD}** → **{NEW}**",
             "emoji": "🛡️",
             "levels": [
+                {
+                    "price": 0,
+                    "value": 0
+                },
                 {
                     "price": 40,
                     "value": 5
@@ -201,9 +221,13 @@
         },
         "quest_mba": {
             "shopName": "Quest MBA",
-            "desc": "Bonus quest points from quests **{OLD}%** :arrow_right: **{NEW}%**",
+            "desc": "Bonus quest points from quests **{OLD}%** → **{NEW}%**",
             "emoji": "📜",
             "levels": [
+                {
+                    "price": 0,
+                    "value": 0
+                },
                 {
                     "price": 20,
                     "value": 10

@@ -4,7 +4,7 @@
         "multiplier": 1,
         "max": 10,
         "level": 1,
-        "price": null
+        "price": 0
     },
     {
         "name": "standard",
@@ -21,14 +21,14 @@
         "price": 80
     },
     {
-        "name": "premium bronze",
+        "name": "premium_bronze",
         "multiplier": 1.15,
         "max": 30,
         "level": 12,
         "price": 90
     },
     {
-        "name": "superior bronze",
+        "name": "superior_bronze",
         "multiplier": 1.2,
         "max": 35,
         "level": 16,
@@ -42,14 +42,14 @@
         "price": 250
     },
     {
-        "name": "premium silver",
+        "name": "premium_silver",
         "multiplier": 1.27,
         "max": 45,
         "level": 24,
         "price": 400
     },
     {
-        "name": "superior silver",
+        "name": "superior_silver",
         "multiplier": 1.3,
         "max": 50,
         "level": 30,
@@ -63,14 +63,14 @@
         "price": 1000
     },
     {
-        "name": "premium gold",
+        "name": "premium_gold",
         "multiplier": 1.43,
         "max": 65,
         "level": 42,
         "price": 1200
     },
     {
-        "name": "superior gold",
+        "name": "superior_gold",
         "multiplier": 1.45,
         "max": 70,
         "level": 47,
@@ -84,14 +84,14 @@
         "price": 4000
     },
     {
-        "name": "premium crystal",
+        "name": "premium_crystal",
         "multiplier": 1.53,
         "max": 85,
         "level": 55,
         "price": 6000
     },
     {
-        "name": "superior crystal",
+        "name": "superior_crystal",
         "multiplier": 1.57,
         "max": 90,
         "level": 59,
@@ -105,14 +105,14 @@
         "price": 12000
     },
     {
-        "name": "premium titanium",
+        "name": "premium_titanium",
         "multiplier": 1.64,
         "max": 105,
         "level": 68,
         "price": 15000
     },
     {
-        "name": "superior titanium",
+        "name": "superior_titanium",
         "multiplier": 1.68,
         "max": 110,
         "level": 73,
@@ -126,14 +126,14 @@
         "price": 30000
     },
     {
-        "name": "premium glass",
+        "name": "premium_glass",
         "multiplier": 1.78,
         "max": 125,
         "level": 78,
         "price": 45000
     },
     {
-        "name": "superior glass",
+        "name": "superior_glass",
         "multiplier": 1.84,
         "max": 130,
         "level": 84,
@@ -147,14 +147,14 @@
         "price": 100000
     },
     {
-        "name": "premium elite",
+        "name": "premium_elite",
         "multiplier": 1.88,
         "max": 145,
         "level": 93,
         "price": 120000
     },
     {
-        "name": "superior elite",
+        "name": "superior_elite",
         "multiplier": 1.9,
         "max": 150,
         "level": 97,
@@ -168,14 +168,14 @@
         "price": 170000
     },
     {
-        "name": "premium palladium",
+        "name": "premium_palladium",
         "multiplier": 1.95,
         "max": 165,
         "level": 108,
         "price": 190000
     },
     {
-        "name": "superior palladium",
+        "name": "superior_palladium",
         "multiplier": 1.98,
         "max": 175,
         "level": 113,
@@ -189,7 +189,7 @@
         "price": 250000
     },
     {
-        "name": "premium rhodium",
+        "name": "premium_rhodium",
         "multiplier": 2.03,
         "max": 185,
         "level": 120,

@@ -1,7 +1,5 @@
-const auth = require('./static/private/auth.json');
-
-global.PREFIX = '.';
+// login client
 global.client = require('./lib/client.js');
-require('./lib/server.js');
-if(auth.topggToken) { require('./lib/autopost.js'); }
+
+// preload images
 require('./lib/global/load_images.js');

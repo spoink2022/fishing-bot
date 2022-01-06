@@ -1,9 +1,9 @@
-const config = require('../static/private/config.json');
+const { PROD } = require('../private/config.json');
 
 let path = 'https://storage.googleapis.com/fishingbot/assets';
-if (config.DEV) {
+if (!PROD) {
     path = 'https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img';
-    console.log('new path');
+    console.log('Using Dev Path...');
 }
 
 module.exports.fetchFishImgUrl = function(fishName) {
@@ -23,7 +23,7 @@ module.exports.fetchBackgroundUrl = function(key) {
     return `${path}/background/${key}.png`;
 }
 
-module.exports.fetchAquariumUrl = function(label) {
+module.exports.fetchAquariumImgUrl = function(label) {
     return `${path}/aquarium/${label}.png`;
 }
 

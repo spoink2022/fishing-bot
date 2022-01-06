@@ -1,5 +1,5 @@
 const PlayerLevelData = require('./data/levels.json');
 
-module.exports.getPlayerLevelInfo = function(level) {
+module.exports.getPlayerLevelData = function(level) {
     return PlayerLevelData[level - 1];
 }
