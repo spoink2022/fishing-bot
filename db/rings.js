@@ -30,6 +30,6 @@ module.exports.removeRing = async function(ringId) {
 }
 
 module.exports.setRingOwner = async function(ringId, userid) {
-    let query = 'UPDATE rings SET userid=$1 WHERE id=$2';
+    let query = 'UPDATE rings SET userid=$1, value=0 WHERE id=$2';
     return await config.pquery(query, [userid, ringId]);
 }
