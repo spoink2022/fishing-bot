@@ -89,6 +89,11 @@ module.exports.setMemberColumn = async function(userid, column, value) {
     return;
 }
 
+module.exports.updateMemberColumn = async function(userid, column, value) {
+    let query = `UPDATE clan_member SET ${column}=${column}+$1 WHERE userid=$2`;
+    return await config.pquery(query, [value, userid]);
+}
+
 // Summation Queries
 module.exports.fetchClanCount = async function() {
     let query = 'SELECT COUNT(id) AS clans FROM clan';
