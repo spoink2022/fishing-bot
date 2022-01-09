@@ -1,7 +1,12 @@
 // login client
-client = require('./lib/client.js');
+global.client = require('./lib/client.js');
 
+if (global.client.shard.ids[0] === 0) {
+    // spin-up webserver for top.gg votes
+    require('./lib/server.js');  
+}
 // MOVE BELOW TO INDEX.JS FOR SHARDING
+/*
 const AutoPoster = require('topgg-autoposter');
 
 const { discordToken, topggToken } = require('./private/config.json');
@@ -19,3 +24,4 @@ if (topggToken) {
         console.log('Posted stats to top.gg');
     });
 }
+*/
