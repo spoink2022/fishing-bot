@@ -47,6 +47,16 @@ module.exports.setColumn = async function(userid, column, setValue) {
     return;
 }
 
+module.exports.appendToShopServers = async function(userid, serverid) {
+    let query = 'UPDATE users SET shop_servers=ARRAY_APPEND(shop_servers, $1) WHERE userid=$2';
+    return await config.pquery(query, [serverid, userid]);
+}
+
+module.exports.resetShopServers = async function(userid, epochWeek) {
+    let query = 'UPDATE users SET shop_week=$1, shop_servers=ARRAY[]::BIGINT[] WHERE userid=$2';
+    return await config.pquery(query, [epochWeek, userid]);
+}
+
 module.exports.handleAquariumCollect = async function(userid, coinsCollected, newAquariumCollected) {
     let query = 'UPDATE users SET coins=coins+$1, aquarium_collected=$2 WHERE userid=$3';
     return await config.pquery(query, [coinsCollected, newAquariumCollected, userid]);

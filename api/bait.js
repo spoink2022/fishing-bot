@@ -20,7 +20,11 @@ module.exports.getAllBaitData = function() {
 }
 
 module.exports.getRegularBaitNames = function() {
-    return BaitNames.filter(bait => !BaitData[bait].banned);
+    return BaitNames.filter(bait => !BaitData[bait].banned && BaitData[bait].stars <= 3);
+}
+
+module.exports.getPremiumBaitNames = function() {
+    return BaitNames.filter(bait => !BaitData[bait].banned && BaitData[bait].stars >= 4);
 }
 
 module.exports.getBaitDataById = function(baitId) {

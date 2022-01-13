@@ -134,7 +134,7 @@
         "tier": "S",
         "sizes": [2, 3, 4],
         "families": ["gar"],
-        "stars": 2,
+        "stars": 3,
         "value": 7,
         "min": 3,
         "max": 6
@@ -194,10 +194,61 @@
         "tier": "SS",
         "sizes": [1, 2, 3, 4],
         "families": [],
-        "stars": 3,
-        "value": 20,
+        "stars": 4,
+        "value": 40,
         "min": null,
         "max": null,
         "banned": true
+    },
+    "tuna_tail": {
+        "id": 20,
+        "tier": "C",
+        "sizes": [4],
+        "families": ["sturgeon"],
+        "stars": 4,
+        "value": 12,
+        "min": null,
+        "max": null
+    },
+    "tuna_head": {
+        "id": 21,
+        "tier": "B",
+        "sizes": [4],
+        "families": ["catfish"],
+        "stars": 4,
+        "value": 18,
+        "min": null,
+        "max": null
+    },
+    "tuna_chunks": {
+        "id": 22,
+        "tier": "A",
+        "sizes": [4],
+        "families": ["shark"],
+        "stars": 4,
+        "value": 25,
+        "min": null,
+        "max": null
+    },
+    "wagyu": {
+        "id": 23,
+        "tier": "C",
+        "sizes": [4],
+        "families": [],
+        "stars": 4,
+        "value": 18,
+        "min": null,
+        "max": null,
+        "bonus": 50
+    },
+    "huge_cutbait": {
+        "id": 19,
+        "tier": "S",
+        "sizes": [4],
+        "families": [],
+        "stars": 4,
+        "value": 35,
+        "min": null,
+        "max": null
     }
 }
