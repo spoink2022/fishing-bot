@@ -23,6 +23,13 @@ module.exports.setColumn = async function(serverid, column, value) {
     return;
 }
 
+module.exports.setColumns = async function(serverid, obj) {
+    let queryMiddle = Object.keys(obj).map((key, i) => `${key}=$${i+2}`).join(', ');
+    let query = `UPDATE servers SET ${queryMiddle} WHERE serverid=$1 RETURNING *`;
+    let server = (await config.pquery(query, [serverid, ...Object.values(obj)]))[0];
+    return server;
+}
+
 module.exports.fetchServerStats = async function(serverid) {
     let query = 'SELECT * FROM servers WHERE serverid=$1';
     let res = (await config.pquery(query, [serverid]))[0];
