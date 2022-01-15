@@ -94,11 +94,34 @@ module.exports.updateMemberColumn = async function(userid, column, value) {
     return await config.pquery(query, [value, userid]);
 }
 
+module.exports.setClanColumn = async function(clanId, column, value) {
+    let query = `UPDATE clan SET ${column}=$1 WHERE id=$2`;
+    return await config.pquery(query, [value, clanId]);
+}
+
 // Summation Queries
 module.exports.fetchClanCount = async function() {
     let query = 'SELECT COUNT(id) AS clans FROM clan';
     let res = (await config.pquery(query))[0];
     return res;
+}
+
+module.exports.fetchMemberCounts = async function(clanIds) {
+    let query = `SELECT clan, COUNT(id) FROM clan_member WHERE clan=ANY($1) GROUP BY clan`;
+    let memberCounts = await config.pquery(query, [clanIds]);
+    return memberCounts;
+}
+
+module.exports.fetchMemberLevelSums = async function(clanIds) {
+    let query = `WITH levels AS (SELECT clan_member.clan, users.level FROM users INNER JOIN clan_member ON clan_member.clan=ANY($1) AND users.userid=clan_member.userid) SELECT clan, SUM(level) FROM levels GROUP BY clan`;
+    let levelSums = await config.pquery(query, [clanIds]);
+    return levelSums;
+}
+// Bulk Queries
+module.exports.fetchRandomJoinableClans = async function() {
+    let query = 'SELECT * FROM clan WHERE password IS NULL AND NOT is_full AND last_fished > $1 ORDER BY RANDOM() LIMIT 3';
+    let clans = await config.pquery(query, [Date.now() - 604800000]);
+    return clans;
 }
 
 // NEW -- END
