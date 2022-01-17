@@ -25,6 +25,12 @@ module.exports.fetchScoreRanks = async function(userid, locations) {
     return scores;
 }
 
+module.exports.fetchScoreRank = async function(userid, locationId) {
+    let query = `SELECT ranked.* FROM (SELECT userid, RANK() OVER (ORDER BY l${locationId} DESC) AS rank FROM scores) AS ranked WHERE userid=$1`;
+    let rank = (await config.pquery(query, [userid]))[0].rank;
+    return rank;
+}
+
 // Setter/Updates
 module.exports.setLocationScore = async function(userid, locationId, value) {
     let query = `UPDATE scores SET l${locationId}=$1 WHERE userid=$2`;
