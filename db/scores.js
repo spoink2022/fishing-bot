@@ -18,6 +18,14 @@ module.exports.fetchScores = async function(userid) {
     return scores;
 }
 
+module.exports.fetchScoreRanks = async function(userid, locations) {
+    const queryMiddle = Array(locations).fill(0).map((_, i) => `l${i+1}, RANK() OVER (ORDER BY l${i+1} DESC) AS l${i+1}_rank`).join(', ');
+    let query = `SELECT ranked.* FROM (SELECT userid, overall, RANK() OVER (ORDER BY overall DESC) AS overall_rank, ${queryMiddle} FROM scores) AS ranked WHERE userid=$1`;
+    let scores = (await config.pquery(query, [userid]))[0];
+    return scores;
+}
+
+// Setter/Updates
 module.exports.setLocationScore = async function(userid, locationId, value) {
     let query = `UPDATE scores SET l${locationId}=$1 WHERE userid=$2`;
     return await config.pquery(query, [value, userid]);
