@@ -20,7 +20,7 @@
         }
     },
     "catch_fish": {
-        "chance": 200,
+        "chance": 20,
         "data": {
             "rarities": ["Common", "Uncommon", "Rare", "Super Rare"],
             "minimums": [4, 3, 2, 1],
