@@ -514,7 +514,7 @@
             ["amberjack", 15]
         ],
         "rewards": {
-            "clanPoints": 42,
+            "clanPoints": 40,
             "lollipops": 20,
             "coins": 800
         }
@@ -543,7 +543,7 @@
             ["brook_trout", 35]
         ],
         "rewards": {
-            "clanPoints": 40,
+            "clanPoints": 35,
             "lollipops": 10,
             "coins": 600
         }
@@ -552,13 +552,14 @@
         "name": "Scuba Diving Trip (Part 10/10: Netherlands)",
         "description": "last stop of the world tour: The Netherlands!",
         "requirements": [
-            ["spotted_mackerel", 30],
-            ["spanish_mackerel", 8],
-            ["atlantic_salmon", 6],
+            ["spotted_mackerel", 25],
+            ["spanish_mackerel", 7],
+            ["atlantic_salmon", 10],
+            ["clear_muskie", 3],
             ["common_carp", 10]
         ],
         "rewards": {
-            "clanPoints": 60,
+            "clanPoints": 50,
             "lollipops": 25,
             "coins": 600
         }
