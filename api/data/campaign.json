@@ -490,5 +490,77 @@
             "lollipops": 10,
             "coins": 600
         }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 6/10: Atlantic Coast)",
+        "description": "next stop: Atlantic Ocean!",
+        "requirements": [
+            ["black_crappie", 35],
+            ["red_snapper", 25],
+            ["atlantic_cod", 10]
+        ],
+        "rewards": {
+            "clanPoints": 45,
+            "lollipops": 10,
+            "coins": 200
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 7/10: Pacific Ocean)",
+        "description": "Seventh's stop: The Pacific!\nYour clan is almost there!",
+        "requirements": [
+            ["rainbow_trout", 18],
+            ["yellowfin_tuna", 10],
+            ["amberjack", 15]
+        ],
+        "rewards": {
+            "clanPoints": 42,
+            "lollipops": 20,
+            "coins": 800
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 8/10: England)",
+        "description": "Next stop: England!",
+        "requirements": [
+            ["white_sucker", 25],
+            ["northern_pike", 6],
+            ["atlantic_cod", 20]
+        ],
+        "rewards": {
+            "clanPoints": 30,
+            "lollipops": 5,
+            "coins": 600
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 9/10: New Zealand)",
+        "description": "Second last stop: New Zealand!\nSo close to finishing!!!",
+        "requirements": [
+            ["wahoo", 12],
+            ["amberjack", 15],
+            ["hapuku", 2],
+            ["brook_trout", 35]
+        ],
+        "rewards": {
+            "clanPoints": 40,
+            "lollipops": 10,
+            "coins": 600
+        }
+    },
+    {
+        "name": "Scuba Diving Trip (Part 10/10: Netherlands)",
+        "description": "last stop of the world tour: The Netherlands!",
+        "requirements": [
+            ["spotted_mackerel", 30],
+            ["spanish_mackerel", 8],
+            ["atlantic_salmon", 6],
+            ["common_carp", 10]
+        ],
+        "rewards": {
+            "clanPoints": 60,
+            "lollipops": 25,
+            "coins": 600
+        }
     }
 ]
