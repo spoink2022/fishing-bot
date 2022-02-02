@@ -91,9 +91,10 @@ module.exports.getFishDataFromLocation = function(locationId) {
 }
 
 module.exports.getAllUnlockedFishData = function(userLevel) {
+    const highest = getHighestLocation(userLevel);
     return FishData.slice(
         1,
-        LocationData[Math.floor(userLevel/10)].fish[LocationData[Math.floor(userLevel/10)].fish.length-1].id + 1
+        LocationData[highest - 1].fish[LocationData[highest - 1].fish.length-1].id + 1,
     );
 }
 
@@ -103,3 +104,9 @@ module.exports.getAllUnlockedLocationData = function(userLevel) {
         Math.floor(userLevel/10) + 1
     )
 }
+
+function getHighestLocation (userLevel) {
+    return Math.min(LocationData.length, Math.floor(userLevel/10));
+}
+
+module.exports.getHighestLocation = getHighestLocation;
