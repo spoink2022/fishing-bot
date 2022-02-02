@@ -94,19 +94,20 @@ module.exports.getAllUnlockedFishData = function(userLevel) {
     const highest = getHighestLocation(userLevel);
     return FishData.slice(
         1,
-        LocationData[highest - 1].fish[LocationData[highest - 1].fish.length-1].id + 1,
+        LocationData[highest - 1].fish[LocationData[highest - 1].fish.length - 1].id + 1,
     );
 }
 
 module.exports.getAllUnlockedLocationData = function(userLevel) {
+    const highest = getHighestLocation(userLevel);
     return LocationData.slice(
         0,
-        Math.floor(userLevel/10) + 1
-    )
+        highest
+    );
 }
 
 function getHighestLocation (userLevel) {
-    return Math.min(LocationData.length, Math.floor(userLevel/10));
+    return Math.min(LocationData.length, Math.floor(userLevel/10) + 1);
 }
 
 module.exports.getHighestLocation = getHighestLocation;
