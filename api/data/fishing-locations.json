@@ -237,5 +237,30 @@
             {"id": 139, "chance": 1},
             {"id": 140, "chance": 0.5}
         ]
+    },
+    {
+        "id": 12,
+        "name": "The Abyss",
+        "trashChance": 1,
+        "level": 110,
+        "zoom": 4,
+        "fish": [
+            {"id": 141, "chance": 12},
+            {"id": 142, "chance": 18},
+            {"id": 143, "chance": 8},
+            {"id": 144, "chance": 1},
+            {"id": 145, "chance": 1},
+            {"id": 146, "chance": 12.5},
+            {"id": 147, "chance": 12},
+            {"id": 148, "chance": 0.5},
+            {"id": 149, "chance": 2},
+            {"id": 150, "chance": 3.5},
+            {"id": 151, "chance": 0.5},
+            {"id": 152, "chance": 0.5},
+            {"id": 153, "chance": 9},
+            {"id": 154, "chance": 11},
+            {"id": 155, "chance": 5},
+            {"id": 156, "chance": 3.5}
+        ]
     }
 ]
