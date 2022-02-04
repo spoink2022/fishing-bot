@@ -260,7 +260,35 @@
             "level": 108,
             "price": 250000,
             "size": 3
+        },
+        {
+            "id": 29,
+            "name": "Kestrel",
+            "cooldown": 3300000,
+            "maxWeight": 800,
+            "level": 111,
+            "price": 300000,
+            "size": 3
+        },
+        {
+            "id": 30,
+            "name": "Reinforced Kestrel",
+            "cooldown": 3240000,
+            "maxWeight": 900,
+            "level": 114,
+            "price": 350000,
+            "size": 3
+        },
+        {
+            "id": 31,
+            "name": "Great Kestrel",
+            "cooldown": 3240000,
+            "maxWeight": 1000,
+            "level": 117,
+            "price": 400000,
+            "size": 3
         }
+
     ],
     "lines": [
         {
@@ -742,6 +770,56 @@
             "level": 109,
             "price": 85000,
             "bonus": 11
+        },
+        {
+            "id": 48,
+            "name": "Kestral",
+            "px": 5,
+            "rgb": "#097D34",
+            "maxWeight": 775,
+            "level": 110,
+            "price": 90000,
+            "bonus": 12
+        },
+        {
+            "id": 49,
+            "name": "Kestral A",
+            "px": 5,
+            "rgb": "#07722F",
+            "maxWeight": 800,
+            "level": 113,
+            "price": 97500,
+            "bonus": 12
+        },
+        {
+            "id": 50,
+            "name": "Kestral AA",
+            "px": 5,
+            "rgb": "#18783C",
+            "maxWeight": 875,
+            "level": 115,
+            "price": 115000,
+            "bonus": 12
+        },
+        {
+            "id": 51,
+            "name": "Kestral AAA",
+            "px": 5,
+            "rgb": "#087430",
+            "maxWeight": 950,
+            "level": 116,
+            "price": 120000,
+            "bonus": 12
+        },
+        {
+            "id": 52,
+            "name": "Kestral AAAA",
+            "px": 5,
+            "rgb": "#095926",
+            "maxWeight": 1000,
+            "level": 119,
+            "price": 130000,
+            "bonus": 12
         }
     ],
     "hooks": [
