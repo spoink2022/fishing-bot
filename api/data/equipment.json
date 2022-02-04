@@ -1479,6 +1479,22 @@
             "bonus": 120,
             "level": 105,
             "price": 120000
+        },
+        {
+            "id": 18,
+            "name": "Underwater",
+            "chance": 15,
+            "bonus": 160,
+            "level": 113,
+            "price": 150000
+        },
+        {
+            "id": 19,
+            "name": "Underwater V2",
+            "chance": 19,
+            "bonus": 200,
+            "level": 117,
+            "price": 200000
         }
     ],
     "swivels": [
@@ -1558,6 +1574,20 @@
             "bonus": 180,
             "level": 107,
             "price": 150000
+        },
+        {
+            "id": 12,
+            "name": "Amethyst Tactical V3",
+            "bonus": 210,
+            "level": 112,
+            "price": 200000
+        },
+        {
+            "id": 13,
+            "name": "Amethyst Tactical V4",
+            "bonus": 250,
+            "level": 117,
+            "price": 250000
         }
     ]
 }
