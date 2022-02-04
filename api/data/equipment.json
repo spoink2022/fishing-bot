@@ -1302,6 +1302,45 @@
             "name": "Muskie A",
             "level": 108,
             "price": 40000
+        },
+        {
+            "id": 60,
+            "multiplier": 1.68,
+            "maxWeight": 800,
+            "name": "Muskie AA",
+            "level": 112,
+            "price": 44000
+        },
+        {
+            "id": 61,
+            "multiplier": 1.69,
+            "maxWeight": 850,
+            "name": "Muskie AAA",
+            "level": 114,
+            "price": 48000
+        },        {
+            "id": 62,
+            "multiplier": 1.70,
+            "maxWeight": 900,
+            "name": "Sturgeon D",
+            "level": 116,
+            "price": 53000
+        },
+        {
+            "id": 63,
+            "multiplier": 1.71,
+            "maxWeight": 950,
+            "name": "Sturgeon C",
+            "level": 118,
+            "price": 57000
+        },
+        {
+            "id": 64,
+            "multiplier": 1.72,
+            "maxWeight": 1000,
+            "name": "Sturgeon B",
+            "level": 120,
+            "price": 62000
         }
     ],
     "gloves": [
