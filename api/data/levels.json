@@ -445,38 +445,38 @@
     },
     {
         "level": 112,
-        "expRequired": 24500
+        "expRequired": 35000
     },
     {
         "level": 113,
-        "expRequired": 25000
+        "expRequired": 38000
     },
     {
         "level": 114,
-        "expRequired": 26000
+        "expRequired": 43000    
     },
     {
         "level": 115,
-        "expRequired": 27500
+        "expRequired": 47000
     },
     {
         "level": 116,
-        "expRequired": 28000
+        "expRequired": 50000
     },
     {
         "level": 117,
-        "expRequired": 28500
+        "expRequired": 53000
     },
     {
         "level": 118,
-        "expRequired": 29000
+        "expRequired": 57000
     },
     {
         "level": 119,
-        "expRequired": 30000
+        "expRequired": 61000
     },
     {
         "level": 120,
-        "expRequired": 32000
+        "expRequired": 65000
     }
 ]
