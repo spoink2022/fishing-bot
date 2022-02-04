@@ -1410,7 +1410,7 @@
         "sizeClass": 2,
         "sizeMin": 115,
         "sizeMax": 140,
-        "screenLen": 5,
+        "screenLen": 5.5,
         "value": 4
     },
     {
@@ -1420,7 +1420,7 @@
         "sizeClass": 1,
         "sizeMin": 0.5,
         "sizeMax": 2.5,
-        "screenLen": 2,
+        "screenLen": 3,
         "value": 10
     },
     {
@@ -1440,7 +1440,7 @@
         "sizeClass": 4,
         "sizeMin": 600,
         "sizeMax": 1400,
-        "screenLen": 12,
+        "screenLen": 10.5,
         "value": 5
     },
     {
@@ -1450,7 +1450,7 @@
         "sizeClass": 2,
         "sizeMin": 180,
         "sizeMax": 290,
-        "screenLen": 6,
+        "screenLen": 7,
         "value": 25
     },
     {
@@ -1460,7 +1460,7 @@
         "sizeClass": 1,
         "sizeMin": 1,
         "sizeMax": 10,
-        "screenLen": 2,
+        "screenLen": 2.5,
         "value": 14
     },
     {
@@ -1470,7 +1470,7 @@
         "sizeClass": 1,
         "sizeMin": 18,
         "sizeMax": 50,
-        "screenLen": 3,
+        "screenLen": 4.5,
         "value": 7
     },
     {
@@ -1479,8 +1479,8 @@
         "family": "whale",
         "sizeClass": 4,
         "sizeMin": 650,
-        "sizeMax": 150,
-        "screenLen": 14,
+        "sizeMax": 1500,
+        "screenLen": 11,
         "value": 10
     },
     {
@@ -1490,7 +1490,7 @@
         "sizeClass": 4,
         "sizeMin": 340,
         "sizeMax": 940,
-        "screenLen": 9,
+        "screenLen": 11,
         "value": 4
     },
     {
@@ -1500,7 +1500,7 @@
         "sizeClass": 3,
         "sizeMin": 400,
         "sizeMax": 750,
-        "screenLen": 8,
+        "screenLen": 10,
         "value": 4
     },
     {
@@ -1520,7 +1520,7 @@
         "sizeClass": 3,
         "sizeMin": 400,
         "sizeMax": 550,
-        "screenLen": 9,
+        "screenLen": 11,
         "value": 18
     },
     {
@@ -1530,7 +1530,7 @@
         "sizeClass": 2,
         "sizeMin": 135,
         "sizeMax": 275,
-        "screenLen": 6,
+        "screenLen": 7.5,
         "value": 6
     },
     {
@@ -1540,7 +1540,7 @@
         "sizeClass": 2,
         "sizeMin": 90,
         "sizeMax": 195,
-        "screenLen": 6,
+        "screenLen": 7,
         "value": 2
     },
     {
@@ -1550,7 +1550,7 @@
         "sizeClass": 2,
         "sizeMin": 120,
         "sizeMax": 190,
-        "screenLen": 4,
+        "screenLen": 7,
         "value": 5
     },
     {
@@ -1560,7 +1560,7 @@
         "sizeClass": 3,
         "sizeMin": 350,
         "sizeMax": 500,
-        "screenLen": 5,
+        "screenLen": 8,
         "value": 8
     }
 ]

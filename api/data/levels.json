@@ -441,42 +441,42 @@
     },
     {
         "level": 111,
-        "expRequired": 23500
+        "expRequired": 31000
     },
     {
         "level": 112,
-        "expRequired": 35000
+        "expRequired": 32000
     },
     {
         "level": 113,
-        "expRequired": 38000
+        "expRequired": 33000
     },
     {
         "level": 114,
-        "expRequired": 43000    
+        "expRequired": 34000    
     },
     {
         "level": 115,
-        "expRequired": 47000
+        "expRequired": 35000
     },
     {
         "level": 116,
-        "expRequired": 50000
+        "expRequired": 36000
     },
     {
         "level": 117,
-        "expRequired": 53000
+        "expRequired": 37500
     },
     {
         "level": 118,
-        "expRequired": 57000
+        "expRequired": 39000
     },
     {
         "level": 119,
-        "expRequired": 61000
+        "expRequired": 40000
     },
     {
         "level": 120,
-        "expRequired": 65000
+        "expRequired": 42500
     }
 ]
