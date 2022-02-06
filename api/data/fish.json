@@ -1562,5 +1562,16 @@
         "sizeMax": 500,
         "screenLen": 8,
         "value": 8
+    },
+    {
+        "id": 157,
+        "name": "shoal_bass",
+        "family": "bass",
+        "sizeClass": 4,
+        "sizeMin": 2,
+        "sizeMax": 5,
+        "screenLen": 7.5,
+        "value": 80,
+        "legendary": true
     }
 ]

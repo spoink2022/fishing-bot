@@ -16,7 +16,8 @@
             {"id": 8, "chance": 5},
             {"id": 9, "chance": 5},
             {"id": 10, "chance": 14}
-        ]
+        ],
+        "legendary": 157
     },
     {
         "id": 2,
