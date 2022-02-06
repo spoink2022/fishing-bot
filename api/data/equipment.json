@@ -788,8 +788,8 @@
             "rgb": "#07722F",
             "maxWeight": 800,
             "level": 113,
-            "price": 97500,
-            "bonus": 12
+            "price": 60000,
+            "bonus": 13
         },
         {
             "id": 50,
@@ -798,8 +798,8 @@
             "rgb": "#18783C",
             "maxWeight": 875,
             "level": 115,
-            "price": 115000,
-            "bonus": 12
+            "price": 95000,
+            "bonus": 14
         },
         {
             "id": 51,
@@ -808,8 +808,8 @@
             "rgb": "#087430",
             "maxWeight": 950,
             "level": 116,
-            "price": 120000,
-            "bonus": 12
+            "price": 100000,
+            "bonus": 15
         },
         {
             "id": 52,
@@ -818,8 +818,8 @@
             "rgb": "#095926",
             "maxWeight": 1000,
             "level": 119,
-            "price": 130000,
-            "bonus": 12
+            "price": 120000,
+            "bonus": 16
         }
     ],
     "hooks": [
@@ -1309,7 +1309,7 @@
             "maxWeight": 800,
             "name": "Muskie AA",
             "level": 112,
-            "price": 44000
+            "price": 42000
         },
         {
             "id": 61,
@@ -1317,30 +1317,31 @@
             "maxWeight": 850,
             "name": "Muskie AAA",
             "level": 114,
-            "price": 48000
-        },        {
+            "price": 44000
+        },
+        {
             "id": 62,
             "multiplier": 1.70,
             "maxWeight": 900,
             "name": "Sturgeon D",
             "level": 116,
-            "price": 53000
+            "price": 45000
         },
         {
             "id": 63,
-            "multiplier": 1.71,
+            "multiplier": 1.705,
             "maxWeight": 950,
             "name": "Sturgeon C",
             "level": 118,
-            "price": 57000
+            "price": 48000
         },
         {
             "id": 64,
-            "multiplier": 1.72,
+            "multiplier": 1.71,
             "maxWeight": 1000,
             "name": "Sturgeon B",
             "level": 120,
-            "price": 62000
+            "price": 50000
         }
     ],
     "gloves": [
@@ -1483,7 +1484,7 @@
         {
             "id": 18,
             "name": "Underwater",
-            "chance": 15,
+            "chance": 14,
             "bonus": 160,
             "level": 113,
             "price": 150000
@@ -1491,10 +1492,10 @@
         {
             "id": 19,
             "name": "Underwater V2",
-            "chance": 19,
+            "chance": 14,
             "bonus": 200,
             "level": 117,
-            "price": 200000
+            "price": 160000
         }
     ],
     "swivels": [
@@ -1580,7 +1581,7 @@
             "name": "Amethyst Tactical V3",
             "bonus": 210,
             "level": 112,
-            "price": 200000
+            "price": 180000
         },
         {
             "id": 13,
