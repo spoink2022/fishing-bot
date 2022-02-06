@@ -4,6 +4,8 @@
 const FishData = require('./data/fish.json');
 const LocationData = require('./data/fishing-locations.json');
 
+// NOTE FOR UPDATES -> SHIFT IDS SO THAT LEGENDARY FISH ARE ALWAYS AT THE BOTTOM
+
 // Formatted Data
 for (let i=0; i<LocationData.length; i++) {
     // Add "chance" field to fish
@@ -14,6 +16,8 @@ for (let i=0; i<LocationData.length; i++) {
         // Add location to each fish
         FishData[fishList[entry].id].location = i+1;
     }
+    // Add location for legendary fish
+    if (LocationData[i].legendary) { FishData[LocationData[i].legendary].location = i+1; }
     // Add "prefixSumChances" field to location
     LocationData[i].prefixSumChances = [];
     for (let j=0; j<LocationData[i].fish.length; j++) {
@@ -84,18 +88,28 @@ module.exports.getFamilyNames = function() {
 }
 
 module.exports.getFishDataFromLocation = function(locationId) {
-    return FishData.slice(
+    let data = FishData.slice(
         LocationData[locationId-1].fish[0].id,
         LocationData[locationId-1].fish[LocationData[locationId-1].fish.length-1].id + 1
     );
+    if (LocationData[locationId-1].legendary) {
+        data.push(FishData[LocationData[locationId-1].legendary]);
+    }
+    return data;
 }
 
 module.exports.getAllUnlockedFishData = function(userLevel) {
     const highest = getHighestLocation(userLevel);
-    return FishData.slice(
+    let data = FishData.slice(
         1,
         LocationData[highest - 1].fish[LocationData[highest - 1].fish.length - 1].id + 1,
     );
+    for (let i=0; i<highest; i++) {
+        if (LocationData[i].legendary) {
+            data.push(FishData[LocationData[i].legendary]);
+        }
+    }
+    return data;
 }
 
 module.exports.getAllUnlockedLocationData = function(userLevel) {
