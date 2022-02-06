@@ -1408,8 +1408,8 @@
         "name": "porbeagle",
         "family": "shark",
         "sizeClass": 2,
-        "sizeMin": 115,
-        "sizeMax": 140,
+        "sizeMin": 80,
+        "sizeMax": 160,
         "screenLen": 5.5,
         "value": 4
     },
@@ -1421,7 +1421,7 @@
         "sizeMin": 0.5,
         "sizeMax": 2.5,
         "screenLen": 3,
-        "value": 10
+        "value": 40
     },
     {
         "id": 143,
@@ -1429,9 +1429,9 @@
         "family": "catfish",
         "sizeClass": 1,
         "sizeMin": 7,
-        "sizeMax": 23,
+        "sizeMax": 20,
         "screenLen": 3,
-        "value": 8
+        "value": 12
     },
     {
         "id": 144,
@@ -1449,7 +1449,7 @@
         "family": "catfish",
         "sizeClass": 2,
         "sizeMin": 180,
-        "sizeMax": 290,
+        "sizeMax": 300,
         "screenLen": 7,
         "value": 25
     },
@@ -1481,15 +1481,15 @@
         "sizeMin": 650,
         "sizeMax": 1500,
         "screenLen": 11,
-        "value": 10
+        "value": 9
     },
     {
         "id": 149,
         "name": "narwhal",
         "family": "whale",
         "sizeClass": 4,
-        "sizeMin": 340,
-        "sizeMax": 940,
+        "sizeMin": 350,
+        "sizeMax": 900,
         "screenLen": 11,
         "value": 4
     },
@@ -1511,7 +1511,7 @@
         "sizeMin": 800,
         "sizeMax": 1750,
         "screenLen": 15,
-        "value": 14
+        "value": 12
     },
     {
         "id": 152,
@@ -1521,7 +1521,7 @@
         "sizeMin": 400,
         "sizeMax": 550,
         "screenLen": 11,
-        "value": 18
+        "value": 20
     },
     {
         "id": 153,
@@ -1539,7 +1539,7 @@
         "family": "shark",
         "sizeClass": 2,
         "sizeMin": 90,
-        "sizeMax": 195,
+        "sizeMax": 180,
         "screenLen": 7,
         "value": 2
     },
@@ -1549,9 +1549,9 @@
         "family": "shark",
         "sizeClass": 2,
         "sizeMin": 120,
-        "sizeMax": 190,
+        "sizeMax": 200,
         "screenLen": 7,
-        "value": 5
+        "value": 8
     },
     {
         "id": 156,
