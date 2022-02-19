@@ -96,7 +96,7 @@ module.exports.getRingSellRate = function(rating) {
 }
 
 // Rings - Bulk
-module.exports.getRingNames = function(ringNames) {
+module.exports.getRingNames = function() {
     return RingNames;
 }
 

@@ -1,0 +1,102 @@
+{
+    "hull": [
+        {
+            "name": "wooden",
+            "price": 0
+        },
+        {
+            "name": "framed wooden",
+            "price": 500
+        },
+        {
+            "name": "reinforced wooden",
+            "price": 1500
+        }
+    ],
+    "container": [
+        {
+            "name": "old",
+            "price": 0,
+            "capacity": 7
+        },
+        {
+            "name": "standard",
+            "price": 100,
+            "capacity": 8
+        },
+        {
+            "name": "double old",
+            "price": 150,
+            "capacity": 9
+        },
+        {
+            "name": "double standard",
+            "price": 200,
+            "capacity": 10
+        }
+    ],
+    "engine": [
+        {
+            "name": "weak gasoline",
+            "price": 0,
+            "efficiency": 1
+        },
+        {
+            "name": "standard gasoline",
+            "price": 100,
+            "efficiency": 1.1
+        },
+        {
+            "name": "improved gasoline",
+            "price": 150,
+            "efficiency": 1.2
+        },
+        {
+            "name": "superior gasoline",
+            "price": 200,
+            "efficiency": 1.3
+        },
+        {
+            "name": "silver gasoline",
+            "price": 300,
+            "efficiency": 1.4
+        },
+        {
+            "name": "gold gasoline",
+            "price": 400,
+            "efficiency": 1.5
+        }
+    ],
+    "propeller": [
+        {
+            "name": "soft wooden",
+            "price": 0,
+            "cooldown": 432000000
+        },
+        {
+            "name": "standard wooden",
+            "price": 50,
+            "cooldown": 417600000
+        },
+        {
+            "name": "improved wooden",
+            "price": 75,
+            "cooldown": 403200000
+        },
+        {
+            "name": "iron",
+            "price": 100,
+            "cooldown": 396000000
+        },
+        {
+            "name": "double iron",
+            "price": 150,
+            "cooldown": 374400000
+        },
+        {
+            "name": "double steel",
+            "price": 175,
+            "cooldown": 360000000
+        }
+    ]
+}
