@@ -563,5 +563,72 @@
             "lollipops": 25,
             "coins": 600
         }
+    },
+    {
+        "name": "Removing Small Fish (Part 1/10)",
+        "description": "Your clan is tasked with removing all small fish! \nfirst up, ​Redbreast Sunfish and Garfish",
+        "requirements": [
+            ["​redbreast_sunfish", 40],
+            ["garfish ", 60]
+        ],
+        "rewards": {
+            "clanPoints": 55,
+            "lollipops": 20,
+            "coins": 1000
+        }
+    },
+    {
+        "name": "Removing Small Fish (Part 2/10)",
+        "description": "Now it is time for everyone's favourites: California Roach and Blackfish",
+        "requirements": [
+            ["california_roach", 50],
+            ["blackfish", 50]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 25,
+            "coins": 600
+        }
+    },
+    {
+        "name": "Removing Small Fish (Part 3/10)",
+        "description": "A quarter of the way there!",
+        "requirements": [
+            ["spotted_mackerel", 25],
+            ["longnose_sucker", 35],
+            ["pearl_perch", 40]
+        ],
+        "rewards": {
+            "clanPoints": 60,
+            "lollipops": 30,
+            "coins": 500
+        }
+    },
+    {
+        "name": "Removing Small Fish (Part 4/10)",
+        "description": "Remember the ​Bluntnose Minnow??",
+        "requirements": [
+            ["​bluntnose_minnow", 40],
+            ["bluefish", 40],
+            ["atlantic_salmon", 20]
+        ],
+        "rewards": {
+            "clanPoints": 40,
+            "lollipops": 20,
+            "coins": 350
+        }
+    },
+    {
+        "name": "Removing Small Fish (Part 5/10)",
+        "description": "Officially halfway!",
+        "requirements": [
+            ["spotted_seatrout", 40],
+            ["white_catfish", 60]
+        ],
+        "rewards": {
+            "clanPoints": 50,
+            "lollipops": 30,
+            "coins": 600
+        }
     }
 ]
