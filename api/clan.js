@@ -3,6 +3,7 @@
 
 const ClanShopData = require('./data/clanshop.json');
 const ClanBoatData = require('./data/clanboat.json');
+const ClanLocationData = require('./data/clanlocations.json');
 
 module.exports.getPerkValue = function(name, level) {
     return ClanShopData.perks[name].levels[level-1].value;
@@ -55,4 +56,12 @@ module.exports.getAllPropellerData = function() {
 }
 module.exports.getPropellerData = function(id) {
     return ClanBoatData.propeller[id - 1];
+}
+
+// CLAN LOCATIONS
+module.exports.getAllClanLocationData = function() {
+    return ClanLocationData;
+}
+module.exports.getClanLocationData = function(id) {
+    return ClanLocationData[id];
 }

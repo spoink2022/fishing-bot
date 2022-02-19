@@ -68,3 +68,7 @@ module.exports.fetchContainerImgUrl = function(containerId) {
 module.exports.fetchPropellerImgUrl = function(propellerId) {
     return `${path}/clanboat/propeller/propeller_${propellerId}.png`;
 }
+
+module.exports.fetchClanLocationImgUrl = function(clanLocationId) {
+    return `${path}/clanboat/location/${clanLocationId}.png`;
+}
