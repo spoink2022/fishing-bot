@@ -2,7 +2,8 @@ const { PROD } = require('../private/config.json');
 
 let path = 'https://storage.googleapis.com/fishingbot/assets';
 if (!PROD) {
-    path = 'https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img';
+    path = 'static/img';
+    //path = 'https://raw.githubusercontent.com/spoink2022/fishing-bot/main/static/img';
     console.log('Using Dev Path...');
 }
 

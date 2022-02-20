@@ -25,12 +25,12 @@
             "capacity": 8
         },
         {
-            "name": "double old",
+            "name": "double",
             "price": 150,
             "capacity": 9
         },
         {
-            "name": "double standard",
+            "name": "triple",
             "price": 200,
             "capacity": 10
         }
