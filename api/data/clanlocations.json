@@ -1,7 +1,7 @@
 {
     "1": {
         "name": "Calm Waters",
-        "dist": 50,
+        "dist": 20,
         "spawns": {
             "common": ["l1", "l1", "l1", "l2", "l2"],
             "uncommon": ["l3", "l3", "b1"],
@@ -10,7 +10,7 @@
     },
     "2": {
         "name": "Deep Waters",
-        "dist": 75,
+        "dist": 40,
         "spawns": {
             "common": ["l4", "l4", "l4", "l4", "b1"],
             "uncommon": ["l5"],
@@ -19,7 +19,7 @@
     },
     "3": {
         "name": "The Gulf",
-        "dist": 125,
+        "dist": 60,
         "spawns": {
             "common": ["l5", "l6"],
             "uncommon": ["l7", "b2"],
