@@ -5,6 +5,15 @@ const BaitData = require('./data/bait.json');
 
 // Formatted Data
 const BaitNames = Object.keys(BaitData);
+let BaitNamesByStars = {};
+for (const [key, value] of Object.entries(BaitData)) {
+    if (value.banned) { continue; }
+    if (!(value.stars in BaitNamesByStars)) {
+        BaitNamesByStars[value.stars] = [key]
+    } else {
+        BaitNamesByStars[value.stars].push(key);
+    }
+}
 
 // Exports
 module.exports.getBaitData = function(baitName) {
@@ -17,6 +26,10 @@ module.exports.getAllBaitNames = function() {
 
 module.exports.getAllBaitData = function() {
     return BaitData;
+}
+
+module.exports.getBaitNamesByStars = function(stars) {
+    return BaitNamesByStars[stars];
 }
 
 module.exports.getRegularBaitNames = function() {

@@ -6,6 +6,12 @@ module.exports.updateColumn = async function(userid, column, value) {
     return newValue;
 }
 
+module.exports.updateColumns = async function(userid, obj) {
+    let queryMiddle = Object.keys(obj).map(key => `${key}=${key}+${obj[key]}`).join(', ');
+    let query = `UPDATE bait SET ${queryMiddle} WHERE userid=$1`;
+    return await config.pquery(query, [userid]);
+}
+
 module.exports.fetchAllBaits = async function(userid) {
     let query = 'SELECT * FROM bait WHERE userid=$1 LIMIT 1';
     let res = (await config.pquery(query, [userid]))[0];

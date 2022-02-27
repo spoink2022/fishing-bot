@@ -35,6 +35,12 @@ module.exports.updateClanColumns = async function(clanId, obj) {
     return await config.pquery(query, [clanId]);
 }
 
+module.exports.setClanColumns = async function(clanId, obj) {
+    let queryMiddle = Object.keys(obj).map(key => `${key}=${obj[key]}`).join(', ');
+    let query = `UPDATE clan SET ${queryMiddle} WHERE id=$1`;
+    return await config.pquery(query, [clanId]);
+}
+
 module.exports.appendToClanCampaignProgress = async function(clanId, fishId) {
     let query = 'UPDATE clan SET campaign_progress=ARRAY_APPEND(campaign_progress, $1) WHERE id=$2';
     return await config.pquery(query, [fishId, clanId]);
@@ -78,9 +84,14 @@ module.exports.fetchMemberByMemberId = async function(clanId, memberId) { // mem
 }
 
 module.exports.fetchMembers = async function(clanId) {
-    let query = 'SELECT users.opted_in, users.level, users.cooldown, clan_member.joined, clan_member.userid, clan_member.tag, clan_member.role, clan_member.campaign_catches, clan_member.last_campaign_catch FROM users, clan_member WHERE users.userid=clan_member.userid AND clan_member.clan=$1 ORDER BY users.level DESC, users.exp DESC';
+    let query = 'SELECT users.opted_in, users.level, users.cooldown, clan_member.* FROM users, clan_member WHERE users.userid=clan_member.userid AND clan_member.clan=$1 ORDER BY users.level DESC, users.exp DESC';
     let res = await config.pquery(query, [clanId]);
     return res;
+}
+
+module.exports.setBoatClaimableToTrue = async function(clanId) {
+    let query = 'UPDATE clan_member SET claimed=FALSE WHERE clan=$1';
+    return await config.pquery(query, [clanId]);
 }
 
 module.exports.setMemberColumn = async function(userid, column, value) {
