@@ -22,6 +22,14 @@
             {
                 "name": "Christmas Banner",
                 "src": "christmas_banner"
+            },
+            {
+                "name": "Bloody Banner",
+                "src": "legacy_bloody"
+            },
+            {
+                "name": "Sunburnt Banner",
+                "src": "legacy_sunburnt"
             }
         ]
     }
