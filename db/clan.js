@@ -84,7 +84,7 @@ module.exports.fetchMemberByMemberId = async function(clanId, memberId) { // mem
 }
 
 module.exports.fetchMembers = async function(clanId) {
-    let query = 'SELECT users.opted_in, users.level, users.cooldown, clan_member.joined, clan_member.userid, clan_member.tag, clan_member.role, clan_member.campaign_catches, clan_member.last_campaign_catch FROM users, clan_member WHERE users.userid=clan_member.userid AND clan_member.clan=$1 ORDER BY users.level DESC, users.exp DESC';
+    let query = 'SELECT users.opted_in, users.level, users.cooldown, clan_member.* FROM users, clan_member WHERE users.userid=clan_member.userid AND clan_member.clan=$1 ORDER BY users.level DESC, users.exp DESC';
     let res = await config.pquery(query, [clanId]);
     return res;
 }
