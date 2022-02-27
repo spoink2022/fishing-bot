@@ -5,6 +5,21 @@ const ClanShopData = require('./data/clanshop.json');
 const ClanBoatData = require('./data/clanboat.json');
 const ClanLocationData = require('./data/clanlocations.json');
 
+// Pre-processing
+for (const [key, value] of Object.entries(ClanLocationData)) {
+    let locations = [];
+    for (let rarity of ['common', 'uncommon', 'rare']) {
+        for (let reward of value.spawns[rarity]) {
+            if (reward[0] === 'l' && !locations.includes(parseInt(reward.substring(1)))) {
+                locations.push(parseInt(reward.substring(1)));
+            }
+        }
+    }
+    ClanLocationData[key].locations = locations;
+}
+
+
+// Exports
 module.exports.getPerkValue = function(name, level) {
     return ClanShopData.perks[name].levels[level-1].value;
 }
