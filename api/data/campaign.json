@@ -569,7 +569,7 @@
         "description": "Your clan is tasked with removing all small fish! \nFirst up, redbreast sunfish and garfish",
         "requirements": [
             ["redbreast_sunfish", 30],
-            ["garfish ", 50]
+            ["garfish", 50]
         ],
         "rewards": {
             "clanPoints": 55,
