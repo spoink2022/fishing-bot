@@ -632,7 +632,7 @@
     },
     {
         "name": "Shark expedition (Part 1/5)",
-        "description": "Your clan starts a journey to exploring shark species!\nTo catch these sharks, you also need to acquire sharkbait\nFirst up, Bull Shark!! You need Muskie's and Drum's as baits.",
+        "description": "Your clan starts a journey to exploring shark species!\nTo catch these sharks, your clan also need to acquire sharkbait\nFirst up, Bull Shark!! You need Muskie's and Drum's as baits.",
         "requirements": [
             ["bull_shark", 10],
             ["tiger_muskie", 48],
@@ -663,7 +663,7 @@
     },
     {
         "name": "Shark expedition (Part 3/5)",
-        "description": "Catch Whaler Shark's with Catfishs and smaller Sharks!",
+        "description": "Catch Whaler Shark's with Catfishes and smaller Sharks!",
         "requirements": [
             ["brown_bullhead_catfish", 30],
             ["whaler_shark", 10],
@@ -678,7 +678,7 @@
     },
     {
         "name": "Shark expedition (Part 4/5)",
-        "description": "Almost done!\n This time your clan will be catching Hammerhead and Blacktip Sharks with Catfishs",
+        "description": "Almost done!\n This time your clan will be catching Hammerhead and Blacktip Sharks with Catfishes",
         "requirements": [
             ["hammerhead_shark", 20],
             ["blacktip_shark", 30],
