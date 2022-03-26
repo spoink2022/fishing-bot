@@ -629,5 +629,84 @@
             "lollipops": 30,
             "coins": 600
         }
+    },
+    {
+        "name": "Shark expedition (Part 1/5)",
+        "description": "Your clan starts a journey to exploring shark species!\nTo catch these sharks, you also need to acquire sharkbait\nFirst up, Bull Shark!! You need Muskie's and Drum's as baits.",
+        "requirements": [
+            ["bull_shark", 10],
+            ["tiger_muskie", 48],
+            ["clear_muskie", 9],
+            ["red_drum", 25]
+        ],
+        "rewards": {
+            "clanPoints": 105,
+            "lollipops": 65,
+            "coins": 2000
+        }
+    },
+    {
+        "name": "Shark expedition (Part 2/5)",
+        "description": "Catch Mako Shark's with Salmons, Mackerels and Tunas!",
+        "requirements": [
+            ["mako_shark", 10],
+            ["atlantic_salmon", 30],
+            ["spotted_mackerel", 30],
+            ["spanish_mackerel", 20],
+            ["sockeye_salmon", 10]
+        ],
+        "rewards": {
+            "clanPoints": 105,
+            "lollipops": 58,
+            "coins": 400
+        }
+    },
+    {
+        "name": "Shark expedition (Part 3/5)",
+        "description": "Catch Whaler Shark's with Catfishs and smaller Sharks!",
+        "requirements": [
+            ["brown_bullhead_catfish", 30],
+            ["whaler_shark", 10],
+            ["mulloway", 20],
+            ["hammerhead_shark", 10]
+        ],
+        "rewards": {
+            "clanPoints": 110,
+            "lollipops": 60,
+            "coins": 2400
+        }
+    },
+    {
+        "name": "Shark expedition (Part 4/5)",
+        "description": "Almost done!\n This time your clan will be catching Hammerhead and Blacktip Sharks with Catfishs",
+        "requirements": [
+            ["hammerhead_shark", 20],
+            ["blacktip_shark", 30],
+            ["white_catfish", 20],
+            ["piraiba_catfish", 15],
+            ["gilded_catfish", 15]
+        ],
+        "rewards": {
+            "clanPoints": 95,
+            "lollipops": 55,
+            "coins": 1000
+        }
+    },
+    {
+        "name": "Shark expedition (Part 5/5)",
+        "description": "To end the expedition, your clan needs to catch a variety of Sharks!",
+        "requirements": [
+            ["bull_shark", 20],
+            ["mako_shark", 10],
+            ["hammerhead_shark", 25],
+            ["blacktip_shark", 30],
+            ["tiger_shark", 5],
+            ["smooth_hound", 10]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 75,
+            "coins": 3000
+        }
     }
 ]
