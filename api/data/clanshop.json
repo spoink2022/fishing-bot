@@ -10,48 +10,36 @@
                     "value": 0
                 },
                 {
-                    "price": 30,
-                    "value": 0.5
-                },
-                {
-                    "price": 40,
+                    "price": 10,
                     "value": 1
                 },
                 {
-                    "price": 50,
-                    "value": 1.5
-                },
-                {
-                    "price": 50,
+                    "price": 15,
                     "value": 2
                 },
                 {
-                    "price": 100,
+                    "price": 20,
                     "value": 3
                 },
                 {
-                    "price": 75,
-                    "value": 3.5
-                },
-                {
-                    "price": 75,
+                    "price": 25,
                     "value": 4
                 },
                 {
-                    "price": 75,
-                    "value": 4.5
-                },
-                {
-                    "price": 75,
+                    "price": 30,
                     "value": 5
                 },
                 {
-                    "price": 150,
+                    "price": 40,
                     "value": 6
                 },
                 {
-                    "price": 175,
-                    "value": 7
+                    "price": 100,
+                    "value": 8
+                },
+                {
+                    "price": 150,
+                    "value": 10
                 }
             ]
         },
@@ -65,48 +53,36 @@
                     "value": 0
                 },
                 {
-                    "price": 30,
+                    "price": 10,
                     "value": 1
                 },
                 {
-                    "price": 40,
+                    "price": 15,
                     "value": 2
                 },
                 {
-                    "price": 50,
+                    "price": 20,
                     "value": 3
                 },
                 {
-                    "price": 50,
+                    "price": 25,
                     "value": 4
                 },
                 {
-                    "price": 100,
+                    "price": 30,
+                    "value": 5
+                },
+                {
+                    "price": 40,
                     "value": 6
                 },
                 {
-                    "price": 75,
-                    "value": 7
-                },
-                {
-                    "price": 75,
+                    "price": 100,
                     "value": 8
                 },
                 {
-                    "price": 75,
-                    "value": 9
-                },
-                {
-                    "price": 75,
-                    "value": 10
-                },
-                {
                     "price": 150,
-                    "value": 12
-                },
-                {
-                    "price": 200,
-                    "value": 15
+                    "value": 10
                 }
             ]
         },
@@ -120,48 +96,36 @@
                     "value": 0
                 },
                 {
-                    "price": 30,
+                    "price": 10,
                     "value": 1
                 },
                 {
-                    "price": 40,
+                    "price": 15,
                     "value": 2
                 },
                 {
-                    "price": 50,
+                    "price": 20,
                     "value": 3
                 },
                 {
-                    "price": 50,
+                    "price": 25,
                     "value": 4
                 },
                 {
-                    "price": 100,
+                    "price": 30,
+                    "value": 5
+                },
+                {
+                    "price": 40,
                     "value": 6
                 },
                 {
-                    "price": 75,
-                    "value": 7
-                },
-                {
-                    "price": 75,
+                    "price": 100,
                     "value": 8
                 },
                 {
-                    "price": 75,
-                    "value": 9
-                },
-                {
-                    "price": 75,
-                    "value": 10
-                },
-                {
                     "price": 150,
-                    "value": 12
-                },
-                {
-                    "price": 200,
-                    "value": 15
+                    "value": 10
                 }
             ]
         },
@@ -175,7 +139,7 @@
                     "value": 0
                 },
                 {
-                    "price": 50,
+                    "price": 30,
                     "value": 1
                 },
                 {
@@ -183,11 +147,11 @@
                     "value": 2
                 },
                 {
-                    "price": 100,
+                    "price": 150,
                     "value": 3
                 },
                 {
-                    "price": 125,
+                    "price": 200,
                     "value": 4
                 }
             ]
@@ -202,11 +166,11 @@
                     "value": 0
                 },
                 {
-                    "price": 40,
+                    "price": 20,
                     "value": 5
                 },
                 {
-                    "price": 60,
+                    "price": 50,
                     "value": 10
                 },
                 {
@@ -214,11 +178,11 @@
                     "value": 15
                 },
                 {
-                    "price": 120,
+                    "price": 125,
                     "value": 20
                 },
                 {
-                    "price": 140,
+                    "price": 150,
                     "value": 25
                 }
             ]
@@ -237,28 +201,28 @@
                     "value": 10
                 },
                 {
-                    "price": 30,
+                    "price": 20,
+                    "value": 15
+                },
+                {
+                    "price": 25,
                     "value": 20
                 },
                 {
-                    "price": 40,
+                    "price": 50,
                     "value": 30
                 },
                 {
-                    "price": 50,
+                    "price": 75,
                     "value": 40
                 },
                 {
-                    "price": 50,
+                    "price": 100,
                     "value": 50
                 },
                 {
-                    "price": 70,
+                    "price": 150,
                     "value": 60
-                },
-                {
-                    "price": 100,
-                    "value": 70
                 }
             ]
         }
