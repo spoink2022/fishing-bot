@@ -25,5 +25,14 @@
             "uncommon": ["l7", "b2"],
             "rare": ["b3"]
         }
+    },
+    "4": {
+        "name": "Opulent Ocean",
+        "dist": 80,
+        "spawns": {
+            "common": ["l6", "l7", "l7"],
+            "uncommon": ["l8", "l9", "b2", "b3"],
+            "rare": ["b4"]
+        }
     }
 }
