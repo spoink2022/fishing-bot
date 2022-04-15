@@ -92,8 +92,9 @@ module.exports.fetchTotalWeightCaught = async function() {
 }
 
 module.exports.fetchGlobalDollarsSpent = async function() {
-    let query = 'SELECT SUM(dollars_spent) FROM users';
-    let dollarsSpent = (await config.pquery(query))[0].sum;
+    let query = 'SELECT SUM(all_supporter) AS supporter, SUM(all_big_supporter) AS big_supporter, SUM(all_premium_server) AS premium_server FROM users';
+    let d = (await config.pquery(query))[0];
+    let dollarsSpent = d.supporter * 1.5 + d.big_supporter * 10 + d.premium_server * 20;
     return dollarsSpent;
 }
 
