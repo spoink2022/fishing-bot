@@ -91,6 +91,12 @@ module.exports.fetchTotalWeightCaught = async function() {
     return weightCaught; // tons
 }
 
+module.exports.fetchGlobalDollarsSpent = async function() {
+    let query = 'SELECT SUM(dollars_spent) FROM users';
+    let dollarsSpent = (await config.pquery(query))[0].sum;
+    return dollarsSpent;
+}
+
 // Bulk Queries
 module.exports.fetchLeaderboardsByWeight = async function(useridArray) {
     let query = 'SELECT userid, weight_caught AS value FROM users WHERE userid=ANY($1) ORDER BY weight_caught DESC LIMIT 20';
