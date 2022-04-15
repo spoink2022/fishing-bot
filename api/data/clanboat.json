@@ -11,6 +11,10 @@
         {
             "name": "reinforced wooden",
             "price": 2000
+        },
+        {
+            "name": "fortify bronze",
+            "price": 3500            
         }
     ],
     "container": [
@@ -33,7 +37,17 @@
             "name": "triple",
             "price": 500,
             "capacity": 9
-        }
+        },
+        {
+            "name": "reinforced",
+            "price": 750,
+            "capacity": 11
+        },
+        {
+            "name": "reinforced triple",
+            "price": 900,
+            "capacity": 12
+        }        
     ],
     "engine": [
         {
@@ -65,6 +79,11 @@
             "name": "gold gasoline",
             "price": 400,
             "efficiency": 1
+        },
+        {
+            "name": "opal gasoline",
+            "price": 550,
+            "efficiency": 1.1
         }
     ],
     "propeller": [
@@ -97,6 +116,15 @@
             "name": "double steel",
             "price": 350,
             "cooldown": 360000000
+        },
+        {
+            "name": "reinforced double steel",
+            "price": 400,
+            "cooldown": 345600000
+        },        {
+            "name": "sapphire double",
+            "price": 500,
+            "cooldown": 331200000
         }
     ]
 }
