@@ -13,8 +13,8 @@
             "price": 2000
         },
         {
-            "name": "fortify bronze",
-            "price": 3500            
+            "name": "aluminum",
+            "price": 3000
         }
     ],
     "container": [
@@ -39,13 +39,13 @@
             "capacity": 9
         },
         {
-            "name": "reinforced",
-            "price": 750,
+            "name": "industrial",
+            "price": 800,
             "capacity": 11
         },
         {
-            "name": "reinforced triple",
-            "price": 900,
+            "name": "double industrial",
+            "price": 600,
             "capacity": 12
         }        
     ],
@@ -81,9 +81,14 @@
             "efficiency": 1
         },
         {
-            "name": "opal gasoline",
+            "name": "standard diesel",
+            "price": 500,
+            "efficiency": 1.2
+        },
+        {
+            "name": "improved diesel",
             "price": 550,
-            "efficiency": 1.1
+            "efficiency": 1.4
         }
     ],
     "propeller": [
@@ -118,13 +123,9 @@
             "cooldown": 360000000
         },
         {
-            "name": "reinforced double steel",
-            "price": 400,
-            "cooldown": 345600000
-        },        {
-            "name": "sapphire double",
+            "name": "industrial",
             "price": 500,
-            "cooldown": 331200000
+            "cooldown": 345600000
         }
     ]
 }
