@@ -1573,5 +1573,16 @@
         "screenLen": 7.5,
         "value": 80,
         "legendary": true
+    },
+    {
+        "id": 158,
+        "name": "black_drum",
+        "family": "drum",
+        "sizeClass": 4,
+        "sizeMin": 4,
+        "sizeMax": 14,
+        "screenLen": 8.5,
+        "value": 60,
+        "legendary": true
     }
 ]
