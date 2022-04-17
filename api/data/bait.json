@@ -242,7 +242,7 @@
         "bonus": 50
     },
     "huge_cutbait": {
-        "id": 19,
+        "id": 24,
         "tier": "S",
         "sizes": [4],
         "families": [],
@@ -250,5 +250,38 @@
         "value": 35,
         "min": null,
         "max": null
+    },
+    "bronze_egg": {
+        "id": 25,
+        "tier": "SS",
+        "sizes": [1],
+        "families": [],
+        "stars": 3,
+        "value": 20,
+        "min": null,
+        "max": null,
+        "banned": true
+    },
+    "silver_egg": {
+        "id": 26,
+        "tier": "SS",
+        "sizes": [2],
+        "families": [],
+        "stars": 4,
+        "value": 35,
+        "min": null,
+        "max": null,
+        "banned": true
+    },
+    "gold_egg": {
+        "id": 27,
+        "tier": "SS",
+        "sizes": [3],
+        "families": [],
+        "stars": 4,
+        "value": 60,
+        "min": null,
+        "max": null,
+        "banned": true
     }
 }
