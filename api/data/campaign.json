@@ -708,5 +708,82 @@
             "lollipops": 50,
             "coins": 3000
         }
+    },
+    {
+        "name": "Hunt for Tuna (Part 1/5)",
+        "description": "Your clan is hunting tuna for the next couple of weeks!\nFirst tuna: Yellowfin Tuna\nOn the side, the clan will also need to catch some species without a fish family",
+        "requirements": [
+            ["yellowfin_tuna", 25],
+            ["tarpon", 10],
+            ["flounder", 35],
+            ["butterfish", 15],
+            ["swordfish", 15]
+        ],
+        "rewards": {
+            "clanPoints": 90,
+            "lollipops": 30,
+            "coins": 3000
+        }
+    },
+    {
+        "name": "Hunt for Tuna (Part 2/5)",
+        "description": "Longtail Tuna is up next!",
+        "requirements": [
+            ["longtail_tuna", 35],
+            ["hapuku", 10],
+            ["coelacanth", 15],
+            ["arapaima ", 15],
+            ["payara ", 25]
+        ],
+        "rewards": {
+            "clanPoints": 105,
+            "lollipops": 35,
+            "coins": 3200
+        }
+    },
+    {
+        "name": "Hunt for Tuna (Part 3/5)",
+        "description": "The third tuna: Bluefin Tuna!",
+        "requirements": [
+            ["bluefin_tuna", 25],
+            ["amberjack", 35],
+            ["pacific_whiting", 10],
+            ["trahira", 30]
+        ],
+        "rewards": {
+            "clanPoints": 95,
+            "lollipops": 25,
+            "coins": 2500
+        }
+    },
+    {
+        "name": "Hunt for Tuna (Part 4/5)",
+        "description": "Our last tuna: Bigeye Tuna!",
+        "requirements": [
+            ["bigeye_tuna", 25],
+            ["coelacanth", 10],
+            ["mahi_mahi", 30],
+            ["blackfish", 35]
+        ],
+        "rewards": {
+            "clanPoints": 102,
+            "lollipops": 34,
+            "coins": 3300
+        }
+    },
+    {
+        "name": "Hunt for Tuna (Part 4/5)",
+        "description": "Catching Tuna's Only!!!",
+        "requirements": [
+            ["yellowfin_tuna", 25],
+            ["longtail_tuna", 25],
+            ["bluefin_tuna", 25],
+            ["bigeye_tuna", 25]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 52,
+            "coins": 4000
+        }
     }
 ]
