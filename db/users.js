@@ -118,5 +118,19 @@ module.exports.fetchGlobalUserStats = async function() {
     return res;
 }
 
+// INTERFACING THE server_shop_claims TABLE
+module.exports.resetServerShopClaims = async function(userid) {
+    let query = 'DELETE FROM server_shop_claims WHERE userid=$1';
+    return await config.pquery(query, [userid]);
+}
 
-// NEW -- END
+module.exports.getServerShopClaims = async function(userid, serverid) {
+    let query = 'SELECT * FROM server_shop_claims WHERE userid=$1 AND serverid=$2';
+    let res = await config.pquery(query, [userid, serverid]);
+    return res;
+}
+
+module.exports.createServerShopClaim = async function(userid, serverid, deal) {
+    let query = 'INSERT INTO server_shop_claims (userid, serverid, deal) VALUES ($1, $2, $3)';
+    return await config.pquery(query, [userid, serverid, deal]);
+}
