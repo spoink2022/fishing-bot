@@ -21,7 +21,7 @@ for (const [key, value] of Object.entries(ClanLocationData)) {
 
 // Exports
 module.exports.getPerkValue = function(name, level) {
-    return ClanShopData.perks[name].levels[level-1].value;
+    return ClanShopData.perks[name].levels[level].value;
 }
 
 module.exports.getPerkData = function(name) {
