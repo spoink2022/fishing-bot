@@ -1496,6 +1496,22 @@
             "bonus": 200,
             "level": 117,
             "price": 160000
+        },
+        {
+            "id": 20,
+            "name": "Magic",
+            "chance": 16,
+            "bonus": 250,
+            "level": 123,
+            "price": 300000
+        },
+        {
+            "id": 21,
+            "name": "Augmented Magic",
+            "chance": 18,
+            "bonus": 300,
+            "level": 127,
+            "price": 500000
         }
     ],
     "swivels": [

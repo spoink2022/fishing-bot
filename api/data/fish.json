@@ -1565,6 +1565,27 @@
     },
     {
         "id": 157,
+        "name": "long_finned_pilot_whale",
+        "family": "whale",
+        "sizeClass": 4,
+        "sizeMin": 900,
+        "sizeMax": 2200,
+        "screenLen": 10,
+        "value": 12
+    },
+    {
+        "id": 158,
+        "name": "false_killer_whale",
+        "family": "whale",
+        "sizeClass": 4,
+        "sizeMin": 600,
+        "sizeMax": 1750,
+        "screenLen": 10,
+        "value": 12
+    },
+
+    {
+        "id": 172,
         "name": "shoal_bass",
         "family": "bass",
         "sizeClass": 4,
@@ -1575,7 +1596,7 @@
         "legendary": true
     },
     {
-        "id": 158,
+        "id": 173,
         "name": "black_drum",
         "family": "drum",
         "sizeClass": 4,
