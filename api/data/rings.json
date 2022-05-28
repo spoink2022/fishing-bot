@@ -187,6 +187,17 @@
             "sizeClass": { "mean": 4, "dev": 1, "devLimit": 3 },
             "regular": { "price": 40000 },
             "premium": { "price": 200000 }
+        },
+        {
+            "maxLevel": 140,
+            "grades": {
+                "premium": { "mean": 29, "dev": 4, "devLimit": 5 },
+                "sashimi": { "mean": 9, "dev": 1.25, "devLimit": 4 },
+                "trophy": { "mean": 3.5, "dev": 1, "devLimit": 4 }
+            },
+            "sizeClass": { "mean": 4.75, "dev": 1.5, "devLimit": 3 },
+            "regular": { "price": 80000 },
+            "premium": { "price": 400000 }
         }
     ]
 }
