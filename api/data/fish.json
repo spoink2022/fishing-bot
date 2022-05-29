@@ -1570,7 +1570,7 @@
         "sizeClass": 4,
         "sizeMin": 900,
         "sizeMax": 2200,
-        "screenLen": 12,
+        "screenLen": 13,
         "value": 12
     },
     {
@@ -1590,7 +1590,7 @@
         "sizeClass": 2,
         "sizeMin": 160,
         "sizeMax": 240,
-        "screenLen": 5,
+        "screenLen": 6,
         "value": 4
     },
     {
@@ -1600,7 +1600,7 @@
         "sizeClass": 2,
         "sizeMin": 200,
         "sizeMax": 265,
-        "screenLen": 4,
+        "screenLen": 6,
         "value": 2
     },
     {
@@ -1610,7 +1610,7 @@
         "sizeClass": 2,
         "sizeMin": 130,
         "sizeMax": 200,
-        "screenLen": 5,
+        "screenLen": 6,
         "value": 3
     },
     {
@@ -1620,7 +1620,7 @@
         "sizeClass": 2,
         "sizeMin": 150,
         "sizeMax": 255,
-        "screenLen": 4,
+        "screenLen": 5,
         "value": 25
     },
     {
@@ -1640,7 +1640,7 @@
         "sizeClass": 3,
         "sizeMin": 600,
         "sizeMax": 1250,
-        "screenLen": 8,
+        "screenLen": 9,
         "value": 6
     },
     {
@@ -1657,10 +1657,10 @@
         "id": 166,
         "name": "greenland_shark",
         "family": "shark",
-        "sizeClass": 4,
+        "sizeClass": 3,
         "sizeMin": 450,
         "sizeMax": 1300,
-        "screenLen": 7,
+        "screenLen": 8,
         "value": 12
     },
     {

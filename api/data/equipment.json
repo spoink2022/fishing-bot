@@ -287,6 +287,33 @@
             "level": 117,
             "price": 400000,
             "size": 3
+        },
+        {
+            "id": 32,
+            "name": "Whaler",
+            "cooldown": 3240000,
+            "maxWeight": 1150,
+            "level": 122,
+            "price": 450000,
+            "size": 3
+        },
+        {
+            "id": 33,
+            "name": "Reinforced Whaler",
+            "cooldown": 3180000,
+            "maxWeight": 1300,
+            "level": 125,
+            "price": 500000,
+            "size": 3
+        },
+        {
+            "id": 34,
+            "name": "Great Whaler",
+            "cooldown": 10,
+            "maxWeight": 1500,
+            "level": 128,
+            "price": 600000,
+            "size": 3
         }
 
     ],
@@ -820,6 +847,66 @@
             "level": 119,
             "price": 120000,
             "bonus": 16
+        },
+        {
+            "id": 53,
+            "name": "Whaler D",
+            "px": 5,
+            "rgb": "#054D1F",
+            "maxWeight": 1100,
+            "level": 121,
+            "price": 140000,
+            "bonus": 17
+        },
+        {
+            "id": 54,
+            "name": "Whaler C",
+            "px": 5,
+            "rgb": "#217640",
+            "maxWeight": 1200,
+            "level": 122,
+            "price": 170000,
+            "bonus": 17
+        },
+        {
+            "id": 55,
+            "name": "Whaler B",
+            "px": 5,
+            "rgb": "#08692C",
+            "maxWeight": 1300,
+            "level": 124,
+            "price": 200000,
+            "bonus": 18
+        },
+        {
+            "id": 56,
+            "name": "Whaler A",
+            "px": 5,
+            "rgb": "#239E89",
+            "maxWeight": 1400,
+            "level": 126,
+            "price": 230000,
+            "bonus": 19
+        },
+        {
+            "id": 57,
+            "name": "Whaler AA",
+            "px": 6,
+            "rgb": "#0F927D",
+            "maxWeight": 1510,
+            "level": 128,
+            "price": 260000,
+            "bonus": 20
+        },
+        {
+            "id": 58,
+            "name": "Whaler AAA",
+            "px": 6,
+            "rgb": "#097C69",
+            "maxWeight": 1600,
+            "level": 130,
+            "price": 300000,
+            "bonus": 21
         }
     ],
     "hooks": [
@@ -1342,6 +1429,38 @@
             "name": "Sturgeon B",
             "level": 120,
             "price": 50000
+        },
+        {
+            "id": 65,
+            "multiplier": 1.72,
+            "maxWeight": 1100,
+            "name": "Sturgeon A",
+            "level": 122,
+            "price": 52000
+        },
+        {
+            "id": 66,
+            "multiplier": 1.73,
+            "maxWeight": 1250,
+            "name": "Sturgeon AA",
+            "level": 125,
+            "price": 55000
+        },
+        {
+            "id": 67,
+            "multiplier": 1.74,
+            "maxWeight": 1400,
+            "name": "Sturgeon AAA",
+            "level": 127,
+            "price": 60000
+        },
+        {
+            "id": 68,
+            "multiplier": 1.75,
+            "maxWeight": 1500,
+            "name": "Sturgeon AAAA",
+            "level": 129,
+            "price": 65000
         }
     ],
     "gloves": [
@@ -1605,6 +1724,27 @@
             "bonus": 250,
             "level": 117,
             "price": 250000
+        },
+        {
+            "id": 14,
+            "name": "Magic Tactical",
+            "bonus": 300,
+            "level": 222,
+            "price": 330000
+        },
+        {
+            "id": 15,
+            "name": "Magic Tactical V2",
+            "bonus": 350,
+            "level": 225,
+            "price": 450000
+        },
+        {
+            "id": 16,
+            "name": "Magic Tactical V3",
+            "bonus": 400,
+            "level": 228,
+            "price": 590000
         }
     ]
 }
