@@ -1570,7 +1570,7 @@
         "sizeClass": 4,
         "sizeMin": 900,
         "sizeMax": 2200,
-        "screenLen": 10,
+        "screenLen": 12,
         "value": 12
     },
     {
@@ -1580,10 +1580,139 @@
         "sizeClass": 4,
         "sizeMin": 600,
         "sizeMax": 1750,
-        "screenLen": 10,
+        "screenLen": 12,
+        "value": 4
+    },
+    {
+        "id": 159,
+        "name": "dalls_porpoise",
+        "family": "porpoises",
+        "sizeClass": 2,
+        "sizeMin": 160,
+        "sizeMax": 240,
+        "screenLen": 5,
+        "value": 4
+    },
+    {
+        "id": 160,
+        "name": "pygmy_killer_whale",
+        "family": "whale",
+        "sizeClass": 2,
+        "sizeMin": 200,
+        "sizeMax": 265,
+        "screenLen": 4,
+        "value": 2
+    },
+    {
+        "id": 161,
+        "name": "atlantic_halibut",
+        "family": "halibut",
+        "sizeClass": 2,
+        "sizeMin": 130,
+        "sizeMax": 200,
+        "screenLen": 5,
+        "value": 3
+    },
+    {
+        "id": 162,
+        "name": "melon_headed_whale",
+        "family": "whale",
+        "sizeClass": 2,
+        "sizeMin": 150,
+        "sizeMax": 255,
+        "screenLen": 4,
+        "value": 25
+    },
+    {
+        "id": 163,
+        "name": "kaluga_sturgeon",
+        "family": "sturgeon",
+        "sizeClass": 3,
+        "sizeMin": 500,
+        "sizeMax": 1050,
+        "screenLen": 8,
+        "value": 4
+    },
+    {
+        "id": 164,
+        "name": "gervais_beaked_whale",
+        "family": "whale",
+        "sizeClass": 3,
+        "sizeMin": 600,
+        "sizeMax": 1250,
+        "screenLen": 8,
+        "value": 6
+    },
+    {
+        "id": 165,
+        "name": "scalloped_hammerhead",
+        "family": "shark",
+        "sizeClass": 1,
+        "sizeMin": 25,
+        "sizeMax": 90,
+        "screenLen": 2,
+        "value": 7
+    },
+    {
+        "id": 166,
+        "name": "greenland_shark",
+        "family": "shark",
+        "sizeClass": 4,
+        "sizeMin": 450,
+        "sizeMax": 1300,
+        "screenLen": 7,
         "value": 12
     },
-
+    {
+        "id": 167,
+        "name": "atlantic_striped_bass",
+        "family": "bass",
+        "sizeClass": 1,
+        "sizeMin": 0.8,
+        "sizeMax": 35,
+        "screenLen": 2,
+        "value": 10
+    },
+    {
+        "id": 168,
+        "name": "chinese_river_dolphin",
+        "family": "dolphin",
+        "sizeClass": 2,
+        "sizeMin": 180,
+        "sizeMax": 270,
+        "screenLen": 5,
+        "value": 10
+    },
+    {
+        "id": 169,
+        "name": "atlantic_spotted_dolphin",
+        "family": "dolphin",
+        "sizeClass": 1,
+        "sizeMin": 95,
+        "sizeMax": 150,
+        "screenLen": 3,
+        "value": 10
+    },
+    {
+        "id": 170,
+        "name": "sowerbys_beaked_whale",
+        "family": "whale",
+        "sizeClass": 4,
+        "sizeMin": 1100,
+        "sizeMax": 2400,
+        "screenLen": 12,
+        "value": 11
+    },
+    {
+        "id": 171,
+        "name": "black_sea_bass",
+        "family": "bass",
+        "sizeClass": 1,
+        "sizeMin": 1,
+        "sizeMax": 3.5,
+        "screenLen": 1,
+        "value": 25
+    },
     {
         "id": 172,
         "name": "shoal_bass",
