@@ -10,7 +10,7 @@ module.exports.getCurrentEntry = async function() {
 }
 
 async function insertEntries(entryArr) {
-    let query = `INSERT INTO weather (start_time, end_time, date_string, l1, l2, l3, l4, l5, l6, l7, l8, l9, l10, l11, l12, 13) VALUES ${entryArr.map(o => `(${Object.values(o).join(', ').replace(/"/g, "'")})`).join(', ')}`;
+    let query = `INSERT INTO weather (start_time, end_time, date_string, l1, l2, l3, l4, l5, l6, l7, l8, l9, l10, l11, l12, l13) VALUES ${entryArr.map(o => `(${Object.values(o).join(', ').replace(/"/g, "'")})`).join(', ')}`;
     return await config.pquery(query);
 }
 
