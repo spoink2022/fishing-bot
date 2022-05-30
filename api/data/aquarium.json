@@ -197,7 +197,7 @@
     },
     {
         "name": "superior_rhodium",
-        "multiplier": 2.08,
+        "multiplier": 2.05,
         "max": 270,
         "level": 125,
         "price": 300000
