@@ -788,7 +788,7 @@
     },
     {
         "name": "Fishing Season (Part 1/5)",
-        "description": "Fishing Season have started!!!\nYour clan will be going on 5 seperate trips!\nHeres the first trip:",
+        "description": "Fishing Season has started!\nYour clan will be going on 5 seperate trips!\nHere's the first trip:",
         "requirements": [
             ["bowfin", 10],
             ["gulf_grouper", 25],
@@ -797,14 +797,14 @@
             ["blue_shark", 10]
         ],
         "rewards": {
-            "clanPoints": 120,
+            "clanPoints": 60,
             "lollipops": 40,
-            "coins": 3535
+            "coins": 3500
         }
     },
     {
         "name": "Fishing Season (Part 2/5)",
-        "description": "Day 2! This is a easy one",
+        "description": "Day 2! This is a easy one.",
         "requirements": [
             ["trahira", 20],
             ["red_grouper", 20],
@@ -813,8 +813,8 @@
             ["black_grouper", 25]
         ],
         "rewards": {
-            "clanPoints": 111,
-            "lollipops": 44,
+            "clanPoints": 70,
+            "lollipops": 40,
             "coins": 2500
         }
     },
@@ -829,14 +829,14 @@
             ["coelacanth", 10]
         ],
         "rewards": {
-            "clanPoints": 160,
-            "lollipops": 55,
+            "clanPoints": 120,
+            "lollipops": 20,
             "coins": 5000
         }
     },
     {
         "name": "Fishing Season (Part 4/5)",
-        "description": "Day 4: Not a good day, small fish only",
+        "description": "Day 4: Not a good day, small fish only.",
         "requirements": [
             ["oscar", 15],
             ["apapa", 15],
@@ -853,7 +853,7 @@
     },
     {
         "name": "Fishing Season (Part 5/5)",
-        "description": "Day 5: Probably the hardest day",
+        "description": "Day 5: Probably the hardest day!",
         "requirements": [
             ["tarpon", 20],
             ["yellowfin_tuna", 25],
@@ -862,9 +862,9 @@
             ["coelacanth", 10]
         ],
         "rewards": {
-            "clanPoints": 200,
-            "lollipops": 120,
-            "coins": 4000
+            "clanPoints": 150,
+            "lollipops": 60,
+            "coins": 3000
         }
     }
 ]
