@@ -785,5 +785,86 @@
             "lollipops": 50,
             "coins": 4000
         }
+    },
+    {
+        "name": "Fishing Season (Part 1/5)",
+        "description": "Fishing Season have started!!!\nYour clan will be going on 5 seperate trips!\nHeres the first trip:",
+        "requirements": [
+            ["bowfin", 10],
+            ["gulf_grouper", 25],
+            ["sailfish", 30],
+            ["goliath_grouper", 25],
+            ["blue_shark", 10]
+        ],
+        "rewards": {
+            "clanPoints": 120,
+            "lollipops": 40,
+            "coins": 3535
+        }
+    },
+    {
+        "name": "Fishing Season (Part 2/5)",
+        "description": "Day 2! This is a easy one",
+        "requirements": [
+            ["trahira", 20],
+            ["red_grouper", 20],
+            ["mahi_mahi", 15],
+            ["spearfish", 20],
+            ["black_grouper", 25]
+        ],
+        "rewards": {
+            "clanPoints": 111,
+            "lollipops": 44,
+            "coins": 2500
+        }
+    },
+    {
+        "name": "Fishing Season (Part 3/5)",
+        "description": "Day 3! This might take a while...",
+        "requirements": [
+            ["bull_shark", 20],
+            ["bluefin_tuna", 20],
+            ["mulloway", 25],
+            ["hapuku", 25],
+            ["coelacanth", 10]
+        ],
+        "rewards": {
+            "clanPoints": 160,
+            "lollipops": 55,
+            "coins": 5000
+        }
+    },
+    {
+        "name": "Fishing Season (Part 4/5)",
+        "description": "Day 4: Not a good day, small fish only",
+        "requirements": [
+            ["oscar", 15],
+            ["apapa", 15],
+            ["bluefish", 20],
+            ["sockeye_salmon", 15],
+            ["chinook_salmon", 15],
+            ["coho_salmon", 20]
+        ],
+        "rewards": {
+            "clanPoints": 60,
+            "lollipops": 20,
+            "coins": 0
+        }
+    },
+    {
+        "name": "Fishing Season (Part 5/5)",
+        "description": "Day 5: Probably the hardest day",
+        "requirements": [
+            ["tarpon", 20],
+            ["yellowfin_tuna", 25],
+            ["tiger_shark", 25],
+            ["giant_squid", 20],
+            ["coelacanth", 10]
+        ],
+        "rewards": {
+            "clanPoints": 200,
+            "lollipops": 120,
+            "coins": 4000
+        }
     }
 ]
