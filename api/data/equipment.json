@@ -219,7 +219,7 @@
         {
             "id": 24,
             "name": "Reinforced Coastal",
-            "cooldown": 3420000,
+            "cooldown": 342,
             "maxWeight": 400,
             "level": 96,
             "price": 140000,
