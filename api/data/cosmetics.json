@@ -42,6 +42,10 @@
         "index": 1,
         "contents": [
             {
+                "name": "Avatar 0",
+                "src": "avatar_0"
+            },
+            {
                 "name": "Avatar 1",
                 "src": "avatar_1"
             },
@@ -70,7 +74,7 @@
                 "src": "avatar_7"
             },
             {
-                "name": "Avatar 8",
+                "name": "Big Tuna",
                 "src": "avatar_8"
             }
         ]
