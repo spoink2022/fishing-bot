@@ -36,5 +36,43 @@
                 "src": "haku_banner"
             }
         ]
+    },
+    "clan_avatar": {
+        "name": "Clan Avatars",
+        "index": 1,
+        "contents": [
+            {
+                "name": "Avatar 1",
+                "src": "avatar_1"
+            },
+            {
+                "name": "Avatar 2",
+                "src": "avatar_2"
+            },
+            {
+                "name": "Avatar 3",
+                "src": "avatar_3"
+            },
+            {
+                "name": "Avatar 4",
+                "src": "avatar_4"
+            },
+            {
+                "name": "Avatar 5",
+                "src": "avatar_5"
+            },
+            {
+                "name": "Avatar 6",
+                "src": "avatar_6"
+            },
+            {
+                "name": "Avatar 7",
+                "src": "avatar_7"
+            },
+            {
+                "name": "Avatar 8",
+                "src": "avatar_8"
+            }
+        ]
     }
 }

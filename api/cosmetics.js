@@ -11,3 +11,7 @@ module.exports.getAllCosmeticData = function() {
 module.exports.getCategoryData = function(category) {
     return CosmeticData[category];
 }
+
+module.exports.getCosmeticSrc = function(category, id) {
+    return CosmeticData[category].contents[id].src;
+}

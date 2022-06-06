@@ -309,7 +309,7 @@
         {
             "id": 34,
             "name": "Great Whaler",
-            "cooldown": 3180000,
+            "cooldown": 318,
             "maxWeight": 1500,
             "level": 128,
             "price": 750000,

@@ -7,6 +7,8 @@ if (!PROD) {
     console.log('Using Dev Path...');
 }
 
+module.exports.CLOUD_PATH = 'https://storage.googleapis.com/fishingbot/assets';
+
 module.exports.fetchFishImgUrl = function(fishName) {
     fishName = fishName.replace(/ /g, '_');
     return `${path}/fish/${fishName}.png`;
