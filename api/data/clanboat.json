@@ -15,6 +15,10 @@
         {
             "name": "aluminum",
             "price": 3000
+        },
+        {
+            "name": "gold reinforced aluminum",
+            "price": 4250
         }
     ],
     "container": [
@@ -47,6 +51,16 @@
             "name": "double industrial",
             "price": 600,
             "capacity": 12
+        },
+        {
+            "name": "reinforced double industrial",
+            "price": 1000,
+            "capacity": 14
+        },
+        {
+            "name": "triple industrial",
+            "price": 700,
+            "capacity": 15
         }        
     ],
     "engine": [
@@ -89,6 +103,16 @@
             "name": "improved diesel",
             "price": 550,
             "efficiency": 1.4
+        },
+        {
+            "name": "premium diesel",
+            "price": 600,
+            "efficiency": 1.6
+        },
+        {
+            "name": "platinum diesel",
+            "price": 700,
+            "efficiency": 1.8
         }
     ],
     "propeller": [
@@ -126,6 +150,15 @@
             "name": "industrial",
             "price": 500,
             "cooldown": 345600000
+        },
+        {
+            "name": "double industrial",
+            "price": 600,
+            "cooldown": 331200000
+        },        {
+            "name": "reinforced industrial",
+            "price": 750,
+            "cooldown": 316800000
         }
     ]
 }
