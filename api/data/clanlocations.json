@@ -37,11 +37,11 @@
     },
     "5": {
         "name": "Coastal Caribbean",
-        "dist": 150,
+        "dist": 120,
         "spawns": {
-            "common": ["l7", "l8", "b3"],
-            "uncommon": ["l7", "l8", "l8", "l9", "b4"],
-            "rare": ["l9", "b4"]
+            "common": ["l7", "l7", "l7", "l8", "b2"],
+            "uncommon": ["l8", "l8", "l9", "b1"],
+            "rare": ["b3", "b3", "b4"]
         }
     }
 }

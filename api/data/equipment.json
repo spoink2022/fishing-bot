@@ -1729,21 +1729,21 @@
             "id": 14,
             "name": "Magic Tactical",
             "bonus": 300,
-            "level": 222,
+            "level": 122,
             "price": 400000
         },
         {
             "id": 15,
             "name": "Magic Tactical V2",
             "bonus": 340,
-            "level": 225,
+            "level": 125,
             "price": 450000
         },
         {
             "id": 16,
             "name": "Magic Tactical V3",
             "bonus": 380,
-            "level": 228,
+            "level": 128,
             "price": 500000
         }
     ]

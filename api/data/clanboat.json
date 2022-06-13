@@ -17,8 +17,8 @@
             "price": 3000
         },
         {
-            "name": "gold reinforced aluminum",
-            "price": 4250
+            "name": "gold plated",
+            "price": 4000
         }
     ],
     "container": [
@@ -48,18 +48,18 @@
             "capacity": 11
         },
         {
-            "name": "double industrial",
+            "name": "hybrid industrial",
             "price": 600,
             "capacity": 12
         },
         {
-            "name": "reinforced double industrial",
-            "price": 1000,
-            "capacity": 14
+            "name": "double industrial",
+            "price": 700,
+            "capacity": 13
         },
         {
-            "name": "triple industrial",
-            "price": 700,
+            "name": "giant",
+            "price": 1000,
             "capacity": 15
         }        
     ],
@@ -96,22 +96,22 @@
         },
         {
             "name": "standard diesel",
-            "price": 500,
+            "price": 450,
             "efficiency": 1.2
         },
         {
             "name": "improved diesel",
-            "price": 550,
+            "price": 475,
             "efficiency": 1.4
         },
         {
-            "name": "premium diesel",
-            "price": 600,
+            "name": "superior diesel",
+            "price": 500,
             "efficiency": 1.6
         },
         {
-            "name": "platinum diesel",
-            "price": 700,
+            "name": "silver diesel",
+            "price": 550,
             "efficiency": 1.8
         }
     ],
@@ -153,12 +153,13 @@
         },
         {
             "name": "double industrial",
+            "price": 550,
+            "cooldown": 338400000
+        },
+        {
+            "name": "optimized industrial",
             "price": 600,
             "cooldown": 331200000
-        },        {
-            "name": "reinforced industrial",
-            "price": 750,
-            "cooldown": 316800000
         }
     ]
 }
