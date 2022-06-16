@@ -13,3 +13,5 @@ module.exports.rings = require('./rings.js');
 module.exports.scores = require('./scores.js');
 module.exports.skins = require('./skins.js');
 module.exports.weather = require('./weather.js');
+
+module.exports.fishLog = require('./fish_log.js');
