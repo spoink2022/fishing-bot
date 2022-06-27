@@ -1734,5 +1734,16 @@
         "screenLen": 8.5,
         "value": 60,
         "legendary": true
+    },
+    {
+        "id": 174,
+        "name": "golden_koi",
+        "family": "carp",
+        "sizeClass": 4,
+        "sizeMin": 3,
+        "sizeMax": 8,
+        "screenLen": 7,
+        "value": 120,
+        "legendary": true
     }
 ]
