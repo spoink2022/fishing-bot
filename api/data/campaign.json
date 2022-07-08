@@ -866,5 +866,82 @@
             "lollipops": 60,
             "coins": 3000
         }
+    },
+    {
+        "name": "Searching for Sturgeons (Part 1/5)",
+        "description": "Part 1: Lake Sturgeon!",
+        "requirements": [
+            ["lake_sturgeon", 30],
+            ["giant_squid", 20],
+            ["manta_ray", 30],
+            ["black_marlin", 20]
+        ],
+        "rewards": {
+            "clanPoints": 100,
+            "lollipops": 50,
+            "coins": 2600
+        }
+    },
+    {
+        "name": "Searching for Sturgeons (Part 2/5)",
+        "description": "Onto the Atlantic Sturgon",
+        "requirements": [
+            ["atlantic_sturgeon", 30],
+            ["goliath_srouper", 15],
+            ["hapuku", 25],
+            ["angel_shark", 30]
+        ],
+        "rewards": {
+            "clanPoints": 140,
+            "lollipops": 55,
+            "coins": 3000
+        }
+    },
+    {
+        "name": "Searching for Sturgeons (Part 3/5)",
+        "description": "Day 3: This is a challenging one!\nYour clan will be catching Sea Sturgeons!",
+        "requirements": [
+            ["sea_sturgeon", 20],
+            ["bigeye_tuna", 30],
+            ["gulf_grouper", 25],
+            ["pygmy_sperm_whale", 25]
+        ],
+        "rewards": {
+            "clanPoints": 180,
+            "lollipops": 70,
+            "coins": 3000
+        }
+    },
+    {
+        "name": "Searching for Sturgeons (Part 4/5)",
+        "description": "Here are the sturgeons in location 11!",
+        "requirements": [
+            ["butterfish", 20],
+            ["beluga_sturgeon", 20],
+            ["chinese_sturgeon", 20],
+            ["sterlet", 20],
+            ["hammerhead_shark", 10]
+        ],
+        "rewards": {
+            "clanPoints": 100,
+            "lollipops": 60,
+            "coins": 3000
+        }
+    },
+    {
+        "name": "Searching for Sturgeons (Part 5/5)",
+        "description": "Last one: White Sturgeon!",
+        "requirements": [
+            ["white_sturgeon", 30],
+            ["spinner_shark", 20],
+            ["ocean_sunfish", 20],
+            ["mulloway", 15],
+            ["whaler_shark", 15]
+        ],
+        "rewards": {
+            "clanPoints": 125,
+            "lollipops": 50,
+            "coins": 3000
+        }
     }
 ]
