@@ -1745,5 +1745,16 @@
         "screenLen": 7,
         "value": 120,
         "legendary": true
+    },
+    {
+        "id": 175,
+        "name": "american_eel",
+        "family": "eel",
+        "sizeClass": 4,
+        "sizeMin": 6,
+        "sizeMax": 12,
+        "screenLen": 12,
+        "value": 80,
+        "legendary": true
     }
 ]
