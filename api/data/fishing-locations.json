@@ -103,7 +103,8 @@
             {"id": 55, "chance": 20},
             {"id": 56, "chance": 20},
             {"id": 57, "chance": 20}
-        ]
+        ],
+        "legendary": 176
     },
     {
         "id": 6,

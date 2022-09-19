@@ -1756,5 +1756,16 @@
         "screenLen": 12,
         "value": 80,
         "legendary": true
+    },
+    {
+        "id": 176,
+        "name": "american_paddlefish",
+        "family": null,
+        "sizeClass": 4,
+        "sizeMin": 40,
+        "sizeMax": 80,
+        "screenLen": 13,
+        "value": 50,
+        "legendary": true
     }
 ]

@@ -16,6 +16,7 @@ for (let i=0; i<LocationData.length; i++) {
         FishData[fishList[entry].id].chance = fishList[entry].chance;
         // Add location to each fish
         FishData[fishList[entry].id].location = i+1;
+        
     }
     // Add location for legendary fish
     if (LocationData[i].legendary) { FishData[LocationData[i].legendary].location = i+1; }
