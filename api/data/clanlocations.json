@@ -43,5 +43,14 @@
             "uncommon": ["l8", "l8", "l9", "b1"],
             "rare": ["b3", "b3", "b4"]
         }
+    },
+    "6": {
+        "name": "The Great Sea",
+        "dist": 160,
+        "spawns": {
+            "common": ["l9", "l9", "l10", "l10", "l11", "b2"],
+            "uncommon": ["l11", "l11", "l12", "b3"],
+            "rare": ["l12", "b3", "b3", "b4"]
+        }
     }
 }
