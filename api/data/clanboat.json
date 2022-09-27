@@ -19,6 +19,10 @@
         {
             "name": "gold plated",
             "price": 4000
+        },
+        {
+            "name": "fiberglass",
+            "price": 6000
         }
     ],
     "container": [
@@ -113,6 +117,16 @@
             "name": "silver diesel",
             "price": 550,
             "efficiency": 1.8
+        },
+        {
+            "name": "gold gasoline",
+            "price": 600,
+            "efficiency": 2
+        },
+        {
+            "name": "standard nuclear",
+            "price": 800,
+            "efficiency": 2.4
         }
     ],
     "propeller": [
