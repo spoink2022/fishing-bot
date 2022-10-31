@@ -283,5 +283,16 @@
         "min": null,
         "max": null,
         "banned": true
+    },
+    "candy_corn": {
+        "id": 28,
+        "tier": "SS",
+        "sizes": [1, 4],
+        "families": [],
+        "stars": 4,
+        "value": 35,
+        "min": null,
+        "max": null,
+        "banned": true
     }
 }
