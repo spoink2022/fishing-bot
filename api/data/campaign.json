@@ -943,5 +943,46 @@
             "lollipops": 50,
             "coins": 3000
         }
+    },
+    {
+        "name": "The Finale (Part 1/14)",
+        "description": "The beginning of a journey...",
+        "requirements": [
+            ["blacktail_shiner", 10],
+            ["bluegill", 10],
+            ["golden_shiner", 10],
+            ["green_sunfish", 20],
+            ["white_crappie", 15],
+            ["grass_pickerel", 10],
+            ["redear_sunfish", 10],
+            ["spotted_bass", 5],
+            ["channel_catfish", 5],
+            ["smallmouth_buffalo", 5]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
+    },
+    {
+        "name": "The Finale (Part 2/14)",
+        "description": "Next up: location 2!",
+        "requirements": [
+            ["bluntnose_minnow", 20],
+            ["common_shiner", 10],
+            ["pumpkinseed", 15],
+            ["black_bullhead_catfish", 15],
+            ["largemouth_bass", 10],
+            ["chain_pickerel", 5],
+            ["spotted_gar", 10],
+            ["bowfin", 5],
+            ["freshwater_drum", 10]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
     }
 ]
