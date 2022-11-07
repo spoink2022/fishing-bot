@@ -10,6 +10,12 @@ const LocationData = require('./data/fishing-locations.json');
 for (let i=0; i<LocationData.length; i++) {
     // Add "chance" field to fish
     const fishList = LocationData[i].fish;
+    if (i == 13) {
+        for (let p of fishList) {
+            let f = FishData[p.id];
+            //console.log(`UPDATE aquarium SET ${f.name} = 0.8 WHERE userid='322180183207575553';`);
+        }
+    }
 
     for (let entry=0; entry<fishList.length; entry++) {
         // Add chance to each fish

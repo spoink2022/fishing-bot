@@ -542,5 +542,61 @@
     {
         "level": 136,
         "expRequired": 105000
+    },
+    {
+        "level": 137,
+        "expRequired": 110000
+    },
+    {
+        "level": 138,
+        "expRequired": 115000
+    },
+    {
+        "level": 139,
+        "expRequired": 120000
+    },
+    {
+        "level": 140,
+        "expRequired": 125000
+    },
+    {
+        "level": 141,
+        "expRequired": 130000
+    },
+    {
+        "level": 142,
+        "expRequired": 135000
+    },
+    {
+        "level": 143,
+        "expRequired": 140000
+    },
+    {
+        "level": 144,
+        "expRequired": 145000
+    },
+    {
+        "level": 145,
+        "expRequired": 150000
+    },
+    {
+        "level": 146,
+        "expRequired": 160000
+    },
+    {
+        "level": 147,
+        "expRequired": 170000
+    },
+    {
+        "level": 148,
+        "expRequired": 180000
+    },
+    {
+        "level": 149,
+        "expRequired": 190000
+    },
+    {
+        "level": 150,
+        "expRequired": 200000
     }
 ]

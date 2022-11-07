@@ -1715,6 +1715,146 @@
     },
     {
         "id": 172,
+        "name": "killer_whale",
+        "family": "whale",
+        "sizeClass": 3,
+        "sizeMin": 3000,
+        "sizeMax": 10000,
+        "screenLen": 8.5,
+        "value": 7
+    },
+    {
+        "id": 173,
+        "name": "whale_shark",
+        "family": "shark",
+        "sizeClass": 4,
+        "sizeMin": 5000,
+        "sizeMax": 20000,
+        "screenLen": 12,
+        "value": 5
+    },
+    {
+        "id": 174,
+        "name": "giant_barb",
+        "family": "carp",
+        "sizeClass": 1,
+        "sizeMin": 200,
+        "sizeMax": 400,
+        "screenLen": 2.5,
+        "value": 4
+    },
+    {
+        "id": 175,
+        "name": "basking_shark",
+        "family": "shark",
+        "sizeClass": 3,
+        "sizeMin": 2000,
+        "sizeMax": 8000,
+        "screenLen": 9,
+        "value": 5
+    },
+    {
+        "id": 176,
+        "name": "blue_marlin",
+        "family": "marlin",
+        "sizeClass": 2,
+        "sizeMin": 400,
+        "sizeMax": 900,
+        "screenLen": 8,
+        "value": 14
+    },
+    {
+        "id": 177,
+        "name": "humpback_whale",
+        "family": "whale",
+        "sizeClass": 4,
+        "sizeMin": 8000,
+        "sizeMax": 32000,
+        "screenLen": 13,
+        "value": 10
+    },
+    {
+        "id": 178,
+        "name": "sperm_whale",
+        "family": "whale",
+        "sizeClass": 4,
+        "sizeMin": 10000,
+        "sizeMax": 40000,
+        "screenLen": 14,
+        "value": 12
+    },
+    {
+        "id": 179,
+        "name": "green_sawfish",
+        "family": null,
+        "sizeClass": 2,
+        "sizeMin": 300,
+        "sizeMax": 600,
+        "screenLen": 7,
+        "value": 5
+    },
+    {
+        "id": 180,
+        "name": "nile_perch",
+        "family": "perch",
+        "sizeClass": 1,
+        "sizeMin": 100,
+        "sizeMax": 300,
+        "screenLen": 3.5,
+        "value": 5
+    },
+    {
+        "id": 181,
+        "name": "giant_grouper",
+        "family": "grouper",
+        "sizeClass": 2,
+        "sizeMin": 300,
+        "sizeMax": 500,
+        "screenLen": 4.5,
+        "value": 3
+    },
+    {
+        "id": 182,
+        "name": "humphead_wrasse",
+        "family": null,
+        "sizeClass": 1,
+        "sizeMin": 100,
+        "sizeMax": 200,
+        "screenLen": 2.5,
+        "value": 4
+    },
+    {
+        "id": 183,
+        "name": "giant_pangasius",
+        "family": "catfish",
+        "sizeClass": 2,
+        "sizeMin": 200,
+        "sizeMax": 600,
+        "screenLen": 4.5,
+        "value": 6
+    },
+    {
+        "id": 184,
+        "name": "baleen_whale",
+        "family": "whale",
+        "sizeClass": 3,
+        "sizeMin": 1500,
+        "sizeMax": 6000,
+        "screenLen": 12,
+        "value": 6
+    },
+    {
+        "id": 185,
+        "name": "hoodwinker_sunfish",
+        "family": "sunfish",
+        "sizeClass": 3,
+        "sizeMin": 1000,
+        "sizeMax": 5000,
+        "screenLen": 5,
+        "value": 2
+    },
+    {
+        "id": 186,
         "name": "shoal_bass",
         "family": "bass",
         "sizeClass": 4,
@@ -1725,7 +1865,7 @@
         "legendary": true
     },
     {
-        "id": 173,
+        "id": 187,
         "name": "black_drum",
         "family": "drum",
         "sizeClass": 4,
@@ -1736,7 +1876,7 @@
         "legendary": true
     },
     {
-        "id": 174,
+        "id": 188,
         "name": "golden_koi",
         "family": "carp",
         "sizeClass": 4,
@@ -1747,7 +1887,7 @@
         "legendary": true
     },
     {
-        "id": 175,
+        "id": 189,
         "name": "american_eel",
         "family": "eel",
         "sizeClass": 4,
@@ -1758,7 +1898,7 @@
         "legendary": true
     },
     {
-        "id": 176,
+        "id": 190,
         "name": "american_paddlefish",
         "family": null,
         "sizeClass": 4,

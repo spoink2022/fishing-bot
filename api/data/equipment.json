@@ -52,7 +52,7 @@
             "maxWeight": 15,
             "level": 30,
             "price": 1500,
-            "size": 1
+            "size": 1.5
         },
         {
             "id": 6,
@@ -61,7 +61,7 @@
             "maxWeight": 21,
             "level": 33,
             "price": 1800,
-            "size": 1
+            "size": 1.5
         },
         {
             "id": 7,
@@ -70,7 +70,7 @@
             "maxWeight": 26,
             "level": 36,
             "price": 2500,
-            "size": 1
+            "size": 1.5
         },
         {
             "id": 8,
@@ -79,7 +79,7 @@
             "maxWeight": 30,
             "level": 40,
             "price": 3000,
-            "size": 1.5
+            "size": 2
         },
         {
             "id": 9,
@@ -88,7 +88,7 @@
             "maxWeight": 34,
             "level": 43,
             "price": 4000,
-            "size": 1.5
+            "size": 2
         },
         {
             "id": 10,
@@ -97,7 +97,7 @@
             "maxWeight": 38,
             "level": 46,
             "price": 5500,
-            "size": 1.5
+            "size": 2
         },
         {
             "id": 11,
@@ -187,7 +187,7 @@
             "maxWeight": 200,
             "level": 81,
             "price": 50000,
-            "size": 3
+            "size": 3.5
         },
         {
             "id": 21,
@@ -196,7 +196,7 @@
             "maxWeight": 240,
             "level": 85,
             "price": 75000,
-            "size": 3
+            "size": 3.5
         },
         {
             "id": 22,
@@ -205,7 +205,7 @@
             "maxWeight": 290,
             "level": 89,
             "price": 100000,
-            "size": 3
+            "size": 3.5
         },
         {
             "id": 23,
@@ -214,7 +214,7 @@
             "maxWeight": 350,
             "level": 93,
             "price": 120000,
-            "size": 3
+            "size": 3.5
         },
         {
             "id": 24,
@@ -223,7 +223,7 @@
             "maxWeight": 400,
             "level": 96,
             "price": 140000,
-            "size": 3
+            "size": 3.5
         },
         {
             "id": 25,
@@ -232,7 +232,7 @@
             "maxWeight": 450,
             "level": 99,
             "price": 160000,
-            "size": 3
+            "size": 3.5
         },
         {
             "id": 26,
@@ -241,7 +241,7 @@
             "maxWeight": 500,
             "level": 102,
             "price": 175000,
-            "size": 3
+            "size": 4
         },
         {
             "id": 27,
@@ -250,7 +250,7 @@
             "maxWeight": 600,
             "level": 105,
             "price": 200000,
-            "size": 3
+            "size": 4
         },
         {
             "id": 28,
@@ -259,7 +259,7 @@
             "maxWeight": 700,
             "level": 108,
             "price": 250000,
-            "size": 3
+            "size": 4
         },
         {
             "id": 29,
@@ -268,7 +268,7 @@
             "maxWeight": 800,
             "level": 111,
             "price": 300000,
-            "size": 3
+            "size": 4
         },
         {
             "id": 30,
@@ -277,7 +277,7 @@
             "maxWeight": 900,
             "level": 114,
             "price": 350000,
-            "size": 3
+            "size": 4
         },
         {
             "id": 31,
@@ -286,7 +286,7 @@
             "maxWeight": 1000,
             "level": 117,
             "price": 400000,
-            "size": 3
+            "size": 4
         },
         {
             "id": 32,
@@ -295,7 +295,7 @@
             "maxWeight": 1150,
             "level": 122,
             "price": 500000,
-            "size": 3
+            "size": 5
         },
         {
             "id": 33,
@@ -304,7 +304,7 @@
             "maxWeight": 1300,
             "level": 125,
             "price": 600000,
-            "size": 3
+            "size": 5
         },
         {
             "id": 34,
@@ -313,7 +313,7 @@
             "maxWeight": 1500,
             "level": 128,
             "price": 750000,
-            "size": 3
+            "size": 5
         }
 
     ],
