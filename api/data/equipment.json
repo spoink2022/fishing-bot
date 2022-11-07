@@ -1631,6 +1631,46 @@
             "bonus": 300,
             "level": 127,
             "price": 500000
+        },
+        {
+            "id": 22,
+            "name": "Royal",
+            "chance": 20,
+            "bonus": 400,
+            "level": 130,
+            "price": 600000
+        },
+        {
+            "id": 23,
+            "name": "Royal V2",
+            "chance": 20,
+            "bonus": 500,
+            "level": 133,
+            "price": 700000
+        },
+        {
+            "id": 24,
+            "name": "Royal V3",
+            "chance": 20,
+            "bonus": 650,
+            "level": 137,
+            "price": 800000
+        },
+        {
+            "id": 25,
+            "name": "Royal V4",
+            "chance": 20,
+            "bonus": 800,
+            "level": 140,
+            "price": 900000
+        },
+        {
+            "id": 26,
+            "name": "Royal V5",
+            "chance": 20,
+            "bonus": 1000,
+            "level": 145,
+            "price": 1000000
         }
     ],
     "swivels": [
@@ -1745,6 +1785,34 @@
             "bonus": 380,
             "level": 128,
             "price": 500000
+        },
+        {
+            "id": 17,
+            "name": "Royal",
+            "bonus": 450,
+            "level": 131,
+            "price": 650000
+        },
+        {
+            "id": 18,
+            "name": "Royal V2",
+            "bonus": 500,
+            "level": 135,
+            "price": 800000
+        },
+        {
+            "id": 19,
+            "name": "Royal V3",
+            "bonus": 550,
+            "level": 142,
+            "price": 900000
+        },
+        {
+            "id": 20,
+            "name": "Royal V4",
+            "bonus": 600,
+            "level": 147,
+            "price": 1000000
         }
     ]
 }

@@ -195,9 +195,20 @@
                 "sashimi": { "mean": 8, "dev": 1.25, "devLimit": 3 },
                 "trophy": { "mean": 3, "dev": 1, "devLimit": 3 }
             },
-            "sizeClass": { "mean": 4.5, "dev": 1.5, "devLimit": 3 },
+            "sizeClass": { "mean": 5, "dev": 1.5, "devLimit": 3 },
             "regular": { "price": 80000 },
             "premium": { "price": 400000 }
+        },
+        {
+            "maxLevel": 150,
+            "grades": {
+                "premium": { "mean": 30, "dev": 4, "devLimit": 3 },
+                "sashimi": { "mean": 10, "dev": 2, "devLimit": 3 },
+                "trophy": { "mean": 3.5, "dev": 1, "devLimit": 3 }
+            },
+            "sizeClass": { "mean": 6, "dev": 1.75, "devLimit": 3 },
+            "regular": { "price": 160000 },
+            "premium": { "price": 800000 }
         }
     ]
 }
