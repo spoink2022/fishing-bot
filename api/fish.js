@@ -122,6 +122,10 @@ module.exports.getAllUnlockedLocationData = function(userLevel) {
     );
 }
 
+module.exports.getAllLocationData = function() {
+    return LocationData;
+}
+
 function getHighestLocation (userLevel) {
     return Math.min(LocationData.length, Math.floor(userLevel/10) + 1);
 }
