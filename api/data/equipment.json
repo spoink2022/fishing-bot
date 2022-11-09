@@ -1461,7 +1461,95 @@
             "name": "Sturgeon AAAA",
             "level": 129,
             "price": 80000
-        }
+        },
+        {
+            "id": 69,
+            "multiplier": 1.76,
+            "maxWeight": 1600,
+            "name": "Sturgeon Elite",
+            "level": 131,
+            "price": 88000
+        },
+        {
+            "id": 70,
+            "multiplier": 1.77,
+            "maxWeight": 1700,
+            "name": "Alien I - Precursor",
+            "level": 133,
+            "price": 95000
+        },
+        {
+            "id": 71,
+            "multiplier": 1.78,
+            "maxWeight": 1800,
+            "name": "Alien II - Abyssal",
+            "level": 135,
+            "price": 105000
+        },
+        {
+            "id": 72,
+            "multiplier": 1.79,
+            "maxWeight": 1900,
+            "name": "Alien III - Unleashed",
+            "level": 137,
+            "price": 112500
+        },
+        {
+            "id": 73,
+            "multiplier": 1.805,
+            "maxWeight": 2000,
+            "name": "Alien IV - Respledent",
+            "level": 139,
+            "price": 120000
+        },
+        {
+            "id": 74,
+            "multiplier": 1.82,
+            "maxWeight": 2200,
+            "name": "Alien V - Phone Booth",
+            "level": 141,
+            "price": 135000
+        },
+        {
+            "id": 75,
+            "multiplier": 1.835,
+            "maxWeight": 2400,
+            "name": "Alien VI - Magic",
+            "level": 143,
+            "price": 150000
+        },
+        {
+            "id": 76,
+            "multiplier": 1.85,
+            "maxWeight": 2600,
+            "name": "Alien VII - Smash",
+            "level": 145,
+            "price": 162500
+        },
+        {
+            "id": 77,
+            "multiplier": 1.87,
+            "maxWeight": 2700,
+            "name": "Alien VIII - Ramond",
+            "level": 147,
+            "price": 175000
+        },
+        {
+            "id": 78,
+            "multiplier": 1.885,
+            "maxWeight": 2900,
+            "name": "Alien IX - Hunt",
+            "level": 149,
+            "price": 185000
+        },
+        {
+            "id": 79,
+            "multiplier": 1.90,
+            "maxWeight": 3000,
+            "name": "Alien X - Tuna",
+            "level": 150,
+            "price": 200000
+        },
     ],
     "gloves": [
         {
