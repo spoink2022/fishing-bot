@@ -11,7 +11,8 @@ module.exports.getAquariumData = function(aquariumId) {
 }
 
 module.exports.getViewableAquariumData = function(maxId) {
-    return AquariumData.slice(0, maxId + 1);
+    return AquariumData;
+    //return AquariumData.slice(0, maxId + 1);
 }
 
 module.exports.getAquariumNames = function() {
