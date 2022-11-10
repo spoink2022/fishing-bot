@@ -1612,7 +1612,7 @@
             "id": 68,
             "multiplier": 1.75,
             "maxWeight": 1500,
-            "name": "Sturgeon AAAA",
+            "name": "Sturgeon Elite",
             "level": 129,
             "price": 80000
         },
@@ -1620,7 +1620,7 @@
             "id": 69,
             "multiplier": 1.76,
             "maxWeight": 1600,
-            "name": "Sturgeon Elite",
+            "name": "Sturgeon Ultimate",
             "level": 131,
             "price": 88000
         },
