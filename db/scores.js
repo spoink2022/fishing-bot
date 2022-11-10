@@ -49,6 +49,6 @@ module.exports.setLocationScores = async function(userid, values) {
 }
 
 module.exports.updateOverallScores = async function() {
-    let query = 'UPDATE scores SET overall=l1 + l2 + l3 + l4 + l5 + l6 + l7 + l8 + l9 + l10 + l11 + l12 + l13 + 14';
+    let query = 'UPDATE scores SET overall=l1 + l2 + l3 + l4 + l5 + l6 + l7 + l8 + l9 + l10 + l11 + l12 + l13 + l14';
     return await config.pquery(query);
 }
