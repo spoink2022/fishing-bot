@@ -984,5 +984,53 @@
             "lollipops": 100,
             "coins": 1000
         }
+    },
+    {
+        "name": "The Finale (Part 3/14)",
+        "description": "On to location 3!",
+        "requirements": [
+            ["black_crappie", 15],
+            ["yellow_perch", 10],
+            ["colorado_golden_trout", 10],
+            ["cutthroat_trout", 15],
+            ["white_bass", 10],
+            ["redfin_pickerel", 10],
+            ["rainbow_trout", 5],
+            ["white_sucker", 10],
+            ["sauger", 5],
+            ["northern_pike", 5],
+            ["walleye", 5]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
+    },
+    {
+        "name": "The Finale (Part 4/14)",
+        "description": "Getting there...",
+        "requirements": [
+            ["redbreast_sunfish", 10],
+            ["rock_bass", 10],
+            ["warmouth", 10],
+            ["american_shad", 5],
+            ["smallmouth_bass", 10],
+            ["redband_trout", 5],
+            ["brown_bullhead_catfish", 10],
+            ["gafftopsail_catfish", 5],
+            ["butterfly_peacock_bass", 5],
+            ["longnose_gar", 5],
+            ["brown_trout", 5],
+            ["common_snook", 5],
+            ["florida_gar", 5],
+            ["common_carp", 5],
+            ["flathead_catfish", 5]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
     }
 ]
