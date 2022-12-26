@@ -1032,5 +1032,51 @@
             "lollipops": 100,
             "coins": 1000
         }
+    },
+    {
+        "name": "The Finale (Part 5/14)",
+        "description": "Next: The Inlet!",
+        "requirements": [
+            ["longnose_sucker", 15],
+            ["california_roach", 15],
+            ["white_catfish", 10],
+            ["atlantic_salmon", 10],
+            ["brook_trout", 10],
+            ["tiger_muskie", 5],
+            ["blue_catfish", 5],
+            ["clear_muskie", 5],
+            ["muskellunge", 5],
+            ["tarpon", 5],
+            ["alligator_gar", 10],
+            ["lake_sturgeon", 5]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
+    },
+    {
+        "name": "The Finale (Part 6/14)",
+        "description": "Oh the nostalgia...",
+        "requirements": [
+            ["apapa", 10],
+            ["oscar", 10],
+            ["jacunda", 10],
+            ["electric_eel", 5],
+            ["payara", 10],
+            ["silver_arowana", 10],
+            ["redtail_catfish", 10],
+            ["piraiba_catfish", 10],
+            ["gilded_catfish", 10],
+            ["trahira", 5],
+            ["arapaima", 5],
+            ["bull_shark", 5]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
     }
 ]
