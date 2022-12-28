@@ -1,298 +1,483 @@
 {
-    "corn": {
-        "id": 0,
-        "tier": "C",
-        "sizes": [1, 2, 3, 4],
-        "families": [],
-        "value": 1,
-        "stars": 1,
-        "min": 6,
-        "max": 12
+    "regular": {
+        "corn": {
+            "id": 0,
+            "tier": "C",
+            "sizes": [1, 2, 3, 4],
+            "families": [],
+            "value": 1,
+            "stars": 1,
+            "min": 6,
+            "max": 12,
+            "class": null
+        },
+        "worms": {
+            "id": 1,
+            "tier": "B",
+            "sizes": [1, 2, 3, 4],
+            "families": [],
+            "value": 1.5,
+            "stars": 1,
+            "min": 5,
+            "max": 10,
+            "class": "bug"
+        },
+        "meat": {
+            "id": 2,
+            "tier": "A",
+            "sizes": [1, 2, 3, 4],
+            "families": [],
+            "value": 2,
+            "stars": 2,
+            "min": 4,
+            "max": 8,
+            "class": "meat"
+        },
+        "leeches": {
+            "id": 3,
+            "tier": "B",
+            "sizes": [2, 3, 4],
+            "families": ["perch"],
+            "stars": 2,
+            "value": 3,
+            "min": 4,
+            "max": 8,
+            "class": "bug"
+        },
+        "crayfish": {
+            "id": 4,
+            "tier": "D",
+            "sizes": [3, 4],
+            "families": [],
+            "stars": 2,
+            "value": 4.5,
+            "min": 3,
+            "max": 6,
+            "class": "shellfish"
+        },
+        "crab": {
+            "id": 5,
+            "tier": "B",
+            "sizes": [3, 4],
+            "families": [],
+            "stars": 3,
+            "value": 6,
+            "min": 3,
+            "max": 5,
+            "class": "shellfish"
+        },
+        "liver": {
+            "id": 6,
+            "tier": "D",
+            "sizes": [4],
+            "families": [],
+            "stars": 3,
+            "value": 9,
+            "min": 2,
+            "max": 4,
+            "class": "meat"
+        },
+        "peas": {
+            "id": 7,
+            "tier": "D",
+            "sizes": [1],
+            "families": [],
+            "stars": 1,
+            "value": 1,
+            "min": 5,
+            "max": 10,
+            "class": null
+        },
+        "maggots": {
+            "id": 8,
+            "tier": "D",
+            "sizes": [2, 3, 4],
+            "families": [],
+            "stars": 2,
+            "value": 2.25,
+            "min": 4,
+            "max": 10,
+            "class": "bug"
+        },
+        "bloodworms": {
+            "id": 9,
+            "tier": "A",
+            "sizes": [1],
+            "families": ["panfish"],
+            "stars": 1,
+            "value": 1.5,
+            "min": 5,
+            "max": 10,
+            "class": "bug"
+        },
+        "crickets": {
+            "id": 10,
+            "tier": "D",
+            "sizes": [2],
+            "families": [],
+            "stars": 1,
+            "value": 2,
+            "min": 4,
+            "max": 9,
+            "class": "bug"
+        },
+        "dragonfly": {
+            "id": 11,
+            "tier": "C",
+            "sizes": [3, 4],
+            "families": ["carp"],
+            "stars": 3,
+            "value": 5,
+            "min": 2,
+            "max": 5,
+            "class": "bug"
+        },
+        "small_cutbait": {
+            "id": 12,
+            "tier": "S",
+            "sizes": [1, 2, 3, 4],
+            "families": ["catfish"],
+            "stars": 2,
+            "value": 4.5,
+            "min": 3,
+            "max": 7,
+            "class": "fish"
+        },
+        "medium_cutbait": {
+            "id": 13,
+            "tier": "S",
+            "sizes": [2, 3, 4],
+            "families": ["gar"],
+            "stars": 3,
+            "value": 7,
+            "min": 3,
+            "max": 6,
+            "class": "fish"
+        },
+        "large_cutbait": {
+            "id": 14,
+            "tier": "S",
+            "sizes": [3, 4],
+            "families": ["sturgeon"],
+            "stars": 3,
+            "value": 12,
+            "min": 2,
+            "max": 4,
+            "class": "fish"
+        },
+        "bread": {
+            "id": 15,
+            "tier": "C",
+            "sizes": [1],
+            "families": ["minnow"],
+            "stars": 1,
+            "value": 1.25,
+            "min": 6,
+            "max": 12,
+            "class": null
+        },
+        "shrimp": {
+            "id": 16,
+            "tier": "A",
+            "sizes": [2, 3, 4],
+            "families": ["catfish", "pike"],
+            "stars": 2,
+            "value": 4,
+            "min": 3,
+            "max": 8,
+            "class": "shellfish"
+        },
+        "sardine": {
+            "id": 17,
+            "tier": "B",
+            "sizes": [2, 3],
+            "families": ["bass"],
+            "stars": 2,
+            "value": 2.5,
+            "min": 5,
+            "max": 9,
+            "class": "fish"
+        },
+        "minnows": {
+            "id": 18,
+            "tier": "D",
+            "sizes": [1, 2, 3],
+            "families": ["trout", "crappie"],
+            "stars": 1,
+            "value": 1,
+            "min": 7,
+            "max": 13,
+            "class": "fish"
+        },
+        "candy_cane": {
+            "id": 19,
+            "tier": "SS",
+            "sizes": [1, 2, 3, 4],
+            "families": [],
+            "stars": 4,
+            "value": 40,
+            "min": null,
+            "max": null,
+            "banned": true,
+            "class": null
+        },
+        "tuna_tail": {
+            "id": 20,
+            "tier": "C",
+            "sizes": [4],
+            "families": ["sturgeon"],
+            "stars": 4,
+            "value": 12,
+            "min": null,
+            "max": null,
+            "class": "fish"
+        },
+        "tuna_head": {
+            "id": 21,
+            "tier": "B",
+            "sizes": [4],
+            "families": ["catfish"],
+            "stars": 4,
+            "value": 18,
+            "min": null,
+            "max": null,
+            "class": "fish"
+        },
+        "tuna_chunks": {
+            "id": 22,
+            "tier": "A",
+            "sizes": [4],
+            "families": ["shark"],
+            "stars": 4,
+            "value": 25,
+            "min": null,
+            "max": null,
+            "class": "fish"
+        },
+        "wagyu": {
+            "id": 23,
+            "tier": "C",
+            "sizes": [4],
+            "families": [],
+            "stars": 4,
+            "value": 18,
+            "min": null,
+            "max": null,
+            "bonus": 50,
+            "class": "meat"
+        },
+        "huge_cutbait": {
+            "id": 24,
+            "tier": "S",
+            "sizes": [4],
+            "families": [],
+            "stars": 4,
+            "value": 35,
+            "min": null,
+            "max": null,
+            "class": "fish"
+        },
+        "bronze_egg": {
+            "id": 25,
+            "tier": "SS",
+            "sizes": [1],
+            "families": [],
+            "stars": 3,
+            "value": 20,
+            "min": null,
+            "max": null,
+            "banned": true,
+            "class": null
+        },
+        "silver_egg": {
+            "id": 26,
+            "tier": "SS",
+            "sizes": [2],
+            "families": [],
+            "stars": 4,
+            "value": 30,
+            "min": null,
+            "max": null,
+            "banned": true,
+            "class": null
+        },
+        "gold_egg": {
+            "id": 27,
+            "tier": "SS",
+            "sizes": [3],
+            "families": [],
+            "stars": 4,
+            "value": 60,
+            "min": null,
+            "max": null,
+            "banned": true,
+            "class": null
+        },
+        "candy_corn": {
+            "id": 28,
+            "tier": "SS",
+            "sizes": [1, 4],
+            "families": [],
+            "stars": 4,
+            "value": 35,
+            "min": null,
+            "max": null,
+            "banned": true,
+            "class": null
+        }
     },
-    "worms": {
-        "id": 1,
-        "tier": "B",
-        "sizes": [1, 2, 3, 4],
-        "families": [],
-        "value": 1.5,
-        "stars": 1,
-        "min": 5,
-        "max": 10
-    },
-    "meat": {
-        "id": 2,
-        "tier": "A",
-        "sizes": [1, 2, 3, 4],
-        "families": [],
-        "value": 2,
-        "stars": 2,
-        "min": 4,
-        "max": 8
-    },
-    "leeches": {
-        "id": 3,
-        "tier": "B",
-        "sizes": [2, 3, 4],
-        "families": ["perch"],
-        "stars": 2,
-        "value": 3,
-        "min": 4,
-        "max": 8
-    },
-    "crayfish": {
-        "id": 4,
-        "tier": "D",
-        "sizes": [3, 4],
-        "families": [],
-        "stars": 2,
-        "value": 4.5,
-        "min": 3,
-        "max": 6
-    },
-    "crab": {
-        "id": 5,
-        "tier": "B",
-        "sizes": [3, 4],
-        "families": [],
-        "stars": 3,
-        "value": 6,
-        "min": 3,
-        "max": 5
-    },
-    "liver": {
-        "id": 6,
-        "tier": "D",
-        "sizes": [4],
-        "families": [],
-        "stars": 3,
-        "value": 9,
-        "min": 2,
-        "max": 4
-    },
-    "peas": {
-        "id": 7,
-        "tier": "D",
-        "sizes": [1],
-        "families": [],
-        "stars": 1,
-        "value": 1,
-        "min": 5,
-        "max": 10
-    },
-    "maggots": {
-        "id": 8,
-        "tier": "D",
-        "sizes": [2, 3, 4],
-        "families": [],
-        "stars": 2,
-        "value": 2.25,
-        "min": 4,
-        "max": 10
-    },
-    "bloodworms": {
-        "id": 9,
-        "tier": "A",
-        "sizes": [1],
-        "families": ["panfish"],
-        "stars": 1,
-        "value": 1.5,
-        "min": 5,
-        "max": 10
-    },
-    "crickets": {
-        "id": 10,
-        "tier": "D",
-        "sizes": [2],
-        "families": [],
-        "stars": 1,
-        "value": 2,
-        "min": 4,
-        "max": 9
-    },
-    "dragonfly": {
-        "id": 11,
-        "tier": "C",
-        "sizes": [3, 4],
-        "families": ["carp"],
-        "stars": 3,
-        "value": 5,
-        "min": 2,
-        "max": 5
-    },
-    "small_cutbait": {
-        "id": 12,
-        "tier": "S",
-        "sizes": [1, 2, 3, 4],
-        "families": ["catfish"],
-        "stars": 2,
-        "value": 4.5,
-        "min": 3,
-        "max": 7
-    },
-    "medium_cutbait": {
-        "id": 13,
-        "tier": "S",
-        "sizes": [2, 3, 4],
-        "families": ["gar"],
-        "stars": 3,
-        "value": 7,
-        "min": 3,
-        "max": 6
-    },
-    "large_cutbait": {
-        "id": 14,
-        "tier": "S",
-        "sizes": [3, 4],
-        "families": ["sturgeon"],
-        "stars": 3,
-        "value": 12,
-        "min": 2,
-        "max": 4
-    },
-    "bread": {
-        "id": 15,
-        "tier": "C",
-        "sizes": [1],
-        "families": ["minnow"],
-        "stars": 1,
-        "value": 1.25,
-        "min": 6,
-        "max": 12
-    },
-    "shrimp": {
-        "id": 16,
-        "tier": "A",
-        "sizes": [2, 3, 4],
-        "families": ["catfish", "pike"],
-        "stars": 2,
-        "value": 4,
-        "min": 3,
-        "max": 8
-    },
-    "sardine": {
-        "id": 17,
-        "tier": "B",
-        "sizes": [2, 3],
-        "families": ["bass"],
-        "stars": 2,
-        "value": 2.5,
-        "min": 5,
-        "max": 9
-    },
-    "minnows": {
-        "id": 18,
-        "tier": "D",
-        "sizes": [1, 2, 3],
-        "families": ["trout", "crappie"],
-        "stars": 1,
-        "value": 1,
-        "min": 7,
-        "max": 13
-    },
-    "candy_cane": {
-        "id": 19,
-        "tier": "SS",
-        "sizes": [1, 2, 3, 4],
-        "families": [],
-        "stars": 4,
-        "value": 40,
-        "min": null,
-        "max": null,
-        "banned": true
-    },
-    "tuna_tail": {
-        "id": 20,
-        "tier": "C",
-        "sizes": [4],
-        "families": ["sturgeon"],
-        "stars": 4,
-        "value": 12,
-        "min": null,
-        "max": null
-    },
-    "tuna_head": {
-        "id": 21,
-        "tier": "B",
-        "sizes": [4],
-        "families": ["catfish"],
-        "stars": 4,
-        "value": 18,
-        "min": null,
-        "max": null
-    },
-    "tuna_chunks": {
-        "id": 22,
-        "tier": "A",
-        "sizes": [4],
-        "families": ["shark"],
-        "stars": 4,
-        "value": 25,
-        "min": null,
-        "max": null
-    },
-    "wagyu": {
-        "id": 23,
-        "tier": "C",
-        "sizes": [4],
-        "families": [],
-        "stars": 4,
-        "value": 18,
-        "min": null,
-        "max": null,
-        "bonus": 50
-    },
-    "huge_cutbait": {
-        "id": 24,
-        "tier": "S",
-        "sizes": [4],
-        "families": [],
-        "stars": 4,
-        "value": 35,
-        "min": null,
-        "max": null
-    },
-    "bronze_egg": {
-        "id": 25,
-        "tier": "SS",
-        "sizes": [1],
-        "families": [],
-        "stars": 3,
-        "value": 20,
-        "min": null,
-        "max": null,
-        "banned": true
-    },
-    "silver_egg": {
-        "id": 26,
-        "tier": "SS",
-        "sizes": [2],
-        "families": [],
-        "stars": 4,
-        "value": 30,
-        "min": null,
-        "max": null,
-        "banned": true
-    },
-    "gold_egg": {
-        "id": 27,
-        "tier": "SS",
-        "sizes": [3],
-        "families": [],
-        "stars": 4,
-        "value": 60,
-        "min": null,
-        "max": null,
-        "banned": true
-    },
-    "candy_corn": {
-        "id": 28,
-        "tier": "SS",
-        "sizes": [1, 4],
-        "families": [],
-        "stars": 4,
-        "value": 35,
-        "min": null,
-        "max": null,
-        "banned": true
+    "chum": {
+        "cheap_yellow_chum": {
+            "tier": "C",
+            "sizes": [3, 4],
+            "bonus": 25,
+            "coin_exp": 50,
+            "value": 10,
+            "stars": 1
+        },
+        "cheap_red_chum": {
+            "tier": "D",
+            "sizes": [3, 4],
+            "bonus": 35,
+            "coin_exp": 50,
+            "value": 10,
+            "stars": 1
+        },
+        "cheap_blue_chum": {
+            "tier": "B",
+            "sizes": [3, 4],
+            "bonus": 15,
+            "coin_exp": 50,
+            "value": 10,
+            "stars": 1
+        },
+        "cheap_white_chum": {
+            "tier": "A",
+            "sizes": [3, 4],
+            "bonus": 0,
+            "coin_exp": 50,
+            "value": 10,
+            "stars": 1
+        },
+        "yellow_chum": {
+            "tier": "C",
+            "sizes": [3, 4],
+            "bonus": 50,
+            "coin_exp": 100,
+            "value": 20,
+            "stars": 2
+        },
+        "red_chum": {
+            "tier": "D",
+            "sizes": [3, 4],
+            "bonus": 75,
+            "coin_exp": 100,
+            "value": 20,
+            "stars": 2
+        },
+        "blue_chum": {
+            "tier": "B",
+            "sizes": [3, 4],
+            "bonus": 35,
+            "coin_exp": 100,
+            "value": 20,
+            "stars": 2
+        },
+        "white_chum": {
+            "tier": "A",
+            "sizes": [3, 4],
+            "bonus": 25,
+            "coin_exp": 100,
+            "value": 20,
+            "stars": 2
+        },
+        "spiked_yellow_chum": {
+            "tier": "B",
+            "sizes": [4],
+            "bonus": 100,
+            "coin_exp": 200,
+            "value": 40,
+            "stars": 3
+        },
+        "spiked_red_chum": {
+            "tier": "C",
+            "sizes": [4],
+            "bonus": 150,
+            "coin_exp": 200,
+            "value": 40,
+            "stars": 3
+        },
+        "spiked_blue_chum": {
+            "tier": "A",
+            "sizes": [4],
+            "bonus": 75,
+            "coin_exp": 200,
+            "value": 40,
+            "stars": 3
+        },
+        "spiked_white_chum": {
+            "tier": "S",
+            "sizes": [4],
+            "bonus": 50,
+            "coin_exp": 200,
+            "value": 40,
+            "stars": 3
+        },
+        "ultimate_yellow_chum": {
+            "tier": "B",
+            "sizes": [4],
+            "bonus": 200,
+            "coin_exp": 400,
+            "value": 80,
+            "stars": 4
+        },
+        "ultimate_red_chum": {
+            "tier": "C",
+            "sizes": [4],
+            "bonus": 300,
+            "coin_exp": 400,
+            "value": 80,
+            "stars": 4
+        },
+        "ultimate_blue_chum": {
+            "tier": "A",
+            "sizes": [4],
+            "bonus": 150,
+            "coin_exp": 400,
+            "value": 80,
+            "stars": 4
+        },
+        "ultimate_white_chum": {
+            "tier": "S",
+            "sizes": [4],
+            "bonus": 100,
+            "coin_exp": 400,
+            "value": 80,
+            "stars": 4
+        },
+        "silver_chum": {
+            "tier": "S",
+            "sizes": [4],
+            "bonus": 250,
+            "coin_exp": 500,
+            "value": 160,
+            "stars": 5
+        },
+        "gold_chum": {
+            "tier": "S",
+            "sizes": [4],
+            "bonus": 350,
+            "coin_exp": 1000,
+            "value": 240,
+            "stars": 5
+        },
+        "diamond_chum": {
+            "tier": "S",
+            "sizes": [4],
+            "bonus": 500,
+            "coin_exp": 1500,
+            "value": 320,
+            "stars": 5
+        }
     }
 }

@@ -1,12 +1,14 @@
 // Provide Bait Information to Program
 // # ------------------------------- #
 
-const BaitData = require('./data/bait.json');
+const AllBaitData = require('./data/bait.json');
+const RegularBaitData = AllBaitData.regular;
+const ChumBaitData = AllBaitData.chum;
 
 // Formatted Data
-const BaitNames = Object.keys(BaitData);
+const BaitNames = Object.keys(RegularBaitData);
 let BaitNamesByStars = {};
-for (const [key, value] of Object.entries(BaitData)) {
+for (const [key, value] of Object.entries(RegularBaitData)) {
     if (value.banned) { continue; }
     if (!(value.stars in BaitNamesByStars)) {
         BaitNamesByStars[value.stars] = [key]
@@ -15,9 +17,11 @@ for (const [key, value] of Object.entries(BaitData)) {
     }
 }
 
-// Exports
+const ChumBaitNames = Object.keys(ChumBaitData);
+
+// Exports (Regular)
 module.exports.getBaitData = function(baitName) {
-    return BaitData[baitName];
+    return RegularBaitData[baitName];
 }
 
 module.exports.getAllBaitNames = function() {
@@ -25,25 +29,38 @@ module.exports.getAllBaitNames = function() {
 }
 
 module.exports.getAllBaitData = function() {
-    return BaitData;
+    return RegularBaitData;
 }
 
 module.exports.getBaitNamesByStars = function(stars) {
     return BaitNamesByStars[stars];
 }
 
-module.exports.getRegularBaitNames = function() {
-    return BaitNames.filter(bait => !BaitData[bait].banned && BaitData[bait].stars <= 3);
+module.exports.getBaitNames = function() {
+    return BaitNames.filter(bait => !RegularBaitData[bait].banned && RegularBaitData[bait].stars <= 3);
 }
 
 module.exports.getPremiumBaitNames = function() {
-    return BaitNames.filter(bait => !BaitData[bait].banned && BaitData[bait].stars >= 4);
+    return BaitNames.filter(bait => !RegularBaitData[bait].banned && RegularBaitData[bait].stars >= 4);
 }
 
 module.exports.getBaitDataById = function(baitId) {
-    return BaitData[BaitNames[baitId]];
+    return RegularBaitData[BaitNames[baitId]];
 }
 
 module.exports.getBaitNameById = function(baitId) {
     return BaitNames[baitId];
+}
+
+// Exports (Chum)
+module.exports.getChumBaitData = function(baitName) {
+    return ChumBaitData[baitName];
+}
+
+module.exports.getAllChumBaitNames = function() {
+    return ChumBaitNames;
+}
+
+module.exports.getAllChumBaitData = function() {
+    return ChumBaitData;
 }
