@@ -47,6 +47,11 @@ module.exports.setColumn = async function(userid, column, setValue) {
     return;
 }
 
+module.exports.addAnnexedServer = async function(userid, serverid) {
+    let query = 'UPDATE users SET annexed_servers=ARRAY_APPEND(annexed_servers, $1) WHERE userid=$2';
+    return await config.pquery(query, [serverid, userid]);
+}
+
 module.exports.appendToShopServers = async function(userid, serverid) {
     let query = 'UPDATE users SET shop_servers=ARRAY_APPEND(shop_servers, $1) WHERE userid=$2';
     return await config.pquery(query, [serverid, userid]);
@@ -122,6 +127,12 @@ module.exports.fetchGlobalUserStats = async function() {
 module.exports.resetServerShopClaims = async function(userid) {
     let query = 'DELETE FROM server_shop_claims WHERE userid=$1';
     return await config.pquery(query, [userid]);
+}
+
+module.exports.getAllServerShopClaims = async function(userid) {
+    let query = 'SELECT * FROM server_shop_claims WHERE userid=$1';
+    let res = await config.pquery(query, [userid]);
+    return res;
 }
 
 module.exports.getServerShopClaims = async function(userid, serverid) {

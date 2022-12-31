@@ -36,7 +36,7 @@ module.exports.getBaitNamesByStars = function(stars) {
     return BaitNamesByStars[stars];
 }
 
-module.exports.getBaitNames = function() {
+module.exports.getRegularBaitNames = function() {
     return BaitNames.filter(bait => !RegularBaitData[bait].banned && RegularBaitData[bait].stars <= 3);
 }
 

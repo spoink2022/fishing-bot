@@ -17,6 +17,12 @@ async function fetchServer(serverid) {
 
 module.exports.fetchServer = fetchServer;
 
+module.exports.fetchServers = async function(serverids) {
+    let query = 'SELECT * FROM servers WHERE serverid=ANY($1)';
+    let res = await config.pquery(query, [serverids]);
+    return res;
+}
+
 module.exports.setColumn = async function(serverid, column, value) {
     let query = `UPDATE servers SET ${column}=$1 WHERE serverid=$2`;
     await config.pquery(query, [value, serverid]);
