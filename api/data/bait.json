@@ -335,6 +335,18 @@
             "max": null,
             "banned": true,
             "class": null
+        },
+        "kingfisher's_bird": {
+            "id": 30,
+            "tier": "D",
+            "sizes": [1],
+            "families": ["minnow"],
+            "stars": 5,
+            "value": 1000,
+            "min": null,
+            "max": null,
+            "bonus": 100,
+            "class": null
         }
     },
     "chum": {
