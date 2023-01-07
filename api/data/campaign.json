@@ -1078,5 +1078,54 @@
             "lollipops": 100,
             "coins": 1000
         }
+    },
+    {
+        "name": "The Finale (Part 7/14)",
+        "description": "Tropical vibes for the next little bit :sunglasses:",
+        "requirements": [
+            ["bonito", 10],
+            ["spotted_mackerel", 10],
+            ["blackfish", 10],
+            ["red_snapper", 10],
+            ["red_grouper", 10],
+            ["mahi_mahi", 10],
+            ["gulf_grouper", 10],
+            ["sailfish", 5],
+            ["wahoo", 10],
+            ["spanish_mackerel", 5],
+            ["yellowfin_tuna", 5],
+            ["mako_shark", 5]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
+    },
+    {
+        "name": "The Finale (Part 8/14)",
+        "description": "Everyone's favorite location, right?",
+        "requirements": [
+            ["garfish", 10],
+            ["pearl_perch", 10],
+            ["bluefish", 10],
+            ["sockeye_salmon", 5],
+            ["atlantic_cod", 10],
+            ["amberjack", 10],
+            ["spearfish", 5],
+            ["longtail_tuna", 5],
+            ["cobia", 5],
+            ["butterfish", 5],
+            ["mulloway", 5],
+            ["hapuku", 5],
+            ["bluefin_tuna", 5],
+            ["striped_marlin", 5],
+            ["whaler_shark", 5]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
     }
 ]
