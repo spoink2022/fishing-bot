@@ -1127,5 +1127,56 @@
             "lollipops": 100,
             "coins": 1000
         }
+    },
+    {
+        "name": "The Finale (Part 9/14)",
+        "description": "Snorkel trip!",
+        "requirements": [
+            ["yellowfin_bream", 10],
+            ["flounder", 10],
+            ["spotted_seatrout", 10],
+            ["sheepshead", 10],
+            ["mangrove_jack", 10],
+            ["red_drum", 10],
+            ["cubera_snapper", 5],
+            ["atlantic_sturgeon", 5],
+            ["hammerhead_shark", 5],
+            ["goliath_grouper", 5],
+            ["blacktip_shark", 5],
+            ["black_marlin", 5],
+            ["swordfish", 5],
+            ["tiger_shark", 5]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
+    },
+    {
+        "name": "The Finale (Part 10/14)",
+        "description": "The depths below...",
+        "requirements": [
+            ["pacific_whiting", 10],
+            ["chinook_salmon", 10],
+            ["coho_salmon", 10],
+            ["gag_grouper", 10],
+            ["coelacanth", 5],
+            ["smooth_hound", 10],
+            ["black_grouper", 5],
+            ["nurse_shark", 5],
+            ["blue_shark", 5],
+            ["sea_sturgeon", 5],
+            ["whitetip_shark", 5],
+            ["bigeye_tuna", 5],
+            ["thresher_shark", 5],
+            ["giant_squid", 5],
+            ["manta_ray", 5]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
     }
 ]
