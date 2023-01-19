@@ -328,7 +328,7 @@
             "id": 36,
             "name": "Reinforced Giant",
             "cooldown": 3120000,
-            "maxWeight": 2070,
+            "maxWeight": 2100,
             "level": 135,
             "price": 1500000,
             "size": 7
@@ -337,7 +337,7 @@
             "id": 37,
             "name": "Great Giant",
             "cooldown": 3120000,
-            "maxWeight": 2450,
+            "maxWeight": 2400,
             "level": 137,
             "price": 2000000,
             "size": 7
@@ -346,7 +346,7 @@
             "id": 38,
             "name": "Bronze Champion",
             "cooldown": 3060000,
-            "maxWeight": 2900,
+            "maxWeight": 2700,
             "level": 139,
             "price": 3000000,
             "size": 8
@@ -355,7 +355,7 @@
             "id": 39,
             "name": "Silver Champion",
             "cooldown": 3060000,
-            "maxWeight": 3400,
+            "maxWeight": 3000,
             "level": 145,
             "price": 4000000,
             "size": 8
@@ -364,7 +364,7 @@
             "id": 40,
             "name": "Gold Champion",
             "cooldown": 3000000,
-            "maxWeight": 4000,
+            "maxWeight": 3400,
             "level": 148,
             "price": 5000000,
             "size": 8
@@ -977,7 +977,7 @@
             "name": "Giant B",
             "px": 8,
             "rgb": "#888888",
-            "maxWeight": 2020,
+            "maxWeight": 2000,
             "level": 134,
             "price": 450000,
             "bonus": 23
@@ -987,7 +987,7 @@
             "name": "Giant A",
             "px": 8,
             "rgb": "#777777",
-            "maxWeight": 2200,
+            "maxWeight": 2150,
             "level": 136,
             "price": 500000,
             "bonus": 24
@@ -997,7 +997,7 @@
             "name": "Giant AA",
             "px": 8,
             "rgb": "#666666",
-            "maxWeight": 2400,
+            "maxWeight": 2300,
             "level": 138,
             "price": 600000,
             "bonus": 25
@@ -1007,7 +1007,7 @@
             "name": "Giant AAA",
             "px": 8,
             "rgb": "#555555",
-            "maxWeight": 2600,
+            "maxWeight": 2450,
             "level": 140,
             "price": 650000,
             "bonus": 26
@@ -1017,7 +1017,7 @@
             "name": "Magic",
             "px": 8,
             "rgb": "#c61aff",
-            "maxWeight": 2850,
+            "maxWeight": 2600,
             "level": 142,
             "price": 800000,
             "bonus": 28
@@ -1027,7 +1027,7 @@
             "name": "Magic B",
             "px": 8,
             "rgb": "#bf00ff",
-            "maxWeight": 3100,
+            "maxWeight": 2800,
             "level": 144,
             "price": 900000,
             "bonus": 29
@@ -1037,7 +1037,7 @@
             "name": "Magic A",
             "px": 8,
             "rgb": "#ac00e6",
-            "maxWeight": 3400,
+            "maxWeight": 3000,
             "level": 146,
             "price": 1000000,
             "bonus": 30
@@ -1047,7 +1047,7 @@
             "name": "Magic AA",
             "px": 8,
             "rgb": "#9900cc",
-            "maxWeight": 3750,
+            "maxWeight": 3200,
             "level": 148,
             "price": 1100000,
             "bonus": 31
@@ -1057,7 +1057,7 @@
             "name": "Magic AAA",
             "px": 8,
             "rgb": "#8600b3",
-            "maxWeight": 4000,
+            "maxWeight": 3400,
             "level": 150,
             "price": 1200000,
             "bonus": 32
@@ -1627,7 +1627,7 @@
         {
             "id": 70,
             "multiplier": 1.77,
-            "maxWeight": 1800,
+            "maxWeight": 1750,
             "name": "Alien I - Precursor",
             "level": 133,
             "price": 95000
@@ -1635,7 +1635,7 @@
         {
             "id": 71,
             "multiplier": 1.78,
-            "maxWeight": 1950,
+            "maxWeight": 1900,
             "name": "Alien II - Abyssal",
             "level": 135,
             "price": 105000
@@ -1643,7 +1643,7 @@
         {
             "id": 72,
             "multiplier": 1.79,
-            "maxWeight": 2150,
+            "maxWeight": 2100,
             "name": "Alien III - Unleashed",
             "level": 137,
             "price": 112500
@@ -1651,7 +1651,7 @@
         {
             "id": 73,
             "multiplier": 1.8,
-            "maxWeight": 2350,
+            "maxWeight": 2250,
             "name": "Alien IV - Respledent",
             "level": 139,
             "price": 120000
@@ -1659,7 +1659,7 @@
         {
             "id": 74,
             "multiplier": 1.82,
-            "maxWeight": 2550,
+            "maxWeight": 2400,
             "name": "Alien V - Booth",
             "level": 141,
             "price": 135000
@@ -1667,7 +1667,7 @@
         {
             "id": 75,
             "multiplier": 1.85,
-            "maxWeight": 2800,
+            "maxWeight": 2600,
             "name": "Alien VI - Magic",
             "level": 143,
             "price": 150000
@@ -1675,7 +1675,7 @@
         {
             "id": 76,
             "multiplier": 1.87,
-            "maxWeight": 3050,
+            "maxWeight": 2800,
             "name": "Alien VII - Smash",
             "level": 145,
             "price": 162500
@@ -1683,7 +1683,7 @@
         {
             "id": 77,
             "multiplier": 1.9,
-            "maxWeight": 3350,
+            "maxWeight": 3000,
             "name": "Alien VIII - Ramond",
             "level": 147,
             "price": 175000
@@ -1691,7 +1691,7 @@
         {
             "id": 78,
             "multiplier": 1.95,
-            "maxWeight": 3650,
+            "maxWeight": 3200,
             "name": "Alien IX - Hunt",
             "level": 149,
             "price": 185000
@@ -1699,7 +1699,7 @@
         {
             "id": 79,
             "multiplier": 2,
-            "maxWeight": 4000,
+            "maxWeight": 3400,
             "name": "Alien X - Tuna",
             "level": 150,
             "price": 200000
