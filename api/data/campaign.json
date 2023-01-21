@@ -1178,5 +1178,31 @@
             "lollipops": 100,
             "coins": 1000
         }
+    },
+    {
+        "name": "The Finale (Part 11/14)",
+        "description": "Worse love story than KingFisher and his bird...",
+        "requirements": [
+            ["bristlemouth", 12],
+            ["sterlet", 12],
+            ["nassau_grouper", 10],
+            ["sharpnose_shark", 10],
+            ["school_shark", 10],
+            ["lemon_shark", 5],
+            ["angel_shark", 5],
+            ["spinner_shark", 5],
+            ["totoaba", 5],
+            ["largetooth_sawfish", 5],
+            ["pygmy_sperm_whale", 5],
+            ["chinese_sturgeon", 5],
+            ["beluga_sturgeon", 5],
+            ["ocean_sunfish", 3],
+            ["great_white_shark", 3]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
     }
 ]
