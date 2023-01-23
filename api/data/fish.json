@@ -1942,14 +1942,47 @@
         "legendary": true
     },
     {
+        "id": 194,
+        "name": "west_indian_manatee",
+        "family": null,
+        "sizeClass": 4,
+        "sizeMin": 350,
+        "sizeMax": 550,
+        "screenLen": 12,
+        "value": 32,
+        "legendary": true
+    },
+    {
         "id": 195,
         "name": "leatherback_turtle",
         "family": null,
         "sizeClass": 4,
-        "sizeMin": 350,
+        "sizeMin": 450,
         "sizeMax": 700,
         "screenLen": 10,
         "value": 25,
+        "legendary": true
+    },
+    {
+        "id": 196,
+        "name": "anglerfish",
+        "family": null,
+        "sizeClass": 2,
+        "sizeMin": 30,
+        "sizeMax": 50,
+        "screenLen": 4.5,
+        "value": 45,
+        "legendary": true
+    },
+    {
+        "id": 197,
+        "name": "pelican_eel",
+        "family": "eel",
+        "sizeClass": 1,
+        "sizeMin": 10,
+        "sizeMax": 20,
+        "screenLen": 4,
+        "value": 20,
         "legendary": true
     }
 ]
