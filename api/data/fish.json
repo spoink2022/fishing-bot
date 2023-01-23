@@ -1907,5 +1907,49 @@
         "screenLen": 13,
         "value": 50,
         "legendary": true
+    },
+    {
+        "id": 191,
+        "name": "amazon_river_dolphin",
+        "family": "dolphin",
+        "sizeClass": 4,
+        "sizeMin": 100,
+        "sizeMax": 170,
+        "screenLen": 13,
+        "value": 40,
+        "legendary": true
+    },
+    {
+        "id": 192,
+        "name": "japanese_pufferfish",
+        "family": null,
+        "sizeClass": 1,
+        "sizeMin": 3,
+        "sizeMax": 7,
+        "screenLen": 3,
+        "value": 45,
+        "legendary": true
+    },
+    {
+        "id": 193,
+        "name": "great_barracuda",
+        "family": null,
+        "sizeClass": 2,
+        "sizeMin": 10,
+        "sizeMax": 25,
+        "screenLen": 10,
+        "value": 45,
+        "legendary": true
+    },
+    {
+        "id": 195,
+        "name": "leatherback_turtle",
+        "family": null,
+        "sizeClass": 4,
+        "sizeMin": 350,
+        "sizeMax": 700,
+        "screenLen": 10,
+        "value": 25,
+        "legendary": true
     }
 ]
