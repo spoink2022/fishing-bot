@@ -1926,7 +1926,7 @@
         "sizeClass": 1,
         "sizeMin": 5,
         "sizeMax": 10,
-        "screenLen": 4,
+        "screenLen": 3,
         "value": 400,
         "legendary": true
     }
