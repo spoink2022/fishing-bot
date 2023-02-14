@@ -1221,7 +1221,7 @@
         "sizeMin": 250,
         "sizeMax": 500,
         "screenLen": 10,
-        "value": 4
+        "value": 5.5
     },
     {
         "id": 123,
@@ -1906,6 +1906,28 @@
         "sizeMax": 80,
         "screenLen": 13,
         "value": 50,
+        "legendary": true
+    },
+    {
+        "id": 191,
+        "name": "amazon_river_dolphin",
+        "family": "dolphin",
+        "sizeClass": 4,
+        "sizeMin": 100,
+        "sizeMax": 180,
+        "screenLen": 11,
+        "value": 40,
+        "legendary": true
+    },
+    {
+        "id": 192,
+        "name": "japanese_pufferfish",
+        "family": null,
+        "sizeClass": 1,
+        "sizeMin": 5,
+        "sizeMax": 10,
+        "screenLen": 4,
+        "value": 400,
         "legendary": true
     }
 ]

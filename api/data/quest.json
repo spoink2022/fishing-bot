@@ -6,7 +6,7 @@
             "chances": [25, 25, 25, 25],
             "prefixSumChances": [25, 50, 75, 100],
             "minimums": [10, 8, 6, 4],
-            "maximums": [20, 16, 12, 8],
+            "maximums": [14, 12, 10, 8],
             "rewards": [0.6, 1, 1.5, 3.5]
         }
     },

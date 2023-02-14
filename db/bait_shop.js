@@ -10,7 +10,7 @@ module.exports.getCurrentEntry = async function() {
 }
 
 async function insertEntries(entryArr) {
-    let query = `INSERT INTO bait_shop (start_time, end_time, date_string, option_1, qt_1, price_1, option_2, qt_2, price_2, option_3, qt_3, price_3) VALUES ${entryArr.map(o => `(${Object.values(o).join(', ').replace(/"/g, "'")})`).join(', ')}`;
+    let query = `INSERT INTO bait_shop (start_time, end_time, date_string, option_1, qt_1, price_1, option_2, qt_2, price_2, option_3, qt_3, price_3, option_4, qt_4, price_4) VALUES ${entryArr.map(o => `(${Object.values(o).join(', ').replace(/"/g, "'")})`).join(', ')}`;
     return await config.pquery(query);
 }
 
