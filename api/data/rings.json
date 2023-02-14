@@ -200,7 +200,7 @@
             "premium": { "price": 400000 }
         },
         {
-            "maxLevel": 150,
+            "maxLevel": 160,
             "grades": {
                 "premium": { "mean": 30, "dev": 4, "devLimit": 3 },
                 "sashimi": { "mean": 10, "dev": 2, "devLimit": 3 },
