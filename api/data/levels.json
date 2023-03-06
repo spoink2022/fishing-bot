@@ -598,5 +598,33 @@
     {
         "level": 150,
         "expRequired": 200000
+    },
+    {
+        "level": 151,
+        "expRequired": 225000
+    },
+    {
+        "level": 152,
+        "expRequired": 250000
+    },
+    {
+        "level": 153,
+        "expRequired": 260000
+    },
+    {
+        "level": 154,
+        "expRequired": 275000
+    },
+    {
+        "level": 155,
+        "expRequired": 290000
+    },
+    {
+        "level": 156,
+        "expRequired": 300000
+    },
+    {
+        "level": 157,
+        "expRequired": 320000
     }
 ]
