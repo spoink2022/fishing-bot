@@ -220,8 +220,19 @@
               "max": 5,
               "class": "shellfish"
         },
-        "candy_cane": {
+        "grasshopper": {
             "id": 20,
+            "tier": "A",
+            "sizes": [2],
+            "families": [],
+            "stars": 2,
+            "value": 4,
+            "min": 3,
+            "max": 6,
+            "class": "bug"
+        },
+        "candy_cane": {
+            "id": 21,
             "tier": "SS",
             "sizes": [1, 2, 3, 4],
             "families": [],
@@ -233,7 +244,7 @@
             "class": null
         },
         "tuna_tail": {
-            "id": 21,
+            "id": 22,
             "tier": "C",
             "sizes": [4],
             "families": ["sturgeon"],
@@ -244,7 +255,7 @@
             "class": "fish"
         },
         "tuna_head": {
-            "id": 22,
+            "id": 23,
             "tier": "B",
             "sizes": [4],
             "families": ["catfish"],
@@ -255,7 +266,7 @@
             "class": "fish"
         },
         "tuna_chunks": {
-            "id": 23,
+            "id": 24,
             "tier": "A",
             "sizes": [4],
             "families": ["shark"],
@@ -266,7 +277,7 @@
             "class": "fish"
         },
         "wagyu": {
-            "id": 24,
+            "id": 25,
             "tier": "C",
             "sizes": [4],
             "families": [],
@@ -278,7 +289,7 @@
             "class": "meat"
         },
         "huge_cutbait": {
-            "id": 25,
+            "id": 26,
             "tier": "S",
             "sizes": [4],
             "families": [],
@@ -289,7 +300,7 @@
             "class": "fish"
         },
         "bronze_egg": {
-            "id": 26,
+            "id": 27,
             "tier": "SS",
             "sizes": [1],
             "families": [],
@@ -301,7 +312,7 @@
             "class": null
         },
         "silver_egg": {
-            "id": 27,
+            "id": 28,
             "tier": "SS",
             "sizes": [2],
             "families": [],
@@ -313,7 +324,7 @@
             "class": null
         },
         "gold_egg": {
-            "id": 28,
+            "id": 29,
             "tier": "SS",
             "sizes": [3],
             "families": [],
@@ -325,7 +336,7 @@
             "class": null
         },
         "candy_corn": {
-            "id": 29,
+            "id": 30,
             "tier": "SS",
             "sizes": [1, 4],
             "families": [],
@@ -334,6 +345,18 @@
             "min": null,
             "max": null,
             "banned": true,
+            "class": null
+        },
+        "kingfishers_bird": {
+            "id": 31,
+            "tier": "D",
+            "sizes": [1],
+            "families": ["minnow"],
+            "stars": 4,
+            "value": 1000,
+            "min": null,
+            "max": null,
+            "bonus": 1000,
             "class": null
         }
     },
