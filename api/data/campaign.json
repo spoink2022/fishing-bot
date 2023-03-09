@@ -1204,5 +1204,112 @@
             "lollipops": 100,
             "coins": 1000
         }
+    },
+    {
+        "name": "The Finale (Part 12/14)",
+        "description": "Getting dark in here...",
+        "requirements": [
+            ["catshark", 12],
+            ["atlantic_wolffish", 10],
+            ["blobfish", 12],
+            ["galapagos_shark", 10],
+            ["porbeagle", 5],
+            ["mekong_giant_catfish", 3],
+            ["oarfish", 5],
+            ["silky_shark", 5],
+            ["dusky_shark", 5],
+            ["bluntnose_sixgill_shark", 5],
+            ["colossal_squid", 4],
+            ["white_sturgeon", 5],
+            ["beluga_whale", 5],
+            ["blainvilles_beaked_whale", 5],
+            ["narwhal", 5],
+            ["megamouth_shark", 4]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
+    },
+    {
+        "name": "The Finale (Part 13/14)",
+        "description": "*sea shanties start playing*",
+        "requirements": [
+            ["scalloped_hammerhead", 12],
+            ["atlantic_striped_bass", 12],
+            ["atlantic_spotted_dolphin", 12],
+            ["black_sea_bass", 12],
+            ["dalls_porpoise", 6],
+            ["pygmy_killer_whale", 6],
+            ["atlantic_halibut", 6],
+            ["melon_headed_whale", 3],
+            ["chinese_river_dolphin", 3],
+            ["kaluga_sturgeon", 5],
+            ["gervais_beaked_whale", 5],
+            ["greenland_shark", 3],
+            ["long_finned_pilot_whale", 5],
+            ["false_killer_whale", 5],
+            ["sowerbys_beaked_whale", 5]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
+    },
+    {
+        "name": "The Finale (Part 14/14)",
+        "description": "Gonna need a bigger boat...",
+        "requirements": [
+            ["giant_barb", 12],
+            ["nile_perch", 12],
+            ["humpback_wrease", 12],
+            ["blue_marlin", 7],
+            ["green_sawfish", 7],
+            ["giant_grouper", 7],
+            ["giant_pangasius", 7],
+            ["killer_whale", 5],
+            ["basking_shark", 5],
+            ["baleen_whale", 5],
+            ["hoodwinker_sunfish", 6],
+            ["whale_shark", 5],
+            ["humpback_whale", 5],
+            ["sperm_whale", 5]
+        ],
+        "rewards": {
+            "clanPoints": 150,
+            "lollipops": 100,
+            "coins": 1000
+        }
+    },
+    {
+        "name": "The Ascension (Part 1/4)",
+        "description": "You've reached... the end?",
+        "requirements": [
+            ["shoal_bass", 2],
+            ["black_drum", 2],
+            ["golden_koi", 3],
+            ["american_eel", 3]
+        ],
+        "rewards": {
+            "clanPoints": 300,
+            "lollipops": 200,
+            "coins": 5000
+        }
+    },
+    {
+        "name": "The Ascension (Part 2/4)",
+        "description": "Tasked with the impossible...",
+        "requirements": [
+            ["american_paddlefish", 4],
+            ["amazon_river_dolphin", 4],
+            ["japanese_pufferfish", 2]
+        ],
+        "rewards": {
+            "clanPoints": 300,
+            "lollipops": 200,
+            "coins": 5000
+        }
     }
 ]
