@@ -226,7 +226,7 @@
             "sizes": [2],
             "families": [],
             "stars": 2,
-            "value": 4,
+            "value": 3.5,
             "min": 3,
             "max": 6,
             "class": "bug"
@@ -345,18 +345,6 @@
             "min": null,
             "max": null,
             "banned": true,
-            "class": null
-        },
-        "kingfishers_bird": {
-            "id": 31,
-            "tier": "D",
-            "sizes": [1],
-            "families": ["minnow"],
-            "stars": 4,
-            "value": 1000,
-            "min": null,
-            "max": null,
-            "bonus": 1000,
             "class": null
         }
     },
