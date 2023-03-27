@@ -172,7 +172,8 @@
             {"id": 94, "chance": 4},
             {"id": 95, "chance": 5},
             {"id": 96, "chance": 2}
-        ]
+        ],
+        "legendary": 193
     },
     {
         "id": 9,
@@ -195,7 +196,8 @@
             {"id": 108, "chance": 13},
             {"id": 109, "chance": 2},
             {"id": 110, "chance": 4}
-        ]
+        ],
+        "legendary": 194
     },
     {
         "id": 10,
