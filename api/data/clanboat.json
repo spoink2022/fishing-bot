@@ -77,17 +77,17 @@
         {
             "name": "reinforced giant",
             "price": 1250,
-            "capacity": 16
+            "capacity": 18
         },
         {
             "name": "military",
             "price": 1600,
-            "capacity": 18
+            "capacity": 21
         },
         {
             "name": "reinforced military",
             "price": 2000,
-            "capacity": 20
+            "capacity": 25
         }                     
     ],
     "engine": [
