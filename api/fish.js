@@ -2,7 +2,7 @@
 // # ---------------------------------------------- #
 
 const FishData = require('./data/fish.json');
-const LocationData = require('./data/fishing-locations.json');
+const LocationData = (require('./data/fishing-locations.json')).regular;
 
 // NOTE FOR UPDATES -> SHIFT IDS SO THAT LEGENDARY FISH ARE ALWAYS AT THE BOTTOM
 
