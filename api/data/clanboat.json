@@ -30,7 +30,7 @@
         },
         {
             "name": "ferrocement",
-            "price": 12000
+            "price": 10000
         }
     ],
     "container": [
@@ -76,18 +76,18 @@
         },
         {
             "name": "reinforced giant",
-            "price": 1250,
-            "capacity": 18
+            "price": 1100,
+            "capacity": 16
         },
         {
             "name": "military",
             "price": 1600,
-            "capacity": 21
+            "capacity": 18
         },
         {
             "name": "reinforced military",
             "price": 2000,
-            "capacity": 25
+            "capacity": 20
         }                     
     ],
     "engine": [
@@ -149,17 +149,17 @@
         {
             "name": "standard nuclear",
             "price": 800,
-            "efficiency": 2.2
+            "efficiency": 2.5
         },
         {
             "name": "improved nuclear",
             "price": 1000,
-            "efficiency": 2.5
+            "efficiency": 3
         },
         {
             "name": "superior nuclear",
             "price": 1500,
-            "efficiency": 3
+            "efficiency": 3.5
         }
     ],
     "propeller": [
@@ -210,18 +210,18 @@
         },
         {
             "name": "military",
-            "price": 700,
-            "cooldown": 322400000
+            "price": 750,
+            "cooldown": 324000000
         },
         {
             "name": "double military",
-            "price": 800,
-            "cooldown": 315000000
+            "price": 850,
+            "cooldown": 316800000
         },
         {
             "name": "optimized military",
             "price": 1000,
-            "cooldown": 305000000
+            "cooldown": 309600000
         }
     ]
 }
