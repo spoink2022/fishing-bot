@@ -638,5 +638,165 @@
     {
         "level": 160,
         "expRequired": 400000
+    },
+    {
+        "level": 161,
+        "expRequired": 424000
+    },
+    {
+        "level": 162,
+        "expRequired": 438000
+    },
+    {
+        "level": 163,
+        "expRequired": 454000
+    },
+    {
+        "level": 164,
+        "expRequired": 470000
+    },
+    {
+        "level": 165,
+        "expRequired": 487000
+    },
+    {
+        "level": 166,
+        "expRequired": 504000
+    },
+    {
+        "level": 167,
+        "expRequired": 522000
+    },
+    {
+        "level": 168,
+        "expRequired": 540000
+    },
+    {
+        "level": 169,
+        "expRequired": 559000
+    },
+    {
+        "level": 170,
+        "expRequired": 579000
+    },
+    {
+        "level": 171,
+        "expRequired": 599000
+    },
+    {
+        "level": 172,
+        "expRequired": 620000
+    },
+    {
+        "level": 173,
+        "expRequired": 642000
+    },
+    {
+        "level": 174,
+        "expRequired": 665000
+    },
+    {
+        "level": 175,
+        "expRequired": 688000
+    },
+    {
+        "level": 176,
+        "expRequired": 713000
+    },
+    {
+        "level": 177,
+        "expRequired": 738000
+    },
+    {
+        "level": 178,
+        "expRequired": 764000
+    },
+    {
+        "level": 179,
+        "expRequired": 791000
+    },
+    {
+        "level": 180,
+        "expRequired": 819000
+    },
+    {
+        "level": 181,
+        "expRequired": 848000
+    },
+    {
+        "level": 182,
+        "expRequired": 877000
+    },
+    {
+        "level": 183,
+        "expRequired": 908000
+    },
+    {
+        "level": 184,
+        "expRequired": 941000
+    },
+    {
+        "level": 185,
+        "expRequired": 974000
+    },
+    {
+        "level": 186,
+        "expRequired": 1008000
+    },
+    {
+        "level": 187,
+        "expRequired": 1044000
+    },
+    {
+        "level": 188,
+        "expRequired": 1080000
+    },
+    {
+        "level": 189,
+        "expRequired": 1119000
+    },
+    {
+        "level": 190,
+        "expRequired": 1158000
+    },
+    {
+        "level": 191,
+        "expRequired": 1199000
+    },
+    {
+        "level": 192,
+        "expRequired": 1241000
+    },
+    {
+        "level": 193,
+        "expRequired": 1285000
+    },
+    {
+        "level": 194,
+        "expRequired": 1330000
+    },
+    {
+        "level": 195,
+        "expRequired": 1377000
+    },
+    {
+        "level": 196,
+        "expRequired": 1426000
+    },
+    {
+        "level": 197,
+        "expRequired": 1476000
+    },
+    {
+        "level": 198,
+        "expRequired": 1528000
+    },
+    {
+        "level": 199,
+        "expRequired": 1582000
+    },
+    {
+        "level": 200,
+        "expRequired": 1638000
     }
 ]
