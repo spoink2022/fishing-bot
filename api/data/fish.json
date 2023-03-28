@@ -1937,8 +1937,8 @@
         "sizeClass": 2,
         "sizeMin": 10,
         "sizeMax": 25,
-        "screenLen": 10,
-        "value": 250,
+        "screenLen": 5.5,
+        "value": 300,
         "legendary": true
     },
     {
@@ -1948,8 +1948,8 @@
         "sizeClass": 4,
         "sizeMin": 350,
         "sizeMax": 550,
-        "screenLen": 12,
-        "value": 75,
+        "screenLen": 9.5,
+        "value": 40,
         "legendary": true
     }
 ]
