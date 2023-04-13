@@ -368,7 +368,44 @@
             "level": 148,
             "price": 5000000,
             "size": 8
+        },
+        {
+            "id": 41,
+            "name": "Royal",
+            "cooldown": 3000000,
+            "maxWeight": 3800,
+            "level": 150,
+            "price": 6500000,
+            "size": 8
+        },
+        {
+            "id": 42,
+            "name": "Reinforced Royal",
+            "cooldown": 2940000,
+            "maxWeight": 4250,
+            "level": 153,
+            "price": 8000000,
+            "size": 8
+        },
+        {
+            "id": 43,
+            "name": "Great Royal",
+            "cooldown": 2940000,
+            "maxWeight": 4800,
+            "level": 156,
+            "price": 10000000,
+            "size": 8
+        },
+        {
+            "id": 44,
+            "name": "Heavenly",
+            "cooldown": 2880000,
+            "maxWeight": 5400,
+            "level": 160,
+            "price": 12000000,
+            "size": 8
         }
+        
     ],
     "lines": [
         {
@@ -1060,6 +1097,66 @@
             "level": 150,
             "price": 1200000,
             "bonus": 32
+        },
+        {
+            "id": 69,
+            "name": "Magic Johnson",
+            "px": 8,
+            "rgb": "#c822f1",
+            "maxWeight": 3650,
+            "level": 152,
+            "price": 1400000,
+            "bonus": 34
+        },
+        {
+            "id": 70,
+            "name": "Kraken",
+            "px": 9,
+            "rgb": "#000000",
+            "maxWeight": 3900,
+            "level": 154,
+            "price": 1600000,
+            "bonus": 35
+        },
+        {
+            "id": 71,
+            "name": "Kraken B",
+            "px": 9,
+            "rgb": "#4d0510",
+            "maxWeight": 4200,
+            "level": 156,
+            "price": 1850000,
+            "bonus": 36
+        },
+        {
+            "id": 72,
+            "name": "Kraken A",
+            "px": 9,
+            "rgb": "#990a1f",
+            "maxWeight": 4500,
+            "level": 158,
+            "price": 2000000,
+            "bonus": 38
+        },
+        {
+            "id": 73,
+            "name": "Kraken AA",
+            "px": 9,
+            "rgb": "#e10e2e",
+            "maxWeight": 4900,
+            "level": 160,
+            "price": 2250000,
+            "bonus": 39
+        },
+        {
+            "id": 74,
+            "name": "Kraken AAA",
+            "px": 9,
+            "rgb": "#7f2936",
+            "maxWeight": 5300,
+            "level": 162,
+            "price": 2500000,
+            "bonus": 40
         }
     ],
     "hooks": [
@@ -1702,6 +1799,62 @@
             "name": "Alien X - Tuna",
             "level": 150,
             "price": 200000
+        },
+        {
+            "id": 80,
+            "multiplier": 2.02,
+            "maxWeight": 3650,
+            "name": "Angel I - Dawn",
+            "level": 152,
+            "price": 225000
+        },
+        {
+            "id": 81,
+            "multiplier": 2.05,
+            "maxWeight": 3900,
+            "name": "Angel II - Aura",
+            "level": 154,
+            "price": 250000
+        },
+        {
+            "id": 82,
+            "multiplier": 2.08,
+            "maxWeight": 4200,
+            "name": "Angel III - Foundation",
+            "level": 156,
+            "price": 275000
+        },
+        {
+            "id": 83,
+            "multiplier": 2.12,
+            "maxWeight": 4500,
+            "name": "Angel IV - Cosmos",
+            "level": 157,
+            "price": 300000
+        },
+        {
+            "id": 84,
+            "multiplier": 2.15,
+            "maxWeight": 4800,
+            "name": "Angel V - Aqua",
+            "level": 159,
+            "price": 330000
+        },
+        {
+            "id": 85,
+            "multiplier": 2.18,
+            "maxWeight": 5100,
+            "name": "Angel VI - Terra",
+            "level": 161,
+            "price": 360000
+        },
+        {
+            "id": 86,
+            "multiplier": 2.2,
+            "maxWeight": 5450,
+            "name": "Angel VII - Repose",
+            "level": 163,
+            "price": 400000
         }
     ],
     "gloves": [
@@ -1912,6 +2065,30 @@
             "bonus": 2000,
             "level": 145,
             "price": 1500000
+        },
+        {
+            "id": 27,
+            "name": "Crown",
+            "chance": 22,
+            "bonus": 2500,
+            "level": 150,
+            "price": 2000000
+        },
+        {
+            "id": 28,
+            "name": "Crown V2",
+            "chance": 22,
+            "bonus": 3000,
+            "level": 156,
+            "price": 2750000
+        },
+        {
+            "id": 29,
+            "name": "Crown V3",
+            "chance": 22,
+            "bonus": 3600,
+            "level": 162,
+            "price": 3500000
         }
     ],
     "swivels": [
@@ -2054,6 +2231,27 @@
             "bonus": 2500,
             "level": 147,
             "price": 2000000
+        },
+        {
+            "id": 21,
+            "name": "Royal V5",
+            "bonus": 3000,
+            "level": 152,
+            "price": 2500000
+        },
+        {
+            "id": 22,
+            "name": "Crown",
+            "bonus": 3600,
+            "level": 157,
+            "price": 3200000
+        },
+        {
+            "id": 23,
+            "name": "Crown V2",
+            "bonus": 4200,
+            "level": 162,
+            "price": 3800000
         }
     ]
 }
