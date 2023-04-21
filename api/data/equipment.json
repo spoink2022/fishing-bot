@@ -363,7 +363,7 @@
         {
             "id": 40,
             "name": "Gold Champion",
-            "cooldown": 300,
+            "cooldown": 3000000,
             "maxWeight": 3400,
             "level": 148,
             "price": 5000000,
