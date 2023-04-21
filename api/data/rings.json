@@ -135,23 +135,28 @@
         },
         "tourmaline": {
             "id": 19,
-            "classBoost": [0, 3, 3, 3],
-            "gradeBoost": [25, 0, 25],
+            "classBoost": [2, 2, 2, 2],
+            "gradeBoost": [25, 25, 25],
             "jewel": true,
             "rating": 6
         },
         "moonstone": {
             "id": 20,
             "classBoost": [0, 0, 0, 0],
-            "gradeBoost": [0, 0, 100],
+            "gradeBoost": [100, 100, 100],
             "jewel": true,
-            "rating": 6
+            "rating": 6,
+            "dropMultiplier": 0.3
         }
     },
     "sellRates": [10, 15, 25, 50, 150, 300, 1000],
     "packChances": {
         "regular": [7, 11, 11, 11, 11, 8, 8, 7, 7, 5, 4.25, 3.5, 1, 1, 1, 1, 1, 0.5, 0.25, 0.25, 0.25],
         "premium": [0, 0, 0, 0, 0, 7, 7, 7, 7, 16, 12, 10, 7, 7, 5, 5, 4, 3, 1, 1, 1]
+    },
+    "packChancesLegacy": {
+        "regular": [10, 13, 13, 13, 13, 7, 7, 7, 7, 4, 3, 2, 0.2, 0.2, 0.2, 0.2, 0.1, 0.1, 0, 0, 0],
+        "premium": [0, 0, 0, 0, 0, 8, 8, 8, 8, 16, 12, 10, 7, 7, 5, 5, 3, 3, 0, 0, 0]
     },
     "packs": [
         {
