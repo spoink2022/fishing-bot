@@ -1293,9 +1293,9 @@
             ["american_eel", 3]
         ],
         "rewards": {
-            "clanPoints": 300,
-            "lollipops": 200,
-            "coins": 5000
+            "clanPoints": 500,
+            "lollipops": 500,
+            "coins": 10000
         }
     },
     {
@@ -1307,9 +1307,9 @@
             ["japanese_pufferfish", 2]
         ],
         "rewards": {
-            "clanPoints": 300,
-            "lollipops": 200,
-            "coins": 5000
+            "clanPoints": 500,
+            "lollipops": 500,
+            "coins": 10000
         }
     }
 ]
