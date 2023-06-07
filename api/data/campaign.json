@@ -1311,5 +1311,19 @@
             "lollipops": 500,
             "coins": 10000
         }
+    },
+    {
+        "name": "The Ascension (Part 3/4)",
+        "description": "We're almost there...",
+        "requirements": [
+            ["great_barracuda", 4],
+            ["west_indian_manatee", 3],
+            ["yokozuna_slickhead", 3]
+        ],
+        "rewards": {
+            "clanPoints": 500,
+            "lollipops": 500,
+            "coins": 10000
+        }
     }
 ]

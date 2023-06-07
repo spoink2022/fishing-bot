@@ -1951,5 +1951,16 @@
         "screenLen": 9.5,
         "value": 40,
         "legendary": true
+    },
+    {
+        "id": 195,
+        "name": "yokozuna_slickhead",
+        "family": null,
+        "sizeClass": 4,
+        "sizeMin": 200,
+        "sizeMax": 400,
+        "screenLen": 9,
+        "value": 60,
+        "legendary": true
     }
 ]
