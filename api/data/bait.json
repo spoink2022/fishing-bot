@@ -231,6 +231,17 @@
             "max": 6,
             "class": "bug"
         },
+        "titan_beetle": {
+            "id": 31,
+            "tier": "A",
+            "sizes": [3, 4],
+            "families": ["carp", "catfish"],
+            "stars": 3,
+            "value": 8,
+            "min": 2,
+            "max": 5,
+            "class": "bug"
+        },
         "candy_cane": {
             "id": 21,
             "tier": "SS",
