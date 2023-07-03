@@ -1970,8 +1970,8 @@
         "sizeClass": 2,
         "sizeMin": 30,
         "sizeMax": 50,
-        "screenLen": 5,
-        "value": 45,
+        "screenLen": 3.75,
+        "value": 600,
         "legendary": true
     },
     {
@@ -1979,10 +1979,10 @@
         "name": "pelican_eel",
         "family": "eel",
         "sizeClass": 1,
-        "sizeMin": 10,
-        "sizeMax": 20,
-        "screenLen": 4,
-        "value": 20,
+        "sizeMin": 20,
+        "sizeMax": 50,
+        "screenLen": 4.75,
+        "value": 800,
         "legendary": true
     }
 ]

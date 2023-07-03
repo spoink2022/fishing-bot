@@ -1294,8 +1294,8 @@
         ],
         "rewards": {
             "clanPoints": 500,
-            "lollipops": 1000,
-            "coins": 100000
+            "lollipops": 500,
+            "coins": 10000
         }
     },
     {
@@ -1308,8 +1308,8 @@
         ],
         "rewards": {
             "clanPoints": 500,
-            "lollipops": 1000,
-            "coins": 100000
+            "lollipops": 500,
+            "coins": 10000
         }
     },
     {
@@ -1318,13 +1318,12 @@
         "requirements": [
             ["great_barracuda", 2],
             ["west_indian_manatee", 3],
-            ["yokozuna_slickhead", 3],
-            ["black_seadevil", 2]
+            ["yokozuna_slickhead", 3]
         ],
         "rewards": {
             "clanPoints": 500,
-            "lollipops": 1000,
-            "coins": 100000
+            "lollipops": 500,
+            "coins": 10000
         }
     }
 ]
