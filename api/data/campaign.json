@@ -1188,16 +1188,16 @@
             ["nassau_grouper", 10],
             ["sharpnose_shark", 10],
             ["school_shark", 10],
-            ["lemon_shark", 5],
-            ["angel_shark", 5],
+            ["lemon_shark", 3],
+            ["angel_shark", 3],
             ["spinner_shark", 5],
             ["totoaba", 5],
             ["largetooth_sawfish", 5],
             ["pygmy_sperm_whale", 5],
             ["chinese_sturgeon", 5],
             ["beluga_sturgeon", 5],
-            ["ocean_sunfish", 3],
-            ["great_white_shark", 3]
+            ["ocean_sunfish", 5],
+            ["great_white_shark", 5]
         ],
         "rewards": {
             "clanPoints": 150,
@@ -1219,12 +1219,12 @@
             ["silky_shark", 5],
             ["dusky_shark", 5],
             ["bluntnose_sixgill_shark", 5],
-            ["colossal_squid", 4],
+            ["colossal_squid", 3],
             ["white_sturgeon", 5],
             ["beluga_whale", 5],
             ["blainvilles_beaked_whale", 5],
             ["narwhal", 5],
-            ["megamouth_shark", 4]
+            ["megamouth_shark", 5]
         ],
         "rewards": {
             "clanPoints": 150,
@@ -1294,8 +1294,8 @@
         ],
         "rewards": {
             "clanPoints": 500,
-            "lollipops": 500,
-            "coins": 10000
+            "lollipops": 800,
+            "coins": 100000
         }
     },
     {
@@ -1308,8 +1308,8 @@
         ],
         "rewards": {
             "clanPoints": 500,
-            "lollipops": 500,
-            "coins": 10000
+            "lollipops": 800,
+            "coins": 100000
         }
     },
     {
@@ -1318,12 +1318,13 @@
         "requirements": [
             ["great_barracuda", 2],
             ["west_indian_manatee", 3],
-            ["yokozuna_slickhead", 3]
+            ["yokozuna_slickhead", 3],
+            ["black_seadevil", 2]
         ],
         "rewards": {
             "clanPoints": 500,
-            "lollipops": 500,
-            "coins": 10000
+            "lollipops": 800,
+            "coins": 100000
         }
     }
 ]
