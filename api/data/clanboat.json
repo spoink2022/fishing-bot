@@ -88,7 +88,17 @@
             "name": "reinforced military",
             "price": 2000,
             "capacity": 20
-        }                     
+        },
+        {
+            "name": "triple military",
+            "price": 2500,
+            "capacity": 22
+        },
+        {
+            "name": "stacked military",
+            "price": 3200,
+            "capacity": 25
+        }
     ],
     "engine": [
         {
@@ -160,6 +170,16 @@
             "name": "superior nuclear",
             "price": 1500,
             "efficiency": 3.5
+        },
+        {
+            "name": "silver nuclear",
+            "price": 2250,
+            "efficiency": 4.2
+        },
+        {
+            "name": "gold nuclear",
+            "price": 3000,
+            "efficiency": 5
         }
     ],
     "propeller": [
@@ -222,6 +242,11 @@
             "name": "optimized military",
             "price": 1000,
             "cooldown": 309600000
+        },
+        {
+            "name": "improved military",
+            "price": 1200,
+            "cooldown": 302400000
         }
     ]
 }
