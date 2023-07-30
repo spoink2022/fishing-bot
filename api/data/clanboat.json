@@ -91,13 +91,13 @@
         },
         {
             "name": "triple military",
-            "price": 2500,
-            "capacity": 22
+            "price": 1250,
+            "capacity": 21
         },
         {
             "name": "stacked military",
-            "price": 3200,
-            "capacity": 25
+            "price": 1500,
+            "capacity": 22
         }
     ],
     "engine": [
@@ -174,7 +174,7 @@
         {
             "name": "silver nuclear",
             "price": 2250,
-            "efficiency": 4.2
+            "efficiency": 4
         },
         {
             "name": "gold nuclear",
@@ -245,7 +245,7 @@
         },
         {
             "name": "improved military",
-            "price": 1200,
+            "price": 1250,
             "cooldown": 302400000
         }
     ]

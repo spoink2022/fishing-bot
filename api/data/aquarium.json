@@ -1,225 +1,225 @@
 [
     {
         "name": "shabby",
-        "multiplier": 1.0,
+        "multiplier": 1,
         "max": 10,
         "level": 1,
         "price": 0
     },
     {
         "name": "standard",
-        "multiplier": 1.1,
+        "multiplier": 1.05,
         "max": 15,
         "level": 3,
         "price": 50
     },
     {
         "name": "bronze",
-        "multiplier": 1.2,
-        "max": 30,
+        "multiplier": 1.1,
+        "max": 25,
         "level": 8,
         "price": 80
     },
     {
         "name": "premium_bronze",
-        "multiplier": 1.3,
-        "max": 30,
+        "multiplier": 1.15,
+        "max": 35,
         "level": 12,
         "price": 90
     },
     {
         "name": "superior_bronze",
-        "multiplier": 1.5,
-        "max": 45,
+        "multiplier": 1.2,
+        "max": 50,
         "level": 16,
         "price": 150
     },
     {
         "name": "silver",
-        "multiplier": 1.5,
-        "max": 55,
+        "multiplier": 1.25,
+        "max": 60,
         "level": 19,
         "price": 250
     },
     {
         "name": "premium_silver",
-        "multiplier": 1.65,
-        "max": 60,
+        "multiplier": 1.27,
+        "max": 75,
         "level": 24,
         "price": 400
     },
     {
         "name": "superior_silver",
-        "multiplier": 1.85,
-        "max": 70,
+        "multiplier": 1.3,
+        "max": 90,
         "level": 30,
         "price": 600
     },
     {
         "name": "gold",
-        "multiplier": 2.1,
-        "max": 85,
+        "multiplier": 1.4,
+        "max": 100,
         "level": 38,
         "price": 1000
     },
     {
         "name": "premium_gold",
-        "multiplier": 2.2,
-        "max": 115,
+        "multiplier": 1.43,
+        "max": 120,
         "level": 42,
         "price": 1200
     },
     {
         "name": "superior_gold",
-        "multiplier": 2.4,
-        "max": 135,
+        "multiplier": 1.45,
+        "max": 140,
         "level": 47,
         "price": 1400
     },
     {
         "name": "crystal",
-        "multiplier": 2.6,
-        "max": 155,
+        "multiplier": 1.5,
+        "max": 160,
         "level": 52,
         "price": 4000
     },
     {
         "name": "premium_crystal",
-        "multiplier": 2.7,
+        "multiplier": 1.53,
         "max": 180,
         "level": 55,
         "price": 6000
     },
     {
         "name": "superior_crystal",
-        "multiplier": 2.85,
+        "multiplier": 1.57,
         "max": 200,
         "level": 59,
         "price": 8000
     },
     {
         "name": "titanium",
-        "multiplier": 3.0,
-        "max": 230,
+        "multiplier": 1.6,
+        "max": 225,
         "level": 64,
         "price": 12000
     },
     {
         "name": "premium_titanium",
-        "multiplier": 3.2,
+        "multiplier": 1.64,
         "max": 250,
         "level": 68,
         "price": 15000
     },
     {
         "name": "superior_titanium",
-        "multiplier": 3.35,
-        "max": 280,
+        "multiplier": 1.68,
+        "max": 275,
         "level": 73,
         "price": 22000
     },
     {
         "name": "glass",
-        "multiplier": 3.4,
+        "multiplier": 1.75,
         "max": 300,
         "level": 75,
         "price": 30000
     },
     {
         "name": "premium_glass",
-        "multiplier": 3.5,
-        "max": 320,
+        "multiplier": 1.78,
+        "max": 325,
         "level": 78,
         "price": 45000
     },
     {
         "name": "superior_glass",
-        "multiplier": 3.75,
-        "max": 320,
+        "multiplier": 1.84,
+        "max": 350,
         "level": 84,
         "price": 60000
     },
     {
         "name": "elite",
-        "multiplier": 3.8,
-        "max": 340,
+        "multiplier": 1.86,
+        "max": 400,
         "level": 88,
         "price": 100000
     },
     {
         "name": "premium_elite",
-        "multiplier": 3.9,
-        "max": 350,
+        "multiplier": 1.88,
+        "max": 425,
         "level": 93,
         "price": 120000
     },
     {
         "name": "superior_elite",
-        "multiplier": 4,
-        "max": 380,
+        "multiplier": 1.9,
+        "max": 450,
         "level": 97,
         "price": 150000
     },
     {
         "name": "palladium",
-        "multiplier": 4.1,
-        "max": 420,
+        "multiplier": 1.92,
+        "max": 500,
         "level": 101,
         "price": 170000
     },
     {
         "name": "premium_palladium",
-        "multiplier": 4.3,
-        "max": 450,
+        "multiplier": 1.95,
+        "max": 550,
         "level": 108,
         "price": 190000
     },
     {
         "name": "superior_palladium",
-        "multiplier": 4.5,
-        "max": 480,
+        "multiplier": 1.98,
+        "max": 600,
         "level": 113,
         "price": 200000
     },
     {
         "name": "rhodium",
-        "multiplier": 4.75,
-        "max": 540,
+        "multiplier": 2,
+        "max": 700,
         "level": 117,
         "price": 250000
     },
     {
         "name": "premium_rhodium",
-        "multiplier": 4.75,
-        "max": 600,
+        "multiplier": 2.03,
+        "max": 750,
         "level": 120,
         "price": 275000
     },
     {
         "name": "superior_rhodium",
-        "multiplier": 5,
-        "max": 700,
+        "multiplier": 2.05,
+        "max": 800,
         "level": 125,
         "price": 300000
     },
     {
         "name": "prismatic",
-        "multiplier": 5.2,
-        "max": 880,
+        "multiplier": 2.2,
+        "max": 900,
         "level": 130,
         "price": 500000
     },
     {
         "name": "premium_prismatic",
-        "multiplier": 5.6,
-        "max": 1100,
+        "multiplier": 2.35,
+        "max": 950,
         "level": 138,
         "price": 800000
     },
     {
         "name": "superior_prismatic",
-        "multiplier": 6.1,
-        "max": 1300,
+        "multiplier": 2.5,
+        "max": 1000,
         "level": 145,
         "price": 1200000
     }
