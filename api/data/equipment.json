@@ -1890,7 +1890,31 @@
             "name": "Angel VII - Repose",
             "level": 163,
             "price": 500000
-        }
+        },
+        {
+            "id": 87,
+            "multiplier": 2.08,
+            "maxWeight": 5900,
+            "name": "Angel VIII - Unknown",
+            "level": 165,
+            "price": 530000
+        },
+        {
+            "id": 88,
+            "multiplier": 2.09,
+            "maxWeight": 6200,
+            "name": "Angel IV - Double",
+            "level": 167,
+            "price": 560000
+        },
+        {
+            "id": 89,
+            "multiplier": 2.10,
+            "maxWeight": 6600,
+            "name": "Angel X - The Final",
+            "level": 168,
+            "price": 600000
+        }  
     ],
     "gloves": [
         {
