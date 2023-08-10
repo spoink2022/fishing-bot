@@ -404,7 +404,43 @@
             "level": 160,
             "price": 18000000,
             "size": 8
-        }
+        },
+        {
+            "id": 45,
+            "name": "Heavenly II",
+            "cooldown": 2940000,
+            "maxWeight": 6100,
+            "level": 164,
+            "price": 24000000,
+            "size": 9
+        },
+        {
+            "id": 46,
+            "name": "Heavenly III",
+            "cooldown": 2940000,
+            "maxWeight": 6800,
+            "level": 168,
+            "price": 30000000,
+            "size": 9
+        },
+        {
+            "id": 47,
+            "name": "Heavenly IV",
+            "cooldown": 2940000,
+            "maxWeight": 7500,
+            "level": 173,
+            "price": 35000000,
+            "size": 9
+        },
+        {
+            "id": 48,
+            "name": "Heavenly V",
+            "cooldown": 2940000,
+            "maxWeight": 8400,
+            "level": 177,
+            "price": 42000000,
+            "size": 9
+        }      
     ],
     "lines": [
         {
