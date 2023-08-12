@@ -1911,10 +1911,50 @@
             "id": 89,
             "multiplier": 2.10,
             "maxWeight": 6600,
-            "name": "Angel X - The Final",
+            "name": "Angel X - Final",
             "level": 168,
             "price": 600000
-        }  
+        },
+        {
+            "id": 90,
+            "multiplier": 2.11,
+            "maxWeight": 6600,
+            "name": "Solar I",
+            "level": 170,
+            "price": 640000
+        },
+        {
+            "id": 91,
+            "multiplier": 2.12,
+            "maxWeight": 6600,
+            "name": "Solar II",
+            "level": 172,
+            "price": 690000
+        },
+        {
+            "id": 92,
+            "multiplier": 2.13,
+            "maxWeight": 6600,
+            "name": "Solar III",
+            "level": 174,
+            "price": 730000
+        },
+        {
+            "id": 93,
+            "multiplier": 2.14,
+            "maxWeight": 6600,
+            "name": "Solar IV",
+            "level": 175,
+            "price": 750000
+        },
+        {
+            "id": 94,
+            "multiplier": 2.15,
+            "maxWeight": 6600,
+            "name": "Solar V",
+            "level": 177,
+            "price": 800000
+        }
     ],
     "gloves": [
         {
