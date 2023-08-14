@@ -1918,7 +1918,7 @@
         {
             "id": 90,
             "multiplier": 2.11,
-            "maxWeight": 6600,
+            "maxWeight": 7000,
             "name": "Solar I",
             "level": 170,
             "price": 640000
@@ -1926,7 +1926,7 @@
         {
             "id": 91,
             "multiplier": 2.12,
-            "maxWeight": 6600,
+            "maxWeight": 7500,
             "name": "Solar II",
             "level": 172,
             "price": 690000
@@ -1934,7 +1934,7 @@
         {
             "id": 92,
             "multiplier": 2.13,
-            "maxWeight": 6600,
+            "maxWeight": 7800,
             "name": "Solar III",
             "level": 174,
             "price": 730000
@@ -1942,7 +1942,7 @@
         {
             "id": 93,
             "multiplier": 2.14,
-            "maxWeight": 6600,
+            "maxWeight": 8100,
             "name": "Solar IV",
             "level": 175,
             "price": 750000
@@ -1950,10 +1950,50 @@
         {
             "id": 94,
             "multiplier": 2.15,
-            "maxWeight": 6600,
+            "maxWeight": 8400,
             "name": "Solar V",
             "level": 177,
             "price": 800000
+        },
+        {
+            "id": 95,
+            "multiplier": 2.16,
+            "maxWeight": 8700,
+            "name": "Galactic",
+            "level": 178,
+            "price": 850000
+        },
+        {
+            "id": 96,
+            "multiplier": 2.17,
+            "maxWeight": 9000,
+            "name": "Galactic II",
+            "level": 180,
+            "price": 900000
+        },
+        {
+            "id": 97,
+            "multiplier": 2.18,
+            "maxWeight": 9400,
+            "name": "Galactic III",
+            "level": 182,
+            "price": 950000
+        },
+        {
+            "id": 98,
+            "multiplier": 2.19,
+            "maxWeight": 9700,
+            "name": "Galactic IV",
+            "level": 184,
+            "price": 1000000
+        },
+        {
+            "id": 99,
+            "multiplier": 2.20,
+            "maxWeight": 10000,
+            "name": "Galactic V",
+            "level": 186,
+            "price": 1080000
         }
     ],
     "gloves": [
