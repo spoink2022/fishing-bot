@@ -2228,7 +2228,31 @@
             "bonus": 4000,
             "level": 162,
             "price": 15000000
-        }
+        },
+        {
+            "id": 30,
+            "name": "Holy",
+            "chance": 22,
+            "bonus": 5000,
+            "level": 168,
+            "price": 23000000
+        },
+        {
+            "id": 31,
+            "name": "Holy V2",
+            "chance": 23,
+            "bonus": 6100,
+            "level": 174,
+            "price": 31000000
+        },
+        {
+            "id": 32,
+            "name": "Holy V3",
+            "chance": 24,
+            "bonus": 7400,
+            "level": 179,
+            "price": 40000000
+        }       
     ],
     "swivels": [
         {
