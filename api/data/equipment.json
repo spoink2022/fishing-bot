@@ -2252,7 +2252,31 @@
             "bonus": 7400,
             "level": 179,
             "price": 40000000
-        }       
+        },   
+        {
+            "id": 33,
+            "name": "Solar",
+            "chance": 24,
+            "bonus": 8700,
+            "level": 183,
+            "price": 50000000
+        },
+        {
+            "id": 34,
+            "name": "Solar V2",
+            "chance": 25,
+            "bonus": 10000,
+            "level": 188,
+            "price": 61000000
+        },
+        {
+            "id": 35,
+            "name": "Solar V3",
+            "chance": 25,
+            "bonus": 11500,
+            "level": 194,
+            "price": 72500000
+        }    
     ],
     "swivels": [
         {
