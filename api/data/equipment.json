@@ -2439,6 +2439,27 @@
             "bonus": 4200,
             "level": 162,
             "price": 30000000
+        },        
+        {
+            "id": 24,
+            "name": "Holy",
+            "bonus": 5000,
+            "level": 168,
+            "price": 60000000
+        },
+        {
+            "id": 25,
+            "name": "Holy V2",
+            "bonus": 5900,
+            "level": 172,
+            "price": 100000000
+        },
+        {
+            "id": 26,
+            "name": "Holy V3",
+            "bonus": 6900,
+            "level": 177,
+            "price": 150000000
         }
     ]
 }
