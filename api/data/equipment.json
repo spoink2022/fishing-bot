@@ -2460,6 +2460,27 @@
             "bonus": 6900,
             "level": 177,
             "price": 150000000
+        },
+        {
+            "id": 27,
+            "name": "Solar",
+            "bonus": 8000,
+            "level": 176,
+            "price": 250000000
+        },
+        {
+            "id": 28,
+            "name": "Solar V2",
+            "bonus": 9200,
+            "level": 181,
+            "price": 400000000
+        },
+        {
+            "id": 29,
+            "name": "Solar V3",
+            "bonus": 10500,
+            "level": 188,
+            "price": 650000000
         }
     ]
 }
