@@ -1192,6 +1192,126 @@
             "level": 162,
             "price": 4000000,
             "bonus": 44
+        },
+        {
+            "id": 75,
+            "name": "Angel",
+            "px": 8,
+            "rgb": "#7A0E1D",
+            "maxWeight": 5700,
+            "level": 164,
+            "price": 4500000,
+            "bonus": 46
+        },
+        {
+            "id": 76,
+            "name": "Angel B",
+            "px": 8,
+            "rgb": "#8B1625",
+            "maxWeight": 6000,
+            "level": 166,
+            "price": 5000000,
+            "bonus": 48
+        },
+        {
+            "id": 77,
+            "name": "Angel A",
+            "px": 8,
+            "rgb": "#62030F",
+            "maxWeight": 6400,
+            "level": 168,
+            "price": 5500000,
+            "bonus": 50
+        },
+        {
+            "id": 78,
+            "name": "Angel AA",
+            "px": 8,
+            "rgb": "#BC5260",
+            "maxWeight": 6800,
+            "level": 170,
+            "price": 6000000,
+            "bonus": 52
+        },
+        {
+            "id": 79,
+            "name": "Angel AAA",
+            "px": 8,
+            "rgb": "#B93A4B",
+            "maxWeight": 7200,
+            "level": 172,
+            "price": 6600000,
+            "bonus": 54
+        },
+        {
+            "id": 80,
+            "name": "Angel AAAA",
+            "px": 8,
+            "rgb": "#DC4055",
+            "maxWeight": 7600,
+            "level": 174,
+            "price": 7200000,
+            "bonus": 56
+        },
+        {
+            "id": 81,
+            "name": "Solar",
+            "px": 9,
+            "rgb": "#7A227A",
+            "maxWeight": 8000,
+            "level": 176,
+            "price": 8000000,
+            "bonus": 58
+        },
+        {
+            "id": 82,
+            "name": "Solar B",
+            "px": 9,
+            "rgb": "#7C177C",
+            "maxWeight": 8400,
+            "level": 178,
+            "price": 8800000,
+            "bonus": 60
+        },
+        {
+            "id": 83,
+            "name": "Solar A",
+            "px": 9,
+            "rgb": "#A918A9",
+            "maxWeight": 8800,
+            "level": 180,
+            "price": 9600000,
+            "bonus": 63
+        },
+        {
+            "id": 84,
+            "name": "Solar AA",
+            "px": 9,
+            "rgb": "#B918B9",
+            "maxWeight": 9200,
+            "level": 182,
+            "price": 10500000,
+            "bonus": 66
+        },
+        {
+            "id": 85,
+            "name": "Solar AAA",
+            "px": 9,
+            "rgb": "#500850",
+            "maxWeight": 9600,
+            "level": 184,
+            "price": 11500000,
+            "bonus": 69
+        },
+        {
+            "id": 86,
+            "name": "Solar AAAA",
+            "px": 9,
+            "rgb": "#522952",
+            "maxWeight": 10000,
+            "level": 186,
+            "price": 12500000,
+            "bonus": 72
         }
     ],
     "hooks": [
