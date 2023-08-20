@@ -410,7 +410,7 @@
             "name": "Heavenly II",
             "cooldown": 2940000,
             "maxWeight": 6100,
-            "level": 164,
+            "level": 165,
             "price": 24000000,
             "size": 9
         },
@@ -419,7 +419,7 @@
             "name": "Heavenly III",
             "cooldown": 2940000,
             "maxWeight": 6800,
-            "level": 168,
+            "level": 169,
             "price": 30000000,
             "size": 9
         },
@@ -428,7 +428,7 @@
             "name": "Heavenly IV",
             "cooldown": 2940000,
             "maxWeight": 7500,
-            "level": 173,
+            "level": 174,
             "price": 35000000,
             "size": 9
         },
@@ -437,7 +437,7 @@
             "name": "Heavenly V",
             "cooldown": 2940000,
             "maxWeight": 8400,
-            "level": 177,
+            "level": 178,
             "price": 42000000,
             "size": 9
         }      
