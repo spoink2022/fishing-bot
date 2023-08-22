@@ -440,7 +440,25 @@
             "level": 178,
             "price": 42000000,
             "size": 9
-        }      
+        },
+        {
+            "id": 49,
+            "name": "Roller",
+            "cooldown": 2880000,
+            "maxWeight": 9300,
+            "level": 182,
+            "price": 50000000,
+            "size": 9
+        },
+        {
+            "id": 50,
+            "name": "Roller II",
+            "cooldown": 2880000,
+            "maxWeight": 10000,
+            "level": 186,
+            "price": 60000000,
+            "size": 9
+        }
     ],
     "lines": [
         {
