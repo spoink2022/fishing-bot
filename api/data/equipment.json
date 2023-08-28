@@ -2603,20 +2603,20 @@
             "id": 27,
             "name": "Solar",
             "bonus": 8000,
-            "level": 176,
+            "level": 180,
             "price": 250000000
         },
         {
             "id": 28,
             "name": "Solar V2",
-            "bonus": 9200,
-            "level": 181,
+            "bonus": 10000,
+            "level": 184,
             "price": 400000000
         },
         {
             "id": 29,
             "name": "Solar V3",
-            "bonus": 10500,
+            "bonus": 12500,
             "level": 188,
             "price": 650000000
         }
