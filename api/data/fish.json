@@ -1770,7 +1770,7 @@
         "sizeClass": 4,
         "sizeMin": 8000,
         "sizeMax": 32000,
-        "screenLen": 13,
+        "screenLen": 12.5,
         "value": 10
     },
     {
@@ -1780,7 +1780,7 @@
         "sizeClass": 4,
         "sizeMin": 10000,
         "sizeMax": 40000,
-        "screenLen": 14,
+        "screenLen": 13,
         "value": 12
     },
     {
@@ -1983,6 +1983,28 @@
         "sizeMax": 50,
         "screenLen": 4.75,
         "value": 800,
+        "legendary": true
+    },
+    {
+        "id": 198,
+        "name": "sleeper_shark",
+        "family": "shark",
+        "sizeClass": 3,
+        "sizeMin": 600,
+        "sizeMax": 1200,
+        "screenLen": 8.5,
+        "value": 40,
+        "legendary": true
+    },
+    {
+        "id": 199,
+        "name": "megalodon",
+        "family": "shark",
+        "sizeClass": 4,
+        "sizeMin": 20000,
+        "sizeMax": 50000,
+        "screenLen": 15,
+        "value": 40,
         "legendary": true
     }
 ]

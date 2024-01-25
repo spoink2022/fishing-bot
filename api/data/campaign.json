@@ -1325,5 +1325,20 @@
             "lollipops": 500,
             "coins": 10000
         }
+    },
+    {
+        "name": "The Ascension (Part 4/4)",
+        "description": "Last one!",
+        "requirements": [
+            ["black_seadevil", 4],
+            ["pelican_eel", 3],
+            ["sleeper_shark", 2],
+            ["megalodon", 1]
+        ],
+        "rewards": {
+            "clanPoints": 500,
+            "lollipops": 500,
+            "coins": 10000
+        }
     }
 ]
